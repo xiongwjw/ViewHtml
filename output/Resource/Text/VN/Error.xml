@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="01" value="Sorry,Service cancelled" />
+  <item key="02" value="Sorry,Service cancelled" />
+  <item key="04" value="Sorry,Service cancelled,Your card has been retained,Please call service line 96636 to contact with us" />
+  <item key="05" value="Sorry,Service cancelled" />
+  <item key="07" value="Sorry,Service cancelled,Your card has been retained,Please call service line 96636 to contact with us" />
+  <item key="12" value="Sorry,The transaction selected is not provided temporarily" />
+  <item key="13" value="Invalid amount,Please input again" />
+  <item key="14" value="Sorry,Invalid card number,Please take the card" />
+  <item key="15" value="Sorry,Your card is not supported,Please take the card" />
+  <item key="20" value="Sorry,Service cancelled,Please contact with your card issuer" />
+  <item key="25" value="Sorry,Your card is not supported,Please contact with your card issuer" />
+  <item key="30" value="Sorry,Service cancelled,Please contact with your card issuer" />
+  <item key="31" value="Sorry,Service cancelled,Please contact with your card issuer" />
+  <item key="33" value="Sorry,Card expired,Please contact with your card issuer" />
+  <item key="34" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="35" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="36" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="37" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="38" value="Sorry,Wrong pin input exceeds allowable times,Please take the card" />
+  <item key="39" value="Sorry,Invalid card number,Please take the card" />
+  <item key="40" value="Sorry,The transaction selected is not provided now,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="41" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="42" value="Sorry,Invalid card number,Please take the card" />
+  <item key="43" value="Sorry,Your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="44" value="Sorry,Invalid card number,Please take the card" />
+  <item key="51" value="Sorry,Insufficient balance,Service cancelled" />
+  <item key="52" value="Sorry,Invalid card number,Please take the card" />
+  <item key="53" value="Sorry,Invalid card number,Please take the card" />
+  <item key="54" value="Sorry,Card expired,Please take the card" />
+  <item key="55" value="Sorry,Incorrect pin" />
+  <item key="56" value="Sorry,Invalid card number,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="57" value="Sorry,Service cancelled" />
+  <item key="58" value="Sorry,The transaction selected is not provided temporarily" />
+  <item key="61" value="Sorry,Transaction amount exceeds limit" />
+  <item key="62" value="Sorry,Invalid card number,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="65" value="Sorry,Withdrawal frequency exceeds limit,Please take the card" />
+  <item key="67" value="Sorry,your card has been retained,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="68" value="Sorry,Service cancelled,please call service line 96636 to contact with us if having any doubts" />
+  <item key="75" value="Sorry,Wrong pin input exceeds allowable times,Please take the card" />
+  <item key="76" value="Sorry,Invalid card number,Please take the card" />
+  <item key="81" value="Sorry,Exceeds PIN frequency limit" />
+  <item key="90" value="Sorry,Out of service temporarily" />
+  <item key="96" value="Sorry,Service cancelled" />
+  <item key="97" value="Sorry,Service cancelled" />
+  <item key="98" value="Sorry,Transaction timeout, please try again later" />
+  <item key="99" value="Sorry,Service cancelled,Please take the card" />
+  <item key="A0" value="Sorry,Service cancelled" />
+  <item key="A1" value="Sorry,Service cancelled,Please take the card" />
+  <item key="A3" value="Sorry,The transferee account doesn't exist" />
+  <item key="C1" value="Sorry,Service cancelled,Please call service line 96636 to contact with us if having any doubts" />
+  <item key="N1" value="Sorry,Items not updated in passbook exceed limit" />
+  <item key="Q1" value="Sorry,Invalid card number" />
+  <item key="Z3" value="Sorry, network fault,Service cancelled" />
+  <item key="LocalDepositDefault" value="The transaction may,not be accepted,successfully please,check your balance,or contact with card issuer" />
+  <item key="Default" value="Sorry,Service cancelled,Please contact with your card issuer" />
+  <item key="00" value="Transaction sucessful" />
+</config>

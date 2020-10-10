@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="IDS_Init" value="SYSTEM IS STARTING" />
+  <item key="IDS_Normal" value="INSERVICE" />
+  <item key="IDS_Login" value="LOGIN" />
+  <item key="IDS_Maintenance" value="MAINTENANCE" />
+  <item key="IDS_OutOfService" value="OUTOFSERVICE" />
+  <item key="IDS_OffLine" value="OFFLINE" />
+  <item key="IDS_Time" value="TIME:" />
+  <item key="IDS_UserId" value="CURRENT:" />
+  <item key="IDS_Atmno" value="VTM NO.:" />
+  <item key="IDS_Bankno" value="BANK NO.:" />
+  <item key="IDS_Nesttate" value="NETWORK:" />
+  <item key="IDS_ReceiptPrint" value="REC-PRINTER" />
+  <item key="IDS_JournalPrint" value="JNL-PRINTER" />
+  <item key="IDS_Export" value="Export" />
+  <item key="IDS_NotLoading" value="NotLoading" />
+  <item key="IDS_Printer" value="REC-PRINTER" />
+  <item key="IDS_Jprinter" value="JNL-PRINTER" />
+  <item key="IDS_CardReader" value="CARDREADER" />
+  <item key="IDS_Keypad" value="KEYPAD" />
+  <item key="IDS_Dispenser" value="DISPENSER" />
+  <item key="IDS_Envelope" value="ENVELOPE DEV" />
+  <item key="IDS_NoClearAddCash" value="NO" />
+  <item key="IDS_IdClearAddCash" value="ID" />
+  <item key="IDS_Currency" value="CURRENCY" />
+  <item key="IDS_TypeClearAddCash" value="TYPE" />
+  <item key="IDS_DenoClearAddCash" value="DENO" />
+  <item key="IDS_RejectNum" value="REJECT NUM" />
+  <item key="IDS_OutNum" value="OUT NUM" />
+  <item key="IDS_FillinNum" value="FILLIN NUM" />
+  <item key="IDS_AddNum" value="ADD NUM" />
+  <item key="IDS_RemainNum" value="REMAIN NUM" />
+  <item key="IDS_TotalMoney" value="TOTAL MONEY" />
+  <item key="IDS_NormalAmount" value="NORMAL AMOUNT" />
+  <item key="IDS_NormalTotal" value="NORMAL TOTAL" />
+  <item key="IDS_AbnoralAmount" value="ABNORMAL AMOUNT" />
+  <item key="IDS_AbnormalTotal" value="ABNORMAL TOTAL" />
+  <item key="IDS_WITH" value="With" />
+  <item key="IDS_Transfer" value="TRANSFER" />
+  <item key="IDS_Deposite" value="DEPOSITE" />
+  <item key="IDS_NocardDep" value="NOCARD DEP" />
+  <item key="IDS_OtherTrans" value="OTHER TRANS" />
+  <item key="IDS_CycleBegindata" value="CYCLE BEGINDATA" />
+  <item key="IDS_CallBackCard" value="CALLBACKCARD" />
+  <item key="IDS_PurgeNumber" value="PERIOD NUMBER" />
+  <item key="IDS_AddTotal" value="ADD TOTAL" />
+  <item key="IDS_OutTotal" value="OUT TOTAL" />
+  <item key="IDS_RejectTotal" value="REJECT TOTAL" />
+  <item key="IDS_RemainTotal" value="REMAIN TOTAL" />
+  <item key="IDS_ResumeSetting" value="RESUME SETTING" />
+  <item key="IDS_Return" value="RETURN" />
+  <item key="IDS_Save" value="SAVE" />
+  <item key="IDS_Previous" value="PREVIOUS" />
+  <item key="IDS_Next" value="NEXT" />
+  <item key="IDS_Operate" value="Please choose item below as the daily operation items:" />
+  <item key="IDS_SelectMax" value="You have choosen below(click to cancel the choise, max items-19 ):" />
+  <item key="IDS_SetAtmBasicParam" value="SET VTM BASIC PARAM" />
+  <item key="IDS_Vdm" value="VDM" />
+  <item key="IDS_Other" value="OTHER" />
+  <item key="IDS_ReceiptPrintDmenu_11" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintDmenu_11" value="JNL-PRINTER" />
+  <item key="IDS_ExportDmenu_11" value="EXPORT" />
+  <item key="IDS_NotLoadingDmenu_11" value="NotLoading" />
+  <item key="IDS_PreviousDmenu_11" value="PREVIOUS" />
+  <item key="IDS_SelectSceneModeDmenu_32" value="Select the scene mode:" />
+  <item key="IDS_SelectSceneModeDmenu_39" value="Select the scene mode:" />
+  <item key="IDS_EnterNoteSerialNumber" value="Enter Note serial number:" />
+  <item key="IDS_EnterTransSerialNumbers" value="Enter trans serial numbers:" />
+  <item key="IDS_LastEightNumbersDmenu_173" value="Enter the last eight numbers of the card:" />
+  <item key="IDS_InputDmenu_173" value="Input start date:" />
+  <item key="IDS_YearDmenu_173a" value="Year" />
+  <item key="IDS_MonthDmenu_173a" value="Month" />
+  <item key="IDS_DayDmenu_173a" value="Day" />
+  <item key="IDS_InputEndDateDmenu_173" value="Input end date:" />
+  <item key="IDS_YearDmenu_173b" value="Year" />
+  <item key="IDS_MonthDmenu_173b" value="Month" />
+  <item key="IDS_DayDmenu_173b" value="Day" />
+  <item key="IDS_NotLoadingDmenu_173_2" value="NotLoading" />
+  <item key="IDS_SerialNumber_174" value="Please enter the serial number：" />
+  <item key="IDS_LastEightNumbersDmenu_174" value="Enter the last eight numbers of the card:" />
+  <item key="IDS_InputStartDateDmenu_174" value="Input start date:" />
+  <item key="IDS_YearDmenu_174a" value="Year" />
+  <item key="IDS_MonthDmenu_174a" value="Month" />
+  <item key="IDS_DayDmenu_174a" value="Day" />
+  <item key="IDS_InputEndDateDmenu_174" value="Input end date:" />
+  <item key="IDS_YearDmenu_174b" value="Year" />
+  <item key="IDS_MonthDmenu_174b" value="Month" />
+  <item key="IDS_DayDmenu_174b" value="Day" />
+  <item key="IDS_CardAtLeastInputDmenu_174" value="*Serial number and card number must be at least input a!" />
+  <item key="IDS_MediaType" value="Please select the media type:" />
+  <item key="IDS_USB" value="USB" />
+  <item key="IDS_Cdrom" value="CDROM" />
+  <item key="IDS_KeyBoardUpdate" value="KEYBOARD UPDATE" />
+  <item key="IDS_NotLoadingDmenu_362" value="NotLoading" />
+  <item key="IDS_FirmwareUpdateDmenu_363" value="FIRMWARE UPDATE" />
+  <item key="IDS_FontUpdateDmenu_363" value="FONT UPDATE" />
+  <item key="IDS_NotLoadingDmenu_363" value="NotLoading" />
+  <item key="IDS_FirmwareUpdateDmenu_364" value="FIRMWARE UPDATE" />
+  <item key="IDS_FontUpdateDmenu_364" value="FONT UPDATE" />
+  <item key="IDS_NotLoadingDmenu_364" value="NotLoading" />
+  <item key="IDS_NvUpdateDmenu_365" value="NV UPDATE" />
+  <item key="IDS_CeUpdateDmenu_365" value="CE UPDATE" />
+  <item key="IDS_NotLoadingDmenu_365" value="NotLoading" />
+  <item key="IDS_BvUpdateDmenu_366" value="BV UPDATE" />
+  <item key="IDS_CeUpdateDmenu_366" value="CE UPDATE" />
+  <item key="IDS_NotLoadingDmenu_366" value="NotLoading" />
+  <item key="IDS_ReceiptPrtintDmenu_1000" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintDmenu_1000" value="JNL-PRINTER" />
+  <item key="IDS_ExportDmenu_1000" value="EXPORT" />
+  <item key="IDS_NotLoadingDmenu_1000" value="NotLoading" />
+  <item key="IDS_ContinueDmenu_1000" value="CONTINUE" />
+  <item key="IDS_ReturnHandleGuide" value="RETURN" />
+  <item key="IDS_PreviousHandleGuide" value="PREVIOUST" />
+  <item key="IDS_NextHandleGuide" value="NEXT" />
+  <item key="IDS_RectiptPrintJamnote" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintJamnote" value="JNL-PRINTER" />
+  <item key="IDS_ExportJamnote" value="EXPORT" />
+  <item key="IDS_NotLoadingJamnote" value="NotLoading&gt;" />
+  <item key="IDS_JamNoteCardNo" value="JamNoteCardNo:" />
+  <item key="IDS_JamNoteSerialNum" value="JamNoteSerialNum:" />
+  <item key="IDS_JamNoteDate" value="JamNoteDate:" />
+  <item key="IDS_JamNoteLOG" value="JamNote LOG:" />
+  <item key="IDS_BaseOnJournalPaper" value="(Base on journal paper)" />
+  <item key="IDS_SystemStarting" value="SYSTEM IS STARTING" />
+  <item key="IDS_PositionMaintenance" value="Position:" />
+  <item key="IDS_SingMaintenance" value="--" />
+  <item key="IDS_ReturnMaintenance" value="Return" />
+  <item key="IDS_BackMaintenance" value="Back" />
+  <item key="IDS_SwitchMaintenance" value="Switch" />
+  <item key="IDS_QuitMaintenance" value="Quit" />
+  <item key="IDS_QuitLogin_id" value="QUIT" />
+  <item key="IDS_UserLogin_id" value="USER:" />
+  <item key="IDS_PasswordLogin_id" value="PASSWORD:" />
+  <item key="IDS_QuitLogin_role" value="QUIT" />
+  <item key="IDS_UserLogin_role" value="USER:" />
+  <item key="IDS_PasswordLogin_role" value="PASSWORD:" />
+  <item key="IDS_QuitLogin_role-" value="QUIT" />
+  <item key="IDS_UserLogin_role-" value="USER:" />
+  <item key="IDS_PasswordLogin_role-" value="PASSWORD:" />
+  <item key="IDS_ErrorCodeMalfunctionGuide" value="ERROR CODE:" />
+  <item key="IDS_OperationGuideMalfunctionGuide" value="OPERATION GUIDE" />
+  <item key="IDS_PauseMalfunctionGuide" value="PAUSE" />
+  <item key="IDS_PreviousMalfunctionGuide" value="PREVIOUS" />
+  <item key="IDS_NextMalfunctionGuide" value="NEXT" />
+  <item key="IDS_EnableSoundMalfunctionGuide" value="ENABLE SOUND" />
+  <item key="IDS_MuteMalfunctionGuide" value="MUTE" />
+  <item key="IDS_ReturnMalfunctionGuide" value="RETURN" />
+  <item key="IDS_ResetTestMalfunctionGuide" value="RESET TEST" />
+  <item key="IDS_ErrorcodeMenu_6" value="ERRORCODE" />
+  <item key="IDS_OperationGuideMenu_6" value="Operation guide:" />
+  <item key="IDS_PauseMenu_6" value="PAUSE" />
+  <item key="IDS_NextMenu_6" value="NEXT" />
+  <item key="IDS_OpenSoundMenu_6" value="OPEN" />
+  <item key="IDS_MuteMenu_6" value="MUTE" />
+  <item key="IDS_ReceiptPrintMenu_11" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_11" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_11" value="EXPORT" />
+  <item key="IDS_NotLoadingMenu_11" value="NotLoading&gt;" />
+  <item key="IDS_Operation" value="You Can Do The Following Operation:" />
+  <item key="IDS_ResetDispenser" value="Reset Dispenser" />
+  <item key="IDS_OpenCassette" value="Open Cassette" />
+  <item key="IDS_HopperMenu_13" value="Hopper" />
+  <item key="IDS_IdMenu_13" value="Id" />
+  <item key="IDS_CurrMenu_13" value="Curr" />
+  <item key="IDS_DenoMenu_13" value="Deno" />
+  <item key="IDS_SheetMenu_13" value="Sheet" />
+  <item key="IDS_MoneyMenu_13" value="Money" />
+  <item key="IDS_TotalMoneyMenu_13" value="Total Money:" />
+  <item key="IDS_RediagnoseMenu_22" value="REDIAGNOSE" />
+  <item key="IDS_ReceiptPrintMenu_22" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_22" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_22" value="EXPORT" />
+  <item key="IDS_NotLoadingMenu_22" value="NotLoading" />
+  <item key="IDS_PingTest" value="Ping" />
+  <item key="IDS_TelnetTest" value="Telnet" />
+  <item key="IDS_DownloadKey" value="DOWNLOAD KEY" />
+  <item key="IDS_NotLoadingMenu_23" value="NotLoading&gt;" />
+  <item key="IDS_MuteMenu_24" value="MUTE" />
+  <item key="IDS_IncreaseMenu_24" value="INCREASE" />
+  <item key="IDS_DecreaseMenu_24" value="DECREASE" />
+  <item key="IDS_EnterMenu_24" value="ENTER" />
+  <item key="IDS_Reset" value="RESET" />
+  <item key="IDS_Initialization" value="INITIALIZATION" />
+  <item key="IDS_ResetDevice" value="RESET DEVICE" />
+  <item key="IDS_BankParam" value="BANK PARAM" />
+  <item key="IDS_NetworkParam" value="NETWORK PARAM" />
+  <item key="IDS_CasseteParam" value="CASSETE PARAM" />
+  <item key="IDS_HardwareParam" value="HARDWARE PARAM" />
+  <item key="IDS_TimeParam" value="TIME PARAM" />
+  <item key="IDS_AllParam" value="ALL PARAM" />
+  <item key="IDS_ReceiptPrintMenu_43" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_43" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_43" value="EXPORT" />
+  <item key="IDS_NotLoadingMenu_43" value="NotLoading" />
+  <item key="IDS_EnterErrorCode" value="Enter error code:" />
+  <item key="IDS_InquireHostCode" value="you can inquire the host code" />
+  <item key="IDS_EnterHostCode" value="Enter host code:" />
+  <item key="IDS_OldPassword" value="Enter old password:" />
+  <item key="IDS_NewPassword" value="Enter new password:" />
+  <item key="IDS_NewPasswordAgain" value="Enter new password again:" />
+  <item key="IDS_BeginTime" value="Enter starting time:" />
+  <item key="IDS_HourMenu_46a" value="Hour" />
+  <item key="IDS_MinuteMenu_46a" value="Minute" />
+  <item key="IDS_EndTime" value="Enter closing time:" />
+  <item key="IDS_HourMenu_46b" value="Hour" />
+  <item key="IDS_MinuteMenu_46b" value="Minute" />
+  <item key="IDS_MuteMenu_47" value="Mute" />
+  <item key="IDS_IncreaseMenu_47" value="Increase" />
+  <item key="IDS_DecreaseMenu_47" value="Decrease" />
+  <item key="IDS_NextMenu_47" value="Next" />
+  <item key="IDS_ReceiptPrintMenu_48" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_48" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_48" value="EXPORT" />
+  <item key="IDS_NotLoadingMenu_48" value="NotLoading" />
+  <item key="IDS_IdentifiedNotes" value="Enter identified notes:" />
+  <item key="IDS_AmountIdentifiedNotes" value="Enter amount of identified notes:" />
+  <item key="IDS_UnidentifiedNotes" value="Enter unidentified notes:" />
+  <item key="IDS_ReceiptPrintMenu_49" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_49" value="JNL-PRINTER" />
+  <item key="IDS_StartingTimeMenu_52" value="Enter starting time" />
+  <item key="IDS_YearMenu_52a" value="Year" />
+  <item key="IDS_MonthMenu_52a" value="Month" />
+  <item key="IDS_DayMenu_52a" value="Day" />
+  <item key="IDS_ClosingTimeMenu_52" value="Enter closing time" />
+  <item key="IDS_YearMenu_52b" value="Year" />
+  <item key="IDS_MonthMenu_52b" value="Month" />
+  <item key="IDS_DayMenu_52b" value="Day" />
+  <item key="IDS_TreatedMenu_52" value="*blank is treated as zero" />
+  <item key="IDS_ModifyContentMenu_60" value="press button below to modify content :" />
+  <item key="IDS_StartingTimeMenu_143" value="Enter starting time" />
+  <item key="IDS_YearMenu_143a" value="Year" />
+  <item key="IDS_MonthMenu_143a" value="Month" />
+  <item key="IDS_DayMenu_143a" value="Day" />
+  <item key="IDS_HourMenu_143a" value="HOUR" />
+  <item key="IDS_MinuteMenu_143a" value="MINUTE" />
+  <item key="IDS_SecondMenu_143a" value="SECOND" />
+  <item key="IDS_ClosingTimeMenu_143" value="Enter closing time" />
+  <item key="IDS_YearMenu_143b" value="Year" />
+  <item key="IDS_MonthMenu_143b" value="Month" />
+  <item key="IDS_DayMenu_143b" value="Day" />
+  <item key="IDS_HourMenu_143b" value="HOUR" />
+  <item key="IDS_MinuteMenu_143b" value="MINUTE" />
+  <item key="IDS_SecondMenu_143b" value="SECOND" />
+  <item key="IDS_TreatedMenu_143" value="*blank is treated as zero" />
+  <item key="IDS_NoMenu_161" value="NO." />
+  <item key="IDS_IdMenu_161" value="ID" />
+  <item key="IDS_CurrencyMenu_161" value="CURRENCY" />
+  <item key="IDS_TypeMenu_161" value="TYPE" />
+  <item key="IDS_DenoMenu_161" value="DENO" />
+  <item key="IDS_FillinnumMenu_161" value="FILLINNUM" />
+  <item key="IDS_RemainnumMenu_161" value="REMAINNUM" />
+  <item key="IDS_RemainTotalMenu_161" value="REMAIN TOTAL" />
+  <item key="IDS_TotalMenu_161" value="TOTAL(EXCLUDE REJECT VAULT)" />
+  <item key="IDS_ReceiptPrintMenu_161" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_161" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_161" value="EXPORT" />
+  <item key="IDS_IdMenu_162" value="ID" />
+  <item key="IDS_DenoMenu_162" value="DENO" />
+  <item key="IDS_TypeMenu_162" value="TYPE" />
+  <item key="IDS_UsemodeMenu_162" value="USEMODE" />
+  <item key="IDS_ReceiptPrintMenu_162" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_162" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_162" value="EXPORT" />
+  <item key="IDS_ReceiptPrintMenu_181" value="REC-PRINTER" />
+  <item key="IDS_JournalPrintMenu_181" value="JNL-PRINTER" />
+  <item key="IDS_ExportMenu_181" value="EXPORT" />
+  <item key="IDS_NotLoadingMenu_181" value="NotLoading" />
+  <item key="IDS_InitializeMenu_251" value="INITIALIZE" />
+  <item key="IDS_InsertCardMenu_251" value="INSERT CARD" />
+  <item key="IDS_ReturnCardMenu_251" value="RETURN CARD" />
+  <item key="IDS_CapturnCardMenu_251" value="CAPTURN CARD" />
+  <item key="IDS_StateTestMenu_251" value="STATE TEST" />
+  <item key="IDS_ReintakeCardMenu_251" value="REINTAKE CARD" />
+  <item key="IDS_ReleaseCardMenu_251" value="RELEASE CARD" />
+  <item key="IDS_NotLoadingMenu_251" value="NotLoading" />
+  <item key="IDS_InitializeTestMenu_252" value="INITIALIZE TEST" />
+  <item key="IDS_StateTestMenu_252" value="STATE TEST" />
+  <item key="IDS_PrintTestMenu_252" value="PRINT TEST" />
+  <item key="IDS_CutPaperTestMenu_252" value="CUT PAPER TEST" />
+  <item key="IDS_NotLoadingMenu_252" value="NotLoading" />
+  <item key="IDS_InitializeMenu_253" value="INITIALIZE TEST" />
+  <item key="IDS_FeedPaperMenu_253" value="FEED PAPER TEST" />
+  <item key="IDS_StateTestMenu_253" value="STATE TEST" />
+  <item key="IDS_PrintTestMenu_253" value="PRINT TEST" />
+  <item key="IDS_NotLoadingMenu_253" value="NotLoading" />
+  <item key="IDS_InitCashDoor" value="Init Cash Door" />
+  <item key="IDS_OpenCashDoor" value="Open Cash Door" />
+  <item key="IDS_CloseCashDoor" value="Close Cash Door" />
+  <item key="IDS_DoorTest" value="Door Test" />
+  <item key="IDS_NotLoadingMenu_254" value="NotLoading" />
+  <item key="IDS_TimesOfTest" value="Enter the times of test(max:30)" />
+  <item key="IDS_CIMReset" value="CIM Reset" />
+  <item key="IDS_CDMReset" value="CDM Reset" />
+  <item key="IDS_NotLoadingMenu_255" value="NotLoading" />
+  <item key="IDS_PINReset" value="PINRESET" />
+  <item key="IDS_Userkey" value="USERKEY" />
+  <item key="IDS_PinInitialization" value="PININIT" />
+  <item key="IDS_NotLoadingMenu_256" value="NotLoading" />
+  <item key="IDS_AllIndicator" value="ALL INDICATOR" />
+  <item key="IDS_ReceiptIndicator" value="RECEIPTER INDICATOR" />
+  <item key="IDS_CardreaderIndicator" value="CARDREADER INDICATOR" />
+  <item key="IDS_CashIndicator" value="CASH INDICATOR" />
+  <item key="IDS_ComboardIndicator" value="COMBOARD INDICATOR" />
+  <item key="IDS_IoextendIndicator" value="IOEXTEND INDICATOR" />
+  <item key="IDS_PassbookIndicator" value="PASSBOOK INDICATOR" />
+  <item key="IDS_EnvelopeIndicator" value="ENVELOPE INDICATOR" />
+  <item key="IDS_NotLoadingMenu_257" value="NotLoading" />
+  <item key="IDS_LightOn" value="LIGHT ON" />
+  <item key="IDS_LightOff" value="LIGHT OFF" />
+  <item key="IDS_NotLoadingMenu_258" value="NotLoading" />
+  <item key="IDS_EnvelopeTest" value="ENVELOPE TEST" />
+  <item key="IDS_KeepOutTest" value="KEEP OUT TEST" />
+  <item key="IDS_InitPassbookTest" value="INIT PASSBOOK TEST" />
+  <item key="IDS_WritePassbookTest" value="WRITE PASSBOOK TEST" />
+  <item key="IDS_DvrTest" value="DVR TEST" />
+  <item key="IDS_PassbookTest" value="PassbookTest" />
+  <item key="IDS_InitScanner" value="INIT SCANNER" />
+  <item key="IDS_StartScanning" value="START SCANNING" />
+  <item key="IDS_AllLamp" value="OPEN ALL LAMP" />
+  <item key="IDS_RedLamp" value="OPEN RED LAMP" />
+  <item key="IDS_YellowLamp" value="OPEN YELLOW LAMP" />
+  <item key="IDS_GreenLamp" value="OPEN GREEN LAMP" />
+  <item key="IDS_AtmNumber" value="Enter VTM number:" />
+  <item key="IDS_SecondAtmNumber" value="Enter Second VTM NO:" />
+  <item key="IDS_BankNumber" value="Enter bank number:" />
+  <item key="IDS_NetworkNumber" value="Enter network number:" />
+  <item key="IDS_ConfirmMasterKeyMenu_312" value="Confirm master key:" />
+  <item key="IDS_NextMenu_312" value="NEXT" />
+  <item key="IDS_SystemTime" value="Enter SystemTime, press 'ENTER'" />
+  <item key="IDS_YearMenu_313" value="Year" />
+  <item key="IDS_MonthMenu_313" value="Month" />
+  <item key="IDS_DayMenu_313" value="Day" />
+  <item key="IDS_HourMenu_313" value="HOUR" />
+  <item key="IDS_MinuteMenu_313" value="MINUTE" />
+  <item key="IDS_SecondMenu_313" value="SECOND" />
+  <item key="IDS_SerialNumber" value="Enter new serial number, press 'ENTER'" />
+  <item key="IDS_CurrentSerialNumber" value="Current serial number:" />
+  <item key="IDS_SerialNumberLength" value="serial number length：" />
+  <item key="IDS_CleanKey" value="Enter clean key:" />
+  <item key="IDS_CleanKeyAgain" value="Enter clean key again:" />
+  <item key="IDS_OperationMenu_316" value="You can do the following operation:" />
+  <item key="IDS_CloseCleanKey" value="Close clean key" />
+  <item key="IDS_MaximumWithdrawal" value="Enter maximum withdrawal amount  current value:" />
+  <item key="IDS_ShowMasterkeyKVV" value="MasterKey KVV Value:" />
+  <item key="IDS_MaximumTransfer" value="Enter maximum transfer amount  current value:" />
+  <item key="IDS_MaximumDeposit" value="Enter maximum deposit notes(Max 200) current value:" />
+  <item key="IDS_ShieldedHopperNumber" value="Enter shielded hopper number(hopper 1 is the reject vault))：" />
+  <item key="IDS_WhetherPhysics" value="Whether physics exists in the hopper" />
+  <item key="IDS_NotExist" value="Not exist" />
+  <item key="IDS_Exist" value="Exist" />
+  <item key="IDS_StartedHopperNumber" value="Enter started hopper number(hopper 1 is the reject vault):" />
+  <item key="IDS_SelectFaceValue" value="Select face value:" />
+  <item key="IDS_ForthVersion10" value="Forth version 10" />
+  <item key="IDS_ForthVersion50" value="Forth version 50" />
+  <item key="IDS_ForthAndFifthVersion100" value="Forth and Fifth version 100" />
+  <item key="IDS_FifthVersion10" value="Fifth version 10" />
+  <item key="IDS_FifthVersion20" value="Fifth version 20" />
+  <item key="IDS_FifthVersion50" value="Fifth version 50" />
+  <item key="IDS_SelectUseMethodMenu_333" value="Select use method:" />
+  <item key="IDS_SingleWithMenu_333" value="Single WITH" />
+  <item key="IDS_SingleDepMenu_333" value="Single DEP" />
+  <item key="IDS_DepAndWithMenu_333" value="DEP and WITH" />
+  <item key="IDS_HopperNumber" value="Enter hopper number(0:reject vault):" />
+  <item key="IDS_NoteVersion" value="Check note version?(1:YES;0:NO)" />
+  <item key="IDS_SelectDenomination" value="Select denomination:" />
+  <item key="IDS_SelectUseMethodMenu_333_2" value="Select use method:" />
+  <item key="IDS_SingleWithMenu_333_2" value="Single WITH" />
+  <item key="IDS_SingleDepMenu_333_2" value="Single DEP" />
+  <item key="IDS_DepAndWithMenu_333_2" value="DEP and WITH" />
+  <item key="IDS_SelectSupportingMenu_334" value="Select supporting denomination below and press'ENTER'" />
+  <item key="IDS_ForthVersion10Menu_334" value="Forth version 10" />
+  <item key="IDS_ForthVersion50Menu_334" value="Forth version 50" />
+  <item key="IDS_ForthAndFifthVersion100Menu_334" value="Forth and Fifth version 100" />
+  <item key="IDS_FifthVersion20Menu_334" value="Fifth version 20" />
+  <item key="IDS_FifthVersion10Menu_334" value="Fifth version 10" />
+  <item key="IDS_FifthVersion50Menu_334" value="Fifth version 50" />
+  <item key="IDS_PrepageMenu_334" value="PREPAGE" />
+  <item key="IDS_NextpageMenu_334" value="NEXTPAGE" />
+  <item key="IDS_EnterMenu_334" value="ENTER" />
+  <item key="IDS_ModifyContent" value="Press button below to modify content:" />
+  <item key="IDS_PrepageMenu_341" value="PREPAGE" />
+  <item key="IDS_NextpageMenu_341" value="NEXTPAGE" />
+  <item key="IDS_CurrentstatusMenu_342" value="Current status:" />
+  <item key="IDS_DisableMenu_342" value="Disable" />
+  <item key="IDS_EnableMenu_342" value="Enable" />
+  <item key="IDS_SelectProcess" value="Select process,current:" />
+  <item key="IDS_VerrfyPassword" value="If you select Quick process, please select 'NEED TO VERRFY THE PASSWORD?'" />
+  <item key="IDS_StandardProcess" value="Standard process" />
+  <item key="IDS_QuickProcess" value="Quick process" />
+  <item key="IDS_Necessary" value="Necessary" />
+  <item key="IDS_Unnecessary" value="Unnecessary" />
+  <item key="IDS_ModifyProfessinal" value="DON NOT MODIFY IF YOU ARE NOT PROFESSINAL!!" />
+  <item key="IDS_Enter" value="Enter overtime(Unit:second), press 'ENTER' key:" />
+  <item key="IDS_Key" value="Overtime for pressing key(Unit:second):" />
+  <item key="IDS_ReturnCard" value="Overtime for return card(Unit:second):" />
+  <item key="IDS_Internet" value="Internet overtime(Unit:second):" />
+  <item key="IDS_Interval" value="Interval for starting the VTM(Unit:hour):" />
+  <item key="IDS_Taking" value="Overtime for taking cash out(Unit:second):" />
+  <item key="IDS_Refuses" value="Deposit refuses to reject cash, the customer take cash timeout(Unit:second):" />
+  <item key="IDS_Cancels" value="When the customer cancels deposit or the VTM breakdowns to cancel deposit, the time for waiting the customer to take cash out is 0 (unlimitly waitting)/ more than 0(other time)(Unit:second)" />
+  <item key="IDS_SelectEnable" value="Select Enable or Disable deposit and withdrawal function when jammed notes." />
+  <item key="IDS_CurrentStatus" value="Current status:" />
+  <item key="IDS_DisableMenu_346" value="Disable" />
+  <item key="IDS_EnableMenu_346" value="Enable" />
+  <item key="IDS_NotModifyMenu_346" value="DON NOT MODIFY IF YOU ARE NOT PROFESSINAL!" />
+  <item key="IDS_SelectMessageMenu_347" value="Select whether use MESSAGE_PROCESS type1" />
+  <item key="IDS_CurrentMenu_347" value="current:" />
+  <item key="IDS_RequireMenu_347" value="REQUIRE" />
+  <item key="IDS_DonRequireMenu_347" value="DON'T REQUIRE" />
+  <item key="IDS_NotModifyMenu_347" value="DON NOT MODIFY IF YOU ARE NOT PROFESSINAL!" />
+  <item key="IDS_SelectReaderCard" value="Select the type of card reader, current:" />
+  <item key="IDS_Sankyo" value="SANKYO" />
+  <item key="IDS_Omron" value="OMRON" />
+  <item key="IDS_ServiceSuspended" value="When service has been suspended, if any card enters, voice prompts will occure." />
+  <item key="IDS_Selectenable" value="SelectEnable" />
+  <item key="IDS_CurrentMenu_353" value="Current:" />
+  <item key="IDS_DisableMenu_353" value="Disable" />
+  <item key="IDS_EnableMenu_353" value="Enable" />
+  <item key="IDS_EnterMaximumNumbers" value="Enter maximum numbers of devoured card(0:shut down), current:" />
+  <item key="IDS_Foreign" value="Enter suspended service time foreign object blocking:" />
+  <item key="IDS_NoForeign" value="Enter normal service time no foreign object blocking:" />
+  <item key="IDS_EnterPortNumber" value="Enter port number:" />
+  <item key="IDS_SelectLinkType" value="Select link type:" />
+  <item key="IDS_SerialPortBoard" value="Serial port board" />
+  <item key="IDS_SerialPortBoard2" value="Serial port board2" />
+  <item key="IDS_IoExpanstionBoard" value="IO expanstion board" />
+  <item key="IDS_SusiIo" value="SUSI IO" />
+  <item key="IDS_OperationMenu_355" value="You can do the following operation:" />
+  <item key="IDS_CloseBlockingTest" value="Close blocking test" />
+  <item key="IDS_AdministratorPassword" value="Select Enable Or Disable Epp AdministratorPassword:" />
+  <item key="IDS_CurrentMenu_356" value="Current:" />
+  <item key="IDS_DisableMenu_356" value="Disable" />
+  <item key="IDS_EnableMenu_356" value="Enable" />
+  <item key="IDS_EnterTimeMenu_357" value="Enter time for welcome screen:" />
+  <item key="IDS_TheLongestTimeMenu_357" value="Enter the longest time for welcome screen:" />
+  <item key="IDS_EnterPortNumberMenu_357" value="Enter port number:" />
+  <item key="IDS_SelectLinkTypeMenu_357" value="Select link type:" />
+  <item key="IDS_SerialPortBoardMenu_357" value="Serial port board" />
+  <item key="IDS_SerialPortBoard2Menu_357" value="Serial port board2" />
+  <item key="IDS_IoExpanstionBoardMenu_357" value="IO expanstion board" />
+  <item key="IDS_SusiIoMenu_357" value="SUSI IO" />
+  <item key="IDS_DisplayVoiceMenu_357" value="Whether only display welcome voice, not the welcome screen:" />
+  <item key="IDS_YesMenu_357" value="YES" />
+  <item key="IDS_NoMenu_357" value="NO" />
+  <item key="IDS_OperationMenu_357" value="You can do the following operation:" />
+  <item key="IDS_CloseBodysensorMenu_357" value="Close BODYSENSOR" />
+  <item key="IDS_CassetteFunction" value="Select Enable or Disable function for open the cassette asynchronously" />
+  <item key="IDS_CurrentMenu_358" value="Current:" />
+  <item key="IDS_DisableMenu_358" value="Disable" />
+  <item key="IDS_EnableMenu_358" value="Enable" />
+  <item key="IDS_UpgradeFiles" value="Select implemented upgrade files:" />
+  <item key="IDS_File1" value="FILE1" />
+  <item key="IDS_File2" value="FILE2" />
+  <item key="IDS_File3" value="FILE3" />
+  <item key="IDS_Redetect" value="REDETECT" />
+  <item key="IDS_YesMenu_391" value="YES" />
+  <item key="IDS_NoMenu_391" value="NO" />
+  <item key="IDS_StartingTimeMenu_511" value="Enter starting time" />
+  <item key="IDS_YearMenu_511a" value="Year" />
+  <item key="IDS_MonthMenu_511a" value="Month" />
+  <item key="IDS_DayMenu_511a" value="Day" />
+  <item key="IDS_HourMenu_511a" value="HOUR" />
+  <item key="IDS_MinuteMenu_511a" value="MINUTE" />
+  <item key="IDS_SecondMenu_511a" value="SECOND" />
+  <item key="IDS_ClosingTimeMenu_511" value="Enter closing time" />
+  <item key="IDS_YearMenu_511b" value="Year" />
+  <item key="IDS_MonthMenu_511b" value="Month" />
+  <item key="IDS_DayMenu_511b" value="Day" />
+  <item key="IDS_HourMenu_511b" value="HOUR" />
+  <item key="IDS_MinuteMenu_511b" value="MINUTE" />
+  <item key="IDS_SecondMenu_511b" value="SECOND" />
+  <item key="IDS_TreatedMenu_511" value="*blank is treated as zero" />
+  <item key="IDS_LastEightNumbersMenu_512" value="Enter the last eight numbers of the card:" />
+  <item key="IDS_StartDateMenu_512" value="Input start date:" />
+  <item key="IDS_YearMenu_512a" value="Year" />
+  <item key="IDS_MonthMenu_512a" value="Month" />
+  <item key="IDS_DayMenu_512a" value="Day" />
+  <item key="IDS_InputEndDateMenu_512" value="Input end date:" />
+  <item key="IDS_YearMenu_512b" value="Year" />
+  <item key="IDS_MonthMenu_512b" value="Month" />
+  <item key="IDS_DayMenu_512b" value="Day" />
+  <item key="IDS_StartingSerialNumbersMenu_513" value="Enter starting serial numbers:" />
+  <item key="IDS_ClosingSerialNumbersMenu_513" value="Enter closing serial numbers:" />
+  <item key="IDS_EnterDateMenu_513" value="Enter date:" />
+  <item key="IDS_YearMenu_513" value="Year" />
+  <item key="IDS_MonthMenu_513" value="Month" />
+  <item key="IDS_DayMenu_513" value="Day" />
+  <item key="IDS_TreatedMenu_513" value="*blank is treated as zero" />
+  <item key="IDS_InquireDateMenu_561" value="Enter the inquire date:" />
+  <item key="IDS_YearMenu_561" value="Year" />
+  <item key="IDS_MonthMenu_561" value="Month" />
+  <item key="IDS_DayMenu_561" value="Day" />
+  <item key="IDS_InquireMenu_561" value="INQUIRE" />
+  <item key="IDS_LastdayMenu_561" value="LASTDAY" />
+  <item key="IDS_NextdayMenu_561" value="NEXTDAY" />
+  <item key="IDS_ExportMenu_561" value="EXPORT" />
+  <item key="IDS_RightNowMenu_561" value="RIGHT NOW：" />
+  <item key="IDS_Thecurrentis" value="The current is *Month*Day electronic diary" />
+  <item key="IDS_NotLoadingMenu_561" value="NotLoading" />
+  <item key="IDS_PeriodForExportMenu_562" value="Select period for export" />
+  <item key="IDS_OneMonthMenu_562" value="Latest one month" />
+  <item key="IDS_ThreeMonthMenu_562" value="Latest three month" />
+  <item key="IDS_HalfYearMenu_562" value="Latest half year" />
+  <item key="IDS_OneYearMenu_562" value="Latest one year" />
+  <item key="IDS_SpecifyDateMenu_562" value="Specify date" />
+  <item key="IDS_EnterDeleteKeyMenu_563" value="Enter delete key:" />
+  <item key="IDS_DeletePeriodMenu_563" value="Select period for the key" />
+  <item key="IDS_OneMonthMenu_563" value="Latest one month" />
+  <item key="IDS_ThreeMonthMenu_563" value="Latest three month" />
+  <item key="IDS_HalfYearMenu_563" value="Latest half year" />
+  <item key="IDS_OneYearMenu_563" value="Latest one year" />
+  <item key="IDS_SpecifyDateMenu_563" value="Specify date" />
+  <item key="IDS_StartingTimeMenu_563_1" value="Enter starting time" />
+  <item key="IDS_YearMenu_563_1a" value="Year" />
+  <item key="IDS_MonthMenu_563_1a" value="Month" />
+  <item key="IDS_DayMenu_563_1a" value="Day" />
+  <item key="IDS_ClosingTimeMenu_563_1" value="Enter closing time" />
+  <item key="IDS_YearMenu_563_1b" value="Year" />
+  <item key="IDS_MonthMenu_563_1b" value="Month" />
+  <item key="IDS_DayMenu_563_1b" value="Day" />
+  <item key="IDS_DeleteKeyMenu_563_1" value="Enter the delete key:" />
+  <item key="IDS_EnterMasterKeyMenu_564" value="Enter master key:" />
+  <item key="IDS_ConfirmMasterKeyMenu_564" value="Confirm master key:" />
+  <item key="IDS_UpdateDeleteKeyMenu_564" value="Update delete key" />
+  <item key="IDS_UpdateExportKeyMenu_564" value="Update export key" />
+  <item key="IDS_ReceiptPrintMenu_1000" value="REC-Printer" />
+  <item key="IDS_JournalPrintMenu_1000" value="JNL-Printer" />
+  <item key="IDS_ExportMenu_1000" value="Export" />
+  <item key="IDS_NotLoadingMenu_1000" value="NotLoading" />
+  <item key="IDS_EnterSerialNumber" value="Enter serial number and press 'ENTER' key" />
+  <item key="IDS_EnterAccountNumber" value="Enter account number and press 'ENTER' key" />
+  <item key="IDS_TransactionTypeMenu_1813" value="please select transaction type" />
+  <item key="IDS_InquiryMenu_1813" value="INQUIRY" />
+  <item key="IDS_WithdrawalMenu_1813" value="WITHDRAWAL" />
+  <item key="IDS_PinMenu_1813" value="PIN" />
+  <item key="IDS_TransferMenu_1813" value="TRANSFER" />
+  <item key="IDS_DepositMenu_1813" value="DEPOSIT" />
+  <item key="IDS_NocardinqMenu_1813" value="NOCARDINQ" />
+  <item key="IDS_NocarddepMenu_1813" value="NOCARDDEP" />
+  <item key="IDS_StartingTimeMenu_1814" value="Enter starting time" />
+  <item key="IDS_YearMenu_1814a" value="Year" />
+  <item key="IDS_MonthMenu_1814a" value="Month" />
+  <item key="IDS_DayMenu_1814a" value="Day" />
+  <item key="IDS_ClosingTimeMenu_1814" value="Enter closing time" />
+  <item key="IDS_YearMenu_1814b" value="Year" />
+  <item key="IDS_MonthMenu_1814b" value="Month" />
+  <item key="IDS_DayMenu_1814b" value="Day" />
+  <item key="IDS_TreatedMenu_1814" value="*blank is treated as zero" />
+  <item key="IDS_StartingTimeMenu_1815" value="Enter starting time" />
+  <item key="IDS_YearMenu_1815a" value="Year" />
+  <item key="IDS_MonthMenu_1815a" value="Month" />
+  <item key="IDS_DayMenu_1815a" value="Day" />
+  <item key="IDS_HourMenu_1815a" value="Hour" />
+  <item key="IDS_MinuteMenu_1815a" value="Minute" />
+  <item key="IDS_SecondMenu_1815a" value="Second" />
+  <item key="IDS_ClosingTimeMenu_1815" value="Enter closing time" />
+  <item key="IDS_YearMenu_1815b" value="Year" />
+  <item key="IDS_MonthMenu_1815b" value="Month" />
+  <item key="IDS_DayMenu_1815b" value="Day" />
+  <item key="IDS_HourMenu_1815b" value="HOUR" />
+  <item key="IDS_MinuteMenu_1815b" value="MINUTE" />
+  <item key="IDS_SecondMenu_1815b" value="SECOND" />
+  <item key="IDS_TreatedMenu_1815" value="*blank is treated as zero" />
+  <item key="IDS_IpAddress" value="IP address" />
+  <item key="IDS_SubnetMask" value="Subnet mask" />
+  <item key="IDS_Gateway" value="Gateway" />
+  <item key="IDS_EnterPrepositiveIp" value="Enter prepositive IP:" />
+  <item key="IDS_EnterPrepositivePort" value="Enter prepositive port :" />
+  <item key="IDS_EnterMasterKeyMenu_5641" value="Enter master key:" />
+  <item key="IDS_ConfirmMasterKeyMenu_5641" value="Confirm master key:" />
+  <item key="IDS_UpdateDeleteKeyMenu_5641" value="Update delete key" />
+  <item key="IDS_UpdateExportKeyMenu_5641" value="Update export key" />
+  <item key="IDS_EnterMasterKeyMenu_5642" value="Enter master key:" />
+  <item key="IDS_ConfirmMasterKeyMenu_5642" value="Confirm master key:" />
+  <item key="IDS_UpdateDeleteKeyMenu_5642" value="Update delete key" />
+  <item key="IDS_UpdateExportKeyMenu_5642" value="Update export key" />
+  <item key="IDS_Model" value="MODEL:" />
+  <item key="IDS_ReceiptPrinter" value="REC-Printer:" />
+  <item key="IDS_JournalPrinter" value="JNL-Printer:" />
+  <item key="IDS_DevCardReader" value="Card reader:" />
+  <item key="IDS_DevKeypad" value="Keypad:" />
+  <item key="IDS_DevDispenser" value="Dispenser:" />
+  <item key="IDS_EnvelopeDepositUnit" value="Envelope deposit unit:" />
+  <item key="IDS_Status" value="STATUS" />
+  <item key="IDS_Remain" value="REMAIN" />
+  <item key="IDS_IdNormal" value="ID" />
+  <item key="IDS_DemoNormal" value="DEMO" />
+  <item key="IDS_TypeNormal" value="TYPE" />
+  <item key="IDS_StatusOK" value="NORMAL" />
+  <item key="IDS_Low" value="LOW" />
+  <item key="IDS_Empty" value="EMPTY" />
+  <item key="IDS_Error" value="ERROR" />
+  <item key="IDS_Missing" value="MISSING" />
+  <item key="IDS_Noval" value="NOVAL" />
+  <item key="IDS_Noref" value="NOREF" />
+  <item key="IDS_Manip" value="MANIP" />
+  <item key="IDS_Full" value="FULL" />
+  <item key="IDS_High" value="HIGH" />
+  <item key="IDS_RejectDep" value="REJECT" />
+  <item key="IDS_Dep" value="DEP" />
+  <item key="IDS_With" value="WITH" />
+  <item key="IDS_Rcyc" value="RCYC" />
+  <item key="IDS_NORMAL_OTHER1" value="UKEY:" />
+  <item key="IDS_NORMAL_OTHER2" value="ID CARD:" />
+  <item key="IDS_NORMAL_OTHER3" value="DROP BOX:" />
+  <item key="IDS_NORMAL_OTHER4" value="STATEMENT:" />
+  <item key="IDS_NORMAL_OTHER5" value="PASS BOOK:" />
+  <item key="IDS_NORMAL_OTHER6" value="SCANNER:" />
+  <item key="IDS_NORMAL_OTHER7" value="Other Parameter 7" />
+  <item key="IDS_NORMAL_OTHER8" value="Other Parameter 8" />
+  <item key="IDS_NORMAL_OTHER9" value="Other Parameter 9" />
+  <item key="IDS_NORMAL_OTHER10" value="Other Parameter 10" />
+  <item key="IDS_UpOCR_1a" value="UP" />
+  <item key="IDS_DownOCR_1a" value="DOWN" />
+  <item key="IDS_UpOCR_1b" value="UP" />
+  <item key="IDS_DownOCR_1b" value="DOWN" />
+  <item key="IDS_PrepageOCR_1" value="PREPAGE" />
+  <item key="IDS_NextpageOCR_1" value="NEXTPAGE" />
+  <item key="IDS_ReceiptPrintOCR_1" value="REC-Printer" />
+  <item key="IDS_UpOCR_2a" value="UP" />
+  <item key="IDS_DownOCR_2a" value="DOWN" />
+  <item key="IDS_UpOCR_2b" value="UP" />
+  <item key="IDS_DownOCR_2b" value="DOWN" />
+  <item key="IDS_ReceiptPrintOCR_2" value="REC-Printer" />
+  <item key="IDS_UpOCR_3a" value="UP" />
+  <item key="IDS_DownOCR_3a" value="DOWN" />
+  <item key="IDS_UpOCR_3b" value="UP" />
+  <item key="IDS_DownOCR_3b" value="DOWN" />
+  <item key="IDS_PreviousOCR_3" value="PREVIOUS" />
+  <item key="IDS_ReceiptPrintOCR_3" value="RECEIPT PRINT" />
+  <item key="IDS_Level4" value="Recognitive notes" />
+  <item key="IDS_Level3" value="Suspicious notes" />
+  <item key="IDS_Level2" value="Noncognitive notes" />
+  <item key="IDS_Logout" value="LOGOUT" />
+  <item key="IDS_Standard" value="STANDARD" />
+  <item key="IDS_Quit" value="QUIT" />
+  <item key="IDS_CustomiszeMenu" value="CUSTOMIZE MENU" />
+  <item key="IDS_AtmNormal" value="VTM   NORMAL" />
+  <item key="IDS_Problems" value="You have to deal with the following problems:" />
+  <item key="IDS_ProblemList" value="Problem list" />
+  <item key="IDS_OperationShortcut" value="You can deal with the following operation:" />
+  <item key="IDS_DailyMaintenance" value="Daily maintenance" />
+  <item key="IDS_PressStandard" value="More operations, please press STANDARD." />
+  <item key="IDS_Undefined1" value="UNDEFINED" />
+  <item key="IDS_Undefined2" value="UNDEFINED" />
+  <item key="IDS_Undefined3" value="UNDEFINED" />
+  <item key="IDS_Undefined4" value="UNDEFINED" />
+  <item key="IDS_Undefined5" value="UNDEFINED" />
+  <item key="IDS_Undefined6" value="UNDEFINED" />
+  <item key="IDS_SceneMode" value="Select the scene mode:" />
+  <item key="IDS_NetworkTest复件Menu_23" value="NETWORK TEST" />
+  <item key="IDS_DownloadKey复件Menu_23" value="DOWNLOAD KEY" />
+  <item key="IDS_CloseNetwork复件Menu_23" value="CLOSE NETWORK" />
+  <item key="IDS_NotLoading复件Menu_23" value="NotLoading" />
+  <item key="IDS_Ok" value="OK" />
+  <item key="IDS_Cancel" value="CANCEL" />
+  <item key="IDS_Operating" value="SYSTEM IS OPERATING, PLEASE WAIT..." />
+  <item key="IDS_Up" value="UP" />
+  <item key="IDS_Down" value="DOWN" />
+  <item key="IDS_AtmBasicParamMenu_3" value="SET VTM BASIC PARAM" />
+  <item key="IDS_SystemConfigmodeMenu_3" value="SYSTEM CONFIGMODE" />
+  <item key="IDS_CashboxInfoMenu_3" value="SET CASHBOX INFO" />
+  <item key="IDS_HardwareSettingMenu_3" value="HARDWARE SETTING" />
+  <item key="IDS_ApUpgrateRestoreMenu_3" value="AP UPGRATE/RESTORE" />
+  <item key="IDS_VolumeControlMenu_3" value="VOLUME CONTROL:Set the volume for day and night" />
+  <item key="IDS_RebootAtm" value="REBOOT VTM" />
+  <item key="IDS_ShutdownAtm" value="SHUTDOWN VTM" />
+  <item key="IDS_QueryParameter" value="QUERY PARAMETER:Inlude BANK,NETWORK,CASSETE and TIME PARAMETER" />
+  <item key="IDS_Query" value="QUERY:Include error code and host rescode." />
+  <item key="IDS_ModifyUserPassword" value="MODIFY USER PASSWORD:" />
+  <item key="IDS_LightSet" value="LIGHT SET:Set the turn on and turn off time of light" />
+  <item key="IDS_VolumeControl" value="VOLUME CONTROL:Set the volume for day and night" />
+  <item key="IDS_VersionPrint" value="VERSION PRINT:Inlude the software and hardware version information" />
+  <item key="IDS_ReprintJournal" value="REPRINT JOURNAL:Reprint journal" />
+  <item key="IDS_CopyJournal" value="COPY JOURNAL:Copy a period journal" />
+  <item key="IDS_TotalPrint" value="TOTAL PRINT:The explaining for toal journal" />
+  <item key="IDS_JournalFormatPrint" value="JOURNAL FORMAT PRINT:The explaining for trans journal" />
+  <item key="IDS_RescodePrint" value="RESCODE PRINT:The explaining for rescode journal" />
+  <item key="IDS_BackupEJ" value="BACKUP EJ：Backup a period journal" />
+  <item key="IDS_InstallUninstall" value="INSTALL/UNINSTALL" />
+  <item key="IDS_AddCash" value="ADD CASH" />
+  <item key="IDS_ReplenishJpPaper" value="REPLENISH JP PAPER" />
+  <item key="IDS_ReplenishCpPaper" value="REPLENISH CP PAPER" />
+  <item key="IDS_CardFromCardreader" value="GET CARD FROM CARDREADER" />
+  <item key="IDS_QuestionAnswer" value="QUESTION ANSWER" />
+  <item key="IDS_CashInTransport" value="CASH IN TRANSPORT" />
+  <item key="IDS_CashInEntry" value="CASH IN ENTRY" />
+  <item key="IDS_JpPaperJam" value="JP PAPER JAM" />
+  <item key="IDS_CpPaperJam" value="CP PAPER JAM" />
+  <item key="IDS_JpTimeout" value="JP TIMEOUT" />
+  <item key="IDS_CpTimeout" value="CP TIMEOUT" />
+  <item key="IDS_CardreaderTimeout" value="CARDREADER TIMEOUT" />
+  <item key="IDS_EnterTestTimes" value="Enter test times(MAX:1000TIMES):" />
+  <item key="IDS_ReceiptPrintDMenu_1000" value="ReceipterPrint" />
+  <item key="IDS_JournalPrintDMenu_1000" value="JournalPrint" />
+  <item key="IDS_ExportDMenu_1000" value="Export" />
+  <item key="IDS_NotLoadingDMenu_1000" value="NotLoading" />
+  <item key="IDS_SetCIM" value="Set CIM" />
+  <item key="IDS_VersionParam" value="VERSION PARAM" />
+  <item key="IDS_EjectAllCardConfirmButton" value="Clear All Slot" />
+  <item key="IDS_SlotNoTitle_473" value="Slot" />
+  <item key="IDS_CardNumberTitle_473" value="Card Number" />
+  <item key="IDS_CaptureCardTimeTitle_473" value="Capture Card Time" />
+  <item key="IDS_EmptyCardSelectOptionTitle_473" value="Select Option" />
+  <item key="IDS_EjectSelectCardConfirmButton" value="Confirm" />
+  <item key="IDS_CARDSLOT1_473" value="1" />
+  <item key="IDS_CARDSLOT2_473" value="2" />
+  <item key="IDS_CARDSLOT3_473" value="3" />
+  <item key="IDS_CARDSLOT4_473" value="4" />
+  <item key="IDS_CARDSLOT5_473" value="5" />
+  <item key="IDS_EjectCardSelectButton" value="Please Select" />
+  <item key="IDS_EmptyCardWhenATMLaunch_474" value="Empty card when ATM launch" />
+  <item key="IDS_RemainRetainCountOfBin_474" value="Remain retain count of bin" />
+  <item key="IDS_EmptyCardRetainTimeout_474" value="Retain Timeout" />
+  <item key="IDS_EmptyCardRetainTimeoutUnit_474" value="Hours" />
+  <item key="IDS_EmptyCardTimeRangeSet_474" value="Empty Card Time Range(Between 0 and 8)" />
+  <item key="IDS_EmptyCardTimeRangeFrom_474" value="From" />
+  <item key="IDS_EmptynCardTimeRangeTo_474" value="To" />
+  <item key="IDS_EmptyCardTimeRangeUnit_474" value="Hour" />
+  <item key="IDS_InitializeRCMMenu_251" value="INITIALIZE RCM" />
+  <item key="IDS_SetCIMCurrencyConfirmButton" value="Confirm" />
+  <item key="IDS_SetCIMCurrencyTitleID" value="ID" />
+  <item key="IDS_SetCIMCurrencyTitleName" value="CURRENCY" />
+  <item key="IDS_SetCIMCurrencyTitleNote" value="NOTE" />
+  <item key="IDS_SetCIMCurrencyTitleVersion" value="VERSION" />
+  <item key="IDS_SetCIMCurrencyTitleEnable" value="ENABLE" />
+  <item key="IDS_Enable" value="ENABLE" />
+  <item key="IDS_Unable" value="UNABLE" />
+  <item key="IDS_EnterConnectMode" value="Enter Connect Mode:" />
+  <item key="IDS_EnterPrepositiveLongConnect" value="longconnect" />
+  <item key="IDS_EnterPrepositiveShortConnect" value="shortconnect" />
+  <item key="IDS_EnterPrepositiveMiddleConnect" value="halfshortconnect" />
+  <item key="IDS_EnterFeelViewIP" value="Please Enter ATMV IP:" />
+  <item key="IDS_EnterFeelViewPort" value="Please Enter ATMV Port:" />
+  <item key="IDS_EnterFeelViewLongConnect" value="longconnect" />
+  <item key="IDS_EnterFeelViewShortConnect" value="shortconnect" />
+  <item key="IDS_EnterFeelViewHalfShortConnect" value="halfshortconnect" />
+  <item key="IDS_Reprint" value="REPRINT JOURNAL: Reprint for existed journal" />
+  <item key="IDS_SideButtonTip" value="     Please press       key to change" />
+  <item key="IDS_SideButtonChangeKey" value="00" />
+  <item key="IDS_SideButtonLeftKey" value="Left Key" />
+  <item key="IDS_SideButtonRightKey" value="Right Key" />
+  <item key="IDS_OpenEjectCardModule" value="Open Eject Card Module" />
+  <item key="IDS_CloseEjectCardModule" value="Close Eject Card Module" />
+  <item key="IDS_PinPadIndicator" value="PINPAD INDICATOR" />
+  <item key="IDS_EnterCustomerID" value="Please input the ID number, then press“Confirm”" />
+  <item key="IDS_CardBoxInfo" value="Card box information" />
+  <item key="IDS_ClearCard" value="Set card box number" />
+  <item key="IDS_AddCard" value="Add card" />
+  <item key="IDS_UkeyBoxInfo" value="Ukey box information" />
+  <item key="IDS_ClearUkey" value="Set Count" />
+  <item key="IDS_AddUkey" value="Add Ukey" />
+  <item key="IDS_CardUnitSeq" value="Serial No." />
+  <item key="IDS_CardUnitName" value="Box's name" />
+  <item key="IDS_CardUnitInitCount" value="Initial Count" />
+  <item key="IDS_CardUnitCurrentCount" value="Current Count" />
+  <item key="IDS_SetCardUnitCount" value="Set Count" />
+  <item key="IDS_UkeyUnitSeq" value="Serial number" />
+  <item key="IDS_UkeyUnitName" value="Box's name" />
+  <item key="IDS_UkeyUnitInitCount" value="Initial Count" />
+  <item key="IDS_UkeyUnitCurrentCount" value="Current count" />
+  <item key="IDS_SetUkeyUnitCount" value="Set UKey count" />
+  <item key="IDS_SegmentInfoAdd" value="Setting" />
+  <item key="IDS_SetCardSegmentNum" value="Segment No." />
+  <item key="IDS_IDCardScan" value="ID card scan" />
+  <item key="IDS_IDCardReset" value="ID card reset" />
+  <item key="IDS_IDCardState" value="State testing" />
+  <item key="IDS_FingerScanerScan" value="Fingerprint scanning" />
+  <item key="IDS_FingerScanerReset" value="Fingerprint reset" />
+  <item key="IDS_FingerScanerState" value="State testing" />
+  <item key="IDS_CAMScan" value="High camera scan" />
+  <item key="IDS_CAMReset" value="High camera reset" />
+  <item key="IDS_CAMState" value="State testing" />
+  <item key="IDS_Feed" value="Draw paper" />
+  <item key="IDS_FeedScan" value="Draw paper scan" />
+  <item key="IDS_FeedReturn" value="Retreat paper" />
+  <item key="IDS_FeedReset" value="Reset" />
+  <item key="IDS_FeedState" value="State testing" />
+  <item key="IDS_DisUkey" value="Push ukey" />
+  <item key="IDS_DisUkeyScan" value="Ukey scan" />
+  <item key="IDS_ReturnUkey" value="Swallow Ukey" />
+  <item key="IDS_UkeyReset" value="Reset" />
+  <item key="IDS_UkeyState" value="State testing" />
+  <item key="IDS_Print" value="Print" />
+  <item key="IDS_PrintStamp" value="Print and Stamp" />
+  <item key="IDS_PrinterReset" value="Reset" />
+  <item key="IDS_PrinterStatus" value="State testing" />
+  <item key="IDS_EmptyCardTimeRangeTo_474" value="to" />
+  <item key="IDS_EnterPrepositiveIP" value="Please enter a new port IP of ATMP:" />
+  <item key="IDS_ATM_OTHER1" value="UKEY" />
+  <item key="IDS_ATM_OTHER2" value="ID CARD" />
+  <item key="IDS_ATM_OTHER3" value="DROP BOX" />
+  <item key="IDS_ATM_OTHER4" value="STATEMENT" />
+  <item key="IDS_ATM_OTHER5" value="PASS BOOK" />
+  <item key="IDS_ATM_OTHER6" value="SCANNER" />
+  <item key="IDS_ATM_OTHER7" value="Other data 7" />
+  <item key="IDS_ATM_OTHER8" value="Other data 8" />
+  <item key="IDS_ATM_OTHER9" value="Other data 9" />
+  <item key="IDS_ATM_OTHER10" value="Other data 10" />
+  <item key="IDS_CurrentVersion" value="Current Version" />
+  <item key="IDS_HistoryVersion" value="History Version" />
+  <item key="IDS_DispenseTestingMenu_161" value="DispenseTesting" />
+  <item key="IDS_StatusMenu_161" value="TestingStatus" />
+  <item key="IDS_CurrencyNormal" value="CURRENCY" />
+  <item key="IDS_UPGRADE" value="UPDATE" />
+  <item key="IDS_InquiryJournal" value="INQUIRY JOURNAL" />
+  <item key="IDS_CopyToCD" value="COPY JOURNAL TO CD" />
+  <item key="IDS_CopyToHD" value="COPY JOURNAL TO HD" />
+  <item key="IDS_VersionTracing" value="Version Tracing:Update Version Tracing" />
+  <item key="IDS_PleaseInputCardType" value="Please enter Card Type" />
+  <item key="IDS_MinCardNumber" value="Minimum  No." />
+  <item key="IDS_StartCardNumber" value="Starting  No." />
+  <item key="IDS_EndCardNumber" value="End  No." />
+  <item key="IDS_AddCardCount" value="Card count" />
+
+</config>

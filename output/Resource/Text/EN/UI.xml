@@ -1,0 +1,1816 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+  <item key="IDS_PrintSystemInfoStart" value="================System Information=====================" />
+  <item key="IDS_PrintAssemblyStart" value="=================Loaded assembly Information================" />
+  <item key="IDS_OSVersion" value="Operation System Version: {0} {1}" />
+  <item key="IDS_ProcessCount" value="CPU count: {0}" />
+  <item key="IDS_machineName" value="Machine name: {0}" />
+  <item key="IDS_userName" value="User Name: {0}" />
+  <item key="IDS_pageSize" value="System page size: {0} bytes" />
+  <item key="IDS_32System" value="32 bit system" />
+  <item key="IDS_64System" value="64 bit system" />
+  <item key="IDS_CLRVesion" value="CLR version: {0}" />
+  <item key="IDS_CurrentDirectoy" value="Current directory: {0}" />
+  <item key="IDS_SystemDirectory" value="System directory: {0}" />
+  <item key="IDS_DriveName" value="Logical drive: {0}" />
+  <item key="IDS_DriveType" value="Drive type: {0}" />
+  <item key="IDS_DriveFormat" value="File system: {0}" />
+  <item key="IDS_DriveLabel" value="Drive label: {0}" />
+  <item key="IDS_DriveTotalSize" value="Total size: {0} bytes" />
+  <item key="IDS_DriveAvaFreeSize" value="Total free size: {0} bytes" />
+  <item key="IDS_DriveFreeSize" value="Total available free size: {0} bytes" />
+  <item key="IDS_AvailablePhysicalMemory" value="Available phsical memory: {0} bytes" />
+  <item key="IDS_AvailableVirtualMemory" value="Available virtual memory: {0} bytes" />
+  <item key="IDS_TotalPhysicalMemory" value="Total physical memory: {0} bytes" />
+  <item key="IDS_TotalVirtualMemory" value="Total virtual memory: {0} bytes" />
+  <item key="IDS_NetworkAviable" value="Local network avaiable：{0}" />
+  <item key="IDS_NetworkName" value="Name of a network interface：{0}" />
+  <item key="IDS_NetworkType" value="Type of a network interface：{0}" />
+  <item key="IDS_NetSupportMulticasat" value="If a network interface supports multicast：{0}" />
+  <item key="IDS_NetOpStatus" value="Operation status of a network interface：{0}" />
+  <item key="IDS_PhyAddress" value="MAC of a network interface：{0}" />
+  <item key="IDS_IPV4Address" value="IPV4 address：{0}" />
+  <item key="IDS_IPV4Mask" value="IPV4 mask：{0}" />
+  <item key="IDS_IPV4Gateway" value="IPV4 gateway：{0}" />
+  <item key="IDS_DNSAddress" value="DNS address：{0}" />
+  <item key="IDS_DHCPAddress" value="DHCP address：{0}" />
+  <item key="IDS_ECATRunDirectory" value="The executing directory of eCAT：{0}" />
+  <item key="IDS_ICTransLog_Index" value="Index" />
+  <item key="IDS_ICTransLog_Date" value="Time" />
+  <item key="IDS_ICTransLog_Type" value="Type" />
+  <item key="IDS_ICTransLog_Amount" value="Amount" />
+  <item key="IDS_TransName_Unknown" value="Unknown" />
+  <item key="IDS_TransName_INQ" value="Inquiry" />
+  <item key="IDS_TransName_CWD" value="Withdrawal" />
+  <item key="IDS_TransName_DEP" value="Deposit" />
+  <item key="IDS_TransName_PIN" value="ChangePin" />
+  <item key="IDS_TransName_TFR" value="Transfer" />
+  <item key="IDS_TransName_Load" value="IC Load" />
+  <item key="SystemStartup" value="System startup..." />
+  <item key="InitializeDeviceFormat" value="Initializing {0}" />
+  <item key="JPTR" value="Journal printer" />
+  <item key="TTU" value="TTU" />
+  <item key="FlashDevice" value="Flash device" />
+  <item key="PIN" value="Pin Pad" />
+  <item key="SIU" value="Sensor indicator unit" />
+  <item key="IDC" value="IDC" />
+  <item key="ContactLessIDC" value="ContactLessIDC" />
+  <item key="RPTR" value="Receipt printer" />
+  <item key="CDM" value="CDM" />
+  <item key="CIM" value="CIM" />
+  <item key="VDM" value="VDM" />
+  <item key="CardDistributor" value="Card distributor" />
+  <item key="Camera" value="Camera" />
+  <item key="IDReader" value="ID reader" />
+  <item key="UkeyReader" value="UKEY reader module" />
+  <item key="BCR" value="Two-dimension code" />
+  <item key="Passbook" value="Passbook Printer" />
+  <item key="CRD" value="Credit card machine " />
+  <item key="UkeyDispenser" value="UKEY module" />
+  <item key="FeedChannel" value="Feed channel" />
+  <item key="BarCodeScanner" value="Two-dimension code module" />
+  <item key="CAM" value="High shot meter" />
+  <item key="USBCam" value="Camera" />
+  <item key="Stamper" value="A4 Print and seal machine" />
+  <item key="CHK" value="Check the scanning" />
+  <item key="SimulateKeypad" value="KeyBoard" />
+  <item key="BiometricIdenticifcation" value="Biometric identification device" />
+  <item key="IDS_NoWithdrawalTrans" value="This machine does not provide withdrawal function temporarily" />
+  <item key="IDS_NoDepoistTrans" value="This machine does not provide deposit function temporarily" />
+  <item key="IDS_NoWithdrawalAndDepositTrans" value="This machine does not provide withdrawal and deposit function temporarily" />
+  <item key="IDS_NoCardTrans" value="This machine does not provide card function temporarily" />
+  <item key="IDS_Currency" value="VND" />
+  <item key="IDS_CurrencySymbol" value="VND" />
+  <item key="IDS_Search" value="Search" />
+  <item key="IDS_Print" value="Print" />
+  <item key="IDS_Confirm" value="Confirm" />
+  <item key="IDS_Clear" value="Clear" />
+  <item key="IDS_Cancel" value="Cancel" />
+  <item key="IDS_TakeCard" value="Take Card" />
+  <item key="IDS_Exit" value="Exit" />
+  <item key="IDS_Return" value="Return" />
+  <item key="IDS_Continue" value="Continue" />
+  <item key="IDS_Chinese" value="中###文" />
+  <item key="IDS_English" value="English" />
+  <item key="IDS_CreditAccount" value="Credit Account" />
+  <item key="IDS_DefaultAccount" value="Default Account" />
+  <item key="IDS_CheckAccount" value="Checking Account" />
+  <item key="IDS_SavingAccount" value="Saving Account" />
+  <item key="IDS_Inquiry" value="Inquiry" />
+  <item key="IDS_Withdrawal" value="Withdrawal" />
+  <item key="IDS_Transfer" value="Transfer" />
+  <item key="IDS_ChangePin" value="Change PIN" />
+  <item key="IDS_Deposit" value="Deposit" />
+  <item key="IDS_Payment" value="Bill payment " />
+  <item key="IDS_ICCardTest" value="IC Data" />
+  <item key="IDS_eCASH" value="ECash" />
+  <item key="IDS_TransferName" value="Into account name:" />
+  <item key="IDS_ICInquiry" value="ECash Balance" />
+  <item key="IDS_ICDetail" value="ECash Detail" />
+  <item key="IDS_ICBDZHQC" value="Binding account deposit" />
+  <item key="IDS_ICBDZHQC_Cash" value="Circle of cash deposit" />
+  <item key="IDS_CalculatedTotalCash" value="For the total amount of cash：" />
+  <item key="IDS_CanNotDoICLoad" value="Cash totaling more than maximum circle deposit amount" />
+  <item key="IDS_CONTINUEINTERPOSE" value="Continue Interpose" />
+  <item key="IDS_Note100" value="100" />
+  <item key="IDS_Note200" value="200" />
+  <item key="IDS_Note500" value="500" />
+  <item key="IDS_Note800" value="800" />
+  <item key="IDS_Note1000" value="1000" />
+  <item key="IDS_Note2000" value="2000" />
+  <item key="IDS_Note2500" value="2500" />
+  <item key="IDS_Note3000" value="3000" />
+  <item key="IDS_YES" value="Yes" />
+  <item key="IDS_NO" value="No" />
+  <item key="IDS_NoCardDepositForZeroState" value="No Card Deposit" />
+  <item key="IDS_NoCardDeposit" value="No Card Deposit" />
+  <item key="IDS_TransferName" value="Account name:" />
+  <item key="IDS_PBOCECC_AvailableAmount" value="ECash Balance:" />
+  <item key="IDS_PBOCECCAccountBalance" value="ECash Balance:" />
+  <item key="IDS_ARPCFail" value="Can not confirm whether the transaction is successful. Please check your balance to confirm. Please contact your bank if in doubt" />
+  <item key="IDS_AppNotFound" value="Can not find an available IC card application. Transaction has been canceled" />
+  <item key="IDS_ICTransCancel" value="Unknown error. Transaction has been canceled" />
+  <item key="IDS_ICInvalidCard" value="Read IC card fail. Transaction has been canceled" />
+  <item key="IDS_CardLock" value="The card is locked. Transaction has been canceled" />
+  <item key="IDS_AppLock" value="The application is locked. Transaction has been canceled" />
+  <item key="IDS_PrintReceipt" value="Print Advice" />
+  <item key="IDS_CannotPrintReceipt" value="Printing advice is unavailable. Would you like to continue?" />
+  <item key="IDS_SelectAccountType" value="Please select the account type" />
+  <item key="IDS_SelectService" value="Please select the service" />
+  <item key="IDS_InquiryResult" value="Inquiry result" />
+  <item key="IDS_AccountBalance" value="##Account Balance:" />
+  <item key="IDS_AvailableBalance" value="Available Balance:" />
+  <item key="IDS_TitleAvailableBalance" value="Available balance" />
+  <item key="IDS_CurrentBalance" value="Current balance:" />
+  <item key="IDS_InputAmountError" value="Incorrect amount. Please key in again" />
+  <item key="IDS_InputAmountExceedLimit" value="Exceeds withdrawal amount limit,Please key in again" />
+  <item key="IDS_InputWithdrawalAmount" value="Please key in amount. 　" />
+  <item key="IDS_InputWithdrawalAmountError" value="Incorrect amount. Please key in again" />
+  <item key="IDS_InputWithdrawalAmountExceedsLimit" value="Exceeds withdrawal amount limit. Please key in again" />
+  <item key="IDS_InputWithdrawalAmountExceedsCassetteAmount" value="Sorry, Insufficient funds in ATM. Please key in again" />
+  <item key="IDS_InputWithdrawalAmountExceedRetryTimes" value="Exceeds times limit. Transaction has been canceled" />
+  <item key="IDS_InputWithdrawalAmountDenominateError" value="Incorrect amount. Please key in again" />
+  <item key="IDS_SupplyWithdrawalDenomination" value="The following denominations are available" />
+  <item key="IDS_MaxWithdrawalAmount" value="The maximum withdrawal. amount is" />
+  <item key="IDS_PresentCash" value="Presenting cash, please wait..." />
+  <item key="IDS_RetractCashForTimeout" value="Sorry, taking cash timeout. Cash has been retained. Please contact the bank" />
+  <item key="IDS_RetractCashForHardwareError" value="Sorry, cash has been retained. Please contact the bank" />
+  <item key="IDS_SelectLanguage" value="Please select the language" />
+  <item key="IDS_InputPin" value="Please key in your personal. Identification number" />
+  <item key="IDS_InputOldPin" value="Please key in your old PIN" />
+  <item key="IDS_InputNewPin" value="Please key in your new PIN" />
+  <item key="IDS_InputNewPinAgain" value="Please key in your new PIN again" />
+  <item key="IDS_InputNewPinUnmatch" value="Invalid PIN. Please key in again" />
+  <item key="IDS_InputOldNewPinSame" value="The new PIN is same as the old. Please key in again" />
+  <item key="IDS_ChangePinSuccess" value="New PIN accepted. Please remember your. New PIN to use it next time" />
+  <item key="IDS_InputTransferAccount" value="Please key in transferee account number" />
+  <item key="IDS_InputTransferAccountAgain" value="Please key in transferee account number again" />
+  <item key="IDS_InputTransferAccountUnmatch" value="Invalid transferee account number. Please key in again" />
+  <item key="IDS_InputTransferAmount" value="Please key in amount" />
+  <item key="IDS_MaxTransferAmount" value="The maximum transfer amount is" />
+  <item key="IDS_InputTransferAmountExceedsLimit" value="Exceeds transferred amount limit. Please key in again" />
+  <item key="IDS_InputTransferAmountLessThanLimit" value="Less than transferred amount min limit. Please key in again" />
+  <item key="IDS_InputTransferAmountMultipleError" value="Incorrect amount. Please key in again" />
+  <item key="IDS_ShowTransferInformation" value="Please confirm the account and amount" />
+  <item key="IDS_TransferAccount" value="Transfer account:" />
+  <item key="IDS_TransferAmount" value="Transfer amount:" />
+  <item key="IDS_TransferSuccess" value="Transfer accepted" />
+  <item key="IDS_InputICLoadAmount" value="Please input load amount" />
+  <item key="IDS_MaxICLoadAmount" value="The max rechargeable limit is" />
+  <item key="IDS_ICLoadSuccess" value="Load transaction succeeded" />
+  <item key="IDS_InputNoCardDepositAccount" value="Please key in card number. or passbook number" />
+  <item key="IDS_InputNoCardDepositAccountAgain" value="Please input in the card or the passbook account again" />
+  <item key="IDS_InputNoCardDepositAccountUnmatch" value="Invalid transferee account number. Please key in again" />
+  <item key="IDS_TAKENOTERefused" value="Please take unidentified bank notes" />
+  <item key="IDS_TAKENOTEForError" value="Sorry, device failure. Please take your cash" />
+  <item key="IDS_PrintingReceipt" value="Printing advice..." />
+  <item key="IDS_IsPrintReceipt" value="Print advice?" />
+  <item key="IDS_PrintReceiptFail" value="Sorry. Print advice failed" />
+  <item key="IDS_TakeReceipt" value="Please take the advice" />
+  <item key="IDS_TAKENOTEToomuch" value="Exceeds the deposited notes count limit. Please take the remaining notes" />
+  <item key="IDS_CASHINENDSUCC" value="Success to deposit notes" />
+  <item key="IDS_TAKENOTE" value="Sorry, transaction canceled. Please take the notes" />
+  <item key="IDS_TAKENOTEForCancel" value="Please take unidentified bank notes. After taking notes, please don't leave" />
+  <item key="IDS_TAKENOTEForCommError" value="please take the notes" />
+  <item key="IDS_COUNTINGNOTE" value="Counting notes. please wait..." />
+  <item key="IDS_TransactionIsBeing" value="Transaction is being processed. Please wait..." />
+  <item key="IDS_TransactionIsBeingDoubleLanguage" value="Transaction is being processed. Please wait..." />
+  <item key="IDS_EjectingCard" value="Processing to return card, please wait..." />
+  <item key="IDS_PleaseTakeCard" value="Please take your card" />
+  <item key="IDS_CaptureCardForTimeout" value="Sorry, taking card timeout. The card has been retained. Please contact the bank" />
+  <item key="IDS_CaptureCard" value="Sorry, the card has been retained. Please contact the bank" />
+  <item key="IDS_Timeout" value="Sorry, transaction timeout" />
+  <item key="IDS_TransactionTimeout" value="Transaction timeout" />
+  <item key="IDS_KeyError" value="Sorry, input error. Please be cautious if. any stranger is around you" />
+  <item key="IDS_InvalidCard" value="Sorry, invalid card" />
+  <item key="IDS_ThankYou" value="Thank you, goodbye" />
+  <item key="IDS_OutOfService" value="Sorry, out of service temporarily" />
+  <item key="IDS_ServiceUnavailable" value="Sorry. Service is unavailable temporarily" />
+  <item key="IDS_INCORRECTPIN_REINPUT" value="Incorrect PIN. Please input again" />
+  <item key="IDS_ACCOUNTNAME" value="Account name:" />
+  <item key="IDS_TRANSACTION_AMOUNT" value="Transaction amount:" />
+  <item key="IDS_CONFIRM_ACCOUNTINFO" value="Please confirm the account information" />
+  <item key="IDS_CONFIRM_INACCOUNT" value="Account:" />
+  <item key="IDS_DEPOSIT_ARRANGECASH" value="Notes loaded exceed limit or incorrectly. please take the unaccepted notes. or reload notes" />
+  <item key="IDS_DEPOSIT_INPUTTIMESOVERLIMIT" value="Notes loaded exceed limit or incorrectly. please take the unaccepted notes" />
+  <item key="IDS_EJECTCASH_TOCUSTOMER" value="Notes are being returned. please wait..." />
+  <item key="IDS_EJECTCASH_REPEATSN" value="There exists duplicate Serial NO.. Notes are being returned. please wait..." />
+  <item key="IDS_RETRACTCASH_REPEATSN" value="There exists duplicate Serial NO.. Notes are retained." />
+  <item key="IDS_DEPOSIT_DEVERR_RETURNCASH" value="System is processing, please don't go away." />
+  <item key="IDS_DEPOSIT_DEVERR_TAKECASH" value="Sorry. system error,. please take the notes." />
+  <item key="IDS_DEPOSIT_WAITFOR_INSERTCASH" value="Please load the notes neatly." />
+  <item key="IDS_DEPOSIT_WAITFOR_INSERTCASH_NOCASH" value="Please interpose your cash. No notes have been detected." />
+  <item key="IDS_DOING_CASHINEND" value="Deposit succeeded. Transaction is being processed. Please wait..." />
+  <item key="IDS_DEPOSIT_DETECTEDNOCASH" value="Detected no notes. transaction is canceled." />
+  <item key="IDS_DEPOSIT_DETECTEDNOCASHANDDEVICEERROR" value="Device error. transaction is canceled." />
+  <item key="IDS_DEPOSIT_TAKECASH_TIMEOUT" value="Taking cash timeout. Notes are retained." />
+  <item key="IDS_OperationTimeoutRetractCash" value="Transaction timeout, your notes are retained." />
+  <item key="IDS_DEPOSIT_DEVICEERROR_RETRACTCASH" value="Device error, Notes are retained." />
+  <item key="IDS_DEPOSIT_RETRACTCASH" value="Can not confirm whether the transaction is successful. Please check your balance to confirm. Please contact your bank if in doubt" />
+  <item key="IDS_DEPOSIT_TOTALDETAILS" value="Current deposit details" />
+  <item key="IDS_DEPOSIT_TOTALAMOUNT" value="Total amount:" />
+  <item key="IDS_DEPOSIT_100YUAN" value="VND 100:" />
+  <item key="IDS_DEPOSIT_50YUAN" value="VND 50:" />
+  <item key="IDS_DEPOSIT_PIECE" value="Piece" />
+  <item key="IDS_DEPOSIT_YUAN" value="VND" />
+  <item key="IDS_And" value="," />
+  <item key="IDS_IS_CONTINUEINTERPOSE" value="To continue deposit, Press 'Continue Interpose'" />
+  <item key="IDS_EXCEEDED_LIMITAMOUNT" value="The withdrawal amount exceeds limit. Please input again" />
+  <item key="IDS_EXCEEDED_WITHDRAWALAMOUNT" value="Exceeds withdrawal amount limit. Please key in again" />
+  <item key="IDS_TakeCash" value="Please take your notes" />
+  <item key="IDS_REJECTOVERLIMIT" value="Sorry, no notes loaded. Transaction canceled" />
+  <item key="IDS_LEFTINTERPOSENOTESCOUNT" value="please don't interpose notes exceed" />
+  <item key="IDS_LEFTCASHINNOTESCOUNT" value="This time please don't interpose notes exceed" />
+  <item key="IDS_DEPOSITSUPPLYDENO" value="This ATM only can accept" />
+  <item key="IDS_WITHDRAWALSUPPLYDENO" value="This ATM only can accept" />
+  <item key="EjectCashNow" value="Rejecting notes, please wait and don't go away" />
+  <item key="TestSuccess" value="Test success" />
+  <item key="TestFail" value="Test fail" />
+  <item key="ServiceCancelledForCommError" value="Sorry, transaction canceled, please contact with the bank" />
+  <item key="IDS_InputEPPKeyConStruct" value="Please input key of {0} group({1}-bit)" />
+  <item key="IDS_VerifyCheckValue" value="Key Check Value:" />
+  <item key="IDS_VerifyCheckValueTip" value="Please Press 'Enter' to Continue, press 'Cancel' to Exit" />
+  <item key="IDS_ExitEPPFlow" value="Please Press 'Enter' to Exit" />
+  <item key="IDS_GetPasswordTip" value="Press 'Cancel' to Exit" />
+  <item key="IDS_GetPawwordA" value="Please Input Key-A Password" />
+  <item key="IDS_GetPawwordB" value="Please Input Key-B Password" />
+  <item key="IDS_SecurKeyEntryA" value="Please key in the 32 chars of Key-Part A" />
+  <item key="IDS_SecurKeyEntryB" value="Please key in the 32 chars of Key-Part B" />
+  <item key="IDS_InputNoDoorMaintenancePin" value="Please key in PIN" />
+  <item key="IDS_RollbackForExceedICAvailableRechargeAmount" value="Sorry, Deposit total amount exceed, IC available recharge amount" />
+  <item key="IDS_InputAmountExceedICAvailableRechargeAmount" value="Exceeds IC available load amount .Please key in again" />
+  <item key="IDS_InputAmountExceedICBalance" value="Exceeds IC available unload amount. Please key in again" />
+  <item key="IDS_InputAccountSameAsPAN" value="Transferee account number is same as inserted card number. Please key in again" />
+  <item key="IDS_InputFormatError" value="Input format error" />
+  <item key="IDS_Date" value="Date" />
+  <item key="IDS_TransType" value="Type     " />
+  <item key="IDS_Amount" value="Amount" />
+  <item key="IDS_Balance" value="Balance" />
+  <item key="IDS_BeginTimeOverEndTime" value="Start time is greater than end time" />
+  <item key="IDS_DateControlRolling" value="Is to select a date,please wait..." />
+  <item key="IDS_InvalidDateFormat" value="Invalid date format" />
+  <item key="IDS_formCheckWait" value="Information being reviewed, please wait..." />
+  <item key="IDS_waitVideo" value="Connecting , please wait..." />
+  <item key="IDS_CKIdentity" value="Information being reviewed, please wait..." />
+  <item key="IDS_AcPrint" value="Printing form, please wait..." />
+  <item key="IDS_FieldsEmpty" value="Mandatory fields can't be empty" />
+  <item key="IDS_cusBusy" value="Customer service is busy,please wait..." />
+  <item key="IDS_ScanDocument" value="Please first scan images" />
+  <item key="IDS_DateFormater" value="yyyy.MM.dd" />
+  <item key="IDS_DateConcat" value=" - " />
+  <item key="IDS_MsgCusAddressError" value="cannot be empty of permanent address!" />
+  <item key="IDS_MsgPhoneError" value="Invalid mobile number format" />
+  <item key="IDS_MsgTelephoneNumRegError" value="Invalid TelephoneNumber format" />
+  <item key="IDS_MsgTelephoneNumError" value="TelephoneNumber is not empty" />
+  <item key="IDS_ScanIDCardTimeOut" value="User timeout did not take id card!" />
+  <item key="IDS_CurrentMessage1" value="Identity authentication system processing, please wait..." />
+  <item key="IDS_CurrentMessage2" value="Facial recognition succeeded, please wait..." />
+  <item key="IDS_CurrentMessage3" value=" Wait timeout..." />
+  <item key="IDS_CurrentMessage4" value=" Facial recognition failed..." />
+  <item key="IDS_CurrentMessage5" value=" Facial recognition failed, please retake photo..." />
+  <item key="IDS_CurrentMessage6" value="Connecting to remote teller..." />
+  <item key="IDS_CurrentMessage7" value=" Connection to remote teller failed..." />
+  <item key="IDS_CurrentMessage8" value=" Connection to remote teller succeeded..." />
+  <item key="IDS_CurrentMessage9" value="Submitting evaluation of permission information..." />
+  <item key="IDS_CurrentMessage10" value="Evaluation of permission succeeded..." />
+  <item key="IDS_CurrentMessage11" value="Submitting review information, please wait..." />
+  <item key="IDS_CurrentMessage12" value="Evaluation of permission failed, please contact customer servcie..." />
+  <item key="IDS_CurrentMessage13" value="Review succeeded!" />
+  <item key="IDS_CurrentMessage14" value="Remote teller review failed, please contact teller!" />
+  <item key="IDS_CurrentMessage15" value="Review information sending succeeded, please wait..." />
+  <item key="IDS_CurrentMessage16" value="Review information sending failed, please contact the administrator..." />
+  <item key="IDS_CurrentMessage17" value="Remote teller connection ended..." />
+  <item key="IDS_CurrentMessage18" value="Self photo and ID Card photo of Similarity:" />
+  <item key="IDS_CurrentMessage19" value="Remote teller is busy,Transaction ended!" />
+  <item key="IDS_SystemStartup" value="System startup..." />
+  <item key="IDS_InitializeDeviceFormat" value="Initializing {0}" />
+  <item key="DVRDevice" value="DVR Device" />
+  <item key="IDS_InputWithDrawalAmountDenominateError" value="Incorrect amount - Please key in again" />
+  <item key="IDS_DEPOSIT_USERCANCELATFIRSTTIME" value="Transaction is canceled by user" />
+  <item key="IDS_InputAccountLengthNotEnough" value="Input account length is not enough. Please key in again" />
+  <item key="IDS_InputPinLengthNotEnough" value="Input password length is not enough. Please key in again" />
+  <item key="IDS_RCMGetBackCapturedCard" value="Get Captured Card" />
+  <item key="IDS_RCMInputPANLast4Number" value="Please key in your card. Last 4 number" />
+  <item key="IDS_RCMInputPANLast4NumberLengthNotEnough" value="Input last 4 number length is not enough. Please key in again" />
+  <item key="IDS_RCMNextStep" value="Next Step" />
+  <item key="IDS_RCMFoundCapturedCardInfoInBin" value="Sorry, the card has been retained. Please contact the bank" />
+  <item key="IDS_RCMNotFoundCapturedCardInfo" value="Sorry, don't find the capture card record. Of you keyed number. Please contact the bank" />
+  <item key="IDS_RCMCaptureCardToSlotForTimeout" value="Sorry. Taking card timeout. The card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="IDS_RCMCaptureCardToSlotForPINError" value="Sorry,personal identification number error. The card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="IDS_RCMCaptureCardToSlot" value="Sorry,the card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="RCM" value="Eject Card Module" />
+  <item key="IDS_CMCCPayment" value="China Mobile Payment" />
+  <item key="IDS_CUPayment" value="China Unicom Payment" />
+  <item key="IDS_CTPayment" value="China Telecom Payment" />
+  <item key="IDS_PRPayment" value="Power Rate" />
+  <item key="IDS_WRPayment" value="Water Rate" />
+  <item key="IDS_DSQWRPayment" value="DASHIQIAO Water Rate" />
+  <item key="IDS_GRPayment" value="Gas Rate" />
+  <item key="IDS_PaymentSuccess" value="The payment is successful" />
+  <item key="IDS_ConfirmPaymentInfo" value="Please confirm the payment information" />
+  <item key="IDS_PaymentNumber" value="Payment Number: " />
+  <item key="IDS_PaymentAccntName" value="User Name: " />
+  <item key="IDS_PaymentAmount" value="Payment Amount: " />
+  <item key="IDS_MaxPaymentAmount" value="The maximum payment amount is" />
+  <item key="IDS_InputPaymentAmount" value="Please key in the payment amount" />
+  <item key="IDS_InputPaymentAmountAgain" value="Please key in the payment amount again" />
+  <item key="IDS_InputPhoneNumber" value="Please key in the phone number" />
+  <item key="IDS_InputPhoneNumberAgain" value="Please key in the phone number again" />
+  <item key="IDS_InputPhoneNumberUnmatch" value="Invalid phone number. Please key in again" />
+  <item key="IDS_InputPowerRateNumber" value="Please key in the power rate number" />
+  <item key="IDS_InputPowerRateNumberAgain" value="Please key in the power rate number again" />
+  <item key="IDS_InputPowerRateNumberUnmatch" value="Invalid power rate number. Please key in again" />
+  <item key="IDS_InputWaterRateNumber" value="Please key in the water rate number" />
+  <item key="IDS_InputWaterRateNumberAgain" value="Please key in the water rate number again" />
+  <item key="IDS_InputWaterRateNumberUnmatch" value="Invalid power water number. Please key in again" />
+  <item key="IDS_InputGasRateNumber" value="Please key in the gas rate number" />
+  <item key="IDS_InputGasRateNumberAgain" value="Please key in the gas rate number again" />
+  <item key="IDS_InputGasRateNumberUnmatch" value="Invalid power gas number. Please key in again" />
+  <item key="IDS_BtnCMCC" value="China Mobile" />
+  <item key="IDS_BtnCU" value="China Unicom" />
+  <item key="IDS_BtnCT" value="China Telecom" />
+  <item key="IDS_BtnPR" value="Power Rate" />
+  <item key="IDS_BtnWR" value="Water Rate" />
+  <item key="IDS_BtnGR" value="Gas Rate" />
+  <item key="IDS_BtnDSQWR" value="DASHIQIAO Water Rate" />
+  <item key="IDS_BtnMobile" value="Mobile Phone" />
+  <item key="IDS_BtnFixLine" value="Telephone" />
+  <item key="IDS_BtnWideBand" value="Broadband" />
+  <item key="IDS_PromptForTransfer" value="No Self-bank transaction, need transaction fee." />
+  <item key="IDS_ICLoadFail" value="IC Load transaction Failed" />
+  <item key="IDS_InputPinTip" value="Be careful to protect your own password." />
+  <item key="IDS_SelectReceiptType" value="Print receipt" />
+  <item key="IDS_PrintReceiptFailed" value="Print receipt failed." />
+  <item key="IDS_PrintOCR" value="Print OCR" />
+  <item key="IDS_TakeNoteHostRefuse" value="Deposit fail or translation host refused,please take note " />
+  <item key="FingerScaner" value="Fingerprint Mode" />
+  <item key="IDS_waitService" value="Recover paper  fail ，Please Waiting for service ....." />
+  <item key="IDS_TransName_VTM_NEWACC_CURRENT" value="New account" />
+  <item key="IDS_TransName_VTM_SIGN" value="New UKey" />
+  <item key="IDS_TRANSNAME_PASSBOOK" value="Bank book update" />
+  <item key="IDS_DateControlRolling" value="Please wait ，The date is choosing" />
+  <item key="IDS_Disable" value="Forbid" />
+  <item key="IDS_FormatDisable" value="{0}{1}{2}{3}" />
+  <item key="IDS_ErrorDisable" value="fault" />
+  <item key="IDS_VTM_SIGN" value="New UKey" />
+  <item key="IDS_FaceComparison" value="Identification system is a confirmation of your identity, please wait..." />
+  <item key="IDS_PrintingOCRReceipt" value="Printing OCR..." />
+  <item key="IDS_ICFBDZHQC" value="Non Bind Load" />
+  <item key="IDS_ICXJCZ" value="Cash Recharge" />
+  <item key="IDS_ICQT" value="Unload" />
+  <item key="IDS_InputICUnloadAmount" value="Please input unload amount." />
+  <item key="IDS_MaxICUnloadAmount" value="The max unload limit is" />
+  <item key="IDS_ICUnloadSuccess" value="Unload transaction succeeded" />
+  <item key="IDS_TransName_61" value="IC Unload" />
+  <item key="IDS_TransName_62" value="IC unbundling Load" />
+  <item key="IDS_TransName_63" value="Cash Recharge" />
+  <item key="IDS_TransName_00" value="Consume" />
+  <item key="IDS_TransName_03" value="Pre authorization" />
+  <item key="IDS_TransName_20" value="Returned purchase" />
+  <item key="IDS_ContactLessICC" value="ContactLessICC" />
+  <item key="IDS_ICPutCard" value="请将IC卡放到读卡区域. Please put the IC card into the reading area" />
+  <item key="IDS_ICReadingCard" value="正在读取卡信息,请勿移动IC卡片. Reading card data,do not move the IC card" />
+  <item key="IDS_SelectApplication" value="Please select the application" />
+  <item key="IDS_TryAgain" value="请重试. Try Again" />
+  <item key="IDS_ICNoLog" value="No detailed data" />
+  <item key="IDS_ICCanNotReadLog" value="Unable to read the detail data" />
+  <item key="IDS_ICReadLogError" value="Read the details data error" />
+  <item key="IDS_ICTransTerminated" value="Sorry, transaction has been terminated" />
+  <item key="IDS_ICTransDeclined" value="Sorry, transaction has been declined" />
+  <item key="IDS_ICTransNotAccepted" value="Sorry, transaction has not been accepted" />
+  <item key="IDS_PleaseTakeCardAndInsertSecondCard" value="Please take your card and insert the IC card. you want to recharge" />
+  <item key="IDS_TheSecondCardISInvalidCard" value="You Inserted card does not support. Can't recharge" />
+  <item key="IDS_PleaseInserRechardCard" value="Please insert your card to recharge" />
+  <item key="IDS_SecondAndFirstCradIsSame" value="You insert the same card. The transaction will be canceled" />
+  <item key="IDS_InputFirstCardPin" value="Please input your transfer card password" />
+  <item key="IDS_ResultWithoutCancel" value="Please Press 'Enter' to Continue" />
+  <item key="IDS_MORETHANINPUT" value="The total amount is more than your input amount" />
+  <item key="IDS_LESSTHANINPUT" value="The total amount is less than your input amount" />
+  <item key="IDS_projWaitVideo" value="Connecting video , please wait..." />
+  <item key="IDS_projIDInfoCheck" value="Checking ID Card Information , please wait..." />
+
+  <!--R1是动态的-->
+  <item key="IDS_SavingAcc_R1" value="1 Month" />
+  <item key="IDS_SavingAcc_R2" value="2 Months" />
+  <item key="IDS_SavingAcc_R3" value="3 Months" />
+  <item key="IDS_SavingAcc_R6" value="6 Months" />
+  <item key="IDS_SavingAcc_R9" value="9 Months" />
+  <item key="IDS_SavingAcc_R12" value="12 Months" />
+  <item key="IDS_SavingAcc_R18" value="18 Months" />
+  <item key="IDS_SavingAcc_R24" value="24 Months" />
+  <item key="IDS_SavingAcc_R36" value="36 Months" />
+  <item key="IDS_SavingAcc_R1W" value="1 Week" />
+  <item key="IDS_SavingAcc_R2W" value="2 Weeks" />
+  <item key="IDS_SavingAcc_R3W" value="3 Weeks" />
+  <item key="IDS_SavingAcc_R6_1" value="6 Months" />
+  <item key="IDS_SavingAcc_R6_2" value="12 Months" />
+  <item key="LeastDepositAmountPrompt" value="The minimum amount of deposit is:1,000,000 VND" />
+
+  <item key="IDS_SavAccPrintReceipt" value="Printing receipt, please wait..." />
+  <!--新增-->
+  <item key="IDS_InvalidIssueDate" value="Invalid DateofIDIssue Format" />
+  <item key="IDS_InvalidIssueDate1" value="Issue date can not exceed today" />
+  <item key="IDS_InvalidIssueDate2" value="Issue date can not more than 15 years" />
+  <item key="IDS_IssueDateEmpty" value="Issue date can not be empty" />
+  <item key="IDS_InvalidDOB" value="Invalid Birthday Format" />
+  <item key="IDS_InvalidDOB1" value="Day of birth can not exceed issue date" />
+  <item key="IDS_InvalidDOB2" value="You can not open current account at least 15 years old" />
+  <item key="IDS_InvalidDateFormat" value="Invalid Date Format" />
+  <item key="IDS_InvalidDOBEmpty" value="Birthday Can not be empty" />
+  <item key="IDS_InvalidIDNumber" value="Invalid ID/Passport Format" />
+  <item key="IDS_InvalidIDNumberEmpty" value="ID number can not be empty" />
+  <item key="IDS_InvalidName" value="Invalid Name Format" />
+  <item key="IDS_InvalidNameEmpty" value="Name can not be empty" />
+  <item key="IDS_InvalidGender" value="Invalid Sex Format" />
+  <item key="IDS_InvalidGenderEmpty" value="Gender can not be empty" />
+  <item key="IDS_InvalidAddress" value="Invalid Address Format" />
+  <item key="IDS_InvalidAddressEmpty" value="Address can not be empty" />
+  <item key="IDS_InvalidEmail" value="Invalid Email Format" />
+  <item key="IDS_InvalidEmailEmpty" value="Email can not be empty" />
+  <item key="IDS_InvalidIssuePlace" value="Invalid Place of Issue Format" />
+  <item key="IDS_InvalidIssuePlaceEmpty" value="Issue Place can not be empty" />
+  <item key="IDS_InvalidPhoneNo" value="Invalid PhoneNo Format" />
+  <item key="IDS_InvalidPhoneNoEmpty" value="Phone Number can not be empty" />
+  <item key="IDS_InvalidSavCity" value="City can not be empty" />
+  <item key="IDS_InvalidSavCityBranch" value="Branch can not be empty" />
+  <item key="IDS_InvalidOccupationValueEmpty" value="Occupation Value can not be empty" />
+  <item key="IDS_InvalidIncomeValueEmpty" value="Income Value can not be empty" />
+  <item key="IDS_InvalidLoanValueEmpty" value="Loan Value can not be empty" />    
+  <item key="IDS_InvalidLoanPurposeEmpty" value="Loan Purpose can not be empty" />   
+  <item key="IDS_InvalidCityValueEmpty" value="City Value can not be empty" />  
+  <item key="IDS_InvalidPaymentValueEmpty" value="Payment Value can not be empty" />  
+  <item key="IDS_InvalidCreditCardValueEmpty" value="Credit Card Value can not be empty" /> 
+  <item key="IDS_InvalidCarLoanValueEmpty" value="CarLoan Value can not be empty" />  
+  <item key="IDS_InvalidCarPhysicalValueEmpty" value="CarPhysical Value can not be empty" />    
+  <item key="IDS_InvalidProducer" value="Invalid Producer Format" /> 
+  <item key="IDS_InvalidProducerEmpty" value="Producer can not be empty" /> 
+  <item key="IDS_InvalidInsuranceValueEmpty" value="Insurance can not be empty" /> 
+  <item key="IDS_InvalidGenderValueEmpty" value="Gender can not be empty" /> 
+  <item key="IDS_InvalidMarriageValueEmpty" value="Marriage can not be empty" />
+  <item key="IDS_InvalidChildNo" value="Invalid ChildNo Format" />
+  <item key="IDS_InvalidChildNoEmpty" value="ChildNo can not be empty" />
+  <item key="IDS_InvalidSuminsuranceEmpty" value="Sum insurance can not be empty" />
+  <item key="IDS_InvalidCancercoverEmpty" value="Cancer cover can not be empty" />
+  <item key="IDS_InvalidHomeLoanValueEmpty" value="HomeLoan can not be empty" />
+  <item key="IDS_InvalidHopuseTypeValueEmpty" value="House Type can not be empty" />
+  <item key="IDS_InvalidProjectname" value="Invalid Project Name Format" />
+  <item key="IDS_InvalidProjectnameEmpty" value="Project Name can not be empty" />   
+  <item key="IDS_InvalidLoanAmount" value="Invalid Loan Amount Format" /> 
+  <item key="IDS_InvalidLoanAmountEmpty" value="Loan Amount can not be empty" /> 
+  <item key="IDS_InvalidLoanTypeValueEmpty" value="Loan Type can not be empty" /> 
+  <item key="IDS_InvalidLoanPeriod" value="Invalid Loan Period Format" /> 
+  <item key="IDS_InvalidLoanPeriodEmpty" value="Loan Period can not empty" /> 
+  <item key="IDS_InvalidInsurancePurpose" value="Invalid Insurance Purpose Format" /> 
+  <item key="IDS_InvalidInsurancePurposeEmpty" value="Insurance Purpose can not empty" />  
+  
+  
+  <!--设备状态检测-->
+  <item key="IDS_ErrorNDC" value="NDC Error" />
+  <item key="IDS_ErrorCash" value="Lack of cash" />
+  <item key="IDS_ErrorCassetteCIM" value="CIM Error" />
+  <item key="IDS_ErrorCassetteCDM" value="CDM Error" />
+  <item key="IDS_ErrorPIN" value="PIN Pad Error" />
+  <item key="IDS_ErrorIDCard" value="IDCard Scaner Error" />
+  <item key="IDS_ErrorA4Printer" value="A4 Printer Error" />
+  <item key="IDS_ErrorFingerScaner" value="Finger Scanner Error" />
+  <item key="IDS_ErrorHighCamera" value="High Camera Error" />
+  <item key="IDS_ErrorFeedChannel" value="FeedChannel Error" />
+  <item key="IDS_ErrorIDC" value="CardReader Error" />
+  <item key="IDS_ErrorCAM" value="Camera Error" />
+<!-- Open current account -->
+  <item key="IDS_Menu_CashTransactions1" value="Cash" />
+  <item key="IDS_Menu_CashTransactions2" value="Transactions" />
+  <item key="IDS_Menu_Deposit" value="Deposit" />
+  <item key="IDS_Menu_Withdraw" value="Withdraw" />
+  <item key="IDS_Menu_Withdrawal" value="Withdrawal" />
+  <item key="IDS_Menu_CardActivation" value="Card activation" />
+  <item key="IDS_Menu_OpenAccounts1" value="Open" />
+  <item key="IDS_Menu_OpenAccounts2" value="Account" />
+  <item key="IDS_Menu_CurrentAccount" value="Current Account/ Complete KYC" />
+  <item key="IDS_Menu_SavingsAccount" value="Savings Account" />
+  <item key="IDS_Menu_SpeakContactCentre1" value="Speak to" />
+  <item key="IDS_Menu_SpeakContactCentre2" value="Contact Centre" />
+	<item key="IDS_Menu_InternetBanking1" value="Internet" />
+  <item key="IDS_Menu_InternetBanking2" value="Banking" />
+  <item key="IDS_Enquiries" value="Enquiries" />
+  <item key="IDS_CurrentAccountEnquiries" value="Current account inquiries." />
+  <item key="IDS_Menu_AccountInformation1" value="Account" />
+  <item key="IDS_Menu_AccountInformation2" value="Information" />
+  <item key="IDS_Menu_CardInformation1" value="Card" />
+  <item key="IDS_Menu_CardInformation2" value="Information" />
+  <item key="IDS_Menu_SavingInformation1" value="Saving" />
+  <item key="IDS_Menu_SavingInformation2" value="Information" />
+  <item key="IDS_Menu_LoanInformation1" value="Loan" />
+  <item key="IDS_Menu_LoanInformation2" value="Information" />
+  <item key="IDS_OtherServices" value="Other Services" />
+  <item key="IDS_Menu_CompleteKYC1" value="Complete" />
+  <item key="IDS_Menu_CompleteKYC2" value="KYC" />
+  <item key="IDS_Menu_AccountMaintenance1" value="Account" />
+  <item key="IDS_Menu_AccountMaintenance2" value="maintenance" />
+  <item key="IDS_PassbookSettlement1" value="Passbook" />
+  <item key="IDS_PassbookSettlement2" value="settlement" />
+  <item key="IDS_Menu_CardActivation1" value="Card" />
+  <item key="IDS_Menu_CardActivation2" value="activation" />
+  <item key="IDS_Menu_ApplyLoan1" value="Apply" />
+  <item key="IDS_Menu_ApplyLoan2" value="loan" />
+  <item key="IDS_Menu_ApplyCreditCard1" value="Apply" />
+  <item key="IDS_Menu_ApplyCreditCard2" value="credit card" />
+
+  <item key="IDS_OpenCurrentAccount" value="Open current account" />
+  <item key="IDS_OpenCurrentAccount1" value="Open" />
+  <item key="IDS_OpenCurrentAccount2" value="current account" />
+  <item key="IDS_CurrentAccount" value="Current account" />
+  <item key="IDS_CurrentAccountMobile" value="(ending *3001)" />
+  <item key="IDS_Button_Exit" value="Exit" />
+  <item key="IDS_Button_Back" value="Back" />
+  <item key="IDS_Button_Next" value="Next" />
+  <item key="IDS_Button_Edit" value="Edit" />
+  <item key="IDS_Button_Confirm" value="Confirm" />
+  <item key="IDS_Button_Confirm_CashCount" value="Cash Count" />
+  <item key="IDS_Button_Cancel" value="Cancel" />
+  <item key="IDS_Button_AddCash" value="Add cash" />
+  <item key="IDS_Button_Print" value="Print" />
+  <item key="IDS_Button_Continue" value="Continue" />
+  <item key="IDS_Button_Rescan" value="Rescan" />
+  <item key="IDS_Button_EditAmount" value="Back" />
+  <item key="IDS_Button_Yes" value="Yes" />
+  <item key="IDS_Button_No" value="No" />
+
+  <item key="IDS_Step_IDScan" value="ID scan" />
+  <item key="IDS_Step_YourInfo" value="Your info" />
+  <item key="IDS_Step_Photo" value="Photo" />
+  <item key="IDS_Step_Fingerprint" value="Fingerprint" />
+  <item key="IDS_Step_Signature" value="Signature" />
+  <item key="IDS_Step_DropBox" value="Drop box" />
+  <item key="IDS_Step_Transfer" value="Transfer" />
+  <item key="IDS_Step_Completion" value="Completion" />
+  <item key="IDS_Step_SavingTerm" value="Saving term" />
+
+  <item key="IDS_ContactAgent" value="Contacting agent. Please wait." />
+  <item key="IDS_ContactAgentRecord" value="We have camera in LiveBank  to record video, conversation, capture your photo/fingerprint while doing transaction to improve  security level and  service quality" />
+  <item key="IDS_WeNeedToscanYourIDCard" value="We need to scan your ID card. Which kind do you have?" />
+  <item key="IDS_OldIDCard" value="Old ID Card" />
+  <item key="IDS_NewIDCard" value="New ID Card" />
+  <item key="IDS_CCCD" value="Căn cước công dân" />
+  <item key="IDS_Passport" value="Passport" />
+
+  <item key="IDS_PleaseInsertIDScanner" value="Please insert ID into scanner box." />
+  <item key="IDS_PleaseInsertOldIDCard" value="Please insert old ID card into scanner." />
+  <item key="IDS_PleaseInsertPassport" value="Please insert passport into scanner." />
+
+  <item key="IDS_PleaseInsertIDCard" value="Please insert ID into card slot." />
+
+  <item key="IDS_Processing" value="Processing. Please wait." />
+
+  <item key="IDS_PleaseCheckConfirmIDNumber" value="Please check &amp; confirm your ID card number." />
+  <item key="IDS_ID_Passport" value="ID/Passport No." />
+
+  <item key="IDS_ThankyouTakeDocument" value="Thank you - please take your document to move to next step." />
+  <item key="IDS_ThankyouTakeCard" value="Thank you - please take your card to move to next step." />
+
+  <item key="IDS_PleaseCheckConfirmPersonal" value="Please check &amp; confirm your personal information." />
+  <item key="IDS_FullName" value="Full name" />
+  <item key="IDS_Male" value="Male" />
+  <item key="IDS_Female" value="Female" />
+  <item key="IDS_DOB" value="Date of birth" />
+  <item key="IDS_DateOfIssue" value="Date of Issue" />
+  <item key="IDS_Mobile" value="Mobile" />
+  <item key="IDS_Email" value="Email" />
+  <item key="IDS_PlaceOfIssue" value="Place of issue" />
+  <item key="IDS_Address" value="Address" />
+  <item key="IDS_ConfirmTerm" value="I have read, understood, accepted of terms and conditions of registered account(s) and service(s) accompanied by this Application. Simultaneously, I shall accept any change in terms and conditions provided by the TPBank accordingly." />
+  <item key="IDS_TermsAndConditions" value="Terms and Conditions" />
+  <item key="IDS_ConfirmTermSaving" value="I have read, understood, accepted of terms and conditions of registered account(s) and service(s) accompanied by this Application. Simultaneously, I shall accept any change in terms and conditions provided by the TPBank accordingly." />
+
+  <item key="IDS_ATM_DebitCard" value="ATM/Debit Cards" />
+  <item key="IDS_PleaseSelectCard" value="Please select your card" />
+  <item key="IDS_EBankTransactionValidate" value="eBank Transaction Validation" />
+  <item key="IDS_SMSNoti" value="SMS Transaction Notification" />
+  <item key="IDS_ECounterATM" value="eCounter ATM card" />
+  <item key="IDS_WithoutPicture" value="" />
+  <item key="IDS_VisaDebitCard" value="Visa Debit card" />
+  <item key="IDS_Standard" value="Standard" />
+  <item key="IDS_Gold" value="Gold" />
+  <item key="IDS_Platinum" value="Platinum" />
+
+  <item key="IDS_ECounterATMFee" value="55,000 VND annual fee/year (Included VAT)" />
+  <item key="IDS_IssueFee" value="Issued fee: " />
+  <item key="IDS_VisaDebitStandardFee" value="99,000 VND annual fee/year (Included VAT)" />    
+  <item key="IDS_VisaDebitGoldFee" value="199,000 VND annual fee/year (Included VAT)" />
+  <item key="IDS_VisaDebitPlatinumFee" value="299,000 VND annual fee/year (Included VAT)" />
+  <item key="IDS_VisaDebitFeeSpecialOffer" value="Free first year's annual fee for new Visa Debit Card from 01/10 - 31/12/2019" />
+  <item key="IDS_InstantIssueFee" value="55,000 VND (Included VAT) - Immediately" />
+  <item key="IDS_BranchIssueFee" value="55,000 VND (Included VAT) - After 5 working days" />
+  <item key="IDS_BranchIssue0Fee" value="Free - After 5 working days" />
+  
+  <item key="IDS_SpendLimitAbove100" value="(spending limit above 100 mil VND/day)" />
+  <item key="IDS_SpendLimit150" value="(spending limit 60 mil VND/day)" />
+  <item key="IDS_SpendLimit250" value="(spending limit 100 mil VND/day)" />
+  <item key="IDS_ConfirmSelection" value="Confirm your selection?" />
+  <item key="IDS_CashFreeCardStandard" value="Cash Free Card Standard" />
+  <item key="IDS_CashFreeCardStandardFee" value="Free for the first year" />
+  <item key="IDS_VisaDebitCardStandard" value="Visa debit Card Standard" />
+  <item key="IDS_VisaDebitCardStandardFee" value="Free for the first year" />
+  <item key="IDS_ActivateCardViaInternet" value="Activation of card's payment function via internet" />
+  <item key="IDS_VisaCashFreeCardGold" value="Cash Free Card Gold" />
+  <item key="IDS_VisaCashFreeCardGoldFee" value="Free for the first year" />
+  <item key="IDS_SpendLimit250" value="(spending limit 250 mil VND/day)" />
+  <item key="IDS_VisaDebitCardGold" value="Visa debit Card Gold" />
+  <item key="IDS_VisaDebitCardGoldFee" value="Free for the first year" />
+  <item key="IDS_VisaCashFreeCardPlatinum" value="Cash Free Card Platinum" />
+  <item key="IDS_VisaCashFreeCardPlatinumFee" value="Free for the first year" />
+  <item key="IDS_SpendLimitXXX" value="(spending limit 150 mil VND/day)" />
+
+  <item key="IDS_BranchWillYouCollect1" value="From which TPBank branch" />
+  <item key="IDS_BranchWillYouCollect2" value="will you collect your card?" />
+  <item key="IDS_City" value="City" />
+  <item key="IDS_OptionSelect" value="- Select -" />
+  <item key="IDS_OptionBranch" value="Branch" />
+  <item key="IDS_ATMInsuranceUnavailable" value="ATM issuance service is temporarily unavailable." />
+  <item key="IDS_WeWouldLikeToInformYouThat" value="We would like to inform you that..." />
+  <item key="IDS_YourSelectedInsurance" value="Please select ATM card issuance options." />
+  <item key="IDS_CardWillBeAvailableAfter5WorkingDaysIfPickup" value="(Card will be available after 5 working days if select pick-up at branch)." />
+  <item key="IDS_EndOfTransaction" value="Pick up at the end of transaction" />
+  <item key="IDS_SelectTPBankBranch" value="Select preferred TPBank branch" />
+  <item key="IDS_IssueVTM" value="Issue at VTM" />
+  <item key="IDS_TpbankBranch" value="TPBank branch" />
+  <item key="IDS_YourSelectedAtmCardWillBe" value="Your selected ATM card will be" />
+  <item key="IDS_IssueAtTheEndOfTransaction" value="issue at the end of transaction." />
+  <item key="IDS_PleaseSelectPreferredTPBankBranch" value="Please select preferred TPBank branch" />
+  <item key="IDS_ToPickUpYourDebitCard" value="to pick-up your debit card." />
+  <item key="IDS_ToPickUpYourATMCard" value="to pick-up your ATM card instead." />
+  <item key="IDS_CardWillBeAvailableAfter5WorkingDays" value="(Card will be available after 5 working days)." />
+  <item key="IDS_SelectPickUpLocation" value="Select pick-up location" />
+  <item key="IDS_PickUpLocation" value="Pick-up location" />
+
+	<item key="IDS_PleaseSelectOption" value="Please select your option" />
+	<item key="IDS_OTPValidation" value="OTP-SMS Validation" />
+	<item key="IDS_FreeOTPSMS" value="22,000 VND (included VAT)" />
+	<item key="IDS_SoftTokenValidation" value="Soft Token Validation" />
+	<item key="IDS_FreeSToken" value="Free" />
+
+	<item key="IDS_PleaseEnterConfirmYourMobile" value="Please enter and confirm your mobile phone number" />
+	<item key="IDS_MobilePrimary" value="Mobile (Primary)" />
+	<item key="IDS_Mobile1" value="Mobile 1" />
+	<item key="IDS_Mobile2" value="Mobile 2" />
+	<item key="IDS_Mobile3" value="Mobile 3" />
+	<item key="IDS_SMSTransactionNoti" value="SMS Transaction Notifications" />
+  <item key="IDS_1MoblieSubscribe" value="1 mobile subscriber(s):" />
+	<item key="IDS_2MoblieSubscribe" value="2 mobile subscriber(s):" />
+	<item key="IDS_3MoblieSubscribe" value="3 mobile subscriber(s):" />
+	<item key="IDS_5000VND" value="5,000 VND" />
+
+	<item key="IDS_InformationNeedAuthen" value="Information needs authentication" />
+	<item key="IDS_Yes" value="Yes" />
+	<item key="IDS_No" value="No" />
+	<item key="IDS_FormRecordAndInformation" value="Forms, records and information to be collected" />
+	<item key="IDS_DoYouResidentUS" value="Do you resident in the U.S.?" />
+	<item key="IDS_DoYouGreenCardUS" value=" you have Green Card issued by U.S. Government?" />
+	<item key="IDS_DoYouBirthUS" value="Do you have your Birthplace in U.S.?" />
+	<item key="IDS_DoYouRegularyProvideUS" value="Do you regularly provide instructions to transfer funds to U.S. accounts or regularly receive from a U.S. address?" />
+	<item key="IDS_WhereThereIsOneOrMoreAnswer" value="Where there is one or more answer &quot;Yes&quot; please complete Form W9 or W8 BEN by providing additional documentation and proof under the provisions of FATCA" />
+	<item key="IDS_DoYouAddressUS" value="Do you have a U.S. address (including PO Box address) or phone number in U.S.?" />
+	<item key="IDS_DoYouEffectivePowerUS" value="Do you currently have an effective power of attorney to a person with a U.S. address?" />
+	<item key="IDS_DoYouHaveUSInCareOf" value="Do you have a U.S. &quot;in care of&quot; or &quot;hold mail&quot; address that is the sole address with respect to Account holder?" />
+  <item key="IDS_Notice" value="Notice" />
+  <item key="IDS_WereOneMoreYesNotAllowedToNextStep" value="Were there is one or more answer &quot;Yes&quot; you will not allowed to proceed to next step." />
+
+	<item key="IDS_PleaseLookCamera1" value="Please look at the camera." />
+	<item key="IDS_PleaseLookCamera2" value="When you are ready, our agent will take your picture." />
+
+	<item key="IDS_ScanFingerPrint" value="Scan fingerprint" />
+	<item key="IDS_ScanFingerPrintFailed" value="Scan finger print failed." />
+	<item key="IDS_ScanFingerPrintAgain" value="Do you want to scan fingerprint again?" />
+	<item key="IDS_ToOpenAccountFingerPrint" value="To open this account, we are required to take your fingerprint." />
+  <item key="IDS_RequiredFingerPrint" value="We are required to take your fingerprint." />
+	<item key="IDS_PleaseScan4Times" value="Please scan your finger 4 times - use the same finger each time." />
+
+	<item key="IDS_PleaseReviewConfirmApplication" value="Please review &amp; confirm application." />
+
+	<item key="IDS_PleaseCheckPrintDocument" value="Please check information in the printed document. To confirm, please sign." />
+
+	<item key="IDS_PleaseScanSignDocument" value="Please scan the signed document." />
+
+	<item key="IDS_PleaseConfirmImageScannedCorrect" value="Please review and confirm that image scanned is correct." />
+	<item key="IDS_LiveStreamFromScanner" value="Live stream from scanner, capture image when you are ready." />
+	<item key="IDS_PlsInsDocDropBoxforSavingAccount" value="Please insert the signed document into the drop box." />
+	<item key="IDS_PleaseInsertDocumentDropBox" value="Please insert the signed document into the drop box." />
+	<item key="IDS_AccMaintPlsInsDocDropBox" value="Please insert the signed document into the drop box." />
+	<item key="IDS_PleaseInsertDocumentDropBoxAgain" value="Please insert the signed document into the drop box again." />
+	<item key="IDS_AccMaintPlsInsDocDropBoxAgain" value="Please insert the signed document into the drop box again." />
+	<item key="IDS_PlsDepByIDInsDocDropBoxAgain" value="Please insert the signed document into the drop box again." />
+	<item key="IDS_PleaseInsertDocumentDropBoxForSavingAccount" value="Please insert the signed document into the drop box." />
+	<item key="IDS_PleaseInsertDocumentDropBoxAgainForSavingAccount" value="Please insert the signed document into the drop box again." />
+	<item key="IDS_PleaseInsertDocumentDropBoxForDeposit" value="Please insert the signed document into the drop box." />
+	<item key="IDS_PleaseInsertDocumentDropBoxAgainForDeposit" value="Please insert the signed document into the drop box again." />
+
+	<item key="IDS_YourCurrentAccountOpen" value="Your Current Account is now open &amp; you can immediately deposit funds." />
+	<item key="IDS_TheseDetailEmailTo" value="These details have been emailed to" />
+	<item key="IDS_CustomerNumber" value="Customer Number" />
+  <item key="IDS_AccountHolder" value="Account holder" />
+  <item key="IDS_AccountHolderName" value="Account holder name" />
+	<item key="IDS_AccountNumber" value="Account Number" />
+  <item key="IDS_Depositor" value="Depositor" />
+	<item key="IDS_AccountNO" value="Account no." />
+	<item key="IDS_Amount" value="Amount" />
+	<item key="IDS_Value" value="Value" />
+	<item key="IDS_WouldYouPrintConfirmation" value="Would you like to print confirmation?" />
+
+	<item key="IDS_PrintingReceipt" value="Printing receipt, Please wait." />
+	<item key="IDS_PrintingPleaseWait" value="Printing. Please wait." />
+
+	<item key="IDS_PleaseTakeReciept" value="Please take your receipt." />
+
+	<item key="IDS_DepositNewCurrentAccount" value="Deposit to your new current account?" />
+	<item key="IDS_MakeAnotherTransaction" value="Make another transaction?" />
+	<item key="IDS_MakeAnotherTransactionPart1" value="Make another transaction?" />
+	<item key="IDS_MakeAnotherTransactionPart2" value="" />
+	<item key="IDS_OpenSavingsAccount1" value="Open" />
+	<item key="IDS_OpenSavingsAccount2" value="savings account" />
+
+	<item key="IDS_ThankYouUsingTPBank" value="Thank you for using TPBank Livebank." />
+	<item key="IDS_PleaseRateExperience" value="Please rate your experience today." />
+
+	<item key="IDS_CongratAccountActive" value="Congratulations! Your account is already active." />
+	<item key="IDS_WouldLikeToMakeTransaction" value="Would you like to make other transaction?" />
+	<item key="IDS_CongratSuccessActivated" value="Congratulations! Your card has been successfully activated." />
+	<item key="IDS_YouMayStartUsingCard" value="You may start using your card immediately." />
+
+	<item key="IDS_ApplicationSaveEmailTo" value="This application is saved. Detailed emailed to" />
+
+	<item key="IDS_PleaseContinueBranch" value="Please continue application at branch." />
+
+	<item key="IDS_OutOfService_new" value="Out of service" />
+	<item key="IDS_WeApologizeInconvenience" value="We are apologize for the inconvenience." />
+
+	<item key="IDS_Attention" value="Attention" />
+	<item key="IDS_TransactionFailedTryAgain" value="Transaction failed, please try again." />
+
+	<item key="IDS_DropBoxFullHandSign" value="The drop box is full - please hand the signed document to our representative." />
+	<item key="IDS_PleaseHandSignedDocument" value="Please hand the signed document to our representative." />
+
+	<item key="IDS_WouldLikeSaveApplication" value="Would you like to save &amp; continue this application later?" />
+	<item key="IDS_ThisFunctionIsTemporary" value="This function is temporary unavailable, please contact branch." />
+	
+	<item key="IDS_Button_No" value="No" />
+	
+	<item key="IDS_YouAlreadyHaveCurrentAccount1" value="You already have current account!" />
+	<item key="IDS_YouAlreadyHaveCurrentAccount2" value="If you want to open more current account, please go to TPbank branch directly." />
+	<item key="IDS_YouAlreadyHaveCurrentAccount3" value="Thank you!" />
+
+  <!-- Deposit -->
+  <item key="IDS_ChooseDepositType" value="Deposit to your own account or other account?" />
+  <item key="IDS_PleaseSelectYourDepositOption" value="Please select your deposit option." />
+  <item key="IDS_PleaseSelectYourDepositOption2" value="Please select your deposit option" />
+  <item key="IDS_DepositOtherAccount" value="Other account" />
+  <item key="IDS_DepositOwnAccount" value="Own account" />
+  <item key="IDS_DepositOwnAccount_PascalCase" value="Own Account" />
+  <item key="IDS_DepositOtherAccount_PascalCase" value="Other Account" />
+
+  <item key="IDS_PrintingPleaseWait" value="Printing. Please wait." />
+  <item key="IDS_YouHaveReachedTheMaximumNumber" value="You have reached the maximum number of notes for this deposit." />
+  <item key="IDS_PleaseRemoveExcessNotes" value="Please remove excess notes." />
+
+  <item key="IDS_AccountName" value="Account name" />
+
+  <item key="IDS_SenderPays" value="Sender Pays" />
+  <item key="IDS_ReceiverPays" value="Receiver Pays" />
+  <item key="IDS_ConfirmDeposit" value="Please confirm your deposit." />
+  <item key="IDS_AddMoreMoney" value="Add more money" />
+  <item key="IDS_SenderPayFee" value="Sender pay the fee" />
+  <item key="IDS_ReceiverPayFee" value="Receiver pay the fee" />
+  <item key="IDS_ReceiverReceived" value="Receiver will received" />
+
+  <item key="IDS_DepositTo" value="Deposit to" />
+  <item key="IDS_Recipient" value="Recipient" />
+
+  <item key="IDS_DepositMoney" value="Deposit money" />
+  <item key="IDS_PleaseEnterDepositNote" value="Please enter deposit note" />
+  <item key="IDS_PleaseEnterDepositAmount" value="Please enter deposit amount" />
+  <item key="IDS_TheFundsWillBedeposited" value="" />
+
+  <!-- Deposit Step -->
+  <item key="IDS_DepositStepCard" value="Card" />
+  <item key="IDS_DepositStepPin" value="PIN" />
+  <item key="IDS_DepositStepSelectAccount" value="Select account" />
+  <item key="IDS_DepositStepDepostCash" value="Deposit cash" />
+  <item key="IDS_DepositStepCompletion" value="Completion" />
+  <item key="IDS_DepositIDScan" value="ID scan" />
+  <item key="IDS_DepositStepSignature" value="Signature" />
+  <item key="IDS_DepositStepDropBox" value="Drop box" />
+
+  <item key="IDS_HaveAtmCard" value="Do you have a TPBank ATM card?" />
+  <item key="IDS_HaveOtherAtmCard" value="Do you have a ATM card?" />
+
+  <item key="IDS_PleaseInsertYourCard" value="Please insert your card." />
+
+  <item key="IDS_PleaseEnterYourPin" value="Please enter your PIN." />
+  <item key="IDS_PleaseEnterNewPinAgain" value="Please enter new PIN (Again)." />
+  <item key="IDS_PleaseEnterNewPinActivateCard" value="Please enter new PIN to activate card." />
+  <item key="IDS_PinDoesNotMatch" value="PIN does not match, please enter PIN again." />
+  <item key="IDS_PinIsInvalid" value="PIN is invalid - please try again!" />
+  <item key="IDS_PinIsInvalid1" value="PIN is invalid - please try again! 1 attempt remaining." />
+  <item key="IDS_PinIsInvalid2" value="PIN is invalid - please try again! 2 attempt remaining." />
+  <item key="IDS_PinIsInvalid3" value="PIN is invalid - please try again! 3 attempt remaining." />
+  <item key="IDS_YourPinIsPrivate" value="Your PIN is private – please don’t let others see what you’re keying in." />
+  <item key="IDS_NewPinCantSameOldPin" value="Sorry, new PIN cannot be the same as the old PIN." />
+
+  <item key="IDS_YourCardHasBeenDisabled" value="Your card has been disabled. Remove card." />
+
+  <item key="IDS_PleaseSelectDepositAccount" value="Please select deposit account." />
+  <item key="IDS_Balance" value="Balance" />
+
+  <item key="IDS_PleaseEnterDepositAccountNumber" value="Please enter the deposit account number." />
+  <item key="IDS_Details" value="Details" />
+  <item key="IDS_PleaseConfirmDepositAccount" value="Please confirm the deposit account." />
+  
+  <item key="IDS_PleaseConfirmCardNumberAndCardHolderName" value="Please confirm card number and card holder name." />
+  
+  <item key="IDS_PleaseInsertCashSelectConfirm" value="Please insert cash (200 notes/time) &amp; select confirm." />
+  <item key="IDS_AcceptedNotes" value="Accepted notes:" />
+  <item key="IDS_DepositInsertCashInstruction1" value="Please remove elastic bands," />
+  <item key="IDS_DepositInsertCashInstruction2" value="paper clips, etc." />
+  <item key="IDS_DepositInsertCashInstruction3" value="Deposit up to 200 notes per transaction." />
+  <item key="IDS_DepositInsertCashInstruction4" value="200 notes at a time" />
+
+  <item key="IDS_CountingNotesPleaseWait" value="Counting notes. Please wait." />
+
+  <item key="IDS_PleaseTakeRejectedsNotes" value="Please take rejected notes." />
+
+  <item key="IDS_CountResult" value="Count result" />
+  <item key="IDS_CountResultDenomination" value="Denomination" />
+  <item key="IDS_CountResultQuantity" value="Quantity" />
+  <item key="IDS_CountResultAmount" value="Amount" />
+  
+  <item key="IDS_SenderRemaining" value="Your remaining" />
+  <item key="IDS_DepositFee" value="Deposit fee" />
+  <item key="IDS_PayingFee1" value="There will be " />
+  <item key="IDS_PayingFee2" value="fee applies. How would you like to pay the fee?" />
+  <item key="IDS_YourAmountForTransferSufficient" value="Sorry, your amount has insufficient funds for deposit." />
+
+  <item key="IDS_DepositSuccess" value="Deposit success" />
+  <item key="IDS_WouldYouLikeToPrintReceipt" value="Would you like to print a receipt?" />
+  <item key="IDS_DepositAmount" value="Deposit amount" />
+  <item key="IDS_NetDeposit" value="Net deposit" />
+  <item key="IDS_NetDepositAmount" value="Net Deposit amount" />
+  <item key="IDS_NewBalance" value="New balance" />
+  <item key="IDS_DepositNote" value="Deposit note" />
+
+  <item key="IDS_ProcessingPleaseWait" value="Processing. Please wait." />
+  <item key="IDS_PrintingReceiptPleaseWait" value="Printing receipt. Please wait." />
+
+  <item key="IDS_PleaseTakeYourReceipt" value="Please take your receipt." />
+  <item key="IDS_PleaseRemoveCardToContinue" value="Please remove card to continue." />
+  <item key="IDS_BeneficiaryName" value="Beneficiary Name" />
+  <item key="IDS_BeneficiaryAccount" value="Beneficiary Name" />
+
+  <!-- open saving account -->
+  <item key="IDS_OpenSavingsAccount" value="Open savings account" />
+
+  <item key="IDS_PleaseInsertATMContinue" value="Please insert TPBank ATM card to continue." />
+  <item key="IDS_OrContinueWith" value="or continue with" />
+
+  <item key="IDS_PleaseSelectSavingTerm" value="Please select saving term." />
+  <item key="IDS_Term" value="Term" />
+  <item key="IDS_Interest" value="Interest" />
+  <item key="IDS_ValueDate" value="Value date" />
+  <item key="IDS_MaturityDate" value="Maturity date" />
+  <item key="IDS_InterestPaymentMethod" value="Interest payment method" />
+  <item key="IDS_InterestPaymentToCurrentAccount" value="Interest payment to current account number" />
+  <item key="IDS_TotalAmountInFigures" value="Amount in figures" />
+  <item key="IDS_EstimateInterest" value="Estimate interest" />
+  <item key="IDS_RenewalMode" value="Renewal mode" />
+  <item key="IDS_RenewalOption1" value="Renew both principal and interest." />
+  <item key="IDS_RenewalOption2" value="Renew principal, credit interest to my TPBank Current Account." />
+  <item key="IDS_RenewalOption31" value="Don't renew." />
+  <item key="IDS_RenewalOption32" value="Credit principal and interest to my TPBank Current Account." />
+  <item key="IDS_AutoRenewalOriginalInterest" value="*Auto renewal will automatically renew original and interest." />
+
+  <item key="IDS_OPTION_1WEEK" value="1 Week" />
+  <item key="IDS_OPTION_2WEEK" value="2 Weeks" />
+  <item key="IDS_OPTION_3WEEK" value="3 Weeks" />
+  <item key="IDS_OPTION_1MONTH" value="1 Month" />
+  <item key="IDS_OPTION_2MONTH" value="2 Months" />
+  <item key="IDS_OPTION_3MONTH" value="3 Months" />
+  <item key="IDS_OPTION_6MONTH" value="6 Months" />
+  <item key="IDS_OPTION_9MONTH" value="9 Months" />
+  <item key="IDS_OPTION_12MONTH" value="12 Months" />
+  <item key="IDS_OPTION_18MONTH" value="18 Months" />
+  <item key="IDS_OPTION_24MONTH" value="24 Months" />
+  <item key="IDS_OPTION_32MONTH" value="36 Months" />
+
+  <item key="IDS_OPTION_Maturity" value="Maturity" />
+
+  <item key="IDS_OPTION_AutoRenewal" value="Auto renewal" />
+
+  <item key="IDS_MaxNoteExceeded" value="Max notes exceeded." />
+
+  <item key="IDS_TotalAmoutDeposit" value="Total amount deposit:" />
+  <item key="IDS_SystemAutoDeductOverdraft" value="* The system will automatically deduct your deposit if you have overdue overdraft." />
+
+  <item key="IDS_YouHaveOverdueToProceed" value="You have an overdue overdraft, if you wish to proceed" />
+  <item key="IDS_WeDeductOverdueFromDeposit" value="we will deduct overdue overdraft from your cash deposit." />
+  <item key="IDS_CashDeposit" value="Cash deposit" />
+  <item key="IDS_OutstandingOverdraft" value="Outstanding overdraft" />
+  <item key="IDS_TotalDeposit" value="Total deposit" />
+  <item key="IDS_WouldYouLikeToPreceed" value="Would you like to proceed?" />
+
+  <item key="IDS_PleaseVerifySavingTerm" value="Please verify and confirm saving term." />
+
+  <item key="IDS_AreYouSureToCancel" value="Are you sure you want to cancel?" />
+  <item key="IDS_AreYouSureToExit" value="Are you sure you want to exit?" />
+
+  <item key="IDS_Transaction" value="Transaction" />
+  <item key="IDS_TransactionCancel" value="Transaction cancelled." />
+
+  <item key="IDS_YourSavingAccountOpen" value="Your saving account is now open." />
+  <item key="IDS_SavingAccountNumber" value="Saving account number" />
+
+  <item key="IDS_ThankYouRemoveCard" value="Thank you - please remove card." />
+  <item key="IDS_YouNeedCurrentAccountToOpenSaving" value="You need TPBank current account to open saving account." />
+  <item key="IDS_SelectAccountWithdraw" value="Please select account to withdraw" />
+
+
+  <!-- Withdrawal -->
+
+  <!-- Withdrawal Step -->
+  <item key="IDS_WithdrawalStepCard" value="Card" />
+  <item key="IDS_WithdrawalStepPin" value="PIN" />
+  <item key="IDS_WithdrawalStepSelectAccount" value="Select account" />
+  <item key="IDS_WithdrawalStepAmount" value="Amount" />
+  <item key="IDS_WithdrawalStepTakeCash" value="Take cash" />
+  <item key="IDS_WithdrawalStepCompletion" value="Completion" />
+
+  <item key="IDS_PleaseSelectWithdrawAccount" value="Please select withdraw account" />
+  <item key="IDS_WithdrawComplete" value="Withdraw complete" />
+  <item key="IDS_WithdrawalComplete" value="Withdrawal complete" />
+  <item key="IDS_SuccessDeposit" value="Successfully deposit" />
+  <item key="IDS_NetWithdrawAmount" value="Net Withdraw amount" />
+  <item key="IDS_NetWithdrawalAmount" value="Net Withdrawal amount" />
+  <item key="IDS_WithdrawAmount" value="Withdraw amount" />
+  <item key="IDS_WithdrawalAmount" value="Withdrawal Amount" />
+  <item key="IDS_Fee" value="Fee" />
+
+  <item key="IDS_YourCardDisabled1" value="Your card has been disabled." />
+  <item key="IDS_YourCardDisabled2" value="Please remove your card and contact a branch to reactivate." />
+
+  <item key="IDS_PleaseTakeYourCash" value="Please take your cash." />
+  <item key="IDS_PleaseSelectAmount" value="Please select amount or enter manually." />
+
+  <item key="IDS_OtherAmount" value="Other amount" />
+
+  <item key="IDS_TheFollowingNotes" value="The following notes are available" />
+  <item key="IDS_MaximumWithdrawal" value="Maximum withdrawal is" />
+  <item key="IDS_YourAccountSufficient" value="Sorry, your account has in sufficient funds for transaction." />
+  <item key="IDS_InsufficientNotes" value="Insufficient notes, please try again." />
+  
+  <item key="IDS_NetworkError" value="Network error" />
+  <item key="IDS_NetworkError1" value="The Teller's service is busy now" />
+  <item key="IDS_NetworkError2" value="Please call back later. Apologize for the inconvenience." />
+  <item key="IDS_PleaseWaitForYourCash" value="Please wait for your cash." />
+  <item key="IDS_CardIsInvalid" value="Sorry, your card is invalid." />
+
+  <item key="IDS_InputCashEmpty" value="Input cash empty. Transaction canceled." />
+  <item key="IDS_CardHasExpired" value="Sorry, you are not allowed to proceed because your card has expired." />
+  <item key="IDS_PleaseUseTPBankATMCard" value="Please use TPBank ATM card." />
+  <item key="IDS_CurrentlyMachineUnable" value="Currently the machine is unable to print the receipt." />
+  <item key="IDS_DoYouWishToContinue" value="Do you wish to continue?" />
+  <item key="IDS_SorryYourDataFailed" value="Sorry, your data failed to be audited" />
+
+  <item key="IDS_ScanQRFailed" value="Scan QR code failed, please hand the signed document to our representative." />
+
+  <item key="IDS_PleaseTakeYourID" value="Please take your ID." />
+
+  <item key="IDS_AgentsBusy" value="All of our agents are currently busy, please try again." />
+
+  <item key="IDS_CancelTransaction" value="Cancel transaction at this stage is not permitted." />
+
+  <item key="IDS_DepositMoreThan200" value="You can input maximum 1000 notes to open savings account,please don't  cancel the transaction" />
+  <item key="IDS_OverdueOverdraft" value="You have an overdue overdraft of 10,000,000 VND, this will be deduct from your cash deposit." />
+  <item key="IDS_OverdueOverdraft1" value="You have an overdue overdraft of" />
+  <item key="IDS_OverdueOverdraft2" value="VND, this will be deduct from your cash deposit. Would you like to proceed?" />
+
+  <item key="IDS_DidNotTakeCard" value="You did not take your card within given time." />
+  <item key="IDS_RetainCardContactBank" value="For safety your card is now retained by the bank, please contact bank." />
+
+  <item key="IDS_DeviceErrorCancelTran" value="Device error. Transaction is now canceled." />
+  <item key="IDS_DeviceErrorTransactionFailed" value="Device error, transaction failed." />
+
+  <item key="IDS_DeviceErrorReturnCash" value="Device error, please take your cash." />
+
+  <item key="IDS_TranCancelReturnCash" value="Transaction canceled, please take your cash." />\
+
+  <item key="IDS_TimeoutReturnCash" value="Transaction timeout, please take your cash." />
+
+  <item key="IDS_WaitRejectingNotes" value="Note is being rejected. Please wait." />
+
+  <item key="IDS_PleaseTakeCash" value="Please take your cash." />
+
+  <item key="IDS_RetractSameSerial" value="Your notes are retracted temporarily due to same serial number detected." />
+
+  <item key="IDS_UnfoldDepositAgain" value="Please unfolding all notes, and deposit again." />
+
+  <item key="IDS_TranCancelReturnCashContactBank" value="Transaction canceled, please take your cash and contact bank." />
+
+  <item key="IDS_HardwareErrorRetract" value="Note has been retracted, please contact the bank." />
+
+  <item key="IDS_NeedOpenCurrentAccount" value="To deposit you need to open TPBank current account." />
+  <item key="IDS_MinimumOpeningDeposit1" value="Minimum opening deposit is" />
+  <item key="IDS_MinimumOpeningDeposit2" value="VND, please deposit more money to open account." />
+
+  <item key="IDS_CannotDepositCash" value="You cannot deposit cash to this account." />
+  <item key="IDS_AvailableNotes" value="Available Notes" />
+
+  <item key="IDS_KeyAmount" value="Key in amount" />
+
+  <item key="IDS_InsufficientNote1" value="This machine can withdraw up to 2,000,000 VND" />
+  <item key="IDS_InsufficientNote2" value="using these available notes." />
+
+  <!-- Enquiries Transaction Menu -->
+  <item key="IDS_MenuTransaction" value="Transaction" />
+  <item key="IDS_TransactionDescription" value="Description" />
+  <item key="IDS_TransactionMoneyIn" value="Money in" />
+  <item key="IDS_TransactionMoneyOut" value="Money out" />
+  <item key="IDS_TransactionMoneyBalance" value="Balance" />
+  <item key="IDS_TransactionID" value="Transaction ID:" />
+  <item key="IDS_NoTransactionResult" value="No transaction result" />
+
+  <item key="IDS_AccNumber" value="Acc number:" />
+
+  <!-- KYC -->
+  <item key="IDS_ConfirmYourIdentity" value="Confirm your identity" />
+
+  <!-- Pin change -->
+  <item key="IDS_PinChange" value="PIN change" />
+  <item key="IDS_Menu_PinChange1" value="PIN" />
+  <item key="IDS_Menu_PinChange2" value="change" />
+
+  <item key="IDS_YourPinHasChangeSuccess" value="Your PIN has been changed successfully." />
+  <item key="IDS_PleaseEnterNewPin" value="Please enter new PIN." />
+
+  <item key="IDS_YouDoNotHaveCurrentAccountPleaseOpen" value="You do not have current account, please open current account." />
+  <item key="IDS_PleaseCompleteKYCToProceedFunction" value="Please complete KYC prior to proceed with account maintenance function." />
+  <item key="IDS_CompleteKYC" value="Complete KYC" />
+  <item key="IDS_YouHaveSuccessUpdateYourInformation" value="You have successfully updated your information." />
+  <item key="IDS_SuccessUpdateYourInformation" value="Successfully updated your information." />
+  <item key="IDS_PleaseChangeYourPINBeforeOperateFunction" value="Please change your PIN before operate this function." />
+
+  <item key="IDS_TPBankNotBeResponseComplain" value="TPBank shall not be responsible when customers complain about the risks arising in relation to account movement and balance in case the customer does not subscribe this service." />
+
+  <!-- Passbook -->
+  <item key="IDS_PassbookSettlement" value="Passbook settlement" />
+  <item key="IDS_PassbookSettlement1" value="Passbook" />
+  <item key="IDS_PassbookSettlement2" value="settlement" />
+  <item key="IDS_TransactionPassbookName" value="Close online savings" />
+  <item key="IDS_YouNotHaveSavingsWouldLikeOpen" value="You do not have savings account. Would you like to open savings account?" />
+  <item key="IDS_SelectAccountWishClose" value="Select the account you wish to close" />
+  <item key="IDS_Menu_PassbookSettlementCurrentAccount" value="Current account to receive the money" />
+
+  <item key="IDS_CloseESavingAccount" value="Close eSaving account" />
+  <item key="IDS_AccountSummary" value="Account summary" />
+  <item key="IDS_SavingType" value="Saving type" />
+  <item key="IDS_DespositIntoAmount" value="Deposit into amount:" />
+  <item key="IDS_InterestRatePerYear" value="Interest rate (per year):" />
+  <item key="IDS_AccruedCreditInterest" value="Accrued credit interest:" />
+  <item key="IDS_IfExpiredEstimate" value="if expired (estimate)" />
+  <item key="IDS_BlockadedAmount" value="Blockaded amount:" />
+  <item key="IDS_BlockadedReason" value="Blockaded reason:" />
+  <item key="IDS_ChooseCurrentAccountToTransfer" value="Choose current account to transfer closing balance" />
+  <item key="IDS_ToContinueSelectAccountToTransfer" value="To continue please select one account to transfer closing balance." />
+
+  <item key="IDS_PleaseConfirmTransferYourClosingBalance" value="Please confirm transfer your closing balance to another account" />
+  <item key="IDS_CloseOnlineSavingAccount" value="Close online saving account" />
+  <item key="IDS_PrincipalAmount" value="Principal amount" />
+  <item key="IDS_InterestAmount" value="Interest amount" />
+  <item key="IDS_AsOfSettlementDate" value="(As of settlement date)" />
+  <item key="IDS_WithdrawalAmount" value="Withdrawal amount" />
+
+  <item key="IDS_SuccessCloseSavingAccount" value="Successfully closed saving account" />
+  <item key="IDS_BeneficiaryAccount" value="Beneficiary account" />
+  <item key="IDS_TransactionCode" value="Transaction code" />
+  <item key="IDS_TransactionDate" value="Transaction date" />
+
+  <!-- Enquiries -->
+  <item key="IDS_CreditEnquiries" value="Credit Enquiries" />
+  <item key="IDS_Status" value="Status" />
+  <item key="IDS_AvailableCredit" value="Available credit" />
+  <item key="IDS_GrantLimit" value="Grant limit" />
+  <item key="IDS_AccountInfo" value="Account info" />
+  <item key="IDS_Statement" value="Statement" />
+  <item key="IDS_PaymentDueDate" value="Payment Due Date" />
+  <item key="IDS_DAYS" value="Day(s)" />
+  <item key="IDS_OnStatementBalance" value="On-statement balance" />
+  <item key="IDS_MinimumPayment" value="Minimum payment" />
+  <item key="IDS_Used" value="used" />
+  <item key="IDS_CreditLimitUsed" value="Credit limit used" />
+  <item key="IDS_CardInformationSummary" value="Card information summary" />
+  <item key="IDS_CardHolder" value="Card holder" />
+  <item key="IDS_CardType" value="Card type" />
+  <item key="IDS_AccountToBeDeducted" value="Account to be deducted" />
+  <item key="IDS_BillingAddress" value="Billing address" />
+  <item key="IDS_PaymentSummary" value="Payment summary" />
+  <item key="IDS_SpentAmount" value="Spent amount" />
+  <item key="IDS_AwaitingSettlement" value="(awaiting settlement)" />
+  <item key="IDS_MinimumRepaymentDue" value="Minimum repayment due" />
+  <item key="IDS_LastPaymentDate" value="Last payment date" />
+  <item key="IDS_PreviousBalance" value="Previous balance" />
+  <item key="IDS_CurrentAccountEnquiries2" value="Current Account Enquiries" />
+  <item key="IDS_SavingAccountEnquiries" value="Saving Account Enquiries" />
+  <item key="IDS_CreditCardEnquiries" value="Credit Card Enquiries" />
+  <item key="IDS_LoanAccountEnquiries" value="Loan Account Enquiries" />
+
+  <item key="IDS_InterestRate" value="Interest rate" />
+  <item key="IDS_AccruedCreditInterestEstimate" value="Accrued credit interest (estimate)" />
+  <item key="IDS_AccountInformationSummary" value="Account information summary" />
+
+  <item key="IDS_TransactionHistoryAccess90Days" value="* Transaction history can be access up to 90 days on your eligible account." />
+  <item key="IDS_From" value="From" />
+  <item key="IDS_To" value="To" />
+  <item key="IDS_RefNo" value="Ref no" />
+
+  <item key="IDS_Month" value="Month" />
+  <item key="IDS_Year" value="Year" />
+  <item key="IDS_January" value="January" />
+  <item key="IDS_February" value="February" />
+  <item key="IDS_March" value="March" />
+  <item key="IDS_April" value="April" />
+  <item key="IDS_May" value="May" />
+  <item key="IDS_June" value="June" />
+  <item key="IDS_July" value="July" />
+  <item key="IDS_August" value="August" />
+  <item key="IDS_September" value="September" />
+  <item key="IDS_October" value="October" />
+  <item key="IDS_November" value="November" />
+  <item key="IDS_December" value="December" />
+
+  <!-- Loan Application -->
+  <item key="IDS_ApplyLoan" value="Apply loan" />
+  <item key="IDS_HomeLoan" value="Home loan" />
+  <item key="IDS_AutoLoan" value="Auto loan" />
+  <item key="IDS_ConsumerLoan" value="Consumer loan" />
+  <item key="IDS_NonSecuredOverdraft" value="Non-secured overdraft" />
+  <item key="IDS_PersonalLoan" value="Personal loan" />
+  <item key="IDS_SecuredOverdraft" value="Secured Overdraft" />
+  <item key="IDS_NonSecuredConsumerLoan" value="Non-secured consumer loan" />
+  <item key="IDS_LoanSecuredByValuablePapers" value="Loan Secured by Valuable Papers" />
+  <item key="IDS_LoanSecuredBySavingBooks" value="Loan Secured by Saving Books" />
+  <item key="IDS_ApplyNow" value="Apply now" />
+  <item key="IDS_SelectLoanYouWishToApply" value="Select loan you wish to apply" />
+  <item key="IDS_HomeLoanDetail" value="xxxx" />
+  <item key="IDS_AutoLoanDetail" value="xxxx" />
+  <item key="IDS_ConsumerLoanDetail" value="xxxx" />
+  <item key="IDS_NonSecuredOverdraftDetail" value="xxxx" />
+  <item key="IDS_SecuredOverdraftDetail" value="xxxx" />
+  <item key="IDS_NonSecuredConsumerLoanDetail" value="xxxx" />
+  <item key="IDS_LoanSecuredByValuablePapersDetail" value="xxxx" />
+  <item key="IDS_LoanSecuredBySavingBooksDetail" value="xxxx" />
+
+  <item key="IDS_ApplyForHomeLoan" value="Apply for Home Loan" />
+  <item key="IDS_PersonalInformation" value="Personal information" />
+  <item key="IDS_Gender" value="Gender" />
+  <item key="IDS_LastName" value="Last Name" />
+  <item key="IDS_MiddleName" value="Middle Name" />
+  <item key="IDS_FirstName" value="First Name" />
+  <item key="IDS_ID_Number" value="ID Number" />
+  <item key="IDS_Nationality" value="Nationality" />
+  <item key="IDS_ID_Type" value="ID Type" />
+  <item key="IDS_NationalID" value="National ID" />
+  <item key="IDS_DrivingLicense" value="Driving License" />
+
+  <item key="IDS_ContactInformation" value="Contact information" />
+  <item key="IDS_HomeCity" value="Home City" />
+
+  <item key="IDS_CreditInformation" value="Credit information" />
+  <item key="IDS_TotalIncomeAnnual" value="Total Income (Annual)" />
+  <item key="IDS_LoanAmount" value="Loan amount" />
+  <item key="IDS_TenorYears" value="Tenor (Years)" />
+
+  <item key="IDS_IConfirmIHaveReadAndAgreeToThe" value="I confirm I have read and agree to the" />
+
+  <item key="IDS_ApplyForAutoLoan" value="Apply for Auto Loan" />
+
+  <item key="IDS_ApplyForConsumerLoan" value="Apply for Consumer Loan" />
+  <item key="IDS_MonthlyIncome" value="Monthly Income (VND)" />
+  <item key="IDS_OptionBelow3Million" value="Below 3 Million" />
+  <item key="IDS_OptionFrom3MillionTo5Million" value="From 3 Million to 5 Million" />
+  <item key="IDS_OptionFrom5MillionTo10Million" value="From 5 Million to 10 Million" />
+  <item key="IDS_OptionOver10Million" value="Over 10 Million" />
+  <item key="IDS_YourPayrollForms" value="Your Payroll Forms" />
+  <item key="IDS_TPBank" value="TP Bank" />
+  <item key="IDS_OthersBank" value="Others Bank" />
+  <item key="IDS_Cash" value="Cash" />
+  <item key="IDS_LoanAmountVND" value="Loan Amount (VND)" />
+  <item key="IDS_ProposedCollateral" value="Proposed Collateral" />
+  <item key="IDS_CanNotProcess" value="Sorry, Can not process temporary." />
+  <item key="IDS_OnCardInvalid" value="Sorry, your card is not valid." />
+
+  <item key="IDS_ApplyForNonSecuredConsumerLoan" value="Apply for Non-secured Consumer Loan" />
+  <item key="IDS_WhereAreYouWorkingNow" value="Where are you working now ?" />
+  <item key="IDS_BusinessAndAdministrativeUnits" value="Business and administrative units" />
+  <item key="IDS_Enterprise" value="Enterprise" />
+  <item key="IDS_SelfEmployed" value="Self Employed" />
+  <item key="IDS_Other" value="Other" />
+
+  <item key="IDS_TownCityYouHavePermanentResidence" value="Town/City You Have Permanent Residence" />
+
+  <item key="IDS_ApplyForOverdraftLoan" value="Apply for Overdraft Loan" />
+  <item key="IDS_YouAreBeingPaidThroughTPBank" value="You are being paid through TP Bank" />
+
+  <item key="IDS_ApplyForNonSecuredOverdraftLoan" value="Apply for Non-secured Overdraft Loan" />
+
+  <item key="IDS_ApplyForLoanSecuredValuablePapers" value="Apply for Loan secured Valuable Papers" />
+  <item key="IDS_EmploymentInformation" value="Employment information" />
+  <item key="IDS_NameOfCompany" value="Name of Company" />
+  <item key="IDS_Profession" value="Profession" />
+  <item key="IDS_EmployerTelephoneNumber" value="Employer Telephone Number" />
+
+  <item key="IDS_ProposedOfLoan" value="Proposed of Loan" />
+  <item key="IDS_OtherSupportingInformation" value="Other Supporting Information" />
+  <item key="IDS_OutstandingLoansToOtherBanks" value="Outstanding loans to other banks (VND)" />
+  <item key="IDS_RequestedLoanAmount" value="Requested loan amount (VND)" />
+
+  <item key="IDS_ApplyForLoanSecuredBySavingBook" value="Apply for Loan secured by Saving Book" />
+
+  <item key="IDS_DoYouHaveAnExistingTPBankCurrentAccount" value="Do you have an existing TPBank Current Account ?" />
+  <item key="IDS_SorryYouAreNotEligibleToApplyForThisLoan" value="Sorry, You are not eligible to apply for this loan." />
+
+  <item key="IDS_ApplyCreditCard" value="Apply Credit Card" />
+  <item key="IDS_ApplyForCreditCard" value="Apply for Credit Card" />
+  <item key="IDS_YouWantToChoosePromotionalCode" value="You want to choose Promotional code ?" />
+  <item key="IDS_StylishTravelSuitcasesFromTPBank" value="Stylish travel suitcases from TP Bank" />
+
+  <item key="IDS_TPBankVisaPlatinum" value="TPBank Visa Platinum" />
+  <item key="IDS_TPBankVisaGold" value="TPBank Visa Gold" />
+  <item key="IDS_TPBankVisaClassic" value="TPBank Visa Classic" />
+  <item key="IDS_MobiFoneTPBankVisaPlatinum" value="MobiFone - TPBank Visa Platinum" />
+
+  <item key="IDS_YourApplicationSubmittedWillContact48Hours" value="Your application has been submitted and our staff will contact you within 48 hours regarding this application." />
+  <item key="IDS_YourApplicationSubmitted" value="Your application has been submitted." />
+  <item key="IDS_ApplicationType" value="Application" />
+  <item key="IDS_ApplicationNumber" value="Application number" />
+  <item key="IDS_ApplicationStatus" value="Application status" />
+
+  <item key="IDS_YourIncome" value="Your Income (VND)" />
+  <item key="IDS_LessThan35Million" value="Less than 35 Million" />
+  <item key="IDS_Over35Million" value="Over 35 Million" />
+  <item key="IDS_OptionSingle" value="Single" />
+  <item key="IDS_OptionMarried" value="Married" />
+  <item key="IDS_OptionDivorce" value="Divorce" />
+  <item key="IDS_Option100Millions" value="100 Millions" />
+  <item key="IDS_Option300Millions" value="300 Millions" />
+  <item key="IDS_Option500Millions" value="500 Millions" />
+  
+  <!-- Enquiries -->
+  <item key="IDS_CurrentBalance2" value="Current balance" />
+  <item key="IDS_AccountType" value="Account type" />
+  <item key="IDS_AccountNumber2" value="Account number" />
+  <item key="IDS_OpenDate" value="Open date" />
+  <item key="IDS_OverdraftLimit" value="Overdraft limit" />
+  <item key="IDS_PerYear" value="Per year" />
+  <item key="IDS_Debit" value="Debit" />
+  <item key="IDS_Credit" value="Credit" />
+
+  <item key="IDS_SavingsAccountEnquiries" value="Savings Account Enquiries" />
+  <item key="IDS_AccountEnquiries" value="Account Enquiries" />
+  <item key="IDS_BlockadedAmount2" value="Blockaded amount" />
+  <item key="IDS_BlockadedReason2" value="Blockaded reason" />
+
+  <item key="IDS_OutstandingLoanBalance" value="Outstanding loan balance" />
+  <item key="IDS_PaidPrincipalAmount" value="Paid principal amount" />
+  <item key="IDS_PaidInterestAmount" value="Paid interest amount" />
+  <item key="IDS_LoanAccount" value="Loan account" />
+  <item key="IDS_ExpiryDate" value="Expiry date" />
+  <item key="IDS_TotalPaymentAmount" value="Total payment amount" />
+  <item key="IDS_MinPaymentAmount" value="Min. payment amount" />
+  <item key="IDS_LastPaidAmount" value="Last paid amount" />
+
+<item key="IDS_RenewPrincipal" value="Renew principal" />
+ <item key="IDS_RenewNothing" value="Don't renew" />
+ <item key="IDS_RenewBoth" value="Renew both principal and interest" />
+ <item key="IDS_Maturity" value="Maturity" />
+ <item key="IDS_InfoNotComplete" value="Your information is not complete,please go to branch to apply open account!" />
+ <item key="IDS_NotIndividualAccount" value="You are not Individual,so can't not open account at VTM!" />
+ <item key="IDS_IssueFeeAtmCard" value="55,000 VND (Included VAT)" />
+ <item key="IDS_IssueFeeVisaCard" value="Free" />
+ <item key="IDS_FreeForCashWithdraw" value="Free for cash withdraw on every ATM in Vietnam and spend in the world." />
+ <item key="IDS_InvalidAccount" value="The information thay you input is not correct. please check again" />
+  <!-- <item key="IDS_InitializeDeviceFormat" value="Initializing {0}" /> -->
+
+  <!-- Sign Up Form -->
+  <item key="IDS_Application" value="Application form" />
+  <item key="IDS_ApplyOnline" value="Apply Online" />
+  <item key="IDS_AutoLoanDesc" value="You want to own even own cars to facilitate travel for himself and his family? Tien Phong Bank support your desire to own cars today with auto loan package incentives, quick procedure." />
+  <item key="IDS_HomeLoanDesc" value="With TPBank's home loan, you can purchase, build, or renovate your dream home with ease and security. All you need is a stable income, because not only can you use a home or residential land you or your relative owns as collateral, but you can also choose to use the house or land you plan to purchase as collateral." />
+  <item key="IDS_ConsumerLoanDesc" value="You can use a TPBank secured consumer loan to receive immediate cash for your next family vacation, pay for your dream wedding, furnishing your home, buying a new TV, a new car, or even just household appliances to make your life more comfortable." />
+  <item key="IDS_BusinessLoan" value="Business loan" />
+  <item key="IDS_BusinessLoanDesc" value="TPBank supports small individual and family businesses by offering competitive business loans to those who want to increase their working capital, and investment." />
+  <item key="IDS_StartUpLoan" value="Start-up loan" />
+  <item key="IDS_StartUpLoanDesc" value='Tien Phong Bank willing to "support" financing to keep you seize every business opportunity and success to the program start-up loans, preferential interest rates, rapid procedures and loan limits up to 1 billion.' />
+  <item key="IDS_NonSecuredConsumerLoanDesc" value="Products meet immediate spending needs your extraordinary individuals, easily pay the loan in the form of monthly payments, but without collateral collateral." />
+  <item key="IDS_NonSecuredOverdraftDesc" value="Tien Phong Bank loan to support you is simple and flexible according to the actual demand." />
+  <item key="IDS_FillFormOfficeContact" value="Please fill in the form, and our officer will contact you back" />
+  <item key="IDS_Phone" value="Phone Number" />
+  <item key="IDS_Occupation" value="Occupation" />
+  <item key="IDS_OptionAdministrative" value="Administrative employee" />
+  <item key="IDS_OptionJointStockCompany" value="Joint Stock Company employee" />
+  <item key="IDS_OptionPrivateEnterprise" value="Private Enterprise employee" />
+  <item key="IDS_OptionSelfEmployed" value="Self-employed" />
+  <item key="IDS_Income" value="Income" />
+  <item key="IDS_OptionBelow5Millions" value="Below 5 Millions" />
+  <item key="IDS_OptionFrom5MillionsTo10Millions" value="From 5 Millions to 10 Millions" />
+  <item key="IDS_OptionFrom10MillionsTo15Millions" value="From 10 Millions to 15 Millions" />
+  <item key="IDS_OptionOver10Millions" value="Over 10 Millions" />
+  <item key="IDS_OptionOver15Millions" value="Over 15 Millions" />
+  <item key="IDS_Loan" value="Select Loan" />
+  <item key="IDS_OptionAutoLoan" value="Auto Loan" />
+  <item key="IDS_OptionHomeLoan" value="Home Loan" />
+  <item key="IDS_OptionConsumerLoan" value="Consumer Loan" />
+  <item key="IDS_OptionBusinessLoan" value="Business Loan" />
+  <item key="IDS_OptionStartUpLoan" value="Start-up Loan" />
+  <item key="IDS_OptionNonSecuredConsumerLoan" value="Non-secured Consumer Loan" />
+  <item key="IDS_OptionNonSecuredOverdraft" value="Non-secured Overdraft" />
+  <item key="IDS_FormPayment" value="Form of payment" />
+  <item key="IDS_OptionBankTransfer" value="Bank Transfer" />
+  <item key="IDS_Creditcard" value="Credit card" />
+  <item key="IDS_OptionVisa"  value="Visa" />
+  <item key="IDS_OptionMaster"  value="Master" />
+  <item key="IDS_OptionMobiFoneVisaPlatinum"  value="MobiFone Visa Platinum" />
+  <item key="IDS_Visa"  value="Visa" />
+  <item key="IDS_VisaCard"  value="Visa card" />
+  <item key="IDS_VisaDesc"  value="Spend freely, global deals. Get bonus points for each card spending to redeem miles or more flying Vietnam Airlines attractive gifts." />
+  <item key="IDS_Master"  value="Master" />
+  <item key="IDS_MasterCard"  value="Mastercard" />
+  <item key="IDS_MasterDesc"  value="The credit card will not only help you open a world of privileges and rights but also gives you the opportunity to further connect with other leaders." />
+  <item key="IDS_MobiFoneVisaPlatinum"  value="MobiFone Visa Platinum" />
+  <item key="IDS_MobiFoneVisaPlatinumDesc"  value="Members of MobiFone's “Ket noi dai lau” programme at the Titan level or above can double their benefits by applying for a MobiFone – TPBank Visa Platinum card." />
+  <item key="IDS_Insurance"  value="Select Insurance" />
+  <item key="IDS_OptionAuto"  value="Auto Care" />
+  <item key="IDS_OptionHome"  value="Home Care" />
+  <item key="IDS_OptionCredit"  value="Credit Life" />
+  <item key="IDS_OptionHealth"  value="Health Care" />
+  <item key="IDS_OptionOther"  value="Other" />
+  <item key="IDS_OtherArea"  value="Other area" />
+  <item key="IDS_OptionMale"  value="Male" />
+  <item key="IDS_OptionFemale"  value="Female" />
+  <item key="IDS_Marriage"  value="Marriage Status" />
+  <item key="IDS_SumInsurance"  value="Summary insured" />
+  <item key="IDS_Cancercover"  value="Cancer cover" />
+  <item key="IDS_OptionHanoi"  value="Hanoi" />
+  <item key="IDS_OtherDesc"  value="Customers to propose their needed" />
+  <item key="IDS_LoanPurpose"  value="Loan purpose" />
+  <item key="IDS_InsurancePurpose"  value="Insurance Purpose" />
+  <item key="IDS_HouseType"  value="House types" />
+  <item key="IDS_Required" value="*This field is required."/>
+  <item key="IDS_EnterAmount" value="*This field should not be 0"/>
+  <item key="IDS_TextOnly" value="Please enter only text"/>
+  <item key="IDS_VietMobile" value="Vietnamese Mobile Number"/>
+  <item key="IDS_VietMobileShort" value="VN mobile number"/>
+  <item key="IDS_NotAFormatPhone" value="Please enter your mobile number start with 0 and without"/>
+  <item key="IDS_NotAFormatPhone2" value="spaces in this format 09y xxx xxxx (or) 01yy xxx xxxx"/>
+  <item key="IDS_RefusedNoteToomuch" value="Sorry, your notes has been refused too many!" />
+  <item key="IDS_ApplicationFormDesc1" value="We just need the following information" />
+  <item key="IDS_ApplicationFormDesc2" value="Please fill out your details below to complete the application." />
+  <item key="IDS_ApplicationFormDesc3" value="You'll get a chance to double-check everything later on." />
+  <item key="IDS_ConfirmDetails" value="Please confirm your details are correct." />
+  <item key="IDS_OptionLess10Millions" value="Less than 10 Millions" />
+  <item key="IDS_Option10to50Millions" value="10 - 50 Millions" />
+  <item key="IDS_Option50to100Millions" value="50 - 100 Millions" />
+  <item key="IDS_OptionMore100Millions" value="More than 100 Millions" />
+  <item key="IDS_PolicyTime" value="Policy Time" />
+  <item key="IDS_6years" value="6 Years" />
+  <item key="IDS_6to12years" value="6 - 12 Years" />
+  <item key="IDS_OverLifeTime" value="Over life time" />
+  <item key="IDS_HealthIncluded" value="Health Insurance Included" />
+  <item key="IDS_SelectYour" value="Please select your" />
+  <item key="IDS_Payment2" value="Payment" />
+  <item key="IDS_PreferredAnnualPremium" value="Preferred annual premium" />
+
+  <!-- Enquiries Form -->
+  <item key="IDS_CurrentCredit"  value="Current Credit" />
+  <item key="IDS_PleaseSavingAccount"  value="Please select saving account" />
+  <item key="IDS_PleaseCurrentAccount" value="Please select current account" />
+  <item key="IDS_PleaseYourAccount" value="Please select your account" />
+  <item key="IDS_PleaseCreditCard" value="Please select credit card" />
+  <item key="IDS_TitleAvailableCredit" value="Available credit" />
+  <item key="IDS_PleaseLoanAccount" value="Please select loan account" />
+  <item key="IDS_CardNumber" value="Card number : " />
+
+  <!-- Common-->
+  <item key="IDS_YouNotHaveCreditCardWouldLikeOpen" value="You do not have credit card. Would you like to apply for credit card?" />
+  <item key="IDS_YouNotHaveLoanAccountWouldLikeOpen" value="You do not have loan account.  Would you like to apply for loan?" />
+  <item key="IDS_PleaseTakeYourDocument" value="Please take your document" />
+  <item key="IDS_ContactAgentRecord" value="Please note that this conversation will be recorded." />
+  <item key="IDS_TakeNewATM" value="Please take your new ATM card." />
+  <item key="IDS_CardPrinting" value="Please wait while your card is printing." />
+  <item key="IDS_InsufficientFund" value="Sorry, "/>
+  <item key="IDS_InsufficientFund2" value="You have insufficient funds available in your account." />
+
+  <!--home_menu-->
+  <item key="IDS_Account" value="Account"/>
+  <item key="IDS_UpdateDetails" value="Update your details"/>
+  <item key="IDS_Menu_SavingAccount" value="Saving Account" />
+  <item key="IDS_ComingSoon" value="Coming soon features" />
+
+  <!--home_submenu-->
+  <item key="IDS_loans_products" value="Loans products"/>
+  <item key="IDS_Insurance" value="Insurance" />
+
+  <!-- insurance -->
+  <item key="IDS_AutoCare" value="Auto care" />
+  <item key="IDS_AutoCareDesc" value="A lot can happen on the road,  auto care insurance gives you more coverage. Everywhere you go, you can be sure that you’ll be provided with the most attentive and reliable service." />
+  <item key="IDS_HomeCare" value="Home care" />
+  <item key="IDS_HomeCareDesc" value="Protect your home and your valuables from all risks with home care protection plans. You will be provided with the accommodating Happy Living."/>
+  <item key="IDS_CreditLife" value="Credit life" />
+  <item key="IDS_CreditLifeDesc" value="We provide financial security for your loved ones when you no longer can. Life insurance can be used to settle debts, outstanding loans and other financial costs as well as leaving a legacy." />
+  <item key="IDS_HealthCare" value="Health care" />
+  <item key="IDS_HealthCareDesc" value="Life is full of risks but your health-care shouldn’t be one of them. Protect yourself against unexpected medical expenses with our medical protection plans." />
+  <item key="IDS_LoanCreditInsurance"  value="Loans, credit card &amp; insurance" />
+  <item key="IDS_HomeMenuPayment"  value="Payment" />
+  <item key="IDS_Topup" value="Top up" />
+  <item key="IDS_Billing" value="Billing" />
+  <item key="IDS_ActiveATMCard" value="Active ATM Card" />
+  <item key="IDS_HouseLand" value="House on land" />
+  <item key="IDS_Apartment" value="Apartment" />
+  <item key="IDS_ProjectName" value="Name of project" />
+  <item key="IDS_Producer" value="Producer" />
+  <item key="IDS_CarLoan" value="Car loan" />
+  <item key="IDS_OtherLoan" value="Other loan" />
+  <item key="IDS_CarPhysical" value="Car physical" />
+  <item key="IDS_New" value="New" />
+  <item key="IDS_Old" value="Old" />
+  <item key="IDS_LoanType" value="Loan type" />
+  <item key="IDS_Secured" value="Secure" />
+  <item key="IDS_Unsecured" value="Unsecure" />
+  <item key="IDS_ChildNo" value="No. of children" />
+  <item key="IDS_LoanPeriodMonth" value="Loan period (Months)" />
+  <item key="IDS_SelectGender" value="Select gender" />
+  <item key="IDS_AgeRange20_70" value="Age should be in range 20 - 70 years" />
+  <item key="IDS_DeliveryTime" value="Delivery time" />
+
+  <!-- confirm_select_card -->
+  <item key="IDS_ChangeInformationRegister" value="Change information/register service" />
+
+  <!-- transaction-->
+  <item key="IDS_NoTransaction" value="No transaction" />
+  <item key="IDS_SelectViewTransaction" value="Please select desired date and click search to view transaction" />
+  <item key="IDS_Ending2390" value="(Ending *2390)" />
+  <item key="IDS_Dormant" value="Dormant"/>
+  <item key="IDS_NoTransactionResultPeriod" value="No Transaction during this period"/>
+
+  <!-- statement-->
+  <item key="IDS_StatementNotFound" value="Statement not found" />
+  <item key="ID_PleaseSelectMonthStatement" value="Please select your month statement to view and print" />
+
+  <!-- select_account_close -->
+  <item key="IDS_SavingAccountNote" value="Note : For Saving Account which is opened through TP Bank branch, Please do contact your branch officer." />
+
+  <!-- Enquiries  -->
+  <item key="IDS_PrintingFee" value="Printing fee 22,000 VND (Including VAT) will be deducted from your account." />
+  <item key="IDS_NotEnoughPrintingFee" value="Your selecting account is not enough money to deduct printing fee." />
+  <item key="IDS_DoYouWishToSelectOtherOne" value="Do you wish to select other one?" />
+
+  <!-- your_info -->
+  <item key="IDS_MobileSecondary" value="Mobile (Secondary)" />
+  <item key="IDS_MobileThirdary" value="Mobile (Third)" />
+  <item key="IDS_CurrentAccountList" value="Current Account List" />
+  <item key="IDS_SavingAccountList" value="Saving Account List" />
+  <item key="IDS_CreditCardList1" value="Credit card" />
+  <item key="IDS_CreditCardList2" value="List" />
+  <item key="IDS_LoanAccountList1" value="Loan Account" />
+  <item key="IDS_LoanAccountList2" value="List" />
+
+  <!-- insert_cash -->
+  <item key="IDS_AddMoreCashUpTp500Million" value="200 notes at a time, you can add more cash up to 500 million VND." />
+
+  <!-- warning_max_note -->
+  <item key="IDS_ReachMaxNote1" value="You have reached the maximum number of 1000 notes deposited." />
+  <item key="IDS_ReachMaxNote2" value="you cannot add more money, please click to continue" />
+  <item key="IDS_OK" value="OK" />
+  
+  <!-- passbook settlement -->
+  <item key="IDS_HavePassbookSettlement" value="There is no saving account now, do you want to open saving account?" />  
+  
+  <!-- jump to Update your infomation-->
+  <item key="IDS_YourMissingDataMsg" value="Now , your missing data : " />  
+  <item key="IDS_UpdateYourInfoOrNot" value="Would you like to update your informations ?" /> 
+  
+    <!-- Account Maintenance-->
+  <item key="IDS_SelectCurrentAccountToLinkedATMCard" value="Select current account number to be linked to ATM Card." />  
+  <item key="IDS_SelectCurrentAccountToLinkedVisaCard" value="Select current account number to be linked to Visa Card." /> 
+  
+  <item key="IDS_TitleAvailableCredit2" value="Available Credit" />
+  <item key="IDS_TitleAvailableCredit3" value="Available balance" />
+  
+    <!-- Common ** SuccessPINChange**-->
+  <item key="IDS_SuccessPINChange" value="PIN changing is successful." />
+  <item key="IDS_DEPOSIT_DEVICEERROR_REJECTCASH" value="Device error." />
+  <item key="IDS_SorryCreateEbankFailed" value="Sorry,Create Ebank account failed" />  
+
+  <!-- transfer -->
+  <item key="IDS_EnterOTP" value="Please enter OTP code" />
+  <item key="IDS_ConfirmNameAndID" value="Please confirm your name &amp; ID are correct." />
+  <item key="IDS_ID_PassportNo" value="ID/Passport No" />
+  <item key="IDS_SelectTransfer" value="Please select your transfer option" />
+  <item key="IDS_BankAccountNo" value="Bank Account No." />
+  <item key="IDS_CardNo" value="Card No." />
+  <item key="IDS_BankAccount" value="Bank account" />
+  <item key="IDS_CardNumber2" value="Card number" />
+  <item key="IDS_PleaseEnterAccountHolderName" value="Please enter account holder name" />
+  <item key="IDS_PleaseEnterAccountNumber" value="Please enter account number" />
+  <item key="IDS_PleaseEnterTransferAmount" value="Please enter transfer amount" />
+  <item key="IDS_TheFundsWillBeTransferred" value="" />
+  <item key="IDS_SendingFrom" value="Sending from" />
+  <item key="IDS_ChooseAnAccountToTransfer" value="Choose an account you wish to transfer" />
+  <item key="IDS_TransferAmountTitle" value="Transfer amount" />
+  <item key="IDS_TransactionNote" value="Transaction note" />
+  <item key="IDS_TransactionFee" value="Transaction fee" />
+  <item key="IDS_FeeApplyPayment" value="A fee applies when you send payments to another bank." />
+  <item key="IDS_LearnMore" value="Learn more" />
+  <item key="IDS_PleaseEnterTransactionNote" value="Please enter transaction note" />
+  <item key="IDS_PleaseEnterCardNumber" value="Please enter card number" />
+  <item key="IDS_TPBankHead" value="TPBank" />
+  <item key="IDS_OtherBanks" value="Other banks" />
+  <item key="IDS_TransferSuccess2" value="Transfer success" /> 
+  <item key="IDS_TransferTo" value="Transfer to" />
+  <item key="IDS_RecipientAccount" value="Recipient account" />
+  <item key="IDS_TransferAmount2" value="Transfer amount" />
+  <item key="IDS_TotalAmount" value="Total amount" />
+  <item key="IDS_FromAccount" value="From account" />
+  <item key="IDS_TransferFunds" value="To transfer funds, please register/update your mobile number with TPBank." />
+  <item key="IDS_NoAccount" value="No Account" />
+  <item key="IDS_UpdateMobileNum" value="Would you like to update your mobile number?" />
+  <item key="IDS_SelectCity" value="Please select a city" />
+  <item key="IDS_FilterRegion" value="Filter city by region" />
+  <item key="IDS_SelectBranch1" value="Please select your" />
+  <item key="IDS_SelectBranch2" value="branch in " />
+  <item key="IDS_PleaseSelectYourTpbankBranch" value="Please select your TPBank branch in " />
+  <item key="IDS_PleaseEnterAccountNumber" value="Please enter account number" />
+  <item key="IDS_ErrorOTP" value="Invalid OTP number, please try again" />
+  <item key="IDS_PlsConfirmInfo" value="Please confirm the information." />
+  <item key="IDS_InputHolderPlsConfirmInfo" value="Please input account holder name and press confirm button to go to next step or press back button to change account number." />
+  <item key="IDS_PleaseEnterDeliverAddress" value="Please input account holder name and press confirm button to go to next step or press back button to change account number." />
+  <item key="IDS_DeliverAddress" value="Delivery address" />
+  <item key="IDS_SelectDeliverAddress" value="Select delivery address" />
+  <item key="IDS_TransferFee" value="Transaction fee (included VAT)" />
+  <item key="IDS_RecipientTotalAmount" value="Total Amount" />
+  <item key="IDS_TransferYourAmountOverLimit1" value="Sorry, your amount is over limitation per transaction." />
+  <item key="IDS_TransferYourAmountOverLimit2" value="Transfer amount is under 30.000.000 VND per transaction." />
+  <item key="IDS_transactionNote" value="Transfer note" />
+  
+  <!-- billing -->
+  <item key="IDS_PleaseSelectElectricProvider" value="Please select your electric provider" />
+  <item key="IDS_EvnHaNoi" value="EVN Ha Noi" />
+  <item key="IDS_EvnNorthern" value="EVN Northern" />
+  <item key="IDS_EvnSouthern" value="EVN Southern" />
+  <item key="IDS_EvnCentral" value="EVN Central" />
+  <item key="IDS_EvnHcmc" value="EVN HCMC" />
+  <item key="IDS_PowerCorporation" value="Power Corporation" />
+  <item key="IDS_PleaseEnterCustomerCode" value="Please enter your customer code" />
+  <item key="IDS_PleaseSelectPaymentOption" value="Please select your payment option" />
+  <item key="IDS_Step_Billing" value="Billing" />
+  <item key="IDS_DebitAccount" value="Debit account" />
+  <item key="IDS_Payer" value="Payer" />
+  <item key="IDS_ForPaymentOf" value="For Payment of" />
+  <item key="IDS_Provider" value="Provider" />
+  <item key="IDS_CustomerCode" value="Customer code" />
+  <item key="IDS_BillingType" value="Billing type" />
+  <item key="IDS_OldestPendingBill" value="Oldest pending bill" />
+  <item key="IDS_PleaseDepositAtLeast" value="Please deposit at least" />
+  <item key="IDS_RemainingCurrentAcc" value="remaining will transfer to your current account." />
+  <item key="IDS_YouHaveTotalDueOf" value="You have total due of" />
+  <item key="IDS_PleaseDepositMore" value="Please deposit more" />
+  <item key="IDS_ChooseAccountDeposit" value="Please select account no to get remaining amount" />
+  <item key="IDS_PaidSuccess" value="Paid success" />
+  <item key="IDS_TotalAmount" value="Total amount" />
+  <item key="IDS_FromAccount" value="From account" />
+  <item key="IDS_RemainingDeposit" value="Remaining deposit" />
+  <item key="IDS_ToAccount" value="To account" />
+  <item key="IDS_ElectricityVN" value="Electricity of Vietnam" />
+  <item key="IDS_BillNotExisted" value="The bill doesn't exist, please check again." />
+  <item key="IDS_BillEmailError" value="This Email address is used, please use another one." />
+  <item key="IDS_BillPhoneError" value="This number cannot be used for registration, please use another one." />
+  <item key="IDS_BillBallanceNotEnough" value="Account's balance is not enough money to do transaction." />
+  <item key="IDS_BillExpired" value="This bill number was expired, please check again." />
+  <item key="IDS_BillDepositedError" value="Amount is not correct, please contact TPBank's hotline 1800585885 for more detail" />
+  <item key="IDS_BillNotExisted2nd" value="The bill number is not exist, please check again." />
+  <item key="IDS_BillPaid" value="The Bill was paid, please check again." />
+  <item key="IDS_BillInvalid" value="The Bill number is not correct, please check again." />
+  <item key="IDS_BillInvalidAccount" value="Your account number is invalid, please check again or reach 1800585885 for more detail" />
+  <item key="IDS_BillBallanceNotEnough2nd" value="The account is not enough money to do transaction." />
+  <item key="IDS_BillDepositedNotes" value="The amount must be multiple of 50000 VND,please check and deposit more." />
+  <item key="IDS_BillInvalidProviderService" value="There is 1 error from billing's provider, please try again later." />
+  <item key="IDS_BillDuplicatedRefCode" value="xref no is duplicated" />
+  <item key="IDS_BillUpgradeProviderService" value="Service provider is upgrading system, please try again later." />
+  <item key="IDS_BillExecutedErrorCode" value="{0}" />
+  <item key="IDS_WDNonCardNeedOpenCurrentAccount" value="You have to open current account at TPBank to do transaction." />
+  <item key="IDS_BillingYouNeedCurrentAccount" value="You have to open current account at TPBank to do transaction." />  
+  <item key="IDS_WithdrawalNotEnough" value="Your account is not enough for this transaction, please select another amount" />
+  <item key="IDS_WDNonCardNotEnoughMoney" value="Your account is not enough money to do this transaction, please check again." />
+  <item key="IDS_DeviceErrorIssueNoNameAtmCard" value="Device error, ATM issuance service is temporarily unavailable." />
+  <item key="IDS_DepositInvalidAccount" value="Please go to TPBank's branch to do transaction." />
+  <item key="IDS_RecipientTotalAmount_Billing" value="Total Amount" />
+  <item key="IDS_BankAccountNo_Billing" value="Bank Account No" />
+  <item key="IDS_NoOrInCorrectPositonCard" value="Live bank do not support issue card. Please choose issue card via branch" />
+   <item key="IDS_IssueNoNameCardCapture" value="Time out, card is captured. Please contact VTM teller for support" />
+  <!-- Transfer-->
+  <item key="IDS_TransferAccountInvalid" value="The Account number is invalid." />
+  <item key="IDS_TransferCardInvalid" value="The code is invalid." />
+  <item key="IDS_TransferCardError" value="Your card is error" />
+  <item key="IDS_TransferTxnInvalid" value="The transaction is invalid." />
+  <item key="IDS_TransferMoneyInvalid" value="Amount is invalid" />
+  <item key="IDS_TransferCardAccountInvalid" value="The account/card number doesn't exist." />
+  <item key="IDS_TransferBankInvalid" value="Bank is invalid." />
+  <item key="IDS_TransferDataInvalid" value="Error in data format." />
+  <item key="IDS_TransferRemainNotEnough" value="The amount is not enough money to do transaction." />
+  <item key="IDS_TransferCardLock" value="This card is locked temporarily." />
+  <item key="IDS_TransferCardAccountExpired" value="Card/account number was expired." />
+  <item key="IDS_TransferCardExpired" value="The card number was expired." />
+  <item key="IDS_TransferAccountLock" value="The account number is locked temporarily." />
+  <item key="IDS_TransferTxnTimeOut" value="Transaction timeout." />
+  <item key="IDS_TransferPagegateRestrict" value="Paygate blocked this transaction" />
+  <item key="IDS_TransferXrefDuplicated" value="XREF no is duplicated" />
+  <item key="IDS_TransferDataFormatError" value="Data format is not correct." />
+  <item key="IDS_TransferProviderOrFormatError" value="The error comes from provider or message format." />
+  <item key="IDS_TransferYourAmountOverLimit1" value="Sorry, your amount is over limitation per transaction." />
+  <item key="IDS_TransferYourAmountOverLimit2" value="Transfer amount is under 30.000.000 VND per transction." />
+  <!-- Deposit-->
+  <item key="IDS_DepositCardAccountNotExist" value="The Card/account number doesn't exist." />
+  <item key="IDS_DepositCardOrAccountInvalid" value="The Card/account number is invalid." />
+  <item key="IDS_DepositCardAccountEnquiryError" value="The system cannot find the information mapped to this card/account number." />
+  <item key="IDS_WDNonCardNeedOpenCurrentAccount" value="You have to open current account at TPBank to do transaction." />
+  <item key="IDS_BillingYouNeedCurrentAccount" value="You have to open current account at TPBank to do transaction." />
+   <item key="IDS_DepositInvalidAccount" value="Please go to TPBank's branch to do transaction." />
+  <item key="IDS_DepositCardAccountInvalid" value="The Card/account number doesn't exist." />
+  
+  <item key="IDS_SpendLimitAboveGold" value="(spending limit 250 mil VND/day)" />
+
+  <item key="IDS_Button_Detail" value="Details" />
+  <item key="IDS_Button_No_Pro" value="No" />
+  <item key="IDS_Button_Yes_Pro" value="Yes, I'm in" />
+  <item key="IDS_Button_Rules" value="Thể lệ chương trình" />
+  <item key="IDS_PleaseSelectPromotion" value="“TẾT LÀ PHÚC LỘC NGẬP TRÀN”" />
+  <item key="IDS_PleaseSelectPromotion1" value="Cảm ơn Quý khách đã tham gia chương trình “TẾT LÀ PHÚC LỘC NGẬP TRÀN”." />
+  <item key="IDS_PleaseSelectPromotion2" value="VỚI 100.000 MÓN QUÀ TỪ TPBANK”" />
+  <item key="IDS_PromotionConent" value="Từ 09/12/2019 đến 29/02/2020"/>
+  <item key="IDS_PromotionConent_1" value="Cơ hội nhận ngay Phiếu mua hàng điện tử VinID trị giá 100,000 VNĐ khi lần đầu tiên gửi tiết kiệm tại TPBank LiveBank." />
+  <item key="IDS_PromotionConent_2" value="Cơ hội tham gia quay thưởng để nhận Phiếu mua hàng điện tử VinID trị giá đến 10 triệu đồng từ ngày 09/12/2019 đến 29/01/2020 hoặc Lì xì may mắn từ ngày 30/01/2020 đến 29/02/2020 khi gửi tiết kiệm tại TPBank LiveBank." />
+  <item key="IDS_PromotionConent_3" value="Cơ hội trúng thưởng Nội thất sang trọng, Chuyến du lịch Singapore, Iphone 11 Promax sành điệu  khi giao dịch tại TPBank LiveBank." /> 
+  <item key="IDS_PromotionConent_4" value="Chúc mừng Quý khách đã nhận được 01 Phiếu mua hàng điện tử VinID trị giá 100,000 VNĐ khi lần đầu tiên tham gia gửi tiết kiệm tại TPBank LiveBank." /> 
+  <item key="IDS_PromotionConent_5" value="Phiếu mua hàng điện tử VinID sẽ được gửi qua SMS tới số điện thoại của Quý khách đăng ký với TPBank trong vòng 48h làm việc. Quý khách vui lòng xem Hướng dẫn sử dụng Phiếu mua hàng điện tử VINID tại Thể lệ chương trình." />
+  <item key="IDS_PromotionConent_6" value="Lưu ý: Sổ tiết kiệm của Quý khách sẽ phong tỏa trong vòng 1 tháng." />
+  <item key="IDS_PromotionConent_7" value="Chúc mừng Quý khách đã nhận được ngay 01 lượt quay thưởng may mắn để có cơ hội trúng thưởng Phiếu mua hàng điện tử VINID trị giá 50.000 VNĐ – 100.000 VNĐ – 300.000 VNĐ – 500.000 VNĐ – 10 triệu đồng." />
+  <item key="IDS_PromotionConent_8" value="Chúc mừng Quý khách đã nhận được ngay 01 lượt quay thưởng may mắn để có cơ hội trúng thưởng Lì xì may mắn trị giá 69,000 VNĐ – 99,000 VNĐ – 199,000 VNĐ." />
+  <item key="IDS_PromotionConent_9" value="Mời Quý khách nhấn nút “Quay thưởng” dưới đây để thực hiện quay thưởng." />
+  <item key="IDS_PromotionConent_10" value="Nếu trúng thưởng, Phiếu mua hàng điện tử VinID sẽ được gửi qua SMS tới số điện thoại của Quý khách đăng ký với TPBank trong vòng 48h làm việc. Quý khách vui lòng xem Hướng dẫn sử dụng Phiếu mua hàng điện tử VINID tại Thể lệ chương trình." />
+  <item key="IDS_PromotionConent_11" value="Lưu ý: Sổ tiết kiệm của Quý khách sẽ phong tỏa trong vòng 2 tháng khi quay trúng thưởng." />
+  <item key="IDS_PromotionConent_12" value="Thật đáng tiếc, sổ tiết kiệm của Quý khách chưa đủ điều kiện nhận thưởng từ chương trình hoặc Quà tặng đã hết." />
+  <item key="IDS_WDNonCardCIFNotExist1" value="Sorry, your CIF is not existed! Please try Re-Scan again or open Account" />
+  <item key="IDS_WDNonCardCIFNotExist2" value="Thank you!" />
+  <item key="IDS_ReScan" value="Re-Scan" />
+  <item key="IDS_OpenAccount" value="Open Account" />
+  <item key="IDS_loans_products1" value="Loan" />
+  <item key="IDS_RemainAmount" value="Remain amount" />
+  <item key="IDS_InsufficientAmount1" value="Sorry, " />
+  <item key="IDS_InsufficientAmount2" value="You have insufficient funds for deposit(included VAT), please input deposit amount again" />
+  <item key="IDS_TransferingFailed1" value="Transaction is failed. The money was deposited into your current account." />
+  <item key="IDS_TransferingFailed2" value="Please select Transfer at the main page to do again or contact Callcenter for more details" />
+  <item key="IDS_EndTransaction" value="Do you want to end the transaction?" />
+  <item key="IDS_RequestOTPAgain" value="Would you like to request OTP generation again?" />
+  <item key="IDS_DepositUndefineError" value="Sorry, card number is not defined" />
+  
+  <!-- Open saving account by transfer money from current account -->
+  <item key="IDS_PleaseSelectSavingOption" value="Please select your saving option" />
+  <item key="IDS_AcountNo_Saving" value="Account No" />
+  <item key="IDS_PleaseEnterSavingAmount" value="Please enter saving amount" />
+  <item key="IDS_InvalidSavingAmount" value="The minimum saving amount is 1,000,000 VND" />
+  <item key="IDS_InvalidISavingAmountEmpty" value="The saving amount can not be empty" />
+  <item key="IDS_SavingBalanceNotEnough" value="Tài khoản không đủ số dư, vui lòng nộp tiền để mở Sổ tiết kiệm" />
+  <item key="IDS_SavingInvalidAccount" value="Quý khách đang có tài khoản đồng sở hữu, vui lòng mở tài khoản thanh toán không phải đồng sở hữu" />
+  <!-- FingerPrintEnrollment -->
+  <item key="IDS_FingerprintMaintenance" value="Fingerprint maintenance" />
+  <item key="IDS_PleaseEnterIDNumber" value="Please enter your card ID number" />
+  <item key="IDS_PleaseEnterPassport" value="Please enter your passport number" />
+  <item key="IDS_PleaseEnterMobile" value="Please enter your mobile number" />
+  <item key="IDS_AddAnother" value="Add another" />
+  <item key="IDS_FingerprintID" value="Fingerprint ID" />
+  <item key="IDS_CompleteFingerPrint1" value="You have completed" />
+  <item key="IDS_CompleteFingerPrint2" value="out of 5 fingerprint scans." />
+  <item key="IDS_EnrollUpToFive" value="You can enroll up to 5 fingerprint scans." />
+  <item key="IDS_CompleteAll5FingerScan" value="You have completed all 5 Fingerprint scans" />
+  <item key="IDS_ScanToReplace" value="Please scan your finger that you would like to replace." />
+  <item key="IDS_SuccessfullyEnrolled" value="Successfully enrolled." />
+  <item key="IDS_MatchSuccessfully" value="Match successfully." />
+  <item key="IDS_EditFingerprint" value="Would you like to edit your fingerprint scans?" />
+  <item key="IDS_EditMyFingerprint" value="Edit my fingerprint scans." />
+  <item key="IDS_FingerprintNotMatch" value="Sorry, Your fingerprint doesn't match any fingerprint scans, please try again." />
+  <item key="IDS_ReplaceSuccessfully" value="Great! your fingerprint is now replace successfully." />
+  <item key="IDS_PleaseScan4TimesToReplace" value="Please scan new fingerprint to replace the current one 4 times - use the same finger each time." />
+  <item key="IDS_PleaseScanFingerprintScanner" value="Please scan your fingerprint in the fingerprint scanner." />
+  <item key="IDS_TryAnotherFinger" value="Please try another finger, you already have this fingerprint template." />
+  <item key="IDS_HaveAttempt1" value="You have" />
+  <item key="IDS_HaveAttempt2" value="attempts left" />
+  <item key="IDS_NotAllowedFingerprintNotMatch1" value="Sorry, you are not allowed to process because" />
+  <item key="IDS_NotAllowedFingerprintNotMatch2" value="fingerprint does not match" />
+  <item key="IDS_ChooseWithdrawalMethod" value="Please choose your withdrawal method from the list below" />
+  <item key="IDS_ATMCard" value="ATM Card" />
+  <item key="IDS_IDDocument" value="ID Document" />
+  <item key="IDS_PassportNumber" value="Passport number" />
+  <item key="IDS_ID" value="ID" />
+  <item key="IDS_OTP" value="OTP" />
+  <item key="IDS_CustomerName" value="Customer name" />
+  <item key="IDS_AskEnrollFingerScan" value="Quý khách chưa có vân tay để thực hiện giao dịch này" />
+  <item key="IDS_AskEnrollFingerprint" value="Có muốn đăng ký vân tay không ?" />
+  <item key="IDS_IsExistedAccount" value="Sorry, Your account number is invalid, please check again or reach 1800585885 for more detail." />
+  <item key="IDS_PleaseCheckConfirmFinger" value="Please check &amp; confirm your ID card number or Phonenumber" />
+  <item key="IDS_CifJoined" value="Tài khoản của Quý khách là tài khoản đồng sở hữu, Quý khách vui lòng ra CN hoặc PGD của TPBank để thực hiện giao dịch" />
+  <item key="IDS_NotSuitableAccount" value="Xin lỗi, tài khoản của Quý khách không đủ điều kiện để rút tiền, Vui lòng liên hệ TBBank để được hỗ trợ" />
+  <item key="IDS_WithdrawalStepScanQR" value="Scan QR" />
+  <item key="IDS_StartedQRAgentFailed" value="Xin lỗi, Hệ thống không thể tạo mã QR, Vui lòng thử lại" />
+  <item key="IDS_Step_QR" value="QR Code" />
+  <item key="IDS_Promotion_Content" value="(*) Sổ tiết kiệm này đang phong tỏa do tham gia chương trình khuyến mại nhận quà của TPBank" />
+  <item key="IDS_GetFingerTemplateError" value="Xin lỗi, Chúng tôi không thể lấy mẫu vân tay ngay lúc này, xin vui lòng cập nhật mẫu vân tay sau" />
+  <item key="IDS_LimitAmountPerDay1" value="Exceeds withdrawal amount limit per day." />
+  <item key="IDS_LimitAmountPerDay2" value="Please contact the bank." />
+  <item key="IDS_AccountLocked" value="Your account has been locked or disabled, please contact TPBank." />
+  <item key="IDS_ATMCardInvalid" value="ATM Card - maintaining" />
+  <item key="IDS_DepositATMorIDPassport" value="Do you deposit by ATM or ID Document/Passport?" />
+  <item key="IDS_TransferATMorIDPassport" value="Do you transfer by ATM TPBank or ID Document/Passport?" />
+  <item key="IDS_BillingATMorIDPassport" value="Do you pay the bill by ATM TPBank or ID Document/Passport?" />
+  <item key="IDS_PassbookSettlementATMorIDPassport" value="Do you settle passbook by TPBank ATM card or ID/Passport?" />
+  <item key="IDS_SavingAcountATMorIDPassport" value="Do you open saving account by TPBank ATM card or ID/Passport or Fingerprint" />
+  <item key="IDS_MaintanceAcountATMorIDPassport" value="Do you maintan account by TPBank ATM card or ID/Passport?" />
+  <item key="IDS_NotReachApplication" value="Sorry, the system can not reach" />
+  <item key="IDS_NotReachApplicationAllowNextProcess" value="Sorry, the system can not reach, Please continue" />
+  <item key="IDS_ShowRequireTermRate" value="Sorry, Term and Rate of saving account is required, please confirm again" />
+  <item key="IDS_InvalidTransferNote" value="Xin lỗi, Vui lòng loại bỏ ký tự đặc biệt" />
+  <item key="IDS_ForBankingOnly" value="Dành cho ngân hàng" />
+  <item key="IDS_SupperAccClassCont" value="TPBank có quyền đơn phương chấm dứt cung cấp dịch vụ bất cứ khi nào và thông báo cho Tôi bằng một trong các hình thức TPBank cho là phù hợp. (TPBank has the right to unilaterally terminate service provision at any time and notify me in one of TPBank's forms as appropriate)" />
+  <item key="IDS_OpenSupperAccountClass" value="Open current account Super Zero class?" />
+  <item key="IDS_SupperConent" value="Miễn phí chuyển tiền liên ngân hàng và nhiều loại phí khác" />
+  <item key="IDS_SupperConent_1" value="Hoàn tiền 1% cho các giao dịch chi tiêu qua Thẻ Visa Debit" />
+  <item key="IDS_SupperConent_2" value="Thông tin chi tiết" />
+  <item key="IDS_Miscode" value="Mã CBNV TPBank/ Mã giới thiệu" />
+  <item key="IDS_SavingTypeOption" value="Vui lòng lựa chọn loại tiết kiệm" />
+  <item key="IDS_Livebank" value="Tiết kiệm Livebank" />
+  <item key="IDS_6M12M" value="TK 6 tháng LS 12 tháng" />
+  <item key="IDS_Interest6Mfirst" value="Lãi suất 6 tháng đầu tiên" />
+  <item key="IDS_Interest6Mnext" value="Lãi suất 6 tháng tiếp theo" />
+  <item key="IDS_RenewPrincipal6M12M" value="Tái tục gốc thêm 6 tháng" />
+  <item key="IDS_ReceiptNote1" value="Let's choose " />
+  <item key="IDS_ReceiptNote2" value="“Don't print the receipt” " />
+  <item key="IDS_ReceiptNote3" value="to save trees and protect our natural" />
+  <item key="IDS_ReceiptNote4" value="Do you know: " />
+  <item key="IDS_ReceiptNote5" value="Every single receipt you use today is made from "/>
+  <item key="IDS_ReceiptNote6" value="the green tree " />
+  <item key="IDS_ReceiptNote7" value="which purified the environment." />
+  <item key="IDS_PrintReceipt" value="Print receipt" />
+  <item key="IDS_DonotPrintReceipt" value="Don't print receipt" />
+  <item key="IDS_ErrorIncompatibleCard" value="Incompatible card, please try again later." />
+  <item key="IDS_CheckKYCNote" value="You already have a non KYC account" />
+  <item key="IDS_CheckKYCNote1" value="Would you like to complete KYC or open Super Zero account?" />
+  <item key="IDS_SuperZeroAcc" value="Open Super Zero account" />
+  <item key="IDS_KycError" value="Error KYC" />
+  <item key="IDS_DepositWarning" value="CAUTION" />
+  <item key="IDS_DepositRight" value="ACCEPTED CONDITIONS" />
+  <item key="IDS_DepositLineUp" value="Cash in bulk" />
+  <item key="IDS_DepositPutIn" value="Cash be placed in Deposit slot" />
+  <item key="IDS_DepositDeno" value="Accepted denominations (VND):" />
+  <item key="IDS_DepositDeno1" value="50.000  - 100.000" />
+  <item key="IDS_DepositDeno2" value="200.000 - 500.000" />
+  <item key="IDS_DepositWrong" value="UNACCEPTED CONDITIONS" />
+  <item key="IDS_DepositCurved" value="Dog-ear, folder, rugate …" />
+  <item key="IDS_DepositTorn" value="Damaged, not intact" />
+  <item key="IDS_DepositWrapping" value="Bundle, stagger, sundries, hair …" />
+  <item key="IDS_DepositConent" value="Please read this instruction carefully." />
+  <item key="IDS_DepositConent_1" value="In case errors occur, the investagation time will be " />
+  <item key="IDS_DepositConent_2" value="3 – 5 working days" />
+  <item key="IDS_Button_Understand" value="I agree" />
+  <item key="IDS_FaceCaptureImage" value="When you are ready, we will take your picture." />
+  <item key="IDS_Face_Identify" value="Face identify" />
+  <item key="IDS_Face_ConfirmFaceInfo" value="Matching face is successful. Please confirm." />
+  <item key="IDS_Face_MatchSuccessful" value="Matching face is successful." />
+  <item key="IDS_Face_FullName" value="Full name :" />
+  <item key="IDS_Face_ID_Passport" value="ID/Passport No. :" />
+  
+</config>

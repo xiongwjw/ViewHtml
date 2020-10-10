@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceManager basePath="Resource" language="CN,EN,VN,TW,FR,DE,KO,AR,UG,DA,TH,RU,IR,IQ,LA,JA,LT,NL,PT,ES,IT,EL,NO,HU,TR,CS,SL,PL,SV" host="localhost">
+	<Text>
+		<Category name="UI"/>
+		<Category name="Error"/>
+		<Category name="ErrorProfessional"/>
+		<Category name="Receipt"/>
+		<Category name="Journal"/>
+		<Category name="Maintenance"/>
+		<Category name="TwinConfig"/>
+		<Category name="TTUConfig"/>
+		<Category name="ErrorCode"/>
+		<Category name="configTool"/>
+		<Category name="ConfigManager"/>
+	</Text>
+	<Image cfg="ImageConfig.xml"/>
+	<Voice cfg="VoiceConfig.xml"/>
+	<Video cfg="VideoConfig.xml"/>
+</ResourceManager>

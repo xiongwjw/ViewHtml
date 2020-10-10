@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <item key="Processing" value="操作正在进行，请稍候..." />
+  <item key="InputPwdWrong" value="密码错误，请重新输入" />
+  <item key="InputPwdEmpty" value="请输入密码" />
+  <item key="LogoutConfirm" value="是否注销当前用户？" />
+  <item key="QuitConfirm" value="是否确定退出维护模式？" />
+  <item key="CloseSafeDoor" value="请关好安全门" />
+  <item key="CloseCabinetDoor" value="请关好机柜门" />
+  <item key="SetOperSwitchRun" value="请把管理员开关置为运行状态" />
+  <item key="Loading" value="加载中..." />
+  <item key="DataLoading" value="数据加载中..." />
+  <item key="BILL" value="只取" />
+  <item key="CASHIN" value="只存" />
+  <item key="RECYCLING" value="循环" />
+  <item key="REJECT" value="废钞" />
+  <item key="RETRACT" value="回收" />
+  <item key="StartExchangeSuccess" value="打开钱箱成功" />
+  <item key="StartExchangeFailure" value="打开钱箱失败" />
+  <item key="EndExchangeSuccess" value="关闭钱箱成功" />
+  <item key="EndExchangeFailure" value="关闭钱箱失败" />
+  <item key="AddCashConfirm" value="请拨出钱箱操作，放回钱箱后按'确定'继续" />
+  <item key="AddCashTip" value="请拨出钱箱操作，放回钱箱后继续" />
+  <item key="NotSupportFunc" value="不支持此功能" />
+  <item key="SetCashUnifInfoConfirm" value="是否确定保存当前设置信息并且清除钱箱原来张数" />
+  <item key="InputDataError" value="输入有误，请重新输入" />
+  <item key="InputNotePaper" value="输入张数后请按确定保存" />
+  <item key="ZeroAddCashConfrim" value="是否确定进行零加钞？" />
+  <item key="ZeroAddCashOper" value="系统正在进行零加钞，请稍候..." />
+  <item key="UpdateCashUnitInfo" value="正在更新钱箱数据" />
+  <item key="SetCashUnitInfoSuccess" value="加钞成功" />
+  <item key="SetCashUnitInfoFailure" value="加钞失败" />
+  <item key="SystemEnvironment" value="系统环境" />
+  <item key="HardDiskInfo" value="当前硬盘空间(可用/容量)" />
+  <item key="MemoryInfo" value="内存使用情况" />
+  <item key="ProcessInfo" value="进程信息" />
+  <item key="OSProductName" value="操作系统" />
+  <item key="MDACVersion" value="MDAC版本" />
+  <item key="ATMCVersion" value="VTMC版本" />
+  <item key="LocalIpAddress" value="本地IP地址" />
+  <item key="TotalPhysicalMemory" value="物理内存" />
+  <item key="AvailablePhysicalMemory" value="可用内存" />
+  <item key="ProcessId" value="进程ID" />
+  <item key="ProcessName" value="进程名称" />
+  <item key="ProcessMemoryInfo" value="内存使用" />
+  <item key="LoadDataFailure" value="加载数据失败" />
+  <item key="ReceiptPrinting" value="正在打印，请稍候..." />
+  <item key="JournalPrinting" value="正在打印，请稍候..." />
+  <item key="PrintReceiptComplete" value="凭条打印完成" />
+  <item key="PrintReceiptError" value="凭条打印失败" />
+  <item key="PrintComplete" value="打印完成" />
+  <item key="PrintError" value="打印失败" />
+  <item key="PrintDoneAsync" value="打印中，按'确定'继续" />
+  <item key="JPTRErrorInfo" value="设备故障，数据将在设备恢复正常后打印，按'确定'后继续操作" />
+  <item key="NoRemovableDisk" value="找不到U盘，请插入U盘" />
+  <item key="ExportSuccess" value="导出成功" />
+  <item key="ExportFailure" value="导出失败" />
+  <item key="ResetSuccess" value="复位成功" />
+  <item key="ResetFailure" value="复位失败" />
+  <item key="InsertCard" value="请插入卡片" />
+  <item key="OperSuccess" value="操作成功" />
+  <item key="OperFailure" value="操作失败" />
+  <item key="PinInitialization" value="初始化键盘密钥" />
+  <item key="ReadRawDataSuccess" value="进卡测试成功" />
+  <item key="ReadRawDataFailure" value="进卡测试失败" />
+  <item key="CardMoved" value="卡片已拿走" />
+  <item key="EjectCardSuccess" value="退卡成功，请拿走测试卡片" />
+  <item key="EjectCardFailure" value="退卡测试失败" />
+  <item key="RetainCardSuccess" value="吞卡测试成功" />
+  <item key="RetainCardFailure" value="吞卡测试失败" />
+  <item key="DeviceStatus" value="设备状态" />
+  <item key="MediaStatus" value="媒体状态" />
+  <item key="RetainCardNum" value="吞卡张数" />
+  <item key="PaperStatus" value="纸质状态" />
+  <item key="PrintSuccess" value="打印成功" />
+  <item key="PrintFailure" value="打印失败" />
+  <item key="ONLINE" value="正常" />
+  <item key="BUSY" value="正常" />
+  <item key="OFFLINE" value="设备脱机" />
+  <item key="POWEROFF" value="设备断电" />
+  <item key="NODEVICE" value="设备不存在" />
+  <item key="HWERROR" value="设备故障" />
+  <item key="ERROR" value="设备故障" />
+  <item key="USERERROR" value="设备故障" />
+  <item key="UNKNOWN" value="未知状态" />
+  <item key="FULL" value="满" />
+  <item key="LOW" value="少纸" />
+  <item key="OUT" value="缺纸" />
+  <item key="JAMMED" value="堵塞" />
+  <item key="NOTSUPP" value="不支持" />
+  <item key="UNKNOWN" value="未知" />
+  <item key="ENTERING" value="入口处" />
+  <item key="LATCHED" value="锁在内部" />
+  <item key="RETRACTED" value="回收" />
+  <item key="PRESENT" value="正常" />
+  <item key="NOTPRESENT" value="无介质" />
+  <item key="EppKeyInputTip" value="请移步到前屏设置主密钥" />
+  <item key="UserCancel" value="操作已取消" />
+  <item key="ImportKeySuccess" value="密钥导入成功" />
+  <item key="ImportKeyFail" value="密钥导入失败" />
+  <item key="BackToMenu" value="请按'确定'键返回" />
+  <item key="ConfirmToContinue" value="请按'确定'继续" />
+  <item key="VerifyValue" value="校验值" />
+  <item key="VerifyValueFormat" value="校验值：{0}" />
+  <item key="ClearKeysFailure" value="清除密钥失败" />
+  <item key="InputKeyUnvalid" value="请输入{0}位的密钥分量" />
+  <item key="InputKeyPart" value="请输入第{0}组密钥分量" />
+  <item key="AddCash" value="加钞" />
+  <item key="QueryCashUnitInfo" value="查询" />
+  <item key="TotalStatistic" value="打印结账" />
+  <item key="CUOK" value="正常" />
+  <item key="CUFULL" value="满" />
+  <item key="CUHIGH" value="将满" />
+  <item key="CULOW" value="将空" />
+  <item key="CUEMPTY" value="空" />
+  <item key="CUINOP" value="不可用" />
+  <item key="CUMISSING" value="不存在" />
+  <item key="CUNOVAL" value="无效" />
+  <item key="CUNOREF" value="无参考值" />
+  <item key="CUMANIP" value="不可用" />
+  <item key="CUTitle" value="============钱箱信息============" />
+  <item key="CUInfo" value="钱箱 类型 面额 加钞 剩余 状态" />
+  <item key="CardTitle" value="============卡箱信息============" />
+  <item key="CardInfo" value="卡箱 类型 加卡 剩余 状态" />
+  <item key="RetainBin" value="吞" />
+  <item key="SupplyBin" value="发" />
+  <item key="UkeyTitle" value="============Ukey箱信息============" />
+  <item key="UkeyInfo" value="Ukey箱 类型 加Ukey    剩余   状态" />
+  <item key="UkeyPad" value="7" />
+  <item key="UkeyRightTitle" value="============右Ukey箱信息============" />
+  <item key="UkeyRightInfo" value="右Ukey箱 类型 加Ukey 剩余 状态" />
+  <item key="CUInfoXDC" value="CAS   LOADED  OUT   IN    REJ    REM" />
+  <item key="CUTotalAmount" value="钱箱余额[不含回收箱]: " />
+  <item key="PressTestKey" value="请在密码键盘上输入按键，按'确定'键结束" />
+  <item key="ReceiveKey" value="收到按键" />
+  <item key="OpenShutterSuccess" value="机芯门打开成功" />
+  <item key="OpenShutterFailure" value="机芯门打开失败" />
+  <item key="CloseShutterSuccess" value="机芯门关闭成功" />
+  <item key="CloseShutterFailure" value="机芯门关闭失败" />
+  <item key="SafeDoor" value="安全门" />
+  <item key="CabinetDoor" value="机柜门" />
+  <item key="OPEN" value="开" />
+  <item key="CLOSED" value="关" />
+  <item key="NOTAVAILABLE" value="不可用" />
+  <item key="LOCKED" value="关闭并上锁" />
+  <item key="BOLTED" value="关闭上锁并上门闩" />
+  <item key="OpenAction" value="打开" />
+  <item key="CloseAction" value="关闭" />
+  <item key="OpenSuccess" value="打开成功" />
+  <item key="OpenFailure" value="打开失败" />
+  <item key="CloseSuccess" value="关闭成功" />
+  <item key="CloseFailure" value="关闭失败" />
+  <item key="CARDUNIT" value="读卡器指示灯" />
+  <item key="PINPAD" value="键盘指示灯" />
+  <item key="NOTESDISPENSER" value="出钞指示灯" />
+  <item key="COINDISPENSER" value="硬币出钞指示灯" />
+  <item key="RECEIPTPRINTER" value="凭条指示灯" />
+  <item key="PASSBOOKPRINTER" value="存折指示灯" />
+  <item key="ENVDEPOSITORY" value="信封存款指示灯" />
+  <item key="CHEQUEUNIT" value="支票指示灯" />
+  <item key="BILLACCEPTOR" value="存款指示灯" />
+  <item key="ENVDISPENSER" value="信封指示灯" />
+  <item key="DOCUMENTPRINTER" value="文档打印指示灯" />
+  <item key="COINACCEPTOR" value="硬币存款指示灯" />
+  <item key="SCANNER" value="条码扫描指示灯" />
+  <item key="CloseAllGuidLight" value="关闭所有指示灯" />
+  <item key="AllGuidLightOperSuccess" value="所有指示灯已打开" />
+  <item key="CashDevGuidLight" value="机芯指示灯" />
+  <item key="EnvDevGuidLight" value="信封指示灯" />
+  <item key="FASCIALIGHT" value="广告灯" />
+  <item key="Reseting" value="正在复位" />
+  <item key="GREENLight" value="绿灯" />
+  <item key="REDLight" value="红灯" />
+  <item key="AMBERLight" value="黄灯" />
+  <item key="LightOn" value="亮" />
+  <item key="LightOff" value="灭" />
+  <item key="FileNotFound" value="未找到文件" />
+  <item key="RebootConfirm" value="是否确定重启机器？" />
+  <item key="ShutdownConfirm" value="是否确定关闭机器？" />
+  <item key="InputErrorCode" value="请输入错误码：" />
+  <item key="ErrCodeNotExists" value="未能找到匹配的错误码" />
+  <item key="ResCodeNotExists" value="未能找到匹配的返回码" />
+  <item key="InputDataError" value="输入有误,请重新输入" />
+  <item key="InputOldPwdEmpty" value="请输入旧密码" />
+  <item key="InputOldPwdError" value="旧密码输入不正确" />
+  <item key="InputNewPwdEmpty" value="请输入新密码" />
+  <item key="InputNewPwdError" value="新密码两次输入不一致" />
+  <item key="PwdFormatError" value="请输入不少于3位的新密码" />
+  <item key="CommandAccept" value="系统已接受命令，请稍候..." />
+  <item key="BeginDate" value="开始日期（如 20121212）" />
+  <item key="EndDate" value="结束日期（如 20121213）" />
+  <item key="BeginDateTime" value="开始时间（如 20121012080910）" />
+  <item key="EndDateTime" value="结束时间（如 20121013080910）" />
+  <item key="InputAgain" value="请重新输入" />
+  <item key="InputBeginDateError" value="开始日期不正确,请重新输入" />
+  <item key="InputEndDateError" value="结束日期不正确，请重新输入" />
+  <item key="InputDateError" value="日期输入不正确" />
+  <item key="NotFoundMatchFile" value="未找到匹配的文件" />
+  <item key="SpaceNotEnough" value="磁盘空间不够，导出失败" />
+  <item key="VendorDependentMode" value="厂商模式" />
+  <item key="JournalPrinter" value="流水打印机" />
+  <item key="EPPKeypad" value="键盘" />
+  <item key="SensorAndLight" value="指示灯" />
+  <item key="CardReader" value="读卡器" />
+  <item key="CashDispenser" value="取款设备" />
+  <item key="CashAcceptor" value="存款设备" />
+  <item key="ReceiptPrinter" value="凭条打印机" />
+  <item key="InputUserIdEmpty" value="请输入用户ID" />
+  <item key="UserNotExists" value="不存在此用户" />
+  <item key="UserNotExistsAndInput" value="不存在此用户，请重新输入" />
+  <item key="StartAdmin" value="START ADMIN" />
+  <item key="StopAdmin" value="STOP ADMIN" />
+  <item key="PrintCashUnitInfo" value="正在打印钱箱数据..." />
+  <item key="EnterVDMConfirm" value="是否确定进入厂商模式？" />
+  <item key="StopSPService" value="正在停止服务..." />
+  <item key="EnterVDMProcessing" value="正在进入厂商模式，请稍候..." />
+  <item key="EnterVDMSuccess" value="成功进入厂商模式" />
+  <item key="CallVDMProcessing" value="正在启动厂商程序..." />
+  <item key="EnterVDMFailure" value="进入厂商模式失败" />
+  <item key="CloseDevice" value="正在关闭" />
+  <item key="RestartDevice" value="正在启动" />
+  <item key="ExitVDMSuccess" value="成功退出厂商模式，请按'确定'继续" />
+  <item key="InputATMNOError" value="请输入{0}位的VTM号" />
+  <item key="InputSecondATMNOError" value="请输入{0}位的第二VTM号" />
+  <item key="InputBankNOEmpty" value="请输入银行号" />
+  <item key="InputBranchNOEmpty" value="请输入网点号" />
+  <item key="NormalTotal" value="=========正常交易统计信息=========" />
+  <item key="AbnormalTotal" value="=========异常交易统计信息=========" />
+  <item key="TotalCountTitle" value="笔数    交易类型    交易总金额" />
+  <item key="AbnormalTotalCountTitle" value="笔数    交易类型        交易总金额" />
+  <item key="PrintTotalEnd" value="============打印结账完成===========" />
+  <item key="DepositHostRefuseTitle" value="----存款主机拒绝,吞钞(可能长款)---" />
+  <item key="CheckFlagTitle" value="------------冲正成功交易-----------" />
+  <item key="CheckRefuseTitle" value="------------冲正失败交易-----------" />
+  <item key="SupspictiousTitle" value="---------可疑交易(可能长款)--------" />
+  <item key="DeviceErrorTitle" value="----------设备异常交易-------------" />
+  <item key="CommErrTitle" value="------------通信故障------------" />
+  <item key="CustomerOperTimeoutTitle" value="----------客户操作超时交易---------" />
+  <item key="ICErrorTitle" value="----------IC卡校验失败交易---------" />
+  <item key="Reason" value="原因" />
+  <item key="ResponseCode" value="响应码" />
+  <item key="ReversalSuccess" value="冲正成功" />
+  <item key="ReversalFailure" value="冲正可能失败" />
+  <item key="ReversalFlag0" value="不需要冲正" />
+  <item key="ReversalFlag1" value="冲正未完成" />
+  <item key="ReversalFlag2" value="冲正成功" />
+  <item key="ReversalFlag3" value="冲正可能失败" />
+  <item key="ReversalFlag4" value="冲正可能失败" />
+  <item key="ReversalFlag5" value="系统故障" />
+  <item key="CashDevError0" value="设备正常" />
+  <item key="CashDevError1" value="配钞失败" />
+  <item key="CashDevError2" value="送钞失败" />
+  <item key="CashDevError3" value="超时未拿钞" />
+  <item key="CashDevError4" value="回收失败" />
+  <item key="CashDevError5" value="取款时间超长" />
+  <item key="CashDevError6" value="退钞成功" />
+  <item key="CashDevError7" value="退钞失败" />
+  <item key="CashDevError8" value="点钞失败，退钞失败" />
+  <item key="CashDevError9" value="超时未拿钞" />
+  <item key="CashDevError10" value="回收失败" />
+  <item key="CashDevError11" value="开关门故障" />
+  <item key="CashDevError99" value="其他故障" />
+  <item key="CashDevErrorFlag0" value="设备正常" />
+  <item key="CashDevErrorFlag1" value="配钞失败" />
+  <item key="CashDevErrorFlag2" value="送钞失败" />
+  <item key="CashDevErrorFlag3" value="超时未拿钞" />
+  <item key="CashDevErrorFlag4" value="回收失败" />
+  <item key="CashDevErrorFlag5" value="取款时间超长" />
+  <item key="CashDevErrorFlag6" value="退钞成功" />
+  <item key="CashDevErrorFlag7" value="退钞失败" />
+  <item key="CashDevErrorFlag8" value="点钞失败，退钞失败" />
+  <item key="CashDevErrorFlag9" value="超时未拿钞" />
+  <item key="CashDevErrorFlag10" value="回收失败" />
+  <item key="CashDevErrorFlag11" value="开关门故障" />
+  <item key="CashDevErrorFlag99" value="其他故障" />
+  <item key="HostCommFlag0" value="通信正常" />
+  <item key="HostCommFlag1" value="创建交易包失败" />
+  <item key="HostCommFlag2" value="连接失败" />
+  <item key="HostCommFlag3" value="发送失败" />
+  <item key="HostCommFlag4" value="接收失败" />
+  <item key="HostCommFlag5" value="接收超时" />
+  <item key="HostCommFlag6" value="网络故障" />
+  <item key="HostCommFlag7" value="主机拒绝" />
+  <item key="HostCommFlag8" value="解包失败" />
+  <item key="HostCommFlag9" value="未发送交易请求" />
+  <item key="HostCommFlag99" value="其他错误" />
+  <item key="ICErrorFlag0" value="正常" />
+  <item key="ICErrorFlag1" value="IC卡校验失败" />
+  <item key="ICErrorFlag2" value="IC卡校验失败" />
+  <item key="ICErrorFlag3" value="IC卡校验失败" />
+  <item key="ADC" value="无卡存款冲正" />
+  <item key="INQ" value="查询" />
+  <item key="IND" value="明细查询" />
+  <item key="CWD" value="取款" />
+  <item key="CWC" value="取款冲正" />
+  <item key="TFR" value="转账" />
+  <item key="TFC" value="转账冲正" />
+  <item key="DEP" value="存款" />
+  <item key="DPC" value="存款冲正" />
+  <item key="ADP" value="无卡存款" />
+  <item key="ICBDZHQC" value="指定账户圈存" />
+  <item key="ICCASHCZ" value="现金充值" />
+  <item key="TransDetailNotFound" value="未找到匹配的记录" />
+  <item key="InputJouNumberError" value="请输入6位的流水号" />
+  <item key="InputAccountNoError" value="请输入账号的后8位" />
+  <item key="InputAccountNoErrorFormat" value="请输入账号的后{0}位" />
+  <item key="InvalidDateRange" value="开始日期不能大于结束日期" />
+  <item key="CardNumberError" value="卡号不正确，请重新输入" />
+  <item key="InputCardNumber" value="请输入卡号后8位" />
+  <item key="BeginJouNo" value="起始流水号(如 000001)" />
+  <item key="EndJouNo" value="结束流水号（如 000010）" />
+  <item key="InputJouNo" value="请输入流水号（如 000001）" />
+  <item key="InputError" value="输入不正确，请重新输入" />
+  <item key="InputJouError" value="起始号不能大于结束号" />
+  <item key="NullError" value="输入为空，请重新输入" />
+  <item key="RecoverDefDailyHandleSet" value="请确定是否恢复默认设置?恢复设置在点击保存后生效" />
+  <item key="SelectMaxMenuCount" value="您已经选择了19项，不能继续添加！" />
+  <item key="SelectMenuEmpty" value="请选择菜单" />
+  <item key="SaveDailyMenuSuccess" value="菜单项已定制成功,是否退出?" />
+  <item key="RetainCardDetail" value="==============吞卡明细==============" />
+  <item key="CaptureCardCount" value="吞卡张数:" />
+  <item key="ReasonTitle" value="原因:" />
+  <item key="CaptureCardInfoNotFound" value="未找到吞卡信息" />
+  <item key="Unavailable" value="不可用" />
+  <item key="ReprintDataNotFound" value="未找到需要补打的数据" />
+  <item key="InputCardNOError" value="请输入卡号后8位" />
+  <item key="InputSerialNOError" value="请输入{0}位流水号" />
+  <item key="InvalidSerialNORange" value="开始流水号不能大于结束流水号" />
+  <item key="InputNumberError" value="请输入大于0的数字" />
+  <item key="InputWithdrawAmountEmpty" value="请输入取款限额" />
+  <item key="InputTransferAmountEmpty" value="请输入转账限额" />
+  <item key="PrintDatetimeParam" value="打印时间参数" />
+  <item key="PrintCasstteParam" value="打印钱箱参数" />
+  <item key="PrintNetworkParam" value="打印网络参数" />
+  <item key="PrintBankParam" value="打印银行参数" />
+  <item key="SingleMaxAmount" value="单次取现的允许最大金额" />
+  <item key="SingleMinAmount" value="单次取现的允许最小金额" />
+  <item key="SingleCDPMaxNotes" value="单次现金存款最大张数限额" />
+  <item key="KeyPressTimeout" value="等待持卡人输入的超时时间" />
+  <item key="TakeCardTimeout" value="退卡后等待持卡人取卡的超时时间" />
+  <item key="TakeCashTimeout" value="出钞后等待持卡人取走钞票的时间" />
+  <item key="InterposeCashTimeout" value="放钞超时时间" />
+  <item key="ContinueInterposeCash" value="继续放钞超时时间" />
+  <item key="RejectCashTimeout" value="不可识别钞票取走超时时间" />
+  <item key="CancelInterposeCashTimeout" value="取消存款钞票取走超时时间" />
+  <item key="InsertCardCounter" value="请在{0:D2}秒内插入卡片" />
+  <item key="CutSuccess" value="切纸测试成功" />
+  <item key="CutFailure" value="切纸测试失败" />
+  <item key="InputNoteOverFlow" value="输入张数不能大于{0}" />
+  <item key="CurrentMaxAmount" value="当前限额：{0}" />
+  <item key="CurrentATMNO" value="原终端：{0}" />
+  <item key="CurrentSecondATMNO" value="当前第二VTM号：{0}" />
+  <item key="CurrentBankNO" value="当前银行号：{0}" />
+  <item key="CurrentBranchNO" value="当前网点号{0}" />
+  <item key="InputNewATMNO" value="请输入新的VTM号" />
+  <item key="InputNewSecondATMNO" value="请输入新的第二VTM号" />
+  <item key="InputNewBankNo" value="请输入新的银行号" />
+  <item key="InputNewBranchNO" value="请输入新的网点号" />
+  <item key="CopyProgress" value="当前已拷贝: {0}%" />
+  <item key="InputCassetteAmount" value="请输入{0}的张数:" />
+  <item key="DenoValue" value="面额({0})" />
+  <item key="InsertRemovableDiskAndContinue" value="插入U盘之后，按确认继续" />
+  <item key="FileSize" value="文件大小" />
+  <item key="DownloadRate" value="升级进度" />
+  <item key="FirmwareDownloadSuccess" value="升级成功" />
+  <item key="FirmwareDownloadFailure" value="升级失败" />
+  <item key="PingConfirm" value="是否确定进行Ping操作？" />
+  <item key="PingTest" value="正在Ping {0}，请稍候..." />
+  <item key="PingTestSuccess" value="{0} Ping测试成功" />
+  <item key="PingTestFailure" value="{0} Ping测试失败" />
+  <item key="PingTestTimeout" value="{0} Ping测试超时" />
+  <item key="TelnetConfirm" value="是否确定进行Telnet操作？" />
+  <item key="TelnetTest" value="正在Telnet {0}，请稍候..." />
+  <item key="TelnetTestSuccess" value="{0} Telnet测试成功" />
+  <item key="TelnetTestFailure" value="{0} Telnet测试失败" />
+  <item key="TelnetTestTimeout" value="{0} Telnet测试超时" />
+  <item key="SignInProcessing" value="正在签到，请稍候..." />
+  <item key="IDS_InputEPPKeyConStruct" value="请根据图片内容输入第{0}组密钥({1}位)" />
+  <item key="IDS_VerifyCheckValue" value="校验值为:" />
+  <item key="IDS_VerifyCheckValueTip" value="请按'确定'键继续" />
+  <item key="NetworkOffline" value="网络离线" />
+  <item key="NetworkStatus" value="网络状态" />
+  <item key="ErrorCode" value="错误码" />
+  <item key="RetryOverLimit" value="密码重输次数超限" />
+  <item key="SetMasterKeyComplete" value="设置主密钥结束，请按'确定'键继续" />
+  <item key="HavePrintedOnElectronicJournal" value="流水打印机不存在，已记录电子流水" />
+  <item key="ReceiptPrinterNotExists" value="凭条打印机不存在" />
+  <item key="TransDetail" value="========交易信息========" />
+  <item key="CardNumber" value="卡号" />
+  <item key="TransType" value="交易类型" />
+  <item key="JournalNumber" value="流水号" />
+  <item key="TransDate" value="交易日期" />
+  <item key="TransTime" value="交易时间" />
+  <item key="TransAmount" value="交易金额" />
+  <item key="TransResult" value="交易结果" />
+  <item key="OCRDetailInfo" value="=======冠字号信息=======" />
+  <item key="OCRCommand" value="指令" />
+  <item key="NoteCount" value="钞票张数" />
+  <item key="OCRDispense" value="配钞" />
+  <item key="OCRReject" value="拒钞回收" />
+  <item key="OCRRetractForCDM" value="回收" />
+  <item key="OCROpenForCDM" value="启动设备" />
+  <item key="OCRResetForCDM" value="复位" />
+  <item key="OCRCashIn" value="点钞" />
+  <item key="OCRRollback" value="退钞" />
+  <item key="OCRRetractForCIM" value="回收" />
+  <item key="OCROpenForCIM" value="启动设备" />
+  <item key="OCRResetForCIM" value="复位" />
+  <item key="OCRCashInEnd" value="存钞" />
+  <item key="OCRRollback" value="退钞" />
+  <item key="OpenForCDM" value="打开" />
+  <item key="OpenForCIM" value="打开" />
+  <item key="ResetCDMByAdmin" value="后台复位" />
+  <item key="ResetCIMByAdmin" value="后台复位" />
+  <item key="OCRLevel" value="钞票类型" />
+  <item key="OCRLevel4" value="可识别钞票" />
+  <item key="OCRLevel3" value="可疑钞" />
+  <item key="OCRLevel2" value="不可识别钞票" />
+  <item key="OCRTime" value="时间" />
+  <item key="DateOverlimit" value="日期间隔不能超过{0}个月" />
+  <item key="SerialNumberLengthOverlimit" value="请输入{0}至{1}位的钞票序列号" />
+  <item key="CaptureCardTime" value="吞卡时间" />
+  <item key="NoPAN" value="无账号" />
+  <item key="SendAddCashMsgSuccess" value="上送加钞报文成功" />
+  <item key="SendAddCashMsgFailure" value="上送加钞报文失败" />
+  <item key="NotAllowToQuit" value="加钞失败，不允许退出后维护" />
+  <item key="MasterKeyKVV" value="主密钥KVV：{0}" />
+  <item key="AtmpIpFormat" value="当前VTMP IP：{0}" />
+  <item key="AtmpPortFormat" value="当前VTMP Port：{0}" />
+  <item key="InputAtmpIpFormat" value="请输入新前置Ip：{0}" />
+  <item key="InputAtmpPort" value="请输入新前置端口号" />
+  <item key="InputNewPwdEmptyAgain" value="请再次输入新密码" />
+  <item key="ModifyPasswordSuccess" value="修改密码成功" />
+  <item key="ModifyPasswordFail" value="修改密码失败" />
+  <item key="SerialSample" value="例如:20表示K;01表示1" />
+  <item key="CurrentSerial" value="当前序列号：{0}" />
+  <item key="InputBeginDateTimeError" value="开始时间不正确,请重新输入" />
+  <item key="InputEndDateTimeError" value="结束时间不正确，请重新输入" />
+  <item key="RebootConfirmAfterSettingIP" value="重启后生效，按确定重启" />
+  <item key="IDS_CurrentSerialNumberFormat" value="当前流水号：{0}" />
+  <item key="IDS_InputCurrentSerialNumber" value="请输入新流水号" />
+  <item key="IDS_InputCurrentSNFormat" value="请输入{0}位序列号" />
+  <item key="IDS_InvalidData" value="非法数据，请重新输入" />
+  <item key="IDS_DenoValueFormet" value="必须为{0}的倍数" />
+  <item key="IDS_InputNumberToQuery" value="请输入序号查询详细信息：" />
+  <item key="IDS_LessThanFormat" value="(最大:{0})" />
+  <item key="IDS_InitialDataHints" value="原始数据如下：" />
+  <item key="IDS_InitialKeyAndDataFormat" value="ID:{0};数据:{1}" />
+  <item key="IDS_SendAddCashFail" value="发送加钞报文失败" />
+  <item key="IDS_Exception" value="加钞异常" />
+  <item key="OCRResetCDMByAdmin" value="后台复位" />
+  <item key="OCRResetCIMByAdmin" value="后台复位" />
+  <item key="InputCassetteCurrency" value="请输入{0}的币种:" />
+  <item key="InputCassetteDeno" value="请输入{0}的面额:" />
+  <item key="CurrencyFormat" value="当前输入币种:{0}" />
+  <item key="SetCashCurrencyAndDenoConfirm" value="是否确定保存当前设置信息并且清除钱箱原来的币种和面额" />
+  <item key="SaveCurrencyAndDenoSucceed" value="钱箱币种和面额保存成功" />
+  <item key="SaveCurrencyAndDenoFailure" value="钱箱币种和面额保存出错" />
+  <item key="COUNT" value="笔数" />
+  <item key="TRANSTYPE" value="交易类型" />
+  <item key="AMOUNT" value="交易总金额" />
+  <item key="ScanFailure" value="扫描失败" />
+  <item key="InsertIDCard" value="请插入身份证" />
+  <item key="ScanIDCardSuccess" value="身份证扫描测试成功" />
+  <item key="ScanIDCardFailure" value="身份证扫描测试失败" />
+  <item key="InsertIDCardCounter" value="请在{0:D2}秒内插入身份证" />
+  <item key="IDCardMoved" value="身份证已拿走" />
+  <item key="MessIDCardMoved" value="请拿走身份证" />
+  <item key="FingerScanFailure" value="扫描失败" />
+  <item key="InsertFingerScaner" value="请将手指按在指纹仪上" />
+  <item key="ScanFingerSuccess" value="指纹仪测试成功" />
+  <item key="ScanFingerFailure" value="指纹仪测试失败" />
+  <item key="InsertFingerCounter" value="请在{0:D2}秒内将手指按在指纹仪上" />
+  <item key="FingerMoved" value="手指已移开" />
+  <item key="MessFingerMoved" value="请移开手指" />
+  <item key="CAMScanFailure" value="扫描失败" />
+  <item key="CAMStartTimeOut" value="高拍仪启动超时" />
+  <item key="CAMStartSuccess" value="高拍仪启动成功" />
+  <item key="CAMClose" value="高拍仪关闭" />
+  <item key="CAMPath" value="图片路径：" />
+  <item key="CAMCounter" value="请在{0:D2}秒内完成测试" />
+  <item key="FeedChannelFailure" value="进纸失败" />
+  <item key="FeedChannelSuccess" value="进纸成功" />
+  <item key="FeedChannelScanSuccess" value="进纸扫描成功" />
+  <item key="FeedChannelScanFailure" value="进纸扫描失败" />
+  <item key="FeedChannelEjSuccess" value="退纸成功" />
+  <item key="FeedChannelEjFailure" value="退纸失败" />
+  <item key="TakePaper" value="请拿走纸" />
+  <item key="PaperIsTake" value="纸已拿走" />
+  <item key="FeedChannelStartTimeOut" value="进纸通道启动超时" />
+  <item key="FeedChannelClose" value="进纸通道关闭" />
+  <item key="FeedChannelPath" value="图片路径：" />
+  <item key="FeedChannelInfo" value="图片信息：" />
+  <item key="FeedChannelCounter" value="请在{0:D2}秒内完成测试" />
+  <item key="UKeyFailure" value="发Ukey失败" />
+  <item key="UKeySuccess" value="发Ukey成功" />
+  <item key="UKeyScanSuccess" value="发Ukey扫描成功" />
+  <item key="UKeyScanFailure" value="发Ukey扫描失败" />
+  <item key="TakeUkey" value="请拿走Ukey" />
+  <item key="UkeyIsTake" value="Ukey已拿走" />
+  <item key="UkeyCounter" value="请在{0:D2}秒内完成测试" />
+  <item key="ReturnUKeySuccess" value="吞Ukey成功" />
+  <item key="ReturnUKeyFailure" value="吞Ukey失败" />
+  <item key="ResetUKeySuccess" value="复位Ukey成功" />
+  <item key="ResetUKeyFailure" value="复位Ukey失败" />
+  <item key="UkeyCount" value="Ukey剩余个数" />
+  <item key="UkeyDispenserNoDevFailure" value="发Ukey服务不可用" />
+  <item key="UkeyUnitEmptyFailure" value="Ukey箱空" />
+  <item key="StamperNoDevFailure" value="A4打印机服务不可用" />
+  <item key="StamperNoPaperFailure" value="A4打印机无纸" />
+  <item key="StamperResetSuccess" value="A4打印机复位可用" />
+  <item key="PrinterResetSuccess" value="A4打印机复位成功" />
+  <item key="PrinterResetFailure" value="A4打印机复位失败" />
+  <item key="PrintSuccess" value="A4打印机打印成功" />
+  <item key="PrintFailure" value="A4打印机打印失败" />
+  <item key="PrintWithStampSuccess" value="A4打印机打印盖章成功" />
+  <item key="PrintWithStampFailure" value="A4打印机打印盖章失败" />
+  <item key="ProjectVersion" value="工程版本" />
+  <item key="PrintStartAsync" value="正在补打流水" />
+  <item key="PrintCompletedAsyne" value="已经完成打印" />
+  <item key="PrintVersionParam" value="打印版本参数" />
+  <item key="KERNEL VERSION" value="核心版本" />
+  <item key="PROJECT VERSION" value="工程版本" />
+  <item key="AtmpModeFormat" value="当前ATMP Mode：{0}" />
+  <item key="InputAtmpMode" value="请输入数字(0长连接1短连接2半短连接)" />
+  <item key="AtmvIpFormat" value="当前ATMV IP：{0}" />
+  <item key="AtmvPortFormat" value="当前ATMV Port：{0}" />
+  <item key="AtmvModeFormat" value="当前ATMV Mode：{0}" />
+  <item key="InputAtmvIpFormat" value="请输入新ATMV端IP,没有点号用ENTER代替：{0}" />
+  <item key="InputAtmvPort" value="请输入新ATMV端口号" />
+  <item key="InputAtmvMode" value="请输入数字(0长连接1短连接2半短连接)" />
+  <item key="NoCDDisk" value="找不到可写的CD/DVD光盘，请插入CD/DVD光盘" />
+  <item key="InsertCDDiskAndContinue" value="插入CD盘之后，按确认继续" />
+  <item key="TC" value="NG" />
+  <item key="InputLightControlTimeError" value="设置出错,按确认键返回重输" />
+  <item key="InputSetTimeDataError" value="日光灯时间设置出错,请在每个空格处重新输入两位数字" />
+  <item key="InputLightControlBeginHour" value="开始时间(如:0830)" />
+  <item key="InputLightControlBeginMinute" value="请输入日光灯时间设置开始时间(分钟，如:30，范围0-60)" />
+  <item key="InputLightControlEndHour" value="结束时间(如:2330)" />
+  <item key="InputLightControlEndMinute" value="请输入日光灯时间设置结束时间(分钟，如:40，范围0-60)" />
+  <item key="InputLightControlSuccess" value="设置成功" />
+  <item key="InputLightControlFailture" value="设置失败" />
+  <item key="LightControlConfirm" value="请按确认键返回" />
+  <item key="FasciaLightAlwaysKeepOn" value="日光灯已设置为常亮状态" />
+  <item key="FasciaLightAlwaysKeepOff" value="日光灯已设置为常灭状态" />
+  <item key="Longconnect" value="长连接" />
+  <item key="Shortconnect" value="短连接" />
+  <item key="Middleconnect" value="半短连接" />
+  <item key="InputConfigureError" value="设置出错,按确认键返回重输" />
+  <item key="PressOnConfirmReturn" value="按确认键返回" />
+  <item key="OldCIMCurrencySetting" value="原有的存款面额设置" />
+  <item key="SetCIMCurrencyMenuTitle" value="序号  币种  面额 版本 启用状态" />
+  <item key="CanUseSeletion" value="已启用" />
+  <item key="CannotUseSeletion" value="未启用" />
+  <item key="InputTips" value="选择数字后按Enter确认" />
+  <item key="PressEnterPageDown" value="请按Enter一次跳转下一页" />
+  <item key="PleaseSelectCardSlot" value="请选择需要清空的卡槽" />
+  <item key="PrepareEmptyCardSlot" value="准备清卡" />
+  <item key="EmptyCardSlot" value="清空卡槽 {0}" />
+  <item key="BeginEmptyCardSlot" value="开始清空卡槽 {0}" />
+  <item key="EmptyCardSlotSuccess" value="清空卡槽 {0} 成功" />
+  <item key="EmptyCardSlotFail" value="清空卡槽 {0} 失败" />
+  <item key="CardSlotIsEmpty" value="卡槽 {0} 无卡" />
+  <item key="EmptyCardSlotFinished" value="清卡结束" />
+  <item key="EmptyCardTipForGetCapturedCardInfoFail" value="获取吞卡信息失败" />
+  <item key="EmptyCardTipForBinWillFull" value="清卡后回收箱中卡片将超过其最大容量，请先取走回收箱中的卡片！" />
+  <item key="RCMCapturedCardInfo" value="=======暂存槽吞卡信息=======" />
+  <item key="RCMCapturedCardInfoTitle" value="卡槽号    卡号   吞卡时间" />
+  <item key="RCMCapturedCardInfoItme" value="{0}  {1:30}  {2:-20}" />
+  <item key="EjectFirstCard" value="清理第一卡槽位的吞卡" />
+  <item key="EjectSecondCard" value="清理第二卡槽位的吞卡" />
+  <item key="EjectThirdCard" value="清理第三卡槽位的吞卡" />
+  <item key="EjectFourthCard" value="清理第四卡槽位的吞卡" />
+  <item key="EjectFifthCard" value="清理第五卡槽位的吞卡" />
+  <item key="EjectCardSelectOption" value="请选择相应的卡槽位选项：" />
+  <item key="EjectAllCardOption" value="按“确定”键清理全部吞卡：" />
+  <item key="EjectCardRotateTimeSet" value="设置吞卡循环时间" />
+  <item key="EjectCardRotateTimeSetTips" value="请输入吞卡循环时间（单位：小时）：" />
+  <item key="InputEjectCardBeginHour" value="开始时间(如:1)" />
+  <item key="InputEjectCardEndHour" value="结束时间(如:2)" />
+  <item key="InputEjectCardSuccess" value="设置成功" />
+  <item key="InputEjectCardFailture" value="设置失败" />
+  <item key="EjectCardConfirm" value="请按确认键返回" />
+  <item key="InputEjectCardTimeError" value="设置出错,按确认键返回重输" />
+  <item key="EjectCardModuleIsOpened" value="取回吞卡已开启！" />
+  <item key="EjectCardModuleIsClosed" value="取回吞卡已关闭！" />
+  <item key="IsToOpenEjectCardModule" value="确定要开启取回吞卡吗？" />
+  <item key="IsToCloseEjectCardModule" value="确定要关闭取回吞卡吗？" />
+  <item key="OpenEjectCardModule" value="开启取回吞卡" />
+  <item key="CloseEjectCardModule" value="关闭取回吞卡" />
+  <item key="OpenEjectCardModuleSuccess" value="开启取回吞卡成功" />
+  <item key="OpenEjectCardModuleFail" value="开启取回吞卡失败" />
+  <item key="CloseEjectCardModuleSuccess" value="关闭取回吞卡成功" />
+  <item key="CloseEjectCardModuleFail" value="关闭取回吞卡失败" />
+  <item key="SetEmptyCardParameters" value="设置清卡参数" />
+  <item key="CIMSetCannotEmpty" value="存款面额和币种设置不能为空，请重输" />
+  <item key="AleadySelected" value="已选择" />
+  <item key="FasciaLightSet" value="日光灯设置" />
+  <item key="IPSet" value="IP设置" />
+  <item key="CIMSet" value="存款面额和币种设置" />
+  <item key="IDS_ExceedDataFormat" value="超过int最大值：{0}" />
+  <item key="PressOnCancelReturnOnEnterCheckout" value="按CANCEL返回,按ENTER查看" />
+  <item key="SelectionIsEmptyPressOnEnterReturn" value="选择为空，按ENTER返回" />
+  <item key="MaxWithdrawalAmountFormat" value="最大取款限额必须为{0}的倍数" />
+  <item key="NotSupportModifyMaxWithdrawalDeno" value="暂不支持修改最大取款限额" />
+  <item key="IDS_DiskWriteFail" value="磁盘不可写，请检查磁盘是否损坏或写保护" />
+  <item key="CardErrorMsg" value="卡箱序号:{0}  卡箱名称:{1}   卡的数量为空或不是非零数字" />
+  <item key="CardCountEmptyErrorMsg" value="卡的数量为空或不是非零数字" />
+  <item key="CardNumberEmptyErrorMsg" value="凭证号不能为空" />
+  <item key="CardNumberNotEqualErrorMsg" value="起始凭证号与最小凭证号不匹配" />
+  <item key="UkeyErrorMsg" value="Ukey序号:{0}  Ukey箱名称:{1}  Ukey数量为空或不是数字" />
+  <item key="VersionTracingNotFound" value="未找到版本跟踪信息" />
+  <item key="NoHDDisk" value="找不到可写的移动硬盘，请插入移动硬盘" />
+  <item key="VersionERROR" value="获取版本信息失败" />
+  <item key="PwdWrongTryTimesLimit" value="密码错误计数达到最大值，操作暂时无法进行" />
+  <item key="GetPasswordTimeOut" value="等待输入超时，操作被取消" />
+  <item key="InputErrorAndCancel" value="设备故障或等待输入超时，操作被取消" />
+  <item key="InputErrorForEPP" value="输入有误，操作被取消" />
+  <item key="InputHostErrorCode" value="请输入返回码：" />
+  <item key="PleaseInputAddCashAmount" value="请输入加钞张数：" />
+  <item key="JPTRIsBusyBeforeReset" value="流水打印机正在忙，请稍后复位" />
+  <item key="VERSIONTIME" value="版本时间" />
+  <item key="KERNELVERSION" value="核心版本" />
+  <item key="PROJECTVERSION" value="工程版本" />
+  <item key="WITHDRAW AMOUNT" value="最大取款面额" />
+  <item key="TRANSFER AMOUNT" value="最大转账面额" />
+  <item key="ATM NUMBER" value="终端号" />
+  <item key="BANK NUMBER" value="银行号" />
+  <item key="BRANCH NUMBER" value="支行号" />
+  <item key="ConnectMode:" value="连接模式:" />
+  <item key="Local IP" value="本地IP" />
+  <item key="ATMP1 IP" value="ATMP1 IP" />
+  <item key="ATMV1 IP" value="ATMV1 IP" />
+  <item key="StartExchange" value="开始加钞" />
+  <item key="EndExchange" value="结束加钞" />
+  <item key="AleadyReprint" value="已经在补打中，请稍候再选择补打" />
+  <item key="ReprintTooMuch" value="补打数据太多，请重新选择" />
+  <item key="CURRENT SET" value="当前设置" />
+  <item key="SIGN IN" value="签到" />
+  <item key="Journal Printer Test" value="此打印行是打印机测试内容" />
+  <item key="Receipt Printer Test" value="此打印行是打印机测试内容" />
+  <item key="Dispense Test Success" value="出钞测试成功" />
+  <item key="Dispense Test Failed" value="出钞测试失败" />
+  <item key="Dispense Operate Success" value="出钞成功" />
+  <item key="Dispense Operate Failed" value="出钞失败" />
+  <item key="PopupEjectUDisk" value="是否确定弹出移动磁盘？" />
+  <item key="EjectUDiskConfrim" value="按ENTER弹出移动磁盘，按CANCEL返回" />
+  <item key="UDiskEjected" value="移动磁盘已安全弹出" />
+  <item key="UDiskNotEjected" value="移动磁盘不能安全弹出，原因{0}，请手动拔出" />
+  <item key="WaitingForCleaningCIMDevice" value="正在清理存款设备，请稍等..." />
+  <item key="AddCashComplete CashUnitInfo" value="清机加钞完成，设置钱箱如下：" />
+  <item key="ShowCDMCashUnitInfoListTitle" value="编号  钞箱ID  类型  面额 状态 钞数" />
+  <item key="CleaningCDMCashbox" value="正在清机..." />
+  <item key="PressConfirmToContinue" value="点击确认键继续" />
+  <item key="Device is already,please continue" value="设备准备完毕，请如下操作：" />
+  <item key="FirstStep CleanCDMCashbox" value="第一步：请清点钞箱钞票。" />
+  <item key="SecondStep ReloadCDMCashbox" value="第二步：重新装钞后，请将钞箱插回。" />
+  <item key="ThirdStep PressConfirmToContinue" value="第三步：点击确认键继续。" />
+</Config>

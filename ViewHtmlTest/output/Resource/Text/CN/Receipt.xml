@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="IDS_TransResultSuccess" value="OK" />
+  <item key="IDS_TransResultFail" value="NG" />
+  <item key="IDS_CaptureCard" value="吞卡" />
+  <item key="IDS_TransMedia_MagneticCard" value="[磁条]" />
+  <item key="IDS_TransMedia_FallbackCard" value="[降级]" />
+  <item key="IDS_TransMedia_SimplexCard" value="[芯片]" />
+  <item key="IDS_TransMedia_ComplexCard" value="[芯片]" />
+  <item key="IDS_TransMedia_ContactLess" value="[非接]" />
+  <item key="IDS_TransMedia_InvalidCard" value="[无效]" />
+</config>

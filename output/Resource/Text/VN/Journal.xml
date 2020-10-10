@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="IDS_CashInError" value="***DEVICE FAULT, TRY TO REJECT THE NOTES" />
+  <item key="IDS_StoreCashOK" value="DEPOSIT NOTES SUCCESSFUL" />
+  <item key="IDS_NOITEMS" value="***NO ITEMS" />
+  <item key="IDS_RetractCashSuccess" value="RETRACT NOTES" />
+  <item key="IDS_DeviceErrorEjectCashError" value="" />
+  <item key="IDS_EjectCash" value="EJECT CASH SUCCESSFUL" />
+  <item key="IDS_OpenShutterError" value="***OPEN SHUTTER FAILED" />
+  <item key="IDS_CustomCancelOper" value="***CUSTOMER CANCEL THE TRANSACTION" />
+  <item key="IDS_CloseShutterError" value="***CLOSE SHUTTER FAILED" />
+  <item key="IDS_TakeCash" value="TAKE NOTES SUCCESSFUL" />
+  <item key="IDS_TakeRejectCash" value="REJECTED NOTES HAVE BEEN TAKEN" />
+  <item key="IDS_CustomCancel" value="***CUSTOMER CANCEL THE TRANSACTION, NOTES REJECTED" />
+  <item key="IDS_Reason" value="REASON:{0}" />
+  <item key="IDS_RetractNoCash" value="RETRACT NO CASH" />
+  <item key="IDS_CountCashResult" value="COUNT RESULT:[OK={0} NG={1}]" />
+  <item key="IDS_InvalidDispenseAmount" value="INVALID DISPENSE AMOUNT:{0}" />
+  <item key="IDS_DispenseAmountNull" value="DISPENSE AMOUNT IS NULL" />
+  <item key="IDS_RetractCashForTimeout" value="TAKE CASH TIMEOUT,MAY BE RETRACTED" />
+  <item key="IDS_OperateTimeout" value="OPERATE TIMEOUT" />
+  <item key="IDS_InvalidOtherAmount" value="INVALID OTHER AMOUNT:{0}" />
+  <item key="IDS_InvalidWithdrawalAmount" value="INVALID WITHDRAWAL AMOUNT:{0}" />
+  <item key="IDS_CardTaken" value="CARD TAKEN" />
+  <item key="IDS_CaptureCardStart" value="CAPTURE CARD START" />
+  <item key="IDS_ReasonTakeCardTimeout" value="REASON:TAKE CARD TIMEOUT" />
+  <item key="IDS_TakeCardTimeout" value="TAKE CARD TIMEOUT" />
+  <item key="IDS_ReasonHardwareError" value="REASON:HARDWARE ERROR" />
+  <item key="IDS_HardwareError" value="HARDWARE ERROR" />
+  <item key="IDS_ReasonCaptureCardForHostDemand" value="REASON:HOST DEMAND" />
+  <item key="IDS_CaptureCardForHostDemand" value="HOST DEMAND" />
+  <item key="IDS_CaptureCardForIDCReset" value="CAPTURE CARD IN IDC RESET" />
+  <item key="IDS_CaptureCardForExistCard" value="CAPTURE CARD FOR CARD EXIST" />
+  <item key="IDS_CaptureCardSuccess" value="CAPTURE CARD SUCCESS" />
+  <item key="IDS_CaptureCardFail" value="CAPTURE CARD FAIL" />
+  <item key="IDS_ResponseCode" value="RESPONSE CODE:" />
+  <item key="IDS_ReversalForDispenseFail" value="DISPENSE FAIL,NEED REVERSAL" />
+  <item key="IDS_ReversalForEMVValidateFail" value="EMV VALIDATE FAIL,NEED REVERSAL" />
+  <item key="IDS_ReversalForReceiveFail" value="RECEIVE FAIL,NEED REVERSAL" />
+  <item key="IDS_ReversalForUnpackFail" value="UNPACK FAIL,NEED REVERSAL" />
+  <item key="IDS_ReversalSuccess" value="REVERSAL SUCCESS" />
+  <item key="IDS_ReversalFail" value="REVERSAL MAY FAIL" />
+  <item key="IDS_Reversal" value="REVERSAL" />
+  <item key="IDS_CloseTransForIDCError" value="IDC ERROR,TRANSACTION END" />
+  <item key="IDS_RemainCount" value="REMAIN COUNT:" />
+  <item key="IDS_Fee" value="FEE" />
+  <item key="IDS_RQK" value="SIGN IN [RQK]" />
+  <item key="IDS_INQ" value="INQ" />
+  <item key="IDS_CWD" value="CWD" />
+  <item key="IDS_TFR" value="TFR" />
+  <item key="IDS_IND" value="Detail query" />
+  <item key="IDS_TFI" value="Account query" />
+  <item key="IDS_TFRToAccount" value="TO ACCOUNT" />
+  <item key="IDS_PIN" value="PIN" />
+  <item key="IDS_DEP" value="DEP" />
+  <item key="IDS_ADI" value="ADI" />
+  <item key="IDS_ADP" value="ADP" />
+  <item key="IDS_ICBDZHQC" value="LOAD" />
+  <item key="IDS_CWC" value="CWC" />
+  <item key="IDS_PIC" value="PIC" />
+  <item key="IDS_TFC" value="TFC" />
+  <item key="IDS_DEC" value="DEC" />
+  <item key="IDS_ADC" value="ADC" />
+  <item key="IDS_FIT" value="Card table download" />
+  <item key="IDS_EMVValidateFail" value="EMV VALIDATE FAIL" />
+  <item key="IDS_ReversalForEjectCardFail" value="EJECT CARD FAIL,NEED REVERSAL" />
+  <item key="IDS_ReversalForCaptureCard" value="CAPTURE CARD,NEED REVERSAL" />
+  <item key="IDS_ReversalForTakeCardTimeout" value="TAKE CARD TIMEOUT,NEED REVERSAL" />
+  <item key="IDS_ReasonCaptureCardForOther" value="REASON:OTHER" />
+  <item key="IDS_CaptureCardForOther" value="OTHER" />
+  <item key="IDS_ExistCashInRecoverDev" value="CASH IS DETECTED,REJECT" />
+  <item key="IDS_ReversalForIDCErrorInDispense" value="IDC ERROR IN DISPENSE,NEED REVERSAL" />
+  <item key="POWERUP MODE" value="Power up mode" />
+  <item key="OFFLINE MODE" value="Offline mode" />
+  <item key="OUTOFSERVICE MODE" value="Out of service mode" />
+  <item key="INSERVICE MODE" value="Inservice mode" />
+  <item key="IDS_OpenScanFailure" value="high shot meter failure" />
+  <item key="IDS_CloseScanFailure" value="Close high shot meter failure" />
+  <item key="IDS_ScanIDCardFailure" value="ID Card and IDC failure" />
+  <item key="IDS_DispenseCardFailure" value="Card distributor failure" />
+  <item key="IDS_DispenseUkeyFailure" value="ukey distributor failure" />
+  <item key="IDS_StamperSuccess" value="A4 print success" />
+  <item key="IDS_StamperFailure" value="A4 printer failure" />
+  <item key="IDS_ReceiptPrinterFailure" value="Receipt printer failure" />
+  <item key="IDS_ReadUkeyRawDataFailure" value="Read ukey failure" />
+  <item key="IDS_SystemException" value="System failure" />
+  <item key="IDS_RetractPaperFailure" value="Into paper failure" />
+  <item key="IDS_RetainCardFailure" value="Swallowing card failure" />
+  <item key="IDS_ReturnPaperFailure" value="Return paper failure" />
+  <item key="IDS_OperateTimeout" value="Operation timed out" />
+  <item key="IDS_RetainUkeyFailure" value="Swallowing ukey failure" />
+  <item key="IDS_TimeOutRetainUkey" value="TimeOut swallowing ukey" />
+  <item key="IDS_OperateTimeout" value="Operation timed out" />
+  <item key="IDS_DocScanFailure" value="Word scan failure" />
+  <item key="IDS_StartFeedFailure" value="In the paper scan failure" />
+  <item key="IDS_FeedPaperTimeout" value="In the papaer timed out" />
+  <item key="IDS_ScanCameraFailure" value="Take photos failure" />
+  <item key="IDS_SwitchAdFailure" value="Failure to switch video sources " />
+  <item key="IDS_IDCardInsert" value="Inserted id card" />
+  <item key="IDS_IDCardTaken" value="Has to take id card" />
+  <item key="IDS_ReadRawDataFailure" value="Read card failure" />
+  <item key="IDS_EjectCardFailure" value="EJECT CARD FAILED: " />
+  <item key="IDS_EjectUkeyFailure" value="Out of the card failure" />
+  <item key="IDS_ReadBarcodeFailure" value="Read barcode failure" /> 
+  <item key="IDS_ReadUKeyBarcode" value="UKey Barcode" /> 
+  <item key="IDS_DisableCWDForHardwareError" value=" UNAVAILABLE,DISABLE CWD" />
+  <item key="IDS_DisableDEPForHardwareError" value=" UNAVAILABLE,DISABLE DEP" />
+  <item key="IDS_DisableCWDForEmptyCassette" value="NO CASH,DISABLE CWD" />
+  <item key="IDS_DisableCWDForCashInside" value="CASH INSIDE DEVICE,DISABLE CWD" />
+  <item key="IDS_DisableDEPForCashInside" value="CASH INSIDE DEVICE,DISABLE DEP" />
+  <item key="IDS_DisableDEPForLashCashInActive" value="LAST CASHIN ACTIVE,DISABLE DEP" />
+  <item key="IDS_DisableCWDForPresentFailTooManyTimes" value="PRESENT FAIL TOO MANY TIMES,DISABLE CWD" />
+  <item key="IDS_DisableDEPForPresentFailTooManyTimes" value="PRESENT FAIL TOO MANY TIMES,DISABLE DEP" />
+  <item key="IDS_DisableCWDForRetractTooManyTimes" value="RETRACT TOO MANY TIMES,DISABLE CWD" />
+  <item key="IDS_DisableDEPForRetractTooManyTimes" value="RETRACT TOO MANY TIMES,DISABLE DEP" />
+  <item key="IDS_DisableCWDForProjectDefine" value="PROJECT DEFINED DISABLE CWD" />
+  <item key="IDS_DisableDEPForProjectDefine" value="PROJECT DEFINED DISABLE DEP" />
+  <item key="IDS_DisableCWDForAddCashFail" value="ADD CASH FAIL,DISABLE CWD" />
+  <item key="IDS_DisableDEPForAddCashFail" value="ADD CASH FAIL,DISABLE DEP" />
+  <item key="IDS_CWDRecovered" value="WITHDRAWAL FUNCTION RECOVERED" />
+  <item key="IDS_DEPRecovered" value="DEPOSIT FUNCTION RECOVERED" />
+  <item key="IDS_DisableIDCForHardwareError" value="IDC HARDWARE ERROR,DISABLE CARD FUNCTION" />
+  <item key="IDS_DisableIDCForRetainBinFull" value="IDC RETAIN BIN FULL,DISABLE CARD FUNCTION" />
+  <item key="IDS_IDCRecovered" value="CARD FUNCTION RECOVERED" />
+  <item key="IDS_OutOfServiceForHostCommand" value="HOST ASK TO OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForReversal" value="NEED REVERSAL,OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForReSendScriptNotice" value="RESEND SCRIPT NOTICE,OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForAddCashFail" value="ADD CASH FAIL,OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForHardwareError" value=" UNAVAILABLE,OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForTransUnavailable" value="TRANS UNAVAILABLE,OUT OF SERVICE" />
+  <item key="IDS_OutOfServiceForOtherReason" value="OTHER REASON,OUT OF SERVICE" />
+  <item key="IDS_ClearReversalInMaintenanceMode" value="ENTER MAINTENANCE WHEN DO REVERSAL,CLEAR REVERSAL FLAG" />
+  <item key="IDS_DispenseInfo" value="DISPENSE INFO:" />
+  <item key="IDS_PresentCashFail" value="PRESENT CASH FAIL" />
+  <item key="IDS_CDMRetractCashSuccess" value="RETRACT CASH SUCCESS" />
+  <item key="IDS_CDMRetractCashFail" value="RETRACT CASH FAIL" />
+  <item key="IDS_RejectNoCash" value="REJECT NO CASH" />
+  <item key="IDS_RetractNoCash" value="RETRACT NO CASH" />
+  <item key="IDS_ReceiveNotesTakenEventWithdrawalSuccess" value="NOTE TAKEN, WITHDRAWAL SUCCESS" />
+  <item key="IDS_RCMCaptureCardToSlotStart" value="CAPTURE CARD TO SLOT START" />
+  <item key="IDS_RCMCaptureCardToSlotSuccess" value="CAPTURE CARD TO SLOT SUCCESS" />
+  <item key="IDS_RCMCaptureCardToSlotFail" value="CAPTURE CARD TO SLOT FAIL" />
+  <item key="IDS_ReasonCaptureCardForPINError" value="REASON:PIN ERROR" />
+  <item key="IDS_RCMEjectCardStart" value="EJECT CARD FROM SLOT TO IDC START" />
+  <item key="IDS_RCMEjectCardSuccess" value="EJECT CARD FROM SLOT TO IDC SUCCESS" />
+  <item key="IDS_RCMEjectCardFail" value="EJECT CARD FROM SLOT TO IDC FAIL" />
+  <item key="IDS_CaptureCardCountOfStatisticsHours" value="THE {1} CAPTURED CARD IN {0} HOURS" />
+  <item key="IDS_ReasonCaptureCardForCleanCard" value="REASON:CLEAN CARD" />
+  <item key="IDS_CountCashResultTotal" value="TOTAL DETAIL:" />
+  <item key="IDS_RetractDetail" value="Retract Detail:" />
+  <item key="IDS_StartAdmin" value="START ADMIN" />
+  <item key="IDS_StopAdmin" value="STOP ADMIN" />
+  <item key="IDS_PowerUpMode" value="POWERUP MODE" />
+  <item key="IDS_OfflineMode" value="OFFLINE MODE" />
+  <item key="IDS_InserviceMode" value="INSERVICE MODE" />
+  <item key="IDS_MaintenanceMode" value="MAINTENANCE MODE" />
+  <item key="IDS_OutofserviceMode" value="OUTOFSERVICE MODE" />
+  <item key="IDS_SystemStartup" value="SYSTEM STARTUP" />
+  <item key="IDS_KernelVession" value="KERNEL VERSION:" />
+  <item key="IDS_ProjectVersion" value="PROJECT VERSION:" />
+  <item key="IDS_ATMNumber" value="ATM NUMBER:" />
+  <item key="IDS_BankNumber" value="BANK NUMBER:" />
+  <item key="IDS_BranchNumber" value="BRANCH NUMBER:" />
+  <item key="IDS_ATMType" value="ATM TYPE:" />
+  <item key="IDS_LocalIP" value="LOCAL IP:" />
+  <item key="IDS_HostIP" value="HOST IP:" />
+  <item key="IDS_OutOfServiceForAutoCleanCard" value="AUTO CLEAN CARD，OUT OF SERVICE" />
+  <item key="IDS_RejectCashSuccess" value="CLEAR TRANSPORT CASH SUCCESS" />
+  <item key="IDS_RejectCashFail" value="CLEAR TRANSPORT CASH FAIL" />
+  <item key="IDS_EmptyCardSlotSuccess" value="Empty card slot {0} success" />
+  <item key="IDS_EmptyCardSlotFail" value="Empty card slot {0} fail" />
+  <item key="IDS_CaptureCardFailForNoMedia" value="NO CARD IN IDC" />
+  <item key="IDS_DepositStart" value="DEPOSIT START" />
+  <item key="IDS_CashIn_NotesRefused" value="Detected Refused Note" />
+  <item key="IDS_CashIn_NotesInserted" value="Detected Note" />
+  <item key="IDS_CashIn_TakeCash" value="Cash Taken" />
+  <item key="IDS_StoreCashOKDetail" value="Dep Info:" />
+  <item key="IDS_DisableIDCForRCMError" value="RCM ERROR" />
+  <item key="IDS_CashInFail" value="CASHIN FAIL" />
+  <item key="IDS_CashInEndFail" value="CASHINEND FAIL" />
+  <item key="IDS_CashInRollBackFail" value="CASHINROLLBACK FAIL" />
+  <item key="IDS_CashInStartFail" value="CASHINSTART FAIL" />
+  <item key="IDS_CIMResetFail" value="CIMRESET FAIL" />
+  <item key="IDS_CIMRetractFail" value="CIMRETRACT FAIL" />
+  <item key="IDS_Result" value="RESULT" />
+  <item key="IDS_Success" value="SUCCESS" />
+  <item key="IDS_Err" value="ERR" />
+  <item key="IDS_Fail" value="FAIL" />
+  <item key="IDS_SetSystemTime" value="SET SYSTEM TIME" />
+  <item key="IDS_CurrentTime" value="CURRENT TIME" />
+  <item key="IDS_FailedToCleanSlotFormat" value="Failed to clean up Slot({0})" />
+  <item key="IDS_ShutdownATM" value="SHUTDOWN ATM" />
+  <item key="IDS_CopyJournal" value="COPY JOURNAL" />
+  <item key="IDS_IDCResetTest" value="&lt;IDC&gt; RESET TEST" />
+  <item key="IDS_IDCEjectTest" value="&lt;IDC&gt; EJECT CARD TEST" />
+  <item key="IDS_IDCRetainTest" value="&lt;IDC&gt; RETAIN CARD TEST" />
+  <item key="IDS_IDCGetinfoTest" value="&lt;IDC&gt; GET INFOMATION TEST" />
+  <item key="IDS_IDCReadrawdataTest" value="&lt;IDC&gt; READ RAW DATA TEST" />
+  <item key="IDS_CIMResetTest" value="&lt;CIM&gt; RESET TEST" />
+  <item key="IDS_CDMResetTest" value="&lt;CDM&gt; RESET TEST" />
+  <item key="IDS_DefineMenu" value="DEFINE MENU" />
+  <item key="IDS_DoorOpenTest" value="&lt;DOOR&gt; OPEN TEST" />
+  <item key="IDS_DoorCloseTest" value="&lt;DOOR&gt; CLOSE TEST" />
+  <item key="IDS_SetMasterKey" value="SET MASTER KEY" />
+  <item key="IDS_EnterVDM" value="ENTER VDM" />
+  <item key="IDS_ExitVDM" value="EXIT VDM" />
+  <item key="IDS_FascialightOpenTest" value="&lt;FASCIALIGHT&gt; OPEN TEST" />
+  <item key="IDS_FascialightCloseTest" value="&lt;FASCIALIGHT&gt; CLOSE TEST" />
+  <item key="IDS_JPTRResetTest" value="&lt;JPTR&gt; RESET TEST" />
+  <item key="IDS_JPTRGetinfoTest" value="&lt;JPTR&gt; GET INFOMATION TEST" />
+  <item key="IDS_JPTRPrintTest" value="&lt;JPTR&gt; PRINT TEST" />
+  <item key="IDS_SetLightControl" value="SET LIGHT CONTROL" />
+  <item key="IDS_UpdateSuperPin" value="UPDATE SUPER PIN" />
+  <item key="IDS_NETTest" value="&lt;NET&gt; WORKING TEST" />
+  <item key="IDS_PINGetdataTest" value="&lt;PIN&gt; GET DATA TEST" />
+  <item key="IDS_PINResetTest" value="&lt;PIN&gt; RESET TEST" />
+  <item key="IDS_RestartATM" value="RESTART ATM" />
+  <item key="IDS_RPTRResetTest" value="&lt;RPTR&gt; RESET TEST" />
+  <item key="IDS_RPTRGetinfoTest" value="&lt;RPTR&gt; GET INFOMATION TEST" />
+  <item key="IDS_RPTRPrintTest" value="&lt;RPTR&gt; PRINT TEST" />
+  <item key="IDS_RPTRCutTest" value="&lt;RPTR&gt; CUT PAPER TEST" />
+  <item key="IDS_SetATMNo" value="SET ATM NUMBER" />
+  <item key="IDS_SetBankNo" value="SET BANK NUMBER" />
+  <item key="IDS_SetBranchNo" value="SET BRANCH NUMBER" />
+  <item key="IDS_SetAtmpIP" value="SET ATMP IP" />
+  <item key="IDS_SetAtmvIP" value="SET FEElVIEW IP" />
+  <item key="IDS_SetCIMCurrency" value="SET CIM CURRENCY" />
+  <item key="IDS_SetJOUNo" value="SET JOUNARY NUMBER" />
+  <item key="IDS_CurrentNo" value="CURRENT NUMBER" />
+  <item key="IDS_SetMaxAmount" value="SET MAX AMOUNT" />
+  <item key="IDS_SetSecondATMNo" value="SET Second ATM NUMBER" />
+  <item key="IDS_RCMResetTest" value="&lt;RCM&gt; RESET TEST" />
+  <item key="IDS_InvalidCard" value="INVALID CARD" />
+  <item key="IDS_TooManyItems" value="PUT IN TOO MANY ITEMS" />
+  <item key="IDS_END" value="END" />
+  <item key="IDS_ImportKeySuccess" value="IMPORT KEY SUCCESS" />
+  <item key="IDS_ConnectFail" value="CONNECTFAIL" />
+  <item key="IDS_SendFail" value="SENDFAIL" />
+  <item key="IDS_RecvFail" value="RECVFAIL" />
+  <item key="IDS_RecvTimeout" value="RECVTIMEOUT" />
+  <item key="IDS_NetServiceNoOpen" value="NetWork is not Open" />
+  <item key="IDS_Reconnecting" value="RECONNECTING" />
+  <item key="IDS_CommunicationFail" value="COMMUNICATIONFAIL" />
+  <item key="IDS_Other" value="OTHER" />
+  <item key="IDS_PackFail" value="PACKFAIL" />
+  <item key="IDS_UnpackFail" value="UNPACKFAIL" />
+  <item key="IDS_HostRefuse" value="HOSTREFUSE" />
+  <item key="IDS_ReInputPin" value="REINPUTPIN" />
+  <item key="IDS_NoSession" value="NOSESSION" />
+  <item key="IDS_DispenseGetCardFailure" value="get CardUnit Fail" />
+  <item key="IDS_StamperNoPaperFailure" value="A4Printer is has not Paper" />
+  <item key="IDS_StamperResetSuccess" value="A4Printer Reset can be use" />
+  <item key="IDS_StamperNoDevFailure" value="A4 printer service not available" />
+  <item key="IDS_StamperNoPaperForTransFailure" value="A4 printer paperless shielding transaction" />
+  <item key="IDS_IDCardNoDevFailure" value="ID card service not available" />
+  <item key="IDS_IDCardResetSuccess" value="ID card reset is available" />
+  <item key="IDS_UkeyReadResetSuccess" value="Ukey read reset is available" />
+  <item key="IDS_UkeyReadNoDevFailure" value="The ukey service is not available" />
+  <item key="IDS_CardDispenserResetSuccess" value="The card machine reset is available" />
+  <item key="IDS_CardDispenserNoDevFailure" value="The card machine service not available" />
+  <item key="IDS_UkeyDispenserResetSuccess" value="Ukey reset is available" />
+  <item key="IDS_UkeyDispenserNoDevFailure" value="The Ukey service is not available" />
+  <item key="IDS_UkeyUnitEmptyFailure" value="Ukey box is empty" />
+  <item key="IDS_FeedChannelResetSuccess" value="Feed reset is available" />
+  <item key="IDS_FeedChannelNoDevFailure" value="Feeder service not available" />
+  <item key="IDS_FeedChannelDevFailure" value="The paper feed channel fault" />
+  <item key="IDS_CAMResetSuccess" value="High camera reset is available" />
+  <item key="IDS_CAMNoDevFailure" value="High camera service not available" />
+  <item key="IDS_USBCamResetSuccess" value="USB camera reset is available" />
+  <item key="IDS_USBCamNoDevFailure" value="USB camera service not available" />
+  <item key="IDS_USBCamFailure" value="USB camera error" />
+  <item key="IDS_FingerScanerResetSuccess" value="The fingerprint device reset is available" />
+  <item key="IDS_FingerScanerNoDevFailure" value="Fingerprint service not available" />
+  <item key="IDS_FingerScanerFailure" value="The fingerprint device error" />
+  <item key="IDS_CIMResetSuccess" value="CIM reset is available" />
+  <item key="IDS_CIMNoDevFailure" value="CIM service not available" />
+  <item key="IDS_CIMFailure" value="CIM error" />
+  <item key="IDS_CDMResetSuccess" value="CDM reset is available" />
+  <item key="IDS_CDMNoDevFailure" value="CDM service not available" />
+  <item key="IDS_CDMFailure" value="CDM error" />
+  <item key="IDS_End" value="End" />
+  <item key="IDS_ScanDocTimeOut" value="High camera open or wait for a timeout" />
+  <item key="IDS_IDTakePaper" value="The paper has been take" />
+  <item key="IDS_RetractPaperSuccess" value="Recycling paper success" />
+  <item key="IDS_CardUnitFailure" value="A physical card error(card box may be empty)" />
+  <item key="IDS_UkeyUnitFailure" value="A physical Ukey box error(Ukey box may be empty or swallow ukey box may be full)" />
+  <item key="IDS_ResetUkeyFailure" value="Reset UKey fail" />
+  <item key="IDS_ResetUkeySucc" value="Reset UKey success" />
+  <item key="VTM_SIGN" value="Ukey business" />
+  <item key="VTM_NEWACC_CURRENT" value="Card business" />
+  <item key="IDS_CardNo" value="Dispense card no" />
+  <item key="IDS_VTM_NEWACC_CURRENT" value="Card business" />
+  <item key="IDS_VTM_SIGN" value="Ukey business" />
+  <item key="IDS_PASSBOOK" value="PASSBOOK Re Registration" />
+  <item key="IDS_DeviceOK" value="Device{0} OK" />
+  <item key="IDS_Disable" value="Shield" />
+  <item key="IDS_FormatDisable" value="{0}{1}{2}{3}" />
+  <item key="IDS_ErrorDisable" value="Fault" />
+  <item key="IDS_ResetCDMFailure" value="Movement (CDM) reset failed" />
+  <item key="IDS_ResetCIMFailure" value="Movement (CIM) reset failed" />
+  <item key="IDS_ResetFingerScanerFailure" value="Fingerprint device reset failed" />
+  <item key="IDS_ResetUSBCamFailure" value="Camera reset failed" />
+  <item key="IDS_ResetOpenScanFailure" value="High Paiyi reset failed" />
+  <item key="IDS_ResetFeedChannelDevFailure" value="The paper feed channel reset faile" />
+  <item key="IDS_ResetDispenseUkeyFailure" value="Send ukey module reset failed" />
+  <item key="IDS_ResetDispenseCardFailure" value="The card issuing module reset failed" />
+  <item key="IDS_ResetReadUkeyRawDataFailure" value="Read the ukey module reset failed" />
+  <item key="IDS_ResetScanIDCardFailure" value="ID module reset failed" />
+  <item key="IDS_CHKFailure" value="Check module fault" />
+  <item key="IDS_ResetStamperFailure" value="A4 print stamp machine reset failed" />
+  <item key="IDS_ResetCHKFailure" value="Check module reset failed" />
+  <item key="IDS_CHKNoDevFailure" value="Check no service module" />
+  <item key="IDS_CHKResetSuccess" value="Check module reset successful" />
+  <item key="IDS_ScanChkFailure" value="Check module read failure" />
+  <item key="IDS_ScanChkTimeout" value="Check module read timed out waiting for" />
+  <item key="IDS_ChkAcceptFailure" value="Check into the box failure" />
+  <item key="IDS_EjectChkFailure" value="Check exit failure" />
+  <item key="IDS_EjectResetFailure" value="Check reset exit failure" />
+  <item key="IDS_EjectResetSuccess" value="Check reset exit success" />
+  <item key="IDS_ScanChkCancel" value="Check block users from the initiative" />
+  <item key="IDS_UkeyTimeOutNoTake" value="Ukey timeout is not take" />
+  <item key="IDS_UkeyResetReturn" value="Reset swallow ukey success" />
+  <item key="IDS_UkeyReturn" value="Swallow ukey success" />
+  <item key="IDS_CardResetReturn" value="Reset the TUNKA success" />
+  <item key="IDS_CardReturn" value="Swallow the card" />
+  <item key="IDS_UkeyExistingFailure" value="Ukey port may have ukey did not take but recovery failed" />
+  <item key="IDS_CardNumber" value="Card box number" />
+  <item key="IDS_CardCount" value="Card number" />
+  <item key="IDS_UkeyNumber" value="Ukey box number" />
+  <item key="IDS_UkeyCount" value="The number of ukey" />
+  <item key="IDS_ReturnCardCount" value="Swallow the card box card number" />
+  <item key="IDS_ReturnUkeyCount" value="The number of swallow ukey box ukey" />
+  <item key="IDS_UkeyTaken" value="UKEY have taken" />
+  <item key="JPTR" value="Journal printer" />
+  <item key="TTU" value="TTU" />
+  <item key="FlashDevice" value="Flash device" />
+  <item key="PIN" value="Pin Pad" />
+  <item key="SIU" value="Sensor indicator unit" />
+  <item key="IDC" value="IDC" />
+  <item key="ContactLessIDC" value="ContactLessIDC" />
+  <item key="RPTR" value="Receipt printer" />
+  <item key="CDM" value="CDM" />
+  <item key="CIM" value="CIM" />
+  <item key="VDM" value="VDM" />
+  <item key="CardDistributor" value="Card distributor" />
+  <item key="Camera" value="Camera" />
+  <item key="IDReader" value="ID reader" />
+  <item key="UkeyReader" value="UKEY reader module" />
+  <item key="BCR" value="Two-dimension code" />
+  <item key="Passbook" value="Passbook Printer" />
+  <item key="CRD" value="Credit card machine " />
+  <item key="UkeyDispenser" value="UKEY module" />
+  <item key="FeedChannel" value="Feed channel" />
+  <item key="BarCodeScanner" value="Two-dimension code module" />
+  <item key="CAM" value="High shot meter" />
+  <item key="USBCam" value="Camera" />
+  <item key="Stamper" value="A4 Print and seal machine" />
+  <item key="CHK" value="Check the scanning" />
+  <item key="SimulateKeypad" value="KeyBoard" />
+  <item key="BiometricIdenticifcation" value="Biometric identicification device" />
+  <item key="IDS_TransName_Unknown" value="Unknown" />
+  <item key="IDS_TransName_INQ" value="Inquiry" />
+  <item key="IDS_TransName_CWD" value="Withdrawal" />
+  <item key="IDS_TransName_DEP" value="Deposit" />
+  <item key="IDS_TransName_PIN" value="ChangePin" />
+  <item key="IDS_TransName_TFR" value="Transfer" />
+  <item key="IDS_TransName_Load" value="IC Load" />
+  <item key="IDS_TransName_VTM_NEWACC_CURRENT" value="New account" />
+  <item key="IDS_TransName_VTM_SIGN" value="New UKey" />
+  <item key="IDS_TRANSNAME_PASSBOOK" value="Bank book update" />
+  <item key="IDS_OutOfServiceForMaxRetainCardNum" value="RETAINED CARD NUMBER REACH MAX,OUT OF SERVICE" />
+  <item key="IDS_GoodReadNextState" value="Good Read Next State" />
+  <item key="IDS_TransactionStart" value="========&gt; Transaction Start" />
+  <item key="IDS_TransactionFnished" value="Transaction Finished" />
+  <item key="IDS_CloseShutter" value="Close Shutter" />
+  <item key="IDS_CloseShutterForNoteTaken" value="Notes removed with shutter closed" />
+  <item key="IDS_CloseShutterForNoteInsert" value="Deposit : Shutter closed for notes insertion" />
+  <item key="IDS_OpenShutter" value="Open Shutter" />
+  <item key="IDS_OpenShutterForNoteTaken" value="Shutter opened for notes removal" />
+  <item key="IDS_OpenShutterForNoteInsert" value="Deposit : Shutter opened for notes insertion" />
+  <item key="IDS_NoDepositNote" value="No Recognised Note" />
+  <item key="IDS_CancelKeyPressed" value="User: Cancel key pressed" />
+  <item key="IDS_RefundKeyPressed" value="User: Refund key pressed" />
+  <item key="IDS_AddMoreKeyPressed" value="User: AddMore key pressed" />
+  <item key="IDS_DepositKeyPressed" value="Deposit Confirmed" />
+  <item key="IDS_DepositTimeout" value="Keypad Timeout" />
+  <item key="IDS_DepositDefaultFlow" value="Deposit Go Default Flow" />
+  <item key="IDS_PAN_XDC" value="Card Number : " />
+  <item key="IDS_CloseTransaction" value="&lt;======== Transaction End" />
+  <item key="IDS_TransactionRequestTimeout" value="Transaction Request Host Timeout" />
+  <item key="IDS_TransactionRequestReply" value="Transaction Request Replied" />
+  <item key="IDS_TransactionRequestFailOrCancel" value="Transaction Request Fail Or Cancel" />
+  <item key="IDS_NotesInserted" value="Notes inserted in hopper" />
+  <item key="IDS_NotesTaken" value="Notes removal detected" />
+  <item key="IDS_NotesRefused" value="Notes Refused" />
+  <item key="IDS_MediaInserted" value="Card Inserted" />
+  <item key="IDS_MediaMoved" value="Card Moved" />
+  <item key="IDS_ICCardReadComplete" value="IC Card Read Completed" />
+  <item key="IDS_MagCardReadComplete" value="Magnetic Card Read Completed" />
+  <item key="IDS_CashInEnd_Storing" value="Host Store : Storing" />
+  <item key="IDS_CashInEnd_Stored" value="Host Store : Stored" />
+  <item key="IDS_CashInEnd_Failed" value="Host Store : Failed" />
+  <item key="IDS_TerminalID" value="Terminal ID : " />
+  <item key="IDS_PINEntered" value="PIN Entered" />
+  <item key="IDS_CITYPOWERISOFF" value="City Power Is Off, Shut Down The Machine" />
+  <item key="IDS_NoCardDepositForZeroState" value="No card deposit" />
+  <item key="IDS_NoCardDeposit" value="No card deposit" />
+  <item key="FingerScaner" value="Fingerprint module" />
+  <item key="IDS_EndTrans" value="To send instructions to A end transaction" />
+  <item key="IDS_CardReaderDataFailure" value="Card reader fault" />
+  <item key="IDS_ResetCardReaderFailure" value="The card reader is reset failed" />
+  <item key="IDS_CardReaderResetSuccess" value="The card reader is reset successful" />
+  <item key="IDS_CloseWithVTA" value="VTA receives the end instruction" />
+  <item key="IDS_AppClose" value="In response to the VTA end command, and have an immediate end to process conditions, the end of the execution of the process" />
+  <item key="IDS_AppNoClose" value="End instruction is not VTA to immediately end process, A end disconnected also does not affect the C end" />
+  <item key="IDS_ICBDZHQCCZ" value="LOAD REVERSAL" />
+  <item key="IDS_ICFBDZHQC" value="NON BINDING LOAD" />
+  <item key="IDS_ICXJCZ" value="CASH RECHARGE" />
+  <item key="IDS_ICXJCZCZ" value="CASH RECHARGE REVERSAL" />
+  <item key="IDS_ICQT" value="UNLOAD" />
+  <item key="IDS_ICQTQR" value="UNLOAD CONFIRM" />
+  <item key="IDS_SetMaxTransferAmount" value="SET MAX TRANSFER AMOUNT" />
+  <item key="IDS_ImportPINKey" value="IMPORT PIN KEY" />
+  <item key="IDS_ImportMACKey" value="IMPORT MAC KEY" />
+  <item key="IDS_CheckPINKeyKCVFail" value="CHECK PIN KEY KCV FAIL" />
+  <item key="IDS_CheckMACKeyKCVFail" value="CHECK MAC KEY KCV FAIL" />
+  <item key="IDS_CancelSetMasterKey" value="Set MasterKey has been canceled" />
+  
+  <item key="IDS_CurrentDateTime" value="DATE TIME:" />
+  <item key="IDS_DepositToAccount" value="DEPOSIT TO ACCOUNT: {0}" />
+  <item key="IDS_DepositAmount" value="DEPOSIT AMOUNT: {0}" />
+  <item key="IDS_DepositTotalAmount" value="DEPOSIT TOTAL AMOUNT: {0}" />
+  <item key="IDS_DepositSelectBank" value="BANK SELECTED:" />
+  <item key="IDS_DepositSelectBankID" value="ID: {0}" />
+  <item key="IDS_DepositSelectBankName" value="NAME: {1}" />
+  
+  <item key="IDS_TransactionStart" value="TRANSACTION START" />
+  <item key="IDS_TransactionCancel" value="TRANSACTION CANCEL" />
+  <item key="IDS_TransactionRequest" value="TRANSACTION REQUEST [{0}]" />
+  <item key="IDS_TransactionReply" value="TRANSACTION RESPONSE[{0}]" />
+  <item key="IDS_TransactionReply_RefNumber" value="- REFERENCE NUMBER=[{0}]" />
+  <item key="IDS_TransactionReply_ResponseCode" value="- RESPONSE CODE   =[{0}]" />
+  <item key="IDS_TransactionReplyErrorMessage" value="TRANSACTION ERROR: {0}" />
+  <item key="IDS_TransactionPINEntered" value="PIN ENTERED" />
+  <item key="IDS_TransactionPINCancel" value="INPUT PIN CANCEL" />
+  <item key="IDS_TransactionPINTimeout" value="INPUT PIN TIMEOUT" />
+  <item key="IDS_TransactionRefNumber" value="REF NUMBER: {0}" />
+  
+  <item key="IDS_TransactionCode" value="TRANSACTION CODE: {0}" />
+  <item key="IDS_TransactionDate" value="TRANSACTION DATE: {0}" />
+  
+  <item key="IDS_PassbookSavingType" value="SAVING TYPE: {0}" />
+  <item key="IDS_PassbookAccountNumber" value="ACCOUNT NUMBER: {0}" />
+  <item key="IDS_PassbookTerm" value="TERM: {0}" />
+  <item key="IDS_PassbookRate" value="INTEREST RATE: {0}" />
+  <item key="IDS_PassbookValueDate" value="VALUE DATE: {0}" />
+  <item key="IDS_PassbookMaturityDate" value="MATURIRY DATE: {0}" />
+  <item key="IDS_PassbookBlockadedAmount" value="BLOCKADED AMOUNT: {0}" />
+  <item key="IDS_PassbookBlockadedReason" value="BLOCKADED REASON: {0}" />
+  <item key="IDS_PassbookTransferToAccount" value="TRANSFER TO ACCOUNT: {0}" />
+  <item key="IDS_PassbookAccountBalance" value="CURRENT ACCOUNT BALANCE: {0}" />
+  <item key="IDS_PassbookInterestPaymentToAccount" value="INTEREST PAYMENT TO ACCOUNT: {0}" />
+  <item key="IDS_PassbookRenewalMode" value="RENEWAL MODE: {0}" />
+  <item key="IDS_PassbookIsSelectPromotion" value="PASSBOOK SELECT PROMOTION" />
+  <item key="IDS_PassbookInfomation" value="PASSBOOK INFORMATION" />
+  <item key="IDS_PassbookNumber" value="- NUMBER: {0}" />
+  <item key="IDS_PassbookInfo" value="- INFO: {0}" />
+  <item key="IDS_PassbookDate" value="- DATE: {0}" />
+  <item key="IDS_PassbookAmount" value="- AMOUNT: {0}" />
+  <item key="IDS_PassbookType" value="- TYPE: {0}" />
+  
+  <item key="IDS_CustomerInputInformation" value="CUSTOMER INPUT INFORMATION" />
+  <item key="IDS_CustomerCIF" value="CUSTOMER CIF: {0}" />
+  <item key="IDS_CustomerName" value="CUSTOMER NAME: {0}" /> 
+  <item key="IDS_CustomerID" value="- ID NUMBER: {0}" />
+  <item key="IDS_CustomerAddress" value="- ADDRESS: {0}" />
+  <item key="IDS_CustomerGender" value="- GENDER: {0}" />
+  <item key="IDS_CustomerDoB" value="- DATE OF BIRTH: {0}" />
+  <item key="IDS_CustomerIssuePlace" value="- ISSUE PLACE: {0}" />
+  <item key="IDS_CustomerIssueDate" value="- ISSUE DATE: {0}" />
+  <item key="IDS_CustomerNationality" value="- NATIONALITY: {0}" />
+  <item key="IDS_CustomerPhoneNumber" value="- PHONE NUMBER: {0}" />
+  <item key="IDS_CustomerEmail" value="- EMAIL: {0}" />
+  <item key="IDS_CustomerNumberOfAccounts" value="NUMBER OF ACCOUNTS: {0}" />
+  <item key="IDS_CustomerSelectAccount" value="SELECT ACCOUNT: {0}" />
+  <item key="IDS_CustomerSelectInputAccount" value="CUSTOMER INPUT ACCOUNT: {0}" />
+   
+  <item key="IDS_CustomerNewAccountCreated" value="NEW ACCOUNT CREATED:" />
+  <item key="IDS_CustomerNewAccountCIFNo" value="- CIF NO=[{0}]" />
+  <item key="IDS_CustomerNewAccountAccountNo" value="- ACC NO=[{0}]" />
+  
+  <item key="IDS_CardRegistration" value="CARD REGISTRATION:" />
+  <item key="IDS_CardRegistration_VisaStandard" value="- VISA DEBIT STANDARD: " />
+  <item key="IDS_CardRegistration_VisaGold" value="- VISA DEBIT GOLD: " />
+  <item key="IDS_CardRegistration_VisaPlatinum" value="- VISA DEBIT PLATINUM: " />
+  <item key="IDS_CardRegistration_eCounter" value="- ECOUNTER: " />
+  
+  <item key="IDS_CardIssuing_Instant" value="INSTANT CARD ISSUING" />  
+  <item key="IDS_CardIssuing_Address" value="AT ADDRESS [{0}]" />
+  <item key="IDS_CardIssuing_Branch" value="AT TPBANK BRANCH" />  
+  <item key="IDS_CardIssuing_BranchName" value="- BRANCH: " />
+  <item key="IDS_CardIssuing_BranchAddress" value="- ADDRESS: " />
+   
+  <item key="IDS_eBankRegistration" value="EBANK REGISTRATION:" />  
+  <item key="IDS_eBankRegistration_Soft" value="- SOFT: {0}" />  
+  <item key="IDS_eBankRegistration_SMS" value="- SMS: {0}" />  
+  
+  <item key="IDS_NotificationSMS" value="SMS NOTIFICATION: {0}" /> 
+  <item key="IDS_NotificationTotalPhoneNumbers" value="TOTAL PHONE NUMBERS: {0}" />  
+  <item key="IDS_NotificationPhoneNumbers" value="PHONE NUMBERS: {0}" />  
+  
+  <item key="IDS_FingerprintRegistration" value="FINGERPRINT REGISTRATION - {0}" />    
+  <item key="IDS_FingerprintVerify" value="VERIFY FINGERPRINT: {0}" /> 
+  <item key="IDS_FingerprintVerifyCount" value="COUNT=[{0}]" /> 
+  <item key="IDS_FingerprintVerifyNotReachApplication" value="CANNOT REACH SERVER APPLICATION" />
+  
+  <item key="IDS_CassetteStatus" value="CASSETTE {0}: {1}" />
+  <item key="IDS_CassetteStatusEmpty" value="EMPTY" />
+  <item key="IDS_CassetteStatusLow" value="LOW" />
+  <item key="IDS_CassetteStatusError" value="ERROR" />
+  
+  <item key="IDS_OCRDetails" value="RECOGNITION DETAILS: " />
+  <item key="IDS_OCRSuspiciousNote" value="- SUSPICIOUS NOTE: " />
+  <item key="IDS_OCRDenomination500" value="- 500000: " />
+  <item key="IDS_OCRDenomination200" value="- 200000: " />
+  <item key="IDS_OCRDenomination100" value="- 100000: " />
+  <item key="IDS_OCRDenomination050" value="-  50000: " />  
+        
+  <item key="IDS_CardBoxDispense" value="POINTMAN DISPENSE FROM BOX[{0}]" />
+  <item key="IDS_CardBoxSupply" value="POINTMAN SUPPLY: " />
+  <item key="IDS_CardBoxSupplyDetails" value="- BOX[{0}], COUNT[{1}]" />
+  <item key="IDS_CardBoxSupplyRetain" value="- RETAIN, COUNT[{0}]" />
+  
+  <item key="IDS_CardBoxError" value="POINTMAN FAILUARE" />
+  <item key="IDS_CardBoxErrorDispense" value="POINTMAN DISPENSE CARD FAILED" />
+  <item key="IDS_CardBoxErrorReadRAW" value="POINTMAN READ CARD FAILED" />
+  <item key="IDS_CardBoxErrorPrint" value="POINTMAN PRINT CARD FAILED" />
+  
+  <item key="IDS_CardBox_RetainBin" value="POINTMAN RETAIN BIN COUNT[{0}]" />
+  <item key="IDS_CardBox_CaptureCard" value="POINTMAN CARD CAPTURE" />
+  <item key="IDS_CardBox_CaptureReset" value="POINTMAN RESET TUNKA SUCCESSFUL" />
+  <item key="IDS_CardBox_CaptureReturn" value="POINTMAN SWALLOWING CARD" />
+  <item key="IDS_CardBox_CaptureCardSuccessful" value="POINTMAN CARD CAPTURE SUCCESSFUL" />
+  <item key="IDS_CardBox_CapturePAN" value="POINTMAN CARD CAPTURE: " />
+  
+  <item key="IDS_CardBox_DispensePAN" value="POINTMAN DISPENSE [PAN={0}] [TYPE={1}]" />  
+  <item key="IDS_CardBox_ReadCardError" value="POINTMAN READ CARD ERROR" />
+</config>

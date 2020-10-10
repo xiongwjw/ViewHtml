@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <item key="IDS_LoginMenu" value="Operator Menu" />
+  <item key="IDS_BankOperator" value="Bank Operator" />
+  <item key="IDS_SystemOperator" value="System Operator" />
+  <item key="IDS_MainMenu" value="Menu" />
+  <item key="IDS_Input" value="Please select" />
+  <item key="IDS_ClearAndAddCash" value="Total Management" />
+  <item key="IDS_SytemDiagnose" value="System Diagnose" />
+  <item key="IDS_SystemConfigure" value="System Configure" />
+  <item key="IDS_NormalMaintenance" value="Daily Maintenance" />
+  <item key="IDS_LogOperate" value="Log Handle" />
+  <item key="IDS_Reprint" value="Reprint Journal" />
+  <item key="IDS_VDMManage" value="VDM" />
+  <item key="IDS_Exit" value="Exit" />
+  <item key="IDS_Back" value="Back" />
+  <item key="IDS_AtmParameters" value="ATM Parameters" />
+  <item key="IDS_SetMasterKey" value="Set MasterKey" />
+  <item key="IDS_SetMaxAmount" value="Set Max Amount" />
+  <item key="IDS_ShowMasterKeyKVV" value="Show MasterKey KVV" />
+  <item key="IDS_SetATMTerminalID" value="Set Terminal ID" />
+  <item key="IDS_AddMasterKey" value="Add Master key" />
+  <item key="IDS_DeviceManage" value="Device manage" />
+  <item key="IDS_OtherManage" value="Other manage" />
+  <item key="IDS_SystemConfigure" value="System Configure" />
+  <item key="IDS_NormalMaintenance" value="Error Query " />
+  <item key="IDS_VDMManage" value="VDM" />
+  <item key="IDS_SystemManage" value="System manage" />
+  <item key="IDS_Exit" value="Exit" />
+  <item key="IDS_Back" value="Back" />
+  <item key="IDS_SystemParaManage" value="System parameter manage" />
+  <item key="IDS_SetATMID" value="Set ATM ID" />
+  <item key="IDS_SetSecondATMID" value="Set Second ATM ID" />
+  <item key="IDS_SetBankNo" value="Set Bank NO" />
+  <item key="IDS_SetBranchID" value="Set Branch NO" />
+  <item key="IDS_SetATMPIP" value="Set ATMP IP" />
+  <item key="IDS_DeviceReset" value="Device Reset" />
+  <item key="IDS_DeviceTest" value="Device Test" />
+  <item key="IDS_PrintVersion" value="Print Version" />
+  <item key="IDS_IDCTest" value="IDC test" />
+  <item key="IDS_GuidLightTest" value="Guiding light test" />
+  <item key="IDS_RPPRTest" value="RPRT test" />
+  <item key="IDS_JRPRTest" value="JPRT test" />
+  <item key="IDS_PinInitialization" value="Pin Initialization" />
+  <item key="IDS_AllDevice" value="All devices" />
+  <item key="IDS_IDC" value="IDC" />
+  <item key="IDS_EPP" value="EPP" />
+  <item key="IDS_CDM" value="CDM" />
+  <item key="IDS_CIM" value="CIM" />
+  <item key="IDS_RPPR" value="RPRT" />
+  <item key="IDS_JRPR" value="JPRT" />
+  <item key="IDS_CleanupAmount" value="Clean Amount" />
+  <item key="IDS_LocalTotals" value="Print Totals" />
+  <item key="IDS_CashReplenish" value="Set Cash" />
+  <item key="IDS_QueryCassetteInfo" value="Query cassette information" />
+  <item key="IDS_PrintMenu" value="Print options" />
+  <item key="IDS_JouranlPrint" value="Jouranl-Print" />
+  <item key="IDS_ReceiptPrint" value="Receipt-Print" />
+  <item key="IDS_UpdateMasterKey" value="Update Master key" />
+  <item key="IDS_ModifyLoginPassword" value="Modify password" />
+  <item key="IDS_ShutDownPC" value="Shut ATM" />
+  <item key="IDS_RestartPC" value="Reboot ATM" />
+  <item key="IDS_CopyElectronicJou" value="Copy Elecronic Journal" />
+  <item key="IDS_PrintLocalTotal" value="Print local total" />
+  <item key="IDS_ReprintJouByJouNo" value="Reprint Journal by journal number" />
+  <item key="IDS_ReprintJouByDate" value="Reprint Journal by time" />
+  <item key="IDS_ReprintJorByCardNo" value="Reprint Journal by card number" />
+  <item key="IDS_PrintLocalTotalInTwoWay" value="Reprint in the above two ways" />
+  <item key="IDS_PINPAD" value="Light of PIn" />
+  <item key="IDS_CardUnit" value="Light of IDC" />
+  <item key="IDS_NotesDispenser" value="Light of Cash dispenser" />
+  <item key="IDS_Scanner" value="Light of Scanner" />
+  <item key="IDS_PassbookPrinter" value="Light of Passbook-printer" />
+  <item key="IDS_CashAccepter" value="Light of cash-accepter" />
+  <item key="IDS_DocumentPrinter" value="Light of document-printer" />
+  <item key="IDS_ReceiptPrinter" value="Light of receipt-printer" />
+  <item key="IDS_ReadAndEject" value="Read and eject" />
+  <item key="IDS_ReadAndCapture" value="Read and capture" />
+  <item key="IDS_QueryDeviceStatus" value="Query device status" />
+  <item key="IDS_DoorState" value="Door status" />
+  <item key="IDS_CardReaderState" value="IDC status" />
+  <item key="IDS_CDMState" value="CDM status" />
+  <item key="IDS_CIMState" value="CIM status" />
+  <item key="IDS_RPPRState" value="RPRT status" />
+  <item key="IDS_JRPRState" value="JPRT status" />
+  <item key="IDS_SlowMode" value="Slow mode" />
+  <item key="IDS_MediumMode" value="Medium mode" />
+  <item key="IDS_QuickMode" value="Quick mode" />
+  <item key="IDS_ContinueMode" value="Continue mode" />
+  <item key="IDS_ShutGuidLight" value="Shut light" />
+  <item key="IDS_DisplayMode" value="Flickering mode：Exit with other number" />
+  <item key="IDS_QueryPositiveError" value="Quert Positive Error code" />
+  <item key="IDS_QueryNegativeError" value="Quert Negative Error code" />
+  <item key="IDS_QueryHostError" value="Quert Host return-code" />
+  <item key="IDS_MaxWithdrawAmount" value="Maximum of Withdraw Amount" />
+  <item key="IDS_MaxTransferAmount" value="Maximum of Transfer Amount" />
+  <item key="IDS_TROUBLESHOOTING" value="Backup Troubleshooting Files" />
+  <item key="IDS_QUERYEXCEPTION" value="QUERY EXCEPTION" />
+  <item key="IDS_CURRENTPERIODEXP" value="CURRENT PERIOD EXP" />
+  <item key="IDS_LASTPERIODEXP" value="LAST PERIOD" />
+  <item key="IDS_SPECIFIEDDATEEXP" value="SPECIFIED DATE" />
+  <item key="IDS_CLEARMACHINEPERIODEXP" value="CLEAR MACHINE PERIOD" />
+  <item key="IDS_QUERYCAPTURECARD" value="QUERY CAPTURE CARD" />
+  <item key="IDS_INQUIRYBYSERIALNO" value="INQUIRY BY SERIAL NO." />
+  <item key="IDS_INQUIRYBYJOURNALNO" value="INQUIRY BY JOURNAL NO." />
+  <item key="IDS_INQUIRYBYCARDNO" value="INQUIRY BY CARD NO." />
+  <item key="IDS_QueryNotesInfo" value="BANKNOTES INFO INQUIRY" />
+  <item key="IDS_SetAtmpIp" value="Set ATMP IP" />
+  <item key="IDS_ModifyPassword" value="Modify password" />
+  <item key="IDS_NetworkTest" value="Network Test" />
+  <item key="IDS_SystemEnvironmentTest" value="System Environment Test" />
+  <item key="IDS_QueryAbnormalByJou" value="EXP BY JOU.NO." />
+  <item key="IDS_QueryAbnormalByAccount" value="EXP BY ACCOUNT NO." />
+  <item key="IDS_QueryAbnormalByTransType" value="EXP BY TRANSACTION" />
+  <item key="IDS_QueryAbnormalByDate" value="EXP BY DATE" />
+  <item key="IDS_QueryAbnormalByDateTime" value="EXP BY DATATIME" />
+  <item key="IDS_QueryAbnormalByDEP" value="Deposit" />
+  <item key="IDS_QueryAbnormalByNoCardDep" value="NoCard DEP" />
+  <item key="IDS_QueryAbnormalByTFR" value="Transfer" />
+  <item key="IDS_QueryAbnormalByCWD" value="Withdraw" />
+  <item key="IDS_QueryAbnormalTransInfo" value="Query Abnormal Trans Info" />
+  <item key="IDS_SetJouNo" value="Set Journal Number" />
+  <item key="IDS_Logout" value="Log out" />
+  <item key="IDS_SetCurAndDeno" value="Set Cur and Deno" />
+  <item key="IDS_SetCIMCurrency" value="Set CIM Denomination" />
+  <item key="IDS_SetATMVIP" value="Set ATMV IP" />
+  <item key="IDS_CopyElectronicJouToCD" value="Copy Elecronic Journal To CD" />
+  <item key="IDS_LightControlTTU" value="Fascialight set" />
+  <item key="IDS_LightControlBeginHour" value="Input start time(unit : hour)" />
+  <item key="IDS_LightControlEndHour" value="Input end time(unit : hour)" />
+  <item key="IDS_LightControlSetHour" value="Input fascialight set time" />
+  <item key="IDS_EjectCardManageTTU" value="EjectCard Manage" />
+  <item key="IDS_EjectCardInfo" value="CAPTURECARD INFORMATION DETAIL" />
+  <item key="IDS_EjectAllCard" value="Eject All Card" />
+  <item key="IDS_EjectSelectCard" value="Eject Select Card" />
+  <item key="IDS_EjectCardRotate" value="Eject Card Rotate Time" />
+  <item key="IDS_EjectCardTimeSet" value="Eject Card Time Set" />
+  <item key="IDS_CleanCardWhenATMLaunch" value="Clean Card When ATM Launch Set" />
+  <item key="IDS_VersionTracing" value="Version Tracing" />
+</Config>

@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <item key="Processing" value="Operation is in progress..." />
+  <item key="InputPwdWrong" value="Incorrect Password, please re-input" />
+  <item key="InputPwdEmpty" value="Please input password" />
+  <item key="LogoutConfirm" value="Logout?" />
+  <item key="QuitConfirm" value="Quit?" />
+  <item key="CloseSafeDoor" value="Please close the safe door" />
+  <item key="CloseCabinetDoor" value="Please close the cabinet door" />
+  <item key="SetOperSwitchRun" value="Please set Operator-switch running" />
+  <item key="Loading" value="Loading..." />
+  <item key="DataLoading" value="Loading data..." />
+  <item key="BILL" value="BILL" />
+  <item key="CASHIN" value="CASHIN" />
+  <item key="RECYCLING" value="RECYCLING" />
+  <item key="REJECT" value="REJECT" />
+  <item key="RETRACT" value="RETRACT" />
+  <item key="StartExchangeSuccess" value="Open cassette successfully" />
+  <item key="StartExchangeFailure" value="Open cassette unsuccessfully" />
+  <item key="EndExchangeSuccess" value="Close cassette successfully" />
+  <item key="EndExchangeFailure" value="Close cassette successfully" />
+  <item key="AddCashConfirm" value="Please insert cashbox,then press ENT to continue." />
+  <item key="AddCashTip" value="Please insert cash,then continue." />
+  <item key="NotSupportFunc" value="Unsupported features" />
+  <item key="SetCashUnifInfoConfirm" value="Save current settings?" />
+  <item key="InputDataError" value="Incorrect input, please re-input" />
+  <item key="InputNotePaper" value="Please click ENTER to save after inputing amount" />
+  <item key="ZeroAddCashConfrim" value="Clear all cassettes?" />
+  <item key="ZeroAddCashOper" value="Operation is in progress..." />
+  <item key="UpdateCashUnitInfo" value="Updating Cassette info" />
+  <item key="SetCashUnitInfoSuccess" value="Add note successfully" />
+  <item key="SetCashUnitInfoFailure" value="Add note unsuccessfully" />
+  <item key="SystemEnvironment" value="System environment" />
+  <item key="HardDiskInfo" value="HardDisk Info(Available/Capcity)" />
+  <item key="MemoryInfo" value="Memory info" />
+  <item key="ProcessInfo" value="Process info" />
+  <item key="OSProductName" value="OS" />
+  <item key="MDACVersion" value="MDAC version" />
+  <item key="ATMCVersion" value="VTMC version" />
+  <item key="LocalIpAddress" value="Ip address" />
+  <item key="TotalPhysicalMemory" value="Physical memory" />
+  <item key="AvailablePhysicalMemory" value="Available physical memory" />
+  <item key="ProcessId" value="Process ID" />
+  <item key="ProcessName" value="Process name" />
+  <item key="ProcessMemoryInfo" value="Process memory info" />
+  <item key="LoadDataFailure" value="Load data unsuccessfully" />
+  <item key="ReceiptPrinting" value="Printing, please wait." />
+  <item key="JournalPrinting" value="Printing, please wait..." />
+  <item key="PrintComplete" value="Print successfully" />
+  <item key="PrintError" value="Print unsuccessfully" />
+  <item key="PrintDoneAsync" value="Printing,press 'ENT' to continue" />
+  <item key="JPTRErrorInfo" value="Device Error, auto print data when device online,please press 'ENT' to continue" />
+  <item key="NoRemovableDisk" value="Removable disk can't be found, copy fail" />
+  <item key="ExportSuccess" value="Export successfully" />
+  <item key="ExportFailure" value="Export unsuccessfully" />
+  <item key="ResetSuccess" value="Reset successfully" />
+  <item key="ResetFailure" value="Reset unsuccessfully" />
+  <item key="InsertCard" value="Please insert card" />
+  <item key="OperSuccess" value="Operate successfully" />
+  <item key="OperFailure" value="Operate unsuccessfully" />
+  <item key="PinInitialization" value="PinInitialization" />
+  <item key="ReadRawDataSuccess" value="Test insert-card successfully" />
+  <item key="ReadRawDataFailure" value="Test insert-card unsuccessfully" />
+  <item key="CardMoved" value="Card has been taken" />
+  <item key="EjectCardSuccess" value="Eject card successfully, please take it" />
+  <item key="EjectCardFailure" value="Eject card unsuccessfully" />
+  <item key="RetainCardSuccess" value="Test retain-card successfully" />
+  <item key="RetainCardFailure" value="Test retain-card unsuccessfully" />
+  <item key="DeviceStatus" value="Device status" />
+  <item key="MediaStatus" value="Media status" />
+  <item key="RetainCardNum" value="Retain-card account" />
+  <item key="PaperStatus" value="Paper status" />
+  <item key="PrintSuccess" value="Print successfully" />
+  <item key="PrintFailure" value="Print unsuccessfully" />
+  <item key="ONLINE" value="ONLINE" />
+  <item key="BUSY" value="ONLINE" />
+  <item key="OFFLINE" value="OFFLINE" />
+  <item key="POWEROFF" value="POWEROFF" />
+  <item key="NODEVICE" value="NODEVICE" />
+  <item key="HWERROR" value="HWERROR" />
+  <item key="ERROR" value="ERROR" />
+  <item key="USERERROR" value="USER ERROR" />
+  <item key="UNKNOWN" value="UNKNOWN" />
+  <item key="FULL" value="FULL" />
+  <item key="LOW" value="LOW" />
+  <item key="OUT" value="OUT" />
+  <item key="JAMMED" value="JAMMED" />
+  <item key="NOTSUPP" value="NOT SUPP" />
+  <item key="UNKNOWN" value="UNKNOWN" />
+  <item key="ENTERING" value="ENTERING" />
+  <item key="LATCHED" value="LATCHED" />
+  <item key="RETRACTED" value="RETRACTED" />
+  <item key="PRESENT" value="PRESENT" />
+  <item key="NOTPRESENT" value="NOT PRESENT" />
+  <item key="EppKeyInputTip" value="Please set key in the front screen" />
+  <item key="UserCancel" value="Cancel" />
+  <item key="ImportKeySuccess" value="Import key finished" />
+  <item key="ImportKeyFail" value="Import key failed" />
+  <item key="BackToMenu" value="Press Enter to return." />
+  <item key="ConfirmToContinue" value="Press Enter to continue" />
+  <item key="VerifyValue" value="Verified value" />
+  <item key="VerifyValueFormat" value="Verified value:{0}" />
+  <item key="ClearKeysFailure" value="Clear key unsuccessfully" />
+  <item key="InputKeyUnvalid" value="Please input {0} - digit key" />
+  <item key="InputKeyPart" value="Please input key in part {0}" />
+  <item key="AddCash" value="Add Cash" />
+  <item key="QueryCashUnitInfo" value="Query" />
+  <item key="TotalStatistic" value="Total Statis" />
+  <item key="CUOK" value="OK" />
+  <item key="CUFULL" value="FULL" />
+  <item key="CUHIGH" value="HIGH" />
+  <item key="CULOW" value="LOW" />
+  <item key="CUEMPTY" value="EMPTY" />
+  <item key="CUINOP" value="INOP" />
+  <item key="CUMISSING" value="MISSING" />
+  <item key="CUNOVAL" value="NOVAL" />
+  <item key="CUNOREF" value="NOREF" />
+  <item key="CUMANIP" value="MANIP" />
+  <item key="CUTitle" value="==========Cassette Info========" />
+  <item key="CUInfo" value="ID TYPE DENO   INIT  LEFT  CWD  DEP  STATE" />
+  <item key="CardTitle" value="===========Card box information===========" />
+  <item key="CardInfo" value="ID      TYPE    INIT    LEFT    STATE" />
+  <item key="RetainBin" value="Retract" />
+  <item key="SupplyBin" value="Dispense" />
+  <item key="UkeyTitle" value="==========Ukey box information==========" />
+  <item key="UkeyInfo" value="ID      TYPE    INIT    LEFT    STATE" />
+  <item key="UkeyPad" value="8" />
+  <item key="CardPad" value="8" />
+  <item key="UkeyRightTitle" value="========Right Ukey box information=========" />
+  <item key="UkeyRightInfo" value="ID      TYPE    DENO    INIT    LEFT    STATE" />
+  <item key="CUInfoXDC" value="CAS   LOADED  OUT   IN    REJ    REM" />
+  <item key="CUTotalAmount" value="TOTAL COUNT:" />
+  <item key="PressTestKey" value="Please input key in the pinpad, click 'ENT' to exit" />
+  <item key="ReceiveKey" value="Receive key" />
+  <item key="OpenShutterSuccess" value="Open shutter successfully" />
+  <item key="OpenShutterFailure" value="Open shutter unsuccessfully" />
+  <item key="CloseShutterSuccess" value="Close shutter successfully" />
+  <item key="CloseShutterFailure" value="Close shutter unsuccessfully" />
+  <item key="SafeDoor" value="Safe door" />
+  <item key="CabinetDoor" value="Cabinet door" />
+  <item key="OPEN" value="OPEN" />
+  <item key="CLOSED" value="CLOSE" />
+  <item key="NOTAVAILABLE" value="Disable" />
+  <item key="LOCKED" value="LOCKED" />
+  <item key="BOLTED" value="BOLTED" />
+  <item key="OpenAction" value="Open" />
+  <item key="CloseAction" value="Close" />
+  <item key="OpenSuccess" value="Open successfully" />
+  <item key="OpenFailure" value="Open unsuccessfully" />
+  <item key="CloseSuccess" value="Close successfully" />
+  <item key="CloseFailure" value="Close unsuccessfully" />
+  <item key="CARDUNIT" value="Light of IDC" />
+  <item key="PINPAD" value="Light of PIn" />
+  <item key="NOTESDISPENSER" value="Indicator of Cash dispenser" />
+  <item key="COINDISPENSER" value="Indicator of Coin dispenser" />
+  <item key="RECEIPTPRINTER" value="Indicator of receipt-printer" />
+  <item key="PASSBOOKPRINTER" value="Indicator of Passbook-printer" />
+  <item key="ENVDEPOSITORY" value="Indicator of envelop depository" />
+  <item key="CHEQUEUNIT" value="Indicator of Cheque" />
+  <item key="BILLACCEPTOR" value="Indicator of cash-accepter" />
+  <item key="ENVDISPENSER" value="Indicator of envelop" />
+  <item key="DOCUMENTPRINTER" value="Indicator of document-printer" />
+  <item key="COINACCEPTOR" value="Indicator of Coin accepter" />
+  <item key="SCANNER" value="Indicator of scanner" />
+  <item key="CloseAllGuidLight" value="Close all guide lights" />
+  <item key="AllGuidLightOperSuccess" value="All guide lights have been open" />
+  <item key="CashDevGuidLight" value="Cash Guide Light" />
+  <item key="EnvDevGuidLight" value="Envelop Guide Light" />
+  <item key="FASCIALIGHT" value="Fascia Light" />
+  <item key="Reseting" value="Resetting " />
+  <item key="GREENLight" value="Green light" />
+  <item key="REDLight" value="Red light" />
+  <item key="AMBERLight" value="Yellow light" />
+  <item key="LightOn" value="On" />
+  <item key="LightOff" value="Off" />
+  <item key="FileNotFound" value="File can not be found" />
+  <item key="RebootConfirm" value="Reboot VTM?" />
+  <item key="ShutdownConfirm" value="Shut down VTM?" />
+  <item key="ErrCodeNotExists" value="Failed to find the matching code" />
+  <item key="ResCodeNotExists" value="Failed to find the matching code" />
+  <item key="InputDataError" value="Incorrect input, please re-input" />
+  <item key="InputOldPwdEmpty" value="Please input old password" />
+  <item key="InputOldPwdError" value="The old password is incorrect" />
+  <item key="InputNewPwdEmpty" value="Please input new password" />
+  <item key="InputNewPwdError" value="New passwords do not match" />
+  <item key="PwdFormatError" value="Please input password more than 3" />
+  <item key="CommandAccept" value="Command is accepted，please wait..." />
+  <item key="BeginDate" value="Begin date(20121212)" />
+  <item key="EndDate" value="End date(20121213)" />
+  <item key="BeginDateTime" value="BeginTime(20121012080910)" />
+  <item key="EndDateTime" value="EndTime(20121013080910)" />
+  <item key="InputAgain" value="Please re-input" />
+  <item key="InputBeginDateError" value="Incorrect date, please re-input" />
+  <item key="InputEndDateError" value="Incorrect date, please re-input" />
+  <item key="InputDateError" value="Incorrect date" />
+  <item key="NotFoundMatchFile" value="Failed to find the matching file" />
+  <item key="SpaceNotEnough" value="Not enough space,fail to export" />
+  <item key="VendorDependentMode" value="VMD" />
+  <item key="JournalPrinter" value="JournalPrinter" />
+  <item key="EPPKeypad" value="EPPKeypad" />
+  <item key="SensorAndLight" value="SensorAndLight" />
+  <item key="CardReader" value="CardReader" />
+  <item key="CashDispenser" value="CashDispenser" />
+  <item key="CashAcceptor" value="CashAcceptor" />
+  <item key="ReceiptPrinter" value="ReceiptPrinter" />
+  <item key="InputUserIdEmpty" value="Please input User ID" />
+  <item key="UserNotExists" value="The user does not exist" />
+  <item key="UserNotExistsAndInput" value="Error userID, please input again" />
+  <item key="StartAdmin" value="START ADMIN" />
+  <item key="StopAdmin" value="STOP ADMIN" />
+  <item key="PrintCashUnitInfo" value="Printing cassette information..." />
+  <item key="EnterVDMConfirm" value="Enter VDM?" />
+  <item key="StopSPService" value="Disconnecting SP..." />
+  <item key="EnterVDMProcessing" value="Entering VDM, please wait..." />
+  <item key="EnterVDMSuccess" value="Enter VDM successfully" />
+  <item key="CallVDMProcessing" value="Start VDM,please wait..." />
+  <item key="EnterVDMFailure" value="Enter VDM unsuccessfully" />
+  <item key="CloseDevice" value="Closing devices" />
+  <item key="RestartDevice" value="Starting devices" />
+  <item key="ExitVDMSuccess" value="Exit VMD successfully, please click Enter to continue" />
+  <item key="InputATMNOError" value="Please input {0}  VTM NO." />
+  <item key="InputSecondATMNOError" value="Please input {0} Second VTM NO." />
+  <item key="InputBankNOEmpty" value="Please input bank NO." />
+  <item key="InputBranchNOEmpty" value="Please input brank NO." />
+  <item key="NormalTotal" value="=========NORMAL TOTAL===========" />
+  <item key="AbnormalTotal" value="=========ABNORMAL TOTAL===========" />
+  <item key="TotalCountTitle" value="COUNT   TRANSTYPE        AMOUNT" />
+  <item key="AbnormalTotalCountTitle" value="COUNT   TRANSTYPE            AMOUNT" />
+  <item key="PrintTotalEnd" value="============PRINT END============" />
+  <item key="DepositHostRefuseTitle" value="---------DEPOSIT HOST REFUSE----------" />
+  <item key="CheckFlagTitle" value="----------CWC TRANSACTION--------------" />
+  <item key="CheckRefuseTitle" value="------------CWC REFUSE TRANSACTION----------------" />
+  <item key="SupspictiousTitle" value="---------SUSPICIOUS TRANSACTION---------" />
+  <item key="DeviceErrorTitle" value="----------DEVICE ERROR--------------" />
+  <item key="CommErrTitle" value="--------------COMM ERROR--------------" />
+  <item key="CustomerOperTimeoutTitle" value="----------OPERATION TIMEOUT----------" />
+  <item key="ICErrorTitle" value="----------IC ERROR----------" />
+  <item key="Reason" value="Reason" />
+  <item key="ResponseCode" value="Response Code" />
+  <item key="ReversalSuccess" value="Reversal Success" />
+  <item key="ReversalFailure" value="Reversal Fail" />
+  <item key="ReversalFlag0" value="No Need Reversal" />
+  <item key="ReversalFlag1" value="Incomplete Reversal" />
+  <item key="ReversalFlag2" value="Reversal Success" />
+  <item key="ReversalFlag3" value="Reversal Refuse" />
+  <item key="ReversalFlag4" value="Reversal Refuse" />
+  <item key="ReversalFlag5" value="System Exception" />
+  <item key="CashDevError0" value="OK" />
+  <item key="CashDevError1" value="Denominate Fail" />
+  <item key="CashDevError2" value="Present Fail" />
+  <item key="CashDevError3" value="Take Cash Timeout" />
+  <item key="CashDevError4" value="Retract Fail" />
+  <item key="CashDevError5" value="Long Time" />
+  <item key="CashDevError6" value="Return Cash Success" />
+  <item key="CashDevError7" value="Return Cash Fail" />
+  <item key="CashDevError8" value="Count Fail,Return Fail" />
+  <item key="CashDevError9" value="Take Cash Timeout" />
+  <item key="CashDevError10" value="Retract Fail" />
+  <item key="CashDevError11" value="Door Fail" />
+  <item key="CashDevError99" value="Other Error" />
+  <item key="CashDevErrorFlag0" value="OK" />
+  <item key="CashDevErrorFlag1" value="Denominate Fail" />
+  <item key="CashDevErrorFlag2" value="Present Fail" />
+  <item key="CashDevErrorFlag3" value="Take Cash Timeout" />
+  <item key="CashDevErrorFlag4" value="Retract Fail" />
+  <item key="CashDevErrorFlag5" value="Long Time" />
+  <item key="CashDevErrorFlag6" value="Return Cash Success" />
+  <item key="CashDevErrorFlag7" value="Return Cash Fail" />
+  <item key="CashDevErrorFlag8" value="Count Fail,Return Fail" />
+  <item key="CashDevErrorFlag9" value="Take Cash Timeout" />
+  <item key="CashDevErrorFlag10" value="Retract Fail" />
+  <item key="CashDevErrorFlag11" value="Door Fail" />
+  <item key="CashDevErrorFlag99" value="Other Error" />
+  <item key="HostCommFlag0" value="OK" />
+  <item key="HostCommFlag1" value="Create Message Fail" />
+  <item key="HostCommFlag2" value="Connect Fail" />
+  <item key="HostCommFlag3" value="Send Fail" />
+  <item key="HostCommFlag4" value="Receive Fail" />
+  <item key="HostCommFlag5" value="Receive Timeout" />
+  <item key="HostCommFlag6" value="Network Fail" />
+  <item key="HostCommFlag7" value="Host Refuse" />
+  <item key="HostCommFlag8" value="Unpack Fail" />
+  <item key="HostCommFlag9" value="No Send Message" />
+  <item key="HostCommFlag99" value="Other Error" />
+  <item key="ICErrorFlag0" value="OK" />
+  <item key="ICErrorFlag1" value="IC ERROR" />
+  <item key="ICErrorFlag2" value="IC ERROR" />
+  <item key="ICErrorFlag3" value="IC ERROR" />
+  <item key="ADC" value="ADC" />
+  <item key="INQ" value="INQ" />
+  <item key="IND" value="IND" />
+  <item key="CWD" value="CWD" />
+  <item key="CWC" value="CWC" />
+  <item key="TFR" value="TFR" />
+  <item key="TFC" value="TFC" />
+  <item key="DEP" value="DEP" />
+  <item key="DPC" value="DPC" />
+  <item key="ADP" value="ADP" />
+  <item key="ICBDZHQC" value="QC" />
+  <item key="ICCASHCZ" value="CZ" />
+  <item key="TransDetailNotFound" value="Failed to find the matching record" />
+  <item key="InputJouNumberError" value="Please input at least 6 serial number." />
+  <item key="InputAccountNoError" value="Please input the last 8 number." />
+  <item key="InvalidDateRange" value="Begining date can not be more than the End one" />
+  <item key="CardNumberError" value="Incorrect card number, please re-input" />
+  <item key="InputCardNumber" value="Please input last 8 card-number" />
+  <item key="BeginJouNo" value="Begin Jou NO(000001)" />
+  <item key="EndJouNo" value="End Jou NO(000010)" />
+  <item key="InputJouNo" value="Please input jou NO(000001)" />
+  <item key="InputError" value="Incorrect input, please re-input" />
+  <item key="InputJouError" value="Beginning Jou can not be more than the End one" />
+  <item key="NullError" value="Null input, please re-input" />
+  <item key="RecoverDefDailyHandleSet" value="Recover default settings?" />
+  <item key="SelectMaxMenuCount" value="19 items have been selected" />
+  <item key="SelectMenuEmpty" value="Please select menu" />
+  <item key="SaveDailyMenuSuccess" value="Save successfully,Do you want to exit?" />
+  <item key="RetainCardDetail" value="===========Retain-card details===========" />
+  <item key="CaptureCardCount" value="Count of Capturing Card:" />
+  <item key="ReasonTitle" value="Reason:" />
+  <item key="CaptureCardInfoNotFound" value="Failed to find the capture-card record" />
+  <item key="Unavailable" value="Unavailable" />
+  <item key="ReprintDataNotFound" value="Failed to find the reprint data" />
+  <item key="InputCardNOError" value="Please input last 8 card-number" />
+  <item key="InputSerialNOError" value="Please input {0} Jou-Number" />
+  <item key="InvalidSerialNORange" value="Begin-Jou can not be more than the end one" />
+  <item key="InputNumberError" value="Please input a number bigger than 0" />
+  <item key="InputWithdrawAmountEmpty" value="Please input the max withdraw-amount" />
+  <item key="InputTransferAmountEmpty" value="Please input the max transfer-amount" />
+  <item key="PrintDatetimeParam" value="Print Time parameter" />
+  <item key="PrintCasstteParam" value="Print Cassette parameter" />
+  <item key="PrintNetworkParam" value="Print Network parameter" />
+  <item key="PrintBankParam" value="Print Bank parameter" />
+  <item key="SingleMaxAmount" value="Single CWD Max Amount" />
+  <item key="SingleMinAmount" value="Single CWD Min Amount" />
+  <item key="SingleCDPMaxNotes" value="Single CDP Max Notes" />
+  <item key="KeyPressTimeout" value="Key Press Timeout" />
+  <item key="TakeCardTimeout" value="Take Card Timeout" />
+  <item key="TakeCashTimeout" value="Take Cash Timeout" />
+  <item key="InterposeCashTimeout" value="Interpose Cash Timeout" />
+  <item key="ContinueInterposeCash" value="Continue Interpose Cash Timeout" />
+  <item key="RejectCashTimeout" value="Reject Cash Timeout" />
+  <item key="CancelInterposeCashTimeout" value="Cancel Interpose Cash Timeout" />
+  <item key="InsertCardCounter" value="Please insert card in {0:D2}s" />
+  <item key="CutSuccess" value="Cut successfully" />
+  <item key="CutFailure" value="Cut unsuccessfully" />
+  <item key="InputNoteOverFlow" value="Input note is not greater than {0}" />
+  <item key="CurrentMaxAmount" value="Max Amount:{0}" />
+  <item key="CurrentATMNO" value="Current VTM NO.: {0}" />
+  <item key="CurrentSecondATMNO" value="Current Second VTM NO.: {0}" />
+  <item key="CurrentBankNO" value="Current Bank NO.:{0}" />
+  <item key="CurrentBranchNO" value="Current Branch NO.:{0}" />
+  <item key="InputNewATMNO" value="Please input New VTM NO." />
+  <item key="InputNewSecondATMNO" value="Please input New Second VTM NO." />
+  <item key="InputNewBankNo" value="Please input New Bank NO." />
+  <item key="InputNewBranchNO" value="Please input New Branch NO." />
+  <item key="CopyProgress" value="Current progress: {0}%" />
+  <item key="InputCassetteAmount" value="Please input amount for {0}" />
+  <item key="DenoValue" value="Deno({0})" />
+  <item key="InsertRemovableDiskAndContinue" value="Continue while inserting U-Disk" />
+  <item key="FileSize" value="File size" />
+  <item key="DownloadRate" value="Upgrade rate" />
+  <item key="FirmwareDownloadSuccess" value="Upgrade successful" />
+  <item key="FirmwareDownloadFailure" value="Upgrade failure" />
+  <item key="PingConfirm" value="Ping?" />
+  <item key="PingTest" value="Ping {0}..." />
+  <item key="PingTestSuccess" value="{0} Ping successful" />
+  <item key="PingTestFailure" value="{0} Ping failure" />
+  <item key="PingTestTimeout" value="{0} Ping timeout" />
+  <item key="TelnetConfirm" value="Telnet?" />
+  <item key="TelnetTest" value="Telnet {0}..." />
+  <item key="TelnetTestSuccess" value="{0} Telnet successful" />
+  <item key="TelnetTestFailure" value="{0} Telnet failure" />
+  <item key="TelnetTestTimeout" value="{0} Telnet timeout" />
+  <item key="SignInProcessing" value="Operation is in progress..." />
+  <item key="IDS_InputEPPKeyConStruct" value="Please input key" />
+  <item key="IDS_VerifyCheckValue" value="Key Check Value:" />
+  <item key="IDS_VerifyCheckValueTip" value="Please Press 'ENT' to Continue" />
+  <item key="NetworkOffline" value="Offline" />
+  <item key="NetworkStatus" value="Network status" />
+  <item key="ErrorCode" value="Error Code" />
+  <item key="RetryOverLimit" value="The times of entering password is over limit" />
+  <item key="SetMasterKeyComplete" value="Set Key finished，Please Press 'OK' to Continue" />
+  <item key="PrintReceiptComplete" value="Print completely by receipt" />
+  <item key="PrintReceiptError" value="Fail to print by receipt" />
+  <item key="HavePrintedOnElectronicJournal" value="Electronic Journal has been recorded without JPRT" />
+  <item key="ReceiptPrinterNotExists" value="There exists no RPRT" />
+  <item key="TransDetail" value="========Trans Detail========" />
+  <item key="CardNumber" value="Card NO." />
+  <item key="TransType" value="Trans Type" />
+  <item key="JournalNumber" value="Journal NO." />
+  <item key="TransDate" value="Trans Date" />
+  <item key="TransTime" value="Trans Time" />
+  <item key="TransAmount" value="Amount" />
+  <item key="TransResult" value="Result" />
+  <item key="OCRDetailInfo" value="=======OCR Detail=======" />
+  <item key="OCRCommand" value="WOSA Command" />
+  <item key="NoteCount" value="Count" />
+  <item key="OCRDispense" value="Dispense" />
+  <item key="OCRReject" value="Reject" />
+  <item key="OCRRetractForCDM" value="Retract" />
+  <item key="OCROpenForCDM" value="Startup" />
+  <item key="OCRResetForCDM" value="Reset" />
+  <item key="OCRCashIn" value="CashIn" />
+  <item key="OCRRollback" value="Rollback" />
+  <item key="OCRRetractForCIM" value="Retract" />
+  <item key="OCROpenForCIM" value="Startup" />
+  <item key="OCRResetForCIM" value="Reset" />
+  <item key="OCRCashInEnd" value="CashInEnd" />
+  <item key="OCRRollback" value="Rollback" />
+  <item key="OpenForCDM" value="Open" />
+  <item key="OpenForCIM" value="Open" />
+  <item key="ResetCDMByAdmin" value="Reset(admin)" />
+  <item key="ResetCIMByAdmin" value="Reset(admin)" />
+  <item key="OCRLevel" value="Level Type" />
+  <item key="OCRLevel4" value="Recognitive notes" />
+  <item key="OCRLevel3" value="Suspicious notes" />
+  <item key="OCRLevel2" value="Noncognitive notes" />
+  <item key="OCRTime" value="Time" />
+  <item key="DateOverlimit" value="Date is over limit[{0} months]" />
+  <item key="SerialNumberLengthOverlimit" value="The length of SN is between {0} and {1}" />
+  <item key="CaptureCardTime" value="Capture time" />
+  <item key="NoPAN" value="No PAN" />
+  <item key="SendAddCashMsgSuccess" value="Succeeded to add-cash msg" />
+  <item key="SendAddCashMsgFailure" value="Failed to send add-cash msg" />
+  <item key="NotAllowToQuit" value="Failed to add cash, NOT allow to quit" />
+  <item key="MasterKeyKVV" value="MasterKey KVV：{0}" />
+  <item key="AtmpIpFormat" value="VTMP IP：{0}" />
+  <item key="AtmpPortFormat" value="VTMP Port：{0}" />
+  <item key="InputAtmpIpFormat" value="Please input NEW Ip：{0}" />
+  <item key="InputAtmpPort" value="Please input NEW Port" />
+  <item key="InputNewPwdEmptyAgain" value="Please input new password again" />
+  <item key="ModifyPasswordSuccess" value="Modify Psw successfully" />
+  <item key="ModifyPasswordFail" value="Modify Psw unsuccessfully" />
+  <item key="SerialSample" value="eg: 20=K;01=1" />
+  <item key="CurrentSerial" value="Current SN:{0}" />
+  <item key="InputBeginDateTimeError" value="Incorrect time, please re-input" />
+  <item key="InputEndDateTimeError" value="Incorrect time, please re-input" />
+  <item key="RebootConfirmAfterSettingIP" value="Press ENT to reboot" />
+  <item key="IDS_CurrentSerialNumberFormat" value="JOU NO.:{0}" />
+  <item key="IDS_InputCurrentSerialNumber" value="Please input new JOU NO." />
+  <item key="IDS_InputCurrentSNFormat" value="Please input {0}-digit SN" />
+  <item key="IDS_InvalidData" value="Invalid data,please input again" />
+  <item key="IDS_DenoValueFormet" value="It must be a multiple of {0}" />
+  <item key="IDS_InputNumberToQuery" value="For detail,please input:" />
+  <item key="IDS_LessThanFormat" value="(Max:{0})" />
+  <item key="IDS_InitialDataHints" value="Initial data as followings：" />
+  <item key="IDS_InitialKeyAndDataFormat" value="ID:{0};Data:{1}" />
+  <item key="IDS_SendAddCashFail" value="Failed to send add-cash msg" />
+  <item key="IDS_Exception" value="Exception for Add-cash" />
+  <item key="OCRResetCDMByAdmin" value="Reset(admin)" />
+  <item key="OCRResetCIMByAdmin" value="Reset(admin)" />
+  <item key="InputCassetteCurrency" value="Please input currency for {0}" />
+  <item key="InputCassetteDeno" value="Please input deno for {0}" />
+  <item key="CurrencyFormat" value="Currency:{0}" />
+  <item key="SetCashCurrencyAndDenoConfirm" value="Confirm to save the cash infos?" />
+  <item key="SaveCurrencyAndDenoSucceed" value="Set succesfully" />
+  <item key="SaveCurrencyAndDenoFailure" value="Set failure" />
+  <item key="COUNT" value="COUNT" />
+  <item key="TRANSTYPE" value="TRANSTYPE" />
+  <item key="AMOUNT" value="AMOUNT" />
+  <item key="ProjectVersion" value="Project version" />
+  <item key="PrintStartAsync" value="RePrinting Journal Record now" />
+  <item key="PrintCompletedAsyne" value="RePrinting completed now" />
+  <item key="InputErrorCode" value="Please input eeror code:" />
+  <item key="InputAccountNoErrorFormat" value="Please input the last {0} number" />
+  <item key="PrintVersionParam" value="Print Version parameter" />
+  <item key="KERNEL VERSION" value="KERNEL VERSION" />
+  <item key="PROJECT VERSION" value="PROJECT VERSION" />
+  <item key="AtmpModeFormat" value="ATMP Mode：{0}" />
+  <item key="InputAtmpMode" value="Please input number:(0 Long 1 Short 2 Halfshort)" />
+  <item key="AtmvIpFormat" value="ATMV IP：{0}" />
+  <item key="AtmvPortFormat" value="ATMV Port：{0}" />
+  <item key="AtmvModeFormat" value="ATMV Mode：{0}" />
+  <item key="InputAtmvIpFormat" value="Please input NEW IP:{0}" />
+  <item key="InputAtmvPort" value="Please input NEW Port" />
+  <item key="InputAtmvMode" value="Please input number:(0 Long 1 Short 2 Halfshort)" />
+  <item key="NoCDDisk" value="Writable CD/DVD disk can't be found, copy fail" />
+  <item key="InsertCDDiskAndContinue" value="Continue while inserting CD-Disk" />
+  <item key="TC" value="NG" />
+  <item key="InputLightControlTimeError" value="FasciaLight time set failure,please input four number" />
+  <item key="InputSetTimeDataError" value="FasicaLight time set failure,please rewrite data to each black with  two number limited" />
+  <item key="InputLightControlBeginHour" value=" Start time setting(forexample:0830) " />
+  <item key="InputLightControlBeginMinute" value="Please input fascialight start time setting(unit:minute,forexample:30,scale:0-60) " />
+  <item key="InputLightControlEndHour" value="End time setting(forexample:2330) " />
+  <item key="InputLightControlEndMinute" value="Please input fascialight end time setting(unit:minute,forexample:40,scale:0-60) " />
+  <item key="InputLightControlSuccess" value="Set success" />
+  <item key="InputLightControlFailture" value="Set failture" />
+  <item key="LightControlConfirm" value="Please press enter key to return" />
+  <item key="FasciaLightAlwaysKeepOn" value="Fascialight always keep on" />
+  <item key="FasciaLightAlwaysKeepOff" value="Fascialight always keep off" />
+  <item key="Longconnect" value="longconnect" />
+  <item key="Shortconnect" value="shortconnect" />
+  <item key="Middleconnect" value="halfshortconnect" />
+  <item key="InputConfigureError" value="Configure Failure,Please press enter key to return " />
+  <item key="PressOnConfirmReturn" value="Please press enter key to return" />
+  <item key="OldCIMCurrencySetting" value="Original CIM Denomination Setting" />
+  <item key="SetCIMCurrencyMenuTitle" value="NO Currency Denomination Version CanUSE Selected" />
+  <item key="CanUseSeletion" value="CanUSE" />
+  <item key="CannotUseSeletion" value="CannotUSE" />
+  <item key="InputTips" value="After select number, press enter key to confirm" />
+  <item key="PressEnterPageDown" value="Please press enter key once to next page" />
+  <item key="PleaseSelectCardSlot" value="Please select card slot" />
+  <item key="PrepareEmptyCardSlot" value="Prepare for emptying card slot" />
+  <item key="EmptyCardSlot" value="Empty card slot {0}" />
+  <item key="BeginEmptyCardSlot" value="Begin empty card slot {0}" />
+  <item key="EmptyCardSlotSuccess" value="Empty card slot {0} success" />
+  <item key="EmptyCardSlotFail" value="Empty card slot {0} fail" />
+  <item key="CardSlotIsEmpty" value="Empty slot {0} is empty" />
+  <item key="EmptyCardSlotFinished" value="Empty card slot finished" />
+  <item key="EmptyCardTipForGetCapturedCardInfoFail" value="Get captured card information fail" />
+  <item key="EmptyCardTipForBinWillFull" value="Card in the recycling bin will be more than its maximum capacity, please take the card in the recycling bin first" />
+  <item key="RCMCapturedCardInfo" value="=======Captured Card Information=======" />
+  <item key="RCMCapturedCardInfoTitle" value="No    CardNumber   CaptureTime" />
+  <item key="RCMCapturedCardInfoItme" value="{0:2}  {1:30}  {2:-20}" />
+  <item key="EjectFirstCard" value="Eject First Slot Card" />
+  <item key="EjectSecondCard" value="Eject Second Slot Card" />
+  <item key="EjectThirdCard" value="Eject Third Slot Card" />
+  <item key="EjectFourthCard" value="Eject Fourth Slot Card" />
+  <item key="EjectFifthCard" value="Eject Fifth Slot Card" />
+  <item key="EjectCardSelectOption" value="Please select Card Slot Position number:" />
+  <item key="EjectAllCardOption" value="Press Enter to eject all of cards:" />
+  <item key="EjectCardRotateTimeSet" value="Set up eject card rotate time" />
+  <item key="EjectCardRotateTimeSetTips" value="Please input eject card rotate time（unit:hour）:" />
+  <item key="InputEjectCardBeginHour" value="Start time setting(forexample:1) " />
+  <item key="InputEjectCardEndHour" value="End time setting(forexample:2) " />
+  <item key="InputEjectCardSuccess" value="Set success" />
+  <item key="InputEjectCardFailture" value="Set failture" />
+  <item key="EjectCardConfirm" value="Please press enter key to return" />
+  <item key="InputEjectCardTimeError" value="Set failture,Please press enter key to return" />
+  <item key="EjectCardModuleIsOpened" value="Eject card module is opened!" />
+  <item key="EjectCardModuleIsClosed" value="Eject card module is closed!" />
+  <item key="IsToOpenEjectCardModule" value="Is to open eject card module?" />
+  <item key="IsToCloseEjectCardModule" value="Is to close eject card module?" />
+  <item key="OpenEjectCardModule" value="Open eject card module" />
+  <item key="CloseEjectCardModule" value="Close eject card module" />
+  <item key="OpenEjectCardModuleSuccess" value="Open eject card module success" />
+  <item key="OpenEjectCardModuleFail" value="Open eject card module fail" />
+  <item key="CloseEjectCardModuleSuccess" value="Close eject card module success" />
+  <item key="CloseEjectCardModuleFail" value="Close eject card module fail" />
+  <item key="SetEmptyCardParameters" value="Set empty card parameters" />
+  <item key="CIMSetCannotEmpty" value="CIM Currency and Denomination Set cannot be empty" />
+  <item key="AleadySelected" value="Selected" />
+  <item key="FasciaLightSet" value="FasciaLight Set" />
+  <item key="IPSet" value="IP Set " />
+  <item key="CIMSet" value="CIM Set" />
+  <item key="IDS_ExceedDataFormat" value="Exceed int.MaxValue：{0}" />
+  <item key="PressOnCancelReturnOnEnterCheckout" value="Press on CANCEL key to return,Press on ENTER to checkout" />
+  <item key="SelectionIsEmptyPressOnEnterReturn" value="Selection Is Empty ,Press on Enter to return" />
+  <item key="MaxWithdrawalAmountFormat" value="Max Amount of Withdrawal must be a multiple of {0}." />
+  <item key="NotSupportModifyMaxWithdrawalDeno" value="Temporary not support modify Max Amount of Withdrawal" />
+  <item key="IDS_DiskWriteFail" value="Disk cannot be written,please check if it is damaged or write protected." />
+  <item key="ScanFailure" value="Scan failed" />
+  <item key="InsertIDCard" value="Please insert the ID card" />
+  <item key="ScanIDCardSuccess" value="ID card  scan test successful" />
+  <item key="ScanIDCardFailure" value="ID card scanning test failed" />
+  <item key="InsertIDCardCounter" value="Please insert the ID card in {0:D2} seconds" />
+  <item key="IDCardMoved" value="Id Card have been take" />
+  <item key="MessIDCardMoved" value="Please take away your ID card" />
+  <item key="FingerScanFailure" value="Scan failed" />
+  <item key="InsertFingerScaner" value="Please put your finger on the fingerprint instrument" />
+  <item key="ScanFingerSuccess" value="Fingerprint test success" />
+  <item key="ScanFingerFailure" value="Fingerprint test fail" />
+  <item key="InsertFingerCounter" value="Please put your finger on the fingerprint instrument  in {0:D2} seconds" />
+  <item key="FingerMoved" value="The finger has been removed" />
+  <item key="MessFingerMoved" value="Please move your finger" />
+  <item key="CAMScanFailure" value="Scan failed" />
+  <item key="CAMStartTimeOut" value="High camera start timeout " />
+  <item key="CAMStartSuccess" value="High camera start success" />
+  <item key="CAMClose" value="High camera is closed" />
+  <item key="CAMPath" value="Picture path：" />
+  <item key="CAMCounter" value="Please complete the test in {0:D2} seconds" />
+  <item key="FeedChannelFailure" value="Draw paper fail" />
+  <item key="FeedChannelSuccess" value="Draw paper success" />
+  <item key="FeedChannelScanSuccess" value="Draw paper scan sucess" />
+  <item key="FeedChannelScanFailure" value="Draw paper scan fail" />
+  <item key="FeedChannelEjSuccess" value="Retreat paper sucess" />
+  <item key="FeedChannelEjFailure" value="Retreat paper fail" />
+  <item key="TakePaper" value="Please take away the paper" />
+  <item key="PaperIsTake" value="The paper has been take" />
+  <item key="FeedChannelStartTimeOut" value="The paper feed channel starting overtime" />
+  <item key="FeedChannelClose" value="The paper feed channel is closed" />
+  <item key="FeedChannelPath" value="Picture path：" />
+  <item key="FeedChannelInfo" value="Picture information：" />
+  <item key="FeedChannelCounter" value="Please complete the test in {0:D2} seconds" />
+  <item key="UKeyFailure" value="Ukey failed" />
+  <item key="UKeySuccess" value="Ukey success" />
+  <item key="UKeyScanSuccess" value="Ukey scan success" />
+  <item key="UKeyScanFailure" value="Ukey scan fail" />
+  <item key="TakeUkey" value="Please take away Ukey" />
+  <item key="UkeyIsTake" value="Ukey has been take" />
+  <item key="UkeyCounter" value="Please complete the test in {0:D2} seconds" />
+  <item key="ReturnUKeySuccess" value="Swallow Ukey success" />
+  <item key="ReturnUKeyFailure" value="Swallow Ukey fail" />
+  <item key="ResetUKeySuccess" value="Reset Ukey success" />
+  <item key="ResetUKeyFailure" value="Reset Ukey fail" />
+  <item key="UkeyCount" value="Ukey remaining number" />
+  <item key="UkeyDispenserNoDevFailure" value="The Ukey service is not available" />
+  <item key="UkeyUnitEmptyFailure" value="Ukey is empty" />
+  <item key="StamperNoDevFailure" value="A4 printer service is not available" />
+  <item key="StamperNoPaperFailure" value="A4 printer without paper" />
+  <item key="StamperResetSuccess" value="A4 printer reset is available" />
+  <item key="PrinterResetSuccess" value="A4 printer reset success" />
+  <item key="PrinterResetFailure" value="A4 printer reset fail" />
+  <item key="PrintWithStampSuccess" value="A4 printer to print stamp success" />
+  <item key="PrintWithStampFailure" value="A4 printer to print stamp fail" />
+  <item key="CardErrorMsg" value="CardNumber: {0} CardName:{1} CardCount is empty or is not an integer" />
+  <item key="UkeyErrorMsg" value="UkeyNumber: {0} UkeyName:{1} UkeyCount is empty or is Not number" />
+  <item key="InputHostErrorCode" value="Please input Host return code:" />
+  <item key="PleaseInputAddCashAmount" value="Input Amount：" />
+  <item key="NoHDDisk" value="Writable HD disk can't be found, copy fail" />
+  <item key="VersionERROR" value="Can not get the version" />
+  <item key="JPTRIsBusyBeforeReset" value="JPTR is busy,please reset later." />
+  <item key="VersionTracingNotFound" value="Version tracking information not found" />
+  <item key="PwdWrongTryTimesLimit" value="Password error count reaches a maximum value,the operation is temporary unavailable" />
+  <item key="InputErrorAndCancel" value="Incorrect input or timeout,the operation was canceled" />
+  <item key="GetPasswordTimeOut" value="Hardware error or  get password timeout,the operation was canceled" />
+  <item key="InputErrorForEPP" value="Incorrect input,the operation was canceled" />
+  <item key="VERSIONTIME" value="VERSION TIME" />
+  <item key="KERNELVERSION" value="KERNEL VERSION" />
+  <item key="PROJECTVERSION" value="PROJECT VERSION" />
+  <item key="WITHDRAW AMOUNT" value="WITHDRAW AMOUNT" />
+  <item key="TRANSFER AMOUNT" value="TRANSFER AMOUNT" />
+  <item key="ATM NUMBER" value="ATM NUMBER" />
+  <item key="BANK NUMBER" value="BANK NUMBER" />
+  <item key="BRANCH NUMBER" value="BRANCH NUMBER" />
+  <item key="ConnectMode:" value="ConnectMode:" />
+  <item key="Local IP" value="Local IP" />
+  <item key="ATMP1 IP" value="ATMP1 IP" />
+  <item key="ATMV1 IP" value="ATMV1 IP" />
+  <item key="StartExchange" value="Start Exchange" />
+  <item key="EndExchange" value="End Exchange" />
+  <item key="AleadyReprint" value="Aleady Reprint，please reprint later" />
+  <item key="ReprintTooMuch" value="Reprint too much,please reprint later" />
+  <item key="CURRENT SET" value="CURRENT SET" />
+  <item key="SIGN IN" value="SIGN IN" />
+  <item key="Journal Printer Test" value="This row is Printer test content" />
+  <item key="Receipt Printer Test" value="This row is Printer test content" />
+  <item key="Dispense Test Success" value="Dispense Test Success" />
+  <item key="Dispense Test Failed" value="Dispense Test Failed" />
+  <item key="Dispense Operate Successed" value="Dispense Successed" />
+  <item key="Dispense Operate Failed" value="Dispense Failed" />
+  <item key="PopupEjectUDisk" value="Are you sure to eject the removable disk？" />
+  <item key="EjectUDiskConfrim" value="Press on ENTER to eject the removable disk,Press on CANCEL key to return" />
+  <item key="UDiskEjected" value="The removable disk ejected successful." />
+  <item key="UDiskNotEjected" value="The removable disk can not be ejected,error code is:{0},please popup it manually." />
+  <item key="WaitingForCleaningCIMDevice" value="Waiting For Cleaning CIM" />
+  <item key="AddCashComplete CashUnitInfo" value="Add Cash Complete, CashUnitInfo：" />
+  <item key="ShowCDMCashUnitInfoListTitle" value="Number  CUID  Type  Currency State CashNum" />
+  <item key="CleaningCDMCashbox" value="Cleaning CDM Cashbox..." />
+  <item key="PressConfirmToContinue" value="Press Confirm To Continue" />
+  <item key="Device is already,please continue" value="Device is already,please continue：" />
+  <item key="FirstStep CleanCDMCashbox" value="First Step:Clean CDM Cashbox" />
+  <item key="SecondStep ReloadCDMCashbox" value="Second Step:Reload CDM Cashbox" />
+  <item key="ThirdStep PressConfirmToContinue" value="Third Step:Press Confirm To Continue" />
+</Config>

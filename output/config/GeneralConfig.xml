@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <!---UI设置
+	topMost: 窗口是否置顶（0为否，1为置顶）	
+	location: 指定ATMC主界面窗口在桌面上的位置.此属性值是以空格分隔的4个数字组成的字符串
+		  4个数字从左到右依次表示界面窗口的左，上，宽度，高度
+		  单位是像素。例如"0 0 800 600" 表示位置是左(0)上(0)宽度(800)高度(600)
+	-->
+  <UI topmost="0" location="0 0 1920 1080" />
+  <!---双屏维护设置
+	location：此处为双屏窗口位置的设置，含义与上述相同
+	frontScreen： 是否为前维护（0为否，1为前维护）
+	touchScreen： 前屏是否为触摸屏（0为否，1为触摸屏）
+	disableMenu： 双屏屏蔽的菜单
+	runDll32ToClearCache: 是否执行RunDll32.exe来清理IE缓存（0:否，其他：是）。如果工程里面配置了0，则需要自行确保页面文件被正确地显示为最新。
+	-->
+  <TwinScreen location="0 0 800 600" frontScreen="0" touchScreen="1" disableMenu="" runDll32ToClearCache="1" />
+  <!--超时时间设置
+	timeout： 为超时时间大小
+	-->
+  <Timeout>
+    <!--页面超时时间-->
+    <Page timeout="60000" />
+    <!--取卡超时时间-->
+    <TakeCard timeout="30000" />
+    <!--取钱超时时间-->
+    <TakeCash timeout="30000" />
+    <!--放钞超时时间-->
+    <InterposeCash timeout="60000" />
+    <!--继续放钞超时时间-->
+    <ContinueInterposeCash timeout="60000" />
+    <!--不可识别钞票取走超时时间-->
+    <RejectCash timeout="60000" />
+    <!--取消存款钞票取走超时时间-->
+    <CancelInterposeCash timeout="60000" />
+    <!--发送交易报文超时时间-->
+    <Trans timeout="60000" />
+    <!--发送定时状态包间隔时间-->
+    <Status timeout="300000" />
+    <!--在离线模式时发送签到包间隔时间-->
+    <SignIn timeout="300000" />
+    <!--在暂停服务模式时检测能否进入服务模式间隔时间-->
+    <EnterService timeout="60000" />
+    <!--在零状态定时检测是否与P端保持连接的时间，如果连接失败，转入Offline模式重新签到，为0时不检测-->
+    <KeepAliveInZeroState timeout="0" />
+    <!--定时重启间隔时间，以小时为单位，如配成48表示两天重启一次，0表示不重启，最小不能小于24小时
+		range表示重启区间，如2-3表示在凌晨2点到3点之间重启，最大重启区间是0-8，超过此区间会自动变成2-3
+		-->
+    <Reboot timeout="48" range="2-3" />
+    <!--日光灯间隔时间，startTime表示开始时间（四位数字），如：0830表示8点30分打开日光灯
+		endTime表示结束时间（四位数字），如：2130，表示21点30分关闭日光灯
+		如果startTime与endTime分别设置为0000和2359表示常亮，分别设置为相同的时间则表示常灭
+		-->
+    <LightControl startTime="1800" endTime="0600" />
+    <!--为保证取款安全所设定的各步骤超时时间，当其中一步超时后，会强行退卡关闭交易
+		inputToSendTimeout：表示从输入金额后到发包前允许的最大时间，默认为7分钟，最小不能小于3分钟
+		sendToDispenseTimeout：表示从发包后到配钞前允许的最大时间，默认为7分钟，最小不能小于3分钟
+		dispenseToPresentTimeout：表示从配钞后到送钞前允许的最大时间，默认为7分钟，最小不能小于3分钟-->
+    <WithdrawalSecurity inputToSendTimeout="420000" sendToDispenseTimeout="420000" dispenseToPresentTimeout="420000" />
+  </Timeout>
+  <!--R状态是否显示倒计时，默认显示顺计时
+	value：为0是顺计时；为1是倒计时
+	-->
+  <RequestTransCountDown value="0" />
+  <!--额度设置
+	 withdrawal： 取款最大数额
+	 transfer： 转账最大数额
+	-->
+  <AmountLimit withdrawal="2500" transfer="50000.00" />
+  <!--InputPin输密码时是否自动终止，为1时自动终止，此时不需要按Enter键-->
+  <AutoEnd value="0" />
+  <!--InputInfo输入账号时的清除方式，1为全部清除，0只删除1个-->
+  <ClearAll value="1" />
+  <!--币种设置-->
+  <Currency value="CNY" />
+  <!--最大放钞次数-->
+  <ContinueInterposeCashTimes value="3" />
+  <!--语言设置
+	system：流水、后维护显示的语言
+	UI：前台交易、凭条显示的语言	
+	JPTR : 流水
+	RPTR : 凭条
+	Maintenance : 维护
+	-->
+  <Language UI="EN" JPTR="EN" RPTR="EN" Maintenance="EN" />
+  <!--OCR设置（0不可用，1可用）
+	CDM：开通取款OCR
+	CIM：开通存款OCR
+	SENT:开通SENT(冠字号管理系统)
+	SIMPLESENT:开通简易冠字号管理功能
+	-->
+  <EnableOCR CDM="0" CIM="0" SENT="0" SIMPLESENT="0" />
+  <!--门设置
+	（1为可用，反之为0）
+	enableOperatorSwitch：当操作员门打开时，是否进入后台维护模式
+	enableCabinet：当电子柜门打开时，是否进入后台维护模式
+	enableSafeDoor：当安全门打开时，是否进入后台维护模式
+	-->
+  <Door enableOperatorSwitch="1" enableCabinet="0" enableSafeDoor="0" />
+  <!--当SIU不存在或者操作员门、电子柜门、安全门均不可用时，进入后台维护的组合键及密码
+	注意：combinationKey的配置中，Key不能重复；password已加密存储
+	-->
+  <NoDoorEnterMaintenance combinationKeys="CANCEL,ENTER,CLEAR" password="12297122971231112311122971229712299122961230012299" />
+  <!--数据库记录维护设置
+ 	periodLimit: 最少保留周期数
+  	dayLimit:最少保留天数
+ 	-->
+  <DatabaseConfig periodLimit="3" dayLimit="30" />
+  <!--存款开关门时，如果返回门已开、门已关错误时是否忽略此错误
+	0:不忽略
+	1:忽略-->
+  <ShutterErrorHandle ignore="0" />
+  <!--存款相关的多币种配置-->
+  <!--SupportNoteIDs下面某币种如HKD 配置中的supportNoteID
+	配置说明，如果配置为[100,1][100,2][50]表示支持存入100面额的版本1和2，支持存入50面额的所有版本
+	例如HKD配置为[1000,3][500,2][100]，表示可存入的港币钞票，指定了面额和版本1000,3和500,2，但是对于面额100，接收任意版本
+	注意，这里的版本1,2,3，需要事先用WOSA测试工具在机器上读到CIM的BanknoteTypes，再去填入-->
+  <MulCurrencySetting>
+    <SupportNoteIDs>
+      <!--CNY supportNoteID="[100][50]" /-->
+      <!--HKD supportNoteID="[1000,3][500,2][100]" /-->
+    </SupportNoteIDs>
+  </MulCurrencySetting>
+  <!--存款放钞关门失败，如果返回指定的错误码，提示钞票位置不正确，重新整理钞票-->
+  <ErrorCodeForArrangeCash value="-1399" />
+  <!--流水号长度-->
+  <SerialNumberLength value="6" />
+  <!--是否打印吞卡或吞折凭条：
+	timeout：客户取卡超时是否打印凭条
+	hostDemand：主机要求吞卡时是否打印凭条
+	hardwareError：退卡失败导致吞卡时是否打印凭条
+	pinError:密码错误导致吞卡时是否打印凭条
+	-->
+  <PrintCaptureReceipt timeout="1" hostDemand="1" hardwareError="1" pinError="1" />
+  <!--工程插件动态库名称-->
+  <ProjectBankInterface name="IBankProjectBankInterface" />
+  <Matis autoIntakeCard="0" />
+  <!--是否开启eCATKeeper，enable为1时开启
+	开启后，客户做交易时，若eCATKeeper在指定的时间内收不到ACTION的心跳包，则重启操作系统
+	注：VTM可能会在某个界面停留时间过长，所以VTM一般不开启此功能
+	-->
+  <eCATKeeper enable="1" />
+  <!--统计吞卡张数间隔时间，以小时为单位，如配成48表示统计距当前48小时内的吞卡张数，最小不能小于24小时-->
+  <HoursForStatisticsCaptureCardCount value="24" />
+  <!--退卡模块设置
+	enable：0-退卡模块不存在或不可用，1-退卡模块存在且可用
+	retainTimeout：暂存卡片超时时间，以小时为单位，如配成48表示卡片在暂存槽中保留48小时，0表示永久保存，最小不能小于24小时
+	timeRange：自动清卡时间区间，如1-2表示在凌晨1点到2点之间自动清卡，最大清卡区间是0-8，超过此区间会自动变成1-2	emptyCardWhenATMLaunch：ATM启动时是否执行自动清卡，0-不执行,1-执行,默认值为0
+	remainRetainCountOfBin：执行自动清卡时永久回收箱预留容量，默认值为1
+	-->
+  <EjectCardModule enable="0">
+    <EmptyCard retainTimeout="48" timeRange="1-2" emptyCardWhenATMLaunch="1" remainRetainCountOfBin="1" />
+    <!--cardDataContainCaptureCardTime：吞卡设置卡信息时是否包含吞卡时间，0表示不包含，非0表示包含。-->
+    <CaptureCard cardDataContainCaptureCardTime="1" />
+  </EjectCardModule>
+  <!--指定系统默认采用的网络服务-->
+  <DefaultNetService value="IP" />
+  <!--指定系统默认采用的错误码描述来源，
+          	value：1-先读取SP错误码描述，为空再读取核心配置ErrorCode.xml里面的键值
+                 	2-先读取核心配置ErrorCode.xml里面的键值，再读取SP错误码描述
+  	-->
+  <GetErrorCodeDescriptionMode value="1" />
+  <!--是否使用加密数据库，
+          	IsUseEncrytDatabase：1-数据库需要密码访问，核心将使用包含密码的连接串
+                 	               0-数据库不需要密码访问，核心将使用不包含密码的连接串
+                 	              （无特殊情况，请使用加密数据库！）
+  	-->
+  <DatabaseSetting IsUseEncrytDatabase="1">
+  </DatabaseSetting>
+  <!--快速按键处理方式，1-启用屏幕对比，当UI事件中点击屏幕和当前屏幕不一致时认为是快速点击触摸屏所致，吞掉此按键
+								  0-按原来处理方式，在1秒钟之内，如果出口没有DefaultForward，同时也没有客户按的键，认为是快速点击触摸屏造成，吞掉此按键
+	-->
+  <QuickClickProcessMethod value="0" />
+  <StringConfig>
+    <!-- <Item key="CDMShutter" value="1" /> -->
+  </StringConfig>
+	
+	<!--是否允许密码键盘为空
+	默认配置为0表示不允许，一般情况下不允许
+	仅当没有密码键盘的机型允许，如P2800在国外使用时没有密码键盘
+	-->
+	<AllowPINNull value="0"/>
+
+	<!--生成对账文件的策略配置-->
+	<ReconciliationMode>
+		<!--AutoDayReconciliationMode:自然日自动对账，每天某个时间或者时间段，生成对账文件
+			  enable：是否启用（1、启用，0、不启用，如果格式错误，取默认值 0）
+			  isCopyEJ：是否拷贝当前流水（1、拷贝，0、不拷贝，如果格式错误，取默认值1）
+			  invokeTimeRange：触发的时间段（2-4、每天2点到4点之间的某一个随机时间触发，3、每天3点触发，如果格式错误，取默认值0-4）
+			  isReupload：如果上传失败，是否重传（1、重传 ，0、不重传，如果格式错误，取默认值1）
+		-->
+		<AutoDayReconciliationMode enable="0" isCopyEJ="1" invokeTimeRange="0-4" isReupload="1"/>
+		<!--AddCashReconciliationMode：加钞操作后对账，当加钞成功后，生成对账文件
+			  enable：是否启用（1、启用，0、不启用，如果格式错误，取默认值 0）
+			  isCopyEJ：是否拷贝当前流水（1、拷贝，0、不拷贝，如果格式错误，取默认值1）
+			  isReupload：如果上传失败，是否重传（1、重传 ，0、不重传，如果格式错误，取默认值0）
+		-->
+		<AddCashReconciliationMode enable="0" isCopyEJ="0" isReupload="0" /> 
+	</ReconciliationMode>
+	
+	<!--
+	enable为1，表示开启凭条回收功能，为0，表示关闭凭条回收功能。
+	timeIntervalInZeroState，表示进入零状态后，多久时间之后，才会回收凭条	
+	-->
+	<RetractReceipt enable="1" timeIntervalInZeroState="10000" />
+	
+	<!--是否为C#A端
+	默认配置为0表示非C#A端-->
+	<IsCSharpSTMA value="0"/>
+	
+	<!-- 是否显示电源与网络信息等图标，默认配置为0表示不显示 -->
+	<IsShowPowerAndNetworkIcon value="0" />
+</Config>

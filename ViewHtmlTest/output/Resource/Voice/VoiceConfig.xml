@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<item key="Voice_InputDepositAmount" value="Icon_ck_001.mp3" comment="请输入存款金额" />
+	<item key="Voice_FirstWaitForInsertCash" value="NopVaoKhayvaDemTien.wav" comment="请将钞票叠放整齐，放入后按确认键" />
+	<item key="Voice_CashErrorPosition" value="Icon_ck_003.mp3" comment="钞票位置不正确" />
+	<item key="Voice_DepositingPleaseWait" value="Icon_ck_004.mp3" comment="正在存入，请稍候" />
+	<item key="Voice_CountingCash" value="DangKiemDemTien.wav" comment="系统正在点钞，请稍后" />
+	<item key="Voice_RejectingRefusedCash" value="Icon_ck_006.mp3" comment="系统正在退出未能识别的钞票" />
+	<item key="Voice_WaitCustomerToTakeCashRefused" value="LayLaiTienKhayBenPhai.wav" comment="请取回系统未能识别的钞票" />
+	<item key="Voice_WaitCustomerToTakeCashToomuch" value="Icon_ck_008.mp3" comment="存款超限，取回剩余钞票" />
+	<item key="Voice_CountingCashResult" value="XacNhanSauKiemDem.wav" comment="点钞结果" />
+	<item key="Voice_CountingCashResult1" value="XacNhanSauKiemDem1.wav" comment="点钞结果" />
+	<item key="Voice_CountingButNoCash" value="Icon_ck_010.mp3" comment="未检测到钞票，确认是否放好" />	
+	<item key="Voice_DepositFailWaitCustomerToTakeCash" value="Icon_ck_011.mp3" comment="存款失败，取回钞票" />
+	<item key="Voice_CancelDepositPleaseTakeCash" value="Icon_ck_012.mp3" comment="交易取消，取回钞票" />
+	<item key="Voice_CashInEndSuccess" value="Icon_ck_013.mp3" comment="存款成功" />
+	<item key="Voice_WhetherContinueInputCash" value="Icon_ck_014.mp3" comment="是否继续存款" />
+	<item key="Voice_RejectingCash" value="Icon_ck_015.mp3" comment="正在退钞，请稍候" />
+	<item key="Voice_CancelDepositWhetherOtherTrans" value="Icon_ck_016.mp3" comment="存款取消，是否继续其他交易"/>
+	<item key="Voice_NoRealCashCancelTrans" value="Icon_ck_017.mp3" comment="所存钞票无真钞，交易取消" />
+	<item key="Voice_InputCardOrAccountNumber" value="Icon_ck_018.mp3" comment="请输入存款卡号或账号" />
+	<item key="Voice_TimeoutRetractCash" value="Icon_ck_019.mp3" comment="操作超时，钞票回收，请与银行联系" />
+	<item key="Voice_PleaseTakeCash" value="Icon_ck_020.mp3" comment="请取回钞票" />
+	<item key="Voice_ReadCardFail" value="Icon_cz_001.mp3" comment="读磁条失败" />
+    <item key="Voice_UpdatingPassBook" value="Icon_cz_002.mp3" comment="正在补登存折" />
+    <item key="Voice_UpdatePassBookComplete" value="Icon_cz_003.mp3" comment="存折补登完成" />
+    <item key="Voice_PleaseTakePassBook" value="Icon_cz_004.mp3" comment="请拿好存折" />
+    <item key="Voice_NoNeedUpdatePassBook" value="Icon_cz_005.mp3" comment="无需补登" />
+    <item key="Voice_NeedUpdatePassBook" value="Icon_cz_006.mp3" comment="有未补登数据请先补登" />
+    <item key="Voice_PrintFailPleaseTakePassBook" value="Icon_cz_007.mp3" comment="打印失败，请取回存折" />
+    <item key="Voice_RetractPassBook" value="Icon_cz_008.mp3" comment="存折由银行保留" />
+    <item key="Voice_ChangeNewPassBook" value="Icon_cz_009.mp3" comment="请更换新存折" />
+    <item key="Voice_InvalidPassBook" value="Icon_cz_010.mp3" comment="无效存折" />
+    <item key="Voice_InputSamePassBook" value="Icon_cz_011.mp3" comment="请插入同一本存折" />
+    <item key="Voice_InputPassBook" value="Icon_cz_012.mp3" comment="请插入存折" />
+    <item key="Voice_InputCardOrPassBook" value="Icon_cz_013.mp3" comment="请插入磁卡或存折" />
+    <item key="Voice_PagingPassBookAndReInsert" value="Icon_cz_014.mp3" comment="请将存折插入下一页再插入存折" />
+    <item key="Voice_TakeCardOrPassBook" value="Icon_cz_015.mp3" comment="请拿好卡或存折" />
+    <item key="Voice_NoSupportPassBook" value="Icon_cz_016.mp3" comment="非本行支持存折" />
+    <item key="Voice_PagingPassBookToPrintingPage" value="Icon_cz_018.mp3" comment="请将存折翻到当前打印页" />
+    <item key="Voice_ReadingTrack" value="Icon_cz_019.mp3" comment="正在读磁条" />                        
+    <item key="Voice_SelectPayMentItem" value="Icon_djf_001.mp3" comment="请选择缴费类型" />
+    <item key="Voice_PaymentSucceded" value="Icon_djf_002.mp3" comment="缴费成功" />
+    <item key="Voice_ConfirmPay" value="Icon_djf_003.mp3" comment="是否确定缴费" />
+    <item key="Voice_WhetherPrintInvoice" value="Icon_djf_004.mp3" comment="是否打印发票" />
+    <item key="Voice_TakeInvoice" value="Icon_djf_005.mp3" comment="请拿好发票" />
+    <item key="Voice_ReadBarCodeFail" value="Icon_djf_006.mp3" comment="读条码失败，请取好客户凭证" />
+    <item key="Voice_InputMobilePhoneNumber" value="Icon_djf_007.mp3" comment="输入手机号码" /> 
+    <item key="Voice_InputPhoneNumber" value="Icon_djf_008.mp3" comment="输入电话号码" />
+    <item key="Voice_InputNumber" value="Icon_djf_011.mp3" comment="请输入号码" />
+    <item key="Voice_InvalidNumberNeedReInput" value="Icon_djf_012.mp3" comment="号码无效，请重新输入" />
+    <item key="Voice_ScanBarCodeIfFailPleaseManul" value="Icon_djf_013.mp3" comment="通过条形码扫描读入，如果失败请手工输入" />
+    <item key="Voice_InputBillNumber" value="Icon_djf_014.mp3" comment="输入缴费单号" />
+    <item key="Voice_InvalidBillNumberNeedReInput" value="Icon_djf_015.mp3" comment="缴费单号无效请重新输入" />
+    <item key="Voice_InputNewPin" value="Icon_gm_001.mp3" comment="请输入您的新密码" />    
+    <item key="Voice_InputNewPinAgain" value="Icon_gm_002.mp3" comment="请再次输入您的新密码" />   
+    <item key="Voice_InputNewPinUnmatch" value="Icon_gm_003.mp3" comment="两次输入的密码不一致" /> 
+    <item key="Voice_ChangePinSuccess" value="Icon_gm_004.mp3" comment="密码修改成功" /> 
+    <item key="Voice_InertCardToGrgATM" value="Icon_hy_grg.mp3" comment="欢迎使用自动柜员机，请插入磁卡" /> 
+    <item key="Voice_InertCardToGrgATMThenTakeOut" value="Icon_hy_grg_dip.mp3" comment="欢迎使用自动柜员机，请插入磁卡后取出" /> 
+    <item key="Voice_TakeCash" value="NhanTienTaiKhay.wav" comment="请提取现金" /> 
+    <item key="Voice_SelectFastWithdralAmount" value="Icon_qk_003.mp3" comment="快捷取款，请选择金额" /> 
+    <item key="Voice_RetractCashForTimeout" value="Icon_qk_004.mp3" comment="超时未取钱，钱已回收" /> 
+    <item key="Voice_InputWithdralAmount" value="NhapSoTienCanRut.wav" comment="请输入取款金额" /> 
+    <item key="Voice_InputWithdrawalAmountError" value="Icon_qk_005.mp3" comment="输入金额不正确，请重新输入" /> 
+    <item key="Voice_InputWithdrawalAmountExceedsLimit" value="Icon_qk_006.mp3" comment="超过单次取款限额，请重新输入" /> 
+    <item key="Voice_InputWithdrawalAmountExceedsCassetteAmount" value="Icon_qk_008.mp3" comment="对不起，本机现金不足，请重新输入" /> 
+    <item key="Voice_InputWithDrawalAmountDenominateError" value="Icon_qk_005.mp3" comment="输入金额不正确，请重新输入" /> 
+    <item key="Voice_CancelTransForCashNotEnough" value="Icon_qk_009.mp3" comment="现金不足，交易取消" /> 
+    <item key="Voice_CancelTransForInsufficientBalance" value="Icon_qk_010.mp3" comment="账户余额不足，交易取消" /> 
+    <item key="Voice_InsufficientBalanceNeedReInputAccount" value="Icon_qk_011.mp3" comment="账户余额不足，请重新输入" /> 
+    <item key="Voice_CancelTransForWithdrawalFrequencyExceedsLimit" value="Icon_qk_012.mp3" comment="当日取款次数超限，交易取消" /> 
+    <item key="Voice_Init" value="Icon_ty_001.mp3" comment="系统正在启动" /> 
+    <item key="Voice_InsertCard" value="Icon_ty_002.mp3" comment="请插入磁卡" /> 
+    <item key="Voice_InsertCardAgain" value="Icon_ty_003.mp3" comment="请重新插卡" /> 
+    <item key="Voice_ReadingCardInfo" value="Icon_ty_004.mp3" comment="正在读取卡信息" /> 
+    <item key="Voice_SelectLauguage" value="Icon_ty_005.mp3" comment="请选择提示语言" /> 
+    <item key="Voice_InsertCardOrPassBook" value="Icon_ty_006.mp3" comment="请插入磁卡或存折" /> 
+    <item key="Voice_InsertCardAndSuspendPassBook" value="Icon_ty_007.mp3" comment="请插入磁卡存折服务已暂停" /> 
+    <item key="Voice_InsertPassBookAndSuspendCard" value="Icon_ty_008.mp3" comment="请插入存折磁卡服务已暂停" /> 
+    <item key="Voice_InsertCardAndTakeOut" value="Icon_ty_009.mp3" comment="请插入磁卡后取出" /> 
+    <item key="Voice_SelectLanguage" value="Icon_ty_005.mp3" comment="请选择提示语言" /> 
+    <item key="Voice_InputPin" value="Icon_ty_050.mp3" comment="请输入您的个人密码" /> 
+    <item key="Voice_ErrorPinNeedInputAgain" value="Icon_ty_051.mp3" comment="密码错误，请重新输入" /> 
+    <item key="Voice_WrongPinInputExceedsAllowableTimesAndRetainCaed" value="Icon_ty_052.mp3" comment="密码输入错误次数超限，磁卡银行保留，请与银行联系" />
+    <item key="Voice_WrongPinInputExceedsAllowableTimes" value="Icon_ty_053.mp3" comment="密码输入错误次数超限" />
+    <item key="Voice_PrintingReceipt" value="Icon_ty_100.mp3" comment="正在打印凭证" />
+    <item key="Voice_CannotPrintReceipt" value="Icon_ty_101.mp3" comment="暂不能打印凭证，是否继续交易" />
+    <item key="Voice_IsPrintReceipt" value="Icon_ty_102.mp3" comment="是否打印凭证" />
+    <item key="Voice_PrintReceiptSuccess" value="Icon_ty_103.mp3" comment="请拿好凭证" />
+    <item key="Voice_InputTimeOut" value="Icon_ty_150.mp3" comment="输入超时" />
+    <item key="Voice_CancelTrans" value="Icon_ty_151.mp3" comment="交易取消" />
+    <item key="Voice_TransSucceed" value="Icon_ty_152.mp3" comment="交易完成，谢谢使用" />
+    <item key="Voice_ThankYou" value="Icon_ty_153.mp3" comment="谢谢使用，再见" />
+    <item key="Voice_TakeCard" value="Icon_ty_154.mp3" comment="请取回您的卡" />
+    <item key="Voice_CaptureCardForTimeout" value="Icon_ty_155.mp3" comment="取卡超时，磁卡回收" />
+    <item key="Voice_CaptureCard" value="Icon_ty_012.mp3" comment="磁卡回收" />
+    <item key="Voice_TransTimeOut" value="Icon_ty_156.mp3" comment="交易超时" />
+    <item key="Voice_OutOfService" value="Icon_ty_157.mp3" comment="暂停服务" />
+    <item key="Voice_ServiceUnavailable" value="Icon_ty_158.mp3" comment="交易暂时无法处理" />
+    <item key="Voice_CardIssuerRefuseTrans" value="Icon_ty_159.mp3" comment="发卡行拒绝此交易" />
+    <item key="Voice_TakePassBookTimeOutAndRetainPassBook" value="Icon_ty_160.mp3" comment="取折超时，回收存折" />
+    <item key="Voice_SystemFailureAndRecovering" value="Icon_ty_161.mp3" comment="系统故障尝试恢复" />
+    <item key="Voice_LongKey" value="Icon_ty_162.mp3" comment="按键错误" />
+    <item key="Voice_MainMenu" value="Icon_ty_300.mp3" comment="请选择交易类型" />
+    <item key="Voice_InputAccountCode" value="Icon_ty_301.mp3" comment="输入账户代码" />
+    <item key="Voice_TransactionIsBeing" value="Icon_ty_302.mp3" comment="操作正在进行" />
+    <item key="Voice_InquiryResult" value="Icon_ty_303.mp3" comment="查询结果" />
+    <item key="Voice_WhetherContinueTrans" value="Icon_ty_304.mp3" comment="是否继续交易" />
+    <item key="Voice_SelectAccountType" value="Icon_ty_305.mp3" comment="请选择账户类型" />
+    <item key="Voice_InvalidAccountSelected" value="Icon_ty_306.mp3" comment="无效账户选择" />
+    <item key="Voice_SelectCurrency" value="Icon_ty_307.mp3" comment="请选择币种" />
+    <item key="Voice_InputNoCardDepositAccount" value="Icon_wcck_001.mp3" comment="输入存入卡号或存折账号" />
+    <item key="Voice_InputNoCardDepositAccountAgain" value="Icon_wcck_002.mp3" comment="再次输入存入卡号或存折账号" />
+    <item key="Voice_InputNoCardDepositAccountInExistence" value="Icon_wcck_003.mp3" comment="卡号或存折账号不存在，请重新输入" />
+    <item key="Voice_ConfirmDepositInfo" value="Icon_wcck_004.mp3" comment="请确认存款信息" />
+    <item key="Voice_SendingEnvelop" value="Icon_xfck_001.mp3" comment="正在送出信封请稍候" />
+    <item key="Voice_TakeEnvelop" value="Icon_xfck_002.mp3" comment="请取出信封" />
+    <item key="Voice_OperateByHint" value="Icon_xfck_003.mp3" comment="请按下列提示操作" />
+    <item key="Voice_InsertEnvelop" value="Icon_xfck_004.mp3" comment="请将信封插入存款口" />
+    <item key="Voice_InputTransferAccount" value="Icon_zz_001.mp3" comment="输入转入账号" />
+    <item key="Voice_InputTransferAccountAgain" value="Icon_zz_002.mp3" comment="请再次输入转入账号" />
+    <item key="Voice_InputTransferAccountUnmatch" value="Icon_zz_003.mp3" comment="两次输入账号不一致，重新输入" />
+    <item key="Voice_InputTransferAmount" value="Icon_zz_004.mp3" comment="输入转出金额" />
+    <item key="Voice_TransferSuccess" value="Icon_zz_005.mp3" comment="转账成功" />
+    <item key="Voice_InvalidAccountNumberNeedReInput" value="Icon_zz_006.mp3" comment="输入账号不正确，重新输入" />
+    <item key="Voice_SelectTEFRItem" value="Icon_zz_007.mp3" comment="请选择转账类型" />
+    <item key="Voice_ShowTransferInfo" value="Icon_zz_008.mp3" comment="确认转入账号和金额" />
+    <item key="Voice_InsufficientBalanceNeedReInput" value="Icon_zz_009.mp3" comment="转出账号余额不足，重新输入" />
+    <item key="Voice_SelectTEFRAccount" value="Icon_zz_010.mp3" comment="选择转出账户" />
+    <item key="Voice_SelectTransfereeAccountItem" value="Icon_zz_011.mp3" comment="选择转入账户类型" />
+    <item key="Voice_SelectTEFRAccountItem" value="Icon_zz_012.mp3" comment="选择转出账户类型" />
+    <item key="Voice_InputTransfereeAccountCode" value="Icon_zz_013.mp3" comment="输入转入账户代码" />
+    <item key="Voice_InputTEFRAccountCode" value="Icon_zz_014.mp3" comment="输入转出账户代码" />
+    <item key="Voice_AccountCannotTEFRToItselfNeedReInput" value="Icon_zz_015.mp3" comment="同一账号之间不能转账，重新输入" />
+    <item key="Voice_InputCardandConfirm" value="DuaThe_Enter.wav" comment="Input Card and Confirm" />
+	<item key="Voice_SelectAccountToDeposit" value="LuaChonTKNopTien.wav" comment="Select account to deposit" />
+	<item key="Voice_HaveTPBankCard" value="MangTheoTheTPBank.wav" comment="Select account to deposit" />
+	<item key="Voice_OtherTransaction" value="ChonGiaoDichKhac.wav" comment="Other transaction" />
+	<item key="Voice_ThankYouandRating" value="CamOnvaDanhGiaChatLuong.wav" comment="Thank youand rating" />
+	<item key="Voice_ReceivingCard" value="VuiLongNhanLaiThe.wav" comment="Receiving card" />
+	<item key="Voice_InputAccountToDeposit" value="NhapSoTK_NopDung_NhanTiepTucNopTien.wav" comment="Input account to deposit" />
+	<item key="Voice_ConfirmToDeposit" value="KiemTraThongTin_XacNhanNopTien.wav" comment="Confirm to deposit" />
+	<item key="Voice_InputPINandConfirm" value="NhapPINHienTai_Enter.wav" comment="Input PIN and confirm" />
+	<item key="Voice_InputNewPINandConfirm" value="NhapMatKhauMoi.wav" comment="Input new PIN and confirm" />
+	<item key="Voice_ReInputNewPINandConfirm" value="NhapLaiMatKhauMoi.wav" comment="Re-input new PIN and confirm" />
+	<item key="Voice_TouchingandDetailItem" value="ChonDanhMuc_XemChiTiet.wav" comment="Touchingand detail item" />
+</config>

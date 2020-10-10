@@ -1,0 +1,1804 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+  <item key="IDS_PrintSystemInfoStart" value="================System Information=====================" />
+  <item key="IDS_PrintAssemblyStart" value="=================Loaded assembly Information================" />
+  <item key="IDS_OSVersion" value="Operation System Version: {0} {1}" />
+  <item key="IDS_ProcessCount" value="CPU count: {0}" />
+  <item key="IDS_machineName" value="Machine name: {0}" />
+  <item key="IDS_userName" value="User Name: {0}" />
+  <item key="IDS_pageSize" value="System page size: {0} bytes" />
+  <item key="IDS_32System" value="32 bit system" />
+  <item key="IDS_64System" value="64 bit system" />
+  <item key="IDS_CLRVesion" value="CLR version: {0}" />
+  <item key="IDS_CurrentDirectoy" value="Current directory: {0}" />
+  <item key="IDS_SystemDirectory" value="System directory: {0}" />
+  <item key="IDS_DriveName" value="Logical drive: {0}" />
+  <item key="IDS_DriveType" value="Drive type: {0}" />
+  <item key="IDS_DriveFormat" value="File system: {0}" />
+  <item key="IDS_DriveLabel" value="Drive label: {0}" />
+  <item key="IDS_DriveTotalSize" value="Total size: {0} bytes" />
+  <item key="IDS_DriveAvaFreeSize" value="Total free size: {0} bytes" />
+  <item key="IDS_DriveFreeSize" value="Total available free size: {0} bytes" />
+  <item key="IDS_AvailablePhysicalMemory" value="Available phsical memory: {0} bytes" />
+  <item key="IDS_AvailableVirtualMemory" value="Available virtual memory: {0} bytes" />
+  <item key="IDS_TotalPhysicalMemory" value="Total physical memory: {0} bytes" />
+  <item key="IDS_TotalVirtualMemory" value="Total virtual memory: {0} bytes" />
+  <item key="IDS_NetworkAviable" value="Local network avaiable：{0}" />
+  <item key="IDS_NetworkName" value="Name of a network interface：{0}" />
+  <item key="IDS_NetworkType" value="Type of a network interface：{0}" />
+  <item key="IDS_NetSupportMulticasat" value="If a network interface supports multicast：{0}" />
+  <item key="IDS_NetOpStatus" value="Operation status of a network interface：{0}" />
+  <item key="IDS_PhyAddress" value="MAC of a network interface：{0}" />
+  <item key="IDS_IPV4Address" value="IPV4 address：{0}" />
+  <item key="IDS_IPV4Mask" value="IPV4 mask：{0}" />
+  <item key="IDS_IPV4Gateway" value="IPV4 gateway：{0}" />
+  <item key="IDS_DNSAddress" value="DNS address：{0}" />
+  <item key="IDS_DHCPAddress" value="DHCP address：{0}" />
+  <item key="IDS_ECATRunDirectory" value="The executing directory of eCAT：{0}" />
+  <item key="IDS_ICTransLog_Index" value="Index" />
+  <item key="IDS_ICTransLog_Date" value="Time" />
+  <item key="IDS_ICTransLog_Type" value="Type" />
+  <item key="IDS_ICTransLog_Amount" value="Amount" />
+  <item key="IDS_TransName_Unknown" value="Unknown" />
+  <item key="IDS_TransName_INQ" value="Truy vấn thông tin" />
+  <item key="IDS_TransName_CWD" value="Rút tiền" />
+  <item key="IDS_TransName_DEP" value="Nộp tiền" />
+  <item key="IDS_TransName_PIN" value="Đổi PIN" />
+  <item key="IDS_TransName_TFR" value="Chuyển khoản" />
+  <item key="IDS_TransName_Load" value="IC Load" />
+  <item key="SystemStartup" value="System startup..." />
+  <item key="InitializeDeviceFormat" value="Initializing {0}" />
+  <item key="JPTR" value="Journal printer" />
+  <item key="TTU" value="TTU" />
+  <item key="FlashDevice" value="Flash device" />
+  <item key="PIN" value="Pin Pad" />
+  <item key="SIU" value="Sensor indicator unit" />
+  <item key="IDC" value="IDC" />
+  <item key="ContactLessIDC" value="ContactLessIDC" />
+  <item key="RPTR" value="Receipt printer" />
+  <item key="CDM" value="CDM" />
+  <item key="CIM" value="CIM" />
+  <item key="VDM" value="VDM" />
+  <item key="CardDistributor" value="Card distributor" />
+  <item key="Camera" value="Camera" />
+  <item key="IDReader" value="ID reader" />
+  <item key="UkeyReader" value="UKEY reader module" />
+  <item key="BCR" value="Two-dimension code" />
+  <item key="Passbook" value="Passbook Printer" />
+  <item key="CRD" value="Credit card machine " />
+  <item key="UkeyDispenser" value="UKEY module" />
+  <item key="FeedChannel" value="Feed channel" />
+  <item key="BarCodeScanner" value="Two-dimension code module" />
+  <item key="CAM" value="High shot meter" />
+  <item key="USBCam" value="Camera" />
+  <item key="Stamper" value="A4 Print and seal machine" />
+  <item key="CHK" value="Check the scanning" />
+  <item key="SimulateKeypad" value="KeyBoard" />
+  <item key="BiometricIdenticifcation" value="Biometric identicification device" />
+  <item key="IDS_NoWithdrawalTrans" value="This machine does not provide withdrawal function temporarily" />
+  <item key="IDS_NoDepoistTrans" value="This machine does not provide deposit function temporarily" />
+  <item key="IDS_NoWithdrawalAndDepositTrans" value="This machine does not provide withdrawal and deposit function temporarily" />
+  <item key="IDS_NoCardTrans" value="This machine does not provide card function temporarily" />
+  <item key="IDS_Currency" value="VND" />
+  <item key="IDS_CurrencySymbol" value="VND" />
+  <item key="IDS_Search" value="Tìm kiếm" />
+  <item key="IDS_Print" value="In" />
+  <item key="IDS_Confirm" value="Confirm" />
+  <item key="IDS_Clear" value="Clear" />
+  <item key="IDS_Cancel" value="Cancel" />
+  <item key="IDS_TakeCard" value="Take Card" />
+  <item key="IDS_Exit" value="Thoát" />
+  <item key="IDS_Return" value="Return" />
+  <item key="IDS_Continue" value="Continue" />
+  <item key="IDS_Chinese" value="中###文" />
+  <item key="IDS_English" value="English" />
+  <item key="IDS_CreditAccount" value="Credit Account" />
+  <item key="IDS_DefaultAccount" value="Default Account" />
+  <item key="IDS_CheckAccount" value="Checking Account" />
+  <item key="IDS_SavingAccount" value="Sổ tiết kiệm" />
+  <item key="IDS_Inquiry" value="Truy vấn thông tin" />
+  <item key="IDS_Withdrawal" value="Rút tiền" />
+  <item key="IDS_Transfer" value="Chuyển khoản" />
+  <item key="IDS_ChangePin" value="Đổi mã PIN" />
+  <item key="IDS_Deposit" value="Nộp tiền" />
+  <item key="IDS_Payment" value="Thanh toán hóa đơn" />
+  <item key="IDS_ICCardTest" value="IC Data" />
+  <item key="IDS_eCASH" value="ECash" />
+  <item key="IDS_TransferName" value="Into account name:" />
+  <item key="IDS_ICInquiry" value="ECash Balance" />
+  <item key="IDS_ICDetail" value="ECash Detail" />
+  <item key="IDS_ICBDZHQC" value="Binding account deposit" />
+  <item key="IDS_ICBDZHQC_Cash" value="Circle of cash deposit" />
+  <item key="IDS_CalculatedTotalCash" value="For the total amount of cash：" />
+  <item key="IDS_CanNotDoICLoad" value="Cash totaling more than maximum circle deposit amount" />
+  <item key="IDS_CONTINUEINTERPOSE" value="Continue Interpose" />
+  <item key="IDS_Note100" value="100" />
+  <item key="IDS_Note200" value="200" />
+  <item key="IDS_Note500" value="500" />
+  <item key="IDS_Note800" value="800" />
+  <item key="IDS_Note1000" value="1000" />
+  <item key="IDS_Note2000" value="2000" />
+  <item key="IDS_Note2500" value="2500" />
+  <item key="IDS_Note3000" value="3000" />
+  <item key="IDS_YES" value="Có" />
+  <item key="IDS_NO" value="Không" />
+  <item key="IDS_NoCardDepositForZeroState" value="Không có thẻ" />
+  <item key="IDS_NoCardDeposit" value="Không có thẻ" />
+  <item key="IDS_TransferName" value="Tên tài khoản:" />
+  <item key="IDS_PBOCECC_AvailableAmount" value="Số dư ECash:" />
+  <item key="IDS_PBOCECCAccountBalance" value="Số dư ECash:" />
+  <item key="IDS_ARPCFail" value="Không thể chắc chắn giao dịch có thành công hay không. Vui lòng kiểm tra số dư tài khoản hoặc liên hệ TPBank nếu gặp bất cứ sự cố nào." />
+  <item key="IDS_AppNotFound" value="Không thể tìm thấy ứng dụng trên thẻ chip, giao dịch đã bị hủy." />
+  <item key="IDS_ICTransCancel" value="Lỗi không xác định. Giao dịch đã bị hủy." />
+  <item key="IDS_ICInvalidCard" value="Lỗi đọc chip. Giao dịch đã bị hủy." />
+  <item key="IDS_CardLock" value="Thẻ đã bị khóa. Giao dịch đã bị hủy." />
+  <item key="IDS_AppLock" value="Ứng dụng đã bị khóa. Giao dịch bị hủy." />
+  <item key="IDS_PrintReceipt" value="Máy in biên lai" />
+  <item key="IDS_CannotPrintReceipt" value="Không thể in biên lai. Quý khách có muốn tiếp tục thực hiện giao dịch?" />
+  <item key="IDS_SelectAccountType" value="Vui lòng lựa chọn tài khoản" />
+  <item key="IDS_SelectService" value="Vui lòng lựa chọn dịch vụ" />
+  <item key="IDS_InquiryResult" value="Kết quả vấn tin" />
+  <item key="IDS_AccountBalance" value="##Số dư tài khoản:" />
+  <item key="IDS_AvailableBalance" value="Số dư khả dụng:" />
+  <item key="IDS_TitleAvailableBalance" value="Số dư khả dụng" />
+  <item key="IDS_CurrentBalance" value="Số dư hiện tại:" />
+  <item key="IDS_InputAmountError" value="Số tiền không hợp lệ, vui lòng nhập lại" />
+  <item key="IDS_InputAmountExceedLimit" value="Số tiền vượt quá giới hạn cho phép, vui lòng nhập lại" />
+  <item key="IDS_InputWithdrawalAmount" value="Vui lòng nhập số tiền" />
+  <item key="IDS_InputWithdrawalAmountError" value="Số tiền không hợp lệ, vui lòng nhập lại" />
+  <item key="IDS_InputWithdrawalAmountExceedsLimit" value="Số tiền vượt quá giới hạn cho phép, vui lòng nhập lại" />
+  <item key="IDS_InputWithdrawalAmountExceedsCassetteAmount" value="Xin lỗi, Hệ thống không đủ tiền. Vui lòng nhập lại" />
+  <item key="IDS_InputWithdrawalAmountExceedRetryTimes" value="Số lần giao dịch vượt quá giới hạn cho phép, Giao dịch bị hủy" />
+  <item key="IDS_InputWithdrawalAmountDenominateError" value="Số tiền không hợp lệ, vui lòng nhập lại" />
+  <item key="IDS_SupplyWithdrawalDenomination" value="Các mệnh giá còn lại trong máy" />
+  <item key="IDS_MaxWithdrawalAmount" value="Số tiền tối đa cho phép là" />
+  <item key="IDS_PresentCash" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_RetractCashForTimeout" value="Hết thời gian lấy tiền cho phép, tiền đã bị thu hồi. Vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_RetractCashForHardwareError" value="Tiền đã bị thu hồi, vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_SelectLanguage" value="Vui lòng lựa chọn ngôn ngữ" />
+  <item key="IDS_InputPin" value="Vui lòng nhập mã PIN" />
+  <item key="IDS_InputOldPin" value="Vui lòng nhập mã PIN cũ" />
+  <item key="IDS_InputNewPin" value="Vui lòng nhập mã PIN mới" />
+  <item key="IDS_InputNewPinAgain" value="Vui lòng nhập lại mã PIN mới" />
+  <item key="IDS_InputNewPinUnmatch" value="Mã PIN không đúng, vui lòng nhập lại" />
+  <item key="IDS_InputOldNewPinSame" value="Mã PIN mới giống mã PIN cũ, vui lòng nhập lại" />
+  <item key="IDS_ChangePinSuccess" value="Mã PIN mới được chấp nhận, vui lòng ghi nhớ để sử dụng cho lần sau" />
+  <item key="IDS_InputTransferAccount" value="Vui lòng nhập tài khoản thụ hưởng" />
+  <item key="IDS_InputTransferAccountAgain" value="Please key in transferee account number again" />
+  <item key="IDS_InputTransferAccountUnmatch" value="Invalid transferee account number. Please key in again" />
+  <item key="IDS_InputTransferAmount" value="Please key in amount. 　" />
+  <item key="IDS_MaxTransferAmount" value="The maximum transfer amount is" />
+  <item key="IDS_InputTransferAmountExceedsLimit" value="Exceeds transferred amount limit. Please key in again" />
+  <item key="IDS_InputTransferAmountLessThanLimit" value="Less than transferred amount min limit. Please key in again" />
+  <item key="IDS_InputTransferAmountMultipleError" value="Incorrect amount. Please key in again" />
+  <item key="IDS_ShowTransferInformation" value="Please confirm the account and amount" />
+  <item key="IDS_TransferAccount" value="Transfer account:" />
+  <item key="IDS_TransferAmount" value="Transfer amount:" />
+  <item key="IDS_TransferSuccess" value="Chuyển khoản thành công" />
+  <item key="IDS_InputICLoadAmount" value="Please input load amount. 　" />
+  <item key="IDS_MaxICLoadAmount" value="The max rechargeable limit is　" />
+  <item key="IDS_ICLoadSuccess" value="Load transaction succeeded" />
+  <item key="IDS_InputNoCardDepositAccount" value="Please key in card number. or passbook number" />
+  <item key="IDS_InputNoCardDepositAccountAgain" value="Please input in the card or the passbook account again" />
+  <item key="IDS_InputNoCardDepositAccountUnmatch" value="Invalid transferee account number. Please key in again" />
+  <item key="IDS_TAKENOTERefused" value="Vui lòng nhận lại tiền không đủ tiêu chuẩn" />
+  <item key="IDS_TAKENOTEForError" value="Lỗi thiết bị, vui lòng nhận lại tiền" />
+  <item key="IDS_PrintingReceipt" value="Đang in biên lai, vui lòng chờ trong giây lát..." />
+  <item key="IDS_IsPrintReceipt" value="Quý khách có muốn in biên lai không?" />
+  <item key="IDS_PrintReceiptFail" value="Lỗi máy in biên lai" />
+  <item key="IDS_TakeReceipt" value="Vui lòng nhận biên lai" />
+  <item key="IDS_TAKENOTEToomuch" value="Số tờ tiền nộp vào vượt quá giới hạn cho phép, vui lòng nhận lại số tiền vượt quá giới hạn" />
+  <item key="IDS_CASHINENDSUCC" value="Nộp tiền thành công" />
+  <item key="IDS_TAKENOTE" value="Giao dịch bị hủy, vui lòng nhận lại tiền" />
+  <item key="IDS_TAKENOTEForCancel" value="Vui lòng nhận lại tiền không đủ tiêu chuẩn" />
+  <item key="IDS_TAKENOTEForCommError" value="Vui lòng nhận lại tiền" />
+  <item key="IDS_COUNTINGNOTE" value="Tiền đang được kiểm đếm, vui lòng chờ trong giây lát" />
+  <item key="IDS_TransactionIsBeing" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_TransactionIsBeingDoubleLanguage" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_EjectingCard" value="Thẻ đang được trả ra, vui lòng chờ trong giây lát" />
+  <item key="IDS_PleaseTakeCard" value="Vui lòng nhận lại thẻ" />
+  <item key="IDS_CaptureCardForTimeout" value="Hết thời gian nhận thẻ, thẻ đã bị hồi, vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_CaptureCard" value="Thẻ đã bị thu hồi, vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_Timeout" value="Hết thời gian giao dịch" />
+  <item key="IDS_TransactionTimeout" value="Hết thời gian giao dịch" />
+  <item key="IDS_KeyError" value="Sai PIN, vui lòng quan sát xung quanh" />
+  <item key="IDS_InvalidCard" value="Thẻ không hợp lệ" />
+  <item key="IDS_ThankYou" value="Tạm biệt và hẹn gặp lại Quý khách" />
+  <item key="IDS_OutOfService" value="Máy đang tạm thời ngừng phục vụ, thành thật xin lỗi Quý khách" />
+  <item key="IDS_ServiceUnavailable" value="Máy đang tạm thời ngừng phục vụ, thành thật xin lỗi Quý khách" />
+  <item key="IDS_INCORRECTPIN_REINPUT" value="Sai PIN, vui lòng nhập lại PIN" />
+  <item key="IDS_ACCOUNTNAME" value="Tên tài khoản:" />
+  <item key="IDS_TRANSACTION_AMOUNT" value="Số tiền giao dịch:" />
+  <item key="IDS_CONFIRM_ACCOUNTINFO" value="Vui lòng xác nhận thông tin tài khoản" />
+  <item key="IDS_CONFIRM_INACCOUNT" value="Tài khoản:" />
+  <item key="IDS_DEPOSIT_ARRANGECASH" value="Số tiền nộp vượt quá giới hạn hoặc không đúng. Vui lòng nhận lại tiền trả ra hoặc nộp lại." />
+  <item key="IDS_DEPOSIT_INPUTTIMESOVERLIMIT" value="Số tiền nộp vượt quá giới hạn hoặc không đúng, Quý khách vui lòng nhận lại tiền trả ra" />
+  <item key="IDS_EJECTCASH_TOCUSTOMER" value="Tiền đang được trả ra, Quý khách vui lòng chờ trong giây lát" />
+  <item key="IDS_EJECTCASH_REPEATSN" value="Có nhiều hơn 1 tờ tiền có cùng số Serial, Tiền đang được trả ra. Quý khách vui lòng chờ trong giây lát" />
+  <item key="IDS_RETRACTCASH_REPEATSN" value="Có nhiều hơn 1 tờ tiền có cùng số Serial, Tiền đã bị thu hồi" />
+  <item key="IDS_DEPOSIT_DEVERR_RETURNCASH" value="Giao dịch đang được xử lý, Quý khách vui lòng chờ trong giây lát" />
+  <item key="IDS_DEPOSIT_DEVERR_TAKECASH" value="Hệ thống tạm thời đang bị gián đoạn, Quý khách vui lòng nhận lại tiền" />
+  <item key="IDS_DEPOSIT_WAITFOR_INSERTCASH" value="Vui lòng để tiền ngay ngắn vào khe nạp tiền" />
+  <item key="IDS_DEPOSIT_WAITFOR_INSERTCASH_NOCASH" value="Vui lòng đưa tiền vào khe nhận tiền" />
+  <item key="IDS_DOING_CASHINEND" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_DEPOSIT_DETECTEDNOCASH" value="Giao dịch bị hủy do không có tờ tiền nào được đưa vào máy" />
+  <item key="IDS_DEPOSIT_DETECTEDNOCASHANDDEVICEERROR" value="Giao dịch bị hủy do lỗi thiết bị" />
+  <item key="IDS_DEPOSIT_TAKECASH_TIMEOUT" value="Hết thời gian giao dịch, Tiền đã bị thu hồi" />
+  <item key="IDS_OperationTimeoutRetractCash" value="Hết thời gian giao dịch, tiền đã bị thu hồi" />
+  <item key="IDS_DEPOSIT_DEVICEERROR_RETRACTCASH" value="Tiền bị thu hồi do lỗi thiết bị" />
+  <item key="IDS_DEPOSIT_RETRACTCASH" value="Không thể chắc chắn giao dịch có thành công hay không. Vui lòng kiểm tra số dư tài khoản hoặc liên hệ TPBank nếu gặp bất cứ sự cố nào" />
+  <item key="IDS_DEPOSIT_TOTALDETAILS" value="Chi tiết giao dịch nộp tiền" />
+  <item key="IDS_DEPOSIT_TOTALAMOUNT" value="Tổng tiền:" />
+  <item key="IDS_DEPOSIT_100YUAN" value="VND 100:" />
+  <item key="IDS_DEPOSIT_50YUAN" value="VND 50:" />
+  <item key="IDS_DEPOSIT_PIECE" value="Tờ" />
+  <item key="IDS_DEPOSIT_YUAN" value="VND" />
+  <item key="IDS_And" value="," />
+  <item key="IDS_IS_CONTINUEINTERPOSE" value="To continue deposit, Press 'Continue Interpose'" />
+  <item key="IDS_EXCEEDED_LIMITAMOUNT" value="Số tiền vượt quá giới hạn cho phép, vui lòng nhập lại" />
+  <item key="IDS_EXCEEDED_WITHDRAWALAMOUNT" value="Số tiền vượt quá giới hạn cho phép, vui lòng nhập lại" />
+  <item key="IDS_TakeCash" value="Quý khách vui lòng nhận tiền" />
+  <item key="IDS_REJECTOVERLIMIT" value="Giao dịch bị hủy do không có tờ tiền nào được đưa vào máy" />
+  <item key="IDS_LEFTINTERPOSENOTESCOUNT" value="Vui lòng không nộp quá số tờ cho phép" />
+  <item key="IDS_LEFTCASHINNOTESCOUNT" value="Vui lòng không nộp quá số tờ cho phép" />
+  <item key="IDS_DEPOSITSUPPLYDENO" value="This ATM only can accept" />
+  <item key="IDS_WITHDRAWALSUPPLYDENO" value="This ATM only can accept" />
+  <item key="EjectCashNow" value="Tiền đang được trả ra, vui lòng chờ trong giây lát" />
+  <item key="TestSuccess" value="Test success" />
+  <item key="TestFail" value="Test fail" />
+  <item key="ServiceCancelledForCommError" value="Giao dịch bị hủy, vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_InputEPPKeyConStruct" value="Please input key of {0} group({1}-bit)" />
+  <item key="IDS_VerifyCheckValue" value="Key Check Value:" />
+  <item key="IDS_VerifyCheckValueTip" value="Please Press 'Enter' to Continue, press 'Cancel' to Exit" />
+  <item key="IDS_ExitEPPFlow" value="Please Press 'Enter' to Exit" />
+  <item key="IDS_GetPasswordTip" value="Press 'Cancel' to Exit" />
+  <item key="IDS_GetPawwordA" value="Please Input Key-A Password" />
+  <item key="IDS_GetPawwordB" value="Please Input Key-B Password" />
+  <item key="IDS_SecurKeyEntryA" value="Please key in the 32 chars of Key-Part A" />
+  <item key="IDS_SecurKeyEntryB" value="Please key in the 32 chars of Key-Part B" />
+  <item key="IDS_InputNoDoorMaintenancePin" value="Please key in PIN" />
+  <item key="IDS_RollbackForExceedICAvailableRechargeAmount" value="Sorry, Deposit total amount exceed, IC available recharge amount" />
+  <item key="IDS_InputAmountExceedICAvailableRechargeAmount" value="Exceeds IC available load amount .Please key in again" />
+  <item key="IDS_InputAmountExceedICBalance" value="Exceeds IC available unload amount. Please key in again" />
+  <item key="IDS_InputAccountSameAsPAN" value="Transferee account number is same as inserted card number. Please key in again" />
+  <item key="IDS_InputFormatError" value="Input format error" />
+  <item key="IDS_Date" value="Ngày" />
+  <item key="IDS_TransType" value="Type     " />
+  <item key="IDS_Amount" value="Số tiền" />
+  <item key="IDS_Balance" value="Số dư" />
+  <item key="IDS_BeginTimeOverEndTime" value="Start time is greater than end time" />
+  <item key="IDS_DateControlRolling" value="Is to select a date,please wait..." />
+  <item key="IDS_InvalidDateFormat" value="Invalid date format" />
+  <item key="IDS_formCheckWait" value="Information being reviewed, please wait..." />
+  <item key="IDS_waitVideo" value="Đang kết nối tới Giao dịch viên, vui lòng chờ trong giây lát" />
+  <item key="IDS_CKIdentity" value="Thông tin đang được kiểm tra, vui lòng chờ trong giây lát" />
+  <item key="IDS_AcPrint" value="Biên lại đang được in, vui lòng chờ trong giây lát" />
+  <item key="IDS_FieldsEmpty" value="Những trường bắt buộc không được để trống" />
+  <item key="IDS_cusBusy" value="Hiện tại tất cả các Giao dịch viên đều bận, vui lòng chờ trong giây lát" />
+  <item key="IDS_ScanDocument" value="Please first scan images" />
+  <item key="IDS_DateFormater" value="yyyy.MM.dd" />
+  <item key="IDS_DateConcat" value=" - " />
+  <item key="IDS_MsgCusAddressError" value="Địa chỉ không được để trống" />
+  <item key="IDS_MsgPhoneError" value="Định dạng số điện thoại di động không đúng" />
+  <item key="IDS_MsgTelephoneNumRegError" value="Định dạng số điện thoại cố định không đúng" />
+  <item key="IDS_MsgTelephoneNumError" value="Điện thoại cố định không được để trống" />
+  <item key="IDS_ScanIDCardTimeOut" value="Hết thời gian lấy CMND" />
+  <item key="IDS_CurrentMessage1" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_CurrentMessage2" value="Facial recognition succeeded, please wait..." />
+  <item key="IDS_CurrentMessage3" value=" Wait timeout..." />
+  <item key="IDS_CurrentMessage4" value=" Facial recognition failed..." />
+  <item key="IDS_CurrentMessage5" value=" Facial recognition failed, please retake photo..." />
+  <item key="IDS_CurrentMessage6" value="Conneting to remote teller..." />
+  <item key="IDS_CurrentMessage7" value=" Không thể kết nối tới Giao dịch viên" />
+  <item key="IDS_CurrentMessage8" value=" Connection to remote teller succeeded..." />
+  <item key="IDS_CurrentMessage9" value="Submitting evaluation of permission information..." />
+  <item key="IDS_CurrentMessage10" value="Evaluation of permission succeeded..." />
+  <item key="IDS_CurrentMessage11" value="Submitting review information, please wait..." />
+  <item key="IDS_CurrentMessage12" value="Evaluation of permission failed, please contact customer servcie..." />
+  <item key="IDS_CurrentMessage13" value="Review succeeded!" />
+  <item key="IDS_CurrentMessage14" value="Remote teller review failed, please contact teller!" />
+  <item key="IDS_CurrentMessage15" value="Review informaiton sending succeeded, please wait..." />
+  <item key="IDS_CurrentMessage16" value="Review information sending failed, please contact the administrator..." />
+  <item key="IDS_CurrentMessage17" value="Remote teller connection ended..." />
+  <item key="IDS_CurrentMessage18" value="Self photo and ID Card photo of Similarity:" />
+  <item key="IDS_CurrentMessage19" value="Remote teller is busy,Transaction ended!" />
+  <item key="IDS_SystemStartup" value="System startup..." />
+  <item key="IDS_InitializeDeviceFormat" value="Initializing {0}" />
+  <item key="DVRDevice" value="DVR Device" />
+  <item key="IDS_InputWithDrawalAmountDenominateError" value="Incorrect amount - Please key in again" />
+  <item key="IDS_DEPOSIT_USERCANCELATFIRSTTIME" value="Transaction is canceled by user" />
+  <item key="IDS_InputAccountLengthNotEnough" value="Input account length is not enough. Please key in again" />
+  <item key="IDS_InputPinLengthNotEnough" value="Input password length is not enough. Please key in again" />
+  <item key="IDS_RCMGetBackCapturedCard" value="Get Captured Card" />
+  <item key="IDS_RCMInputPANLast4Number" value="Please key in your card. Last 4 nummber" />
+  <item key="IDS_RCMInputPANLast4NumberLengthNotEnough" value="Input last 4 number length is not enough. Please key in again" />
+  <item key="IDS_RCMNextStep" value="Next Step" />
+  <item key="IDS_RCMFoundCapturedCardInfoInBin" value="Thẻ đã bị thu hồi, vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_RCMNotFoundCapturedCardInfo" value="Sorry, don't find the capture card record. Of you keyed number. Please contact the bank" />
+  <item key="IDS_RCMCaptureCardToSlotForTimeout" value="Sorry. Taking card timeout. The card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="IDS_RCMCaptureCardToSlotForPINError" value="Sorry,personal identification number error. The card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="IDS_RCMCaptureCardToSlot" value="Sorry,the card has been retained by device. Yon can select [GET CAPTURED CARD]. In welcome page to get back your card soon" />
+  <item key="RCM" value="Eject Card Module" />
+  <item key="IDS_CMCCPayment" value="China Mobile Payment" />
+  <item key="IDS_CUPayment" value="China Unicom Payment" />
+  <item key="IDS_CTPayment" value="China Telecom Payment" />
+  <item key="IDS_PRPayment" value="Power Rate" />
+  <item key="IDS_WRPayment" value="Water Rate" />
+  <item key="IDS_DSQWRPayment" value="DASHIQIAO Water Rate" />
+  <item key="IDS_GRPayment" value="Gas Rate" />
+  <item key="IDS_PaymentSuccess" value="The payment is successful" />
+  <item key="IDS_ConfirmPaymentInfo" value="Please confirm the payment information" />
+  <item key="IDS_PaymentNumber" value="Payment Number: " />
+  <item key="IDS_PaymentAccntName" value="User Name: " />
+  <item key="IDS_PaymentAmount" value="Payment Amount: " />
+  <item key="IDS_MaxPaymentAmount" value="The maximum payment amount is" />
+  <item key="IDS_InputPaymentAmount" value="Please key in the payment amount" />
+  <item key="IDS_InputPaymentAmountAgain" value="Please key in the payment amount again" />
+  <item key="IDS_InputPhoneNumber" value="Please key in the phone number" />
+  <item key="IDS_InputPhoneNumberAgain" value="Please key in the phone number again" />
+  <item key="IDS_InputPhoneNumberUnmatch" value="Invalid phone number. Please key in again" />
+  <item key="IDS_InputPowerRateNumber" value="Please key in the power rate number" />
+  <item key="IDS_InputPowerRateNumberAgain" value="Please key in the power rate number again" />
+  <item key="IDS_InputPowerRateNumberUnmatch" value="Invalid power rate number. Please key in again" />
+  <item key="IDS_InputWaterRateNumber" value="Please key in the water rate number" />
+  <item key="IDS_InputWaterRateNumberAgain" value="Please key in the water rate number again" />
+  <item key="IDS_InputWaterRateNumberUnmatch" value="Invalid power water number. Please key in again" />
+  <item key="IDS_InputGasRateNumber" value="Please key in the gas rate number" />
+  <item key="IDS_InputGasRateNumberAgain" value="Please key in the gas rate number again" />
+  <item key="IDS_InputGasRateNumberUnmatch" value="Invalid power gas number. Please key in again" />
+  <item key="IDS_BtnCMCC" value="China Mobile" />
+  <item key="IDS_BtnCU" value="China Unicom" />
+  <item key="IDS_BtnCT" value="China Telecom" />
+  <item key="IDS_BtnPR" value="Power Rate" />
+  <item key="IDS_BtnWR" value="Water Rate" />
+  <item key="IDS_BtnGR" value="Gas Rate" />
+  <item key="IDS_BtnDSQWR" value="DASHIQIAO Water Rate" />
+  <item key="IDS_BtnMobile" value="Mobile Phone" />
+  <item key="IDS_BtnFixLine" value="Telephone" />
+  <item key="IDS_BtnWideBand" value="Broadband" />
+  <item key="IDS_PromptForTransfer" value="No Self-bank transaction, need transaction fee." />
+  <item key="IDS_ICLoadFail" value="IC Load transaction Failed" />
+  <item key="IDS_InputPinTip" value="Be careful to protect your own password." />
+  <item key="IDS_SelectReceiptType" value="Print receipt" />
+  <item key="IDS_PrintReceiptFailed" value="Lỗi in biên lai" />
+  <item key="IDS_PrintOCR" value="Print OCR" />
+  <item key="IDS_TakeNoteHostRefuse" value="Deposit fail or translation host refused,please take note " />
+  <item key="FingerScaner" value="Fingerprint Mode" />
+  <item key="IDS_waitService" value="Recover paper  fail ，Please Waiting for service ....." />
+  <item key="IDS_TransName_VTM_NEWACC_CURRENT" value="New account" />
+  <item key="IDS_TransName_VTM_SIGN" value="New UKey" />
+  <item key="IDS_TRANSNAME_PASSBOOK" value="Bank book update" />
+  <item key="IDS_DateControlRolling" value="Please wait ，The date is choosing" />
+  <item key="IDS_Disable" value="Forbid" />
+  <item key="IDS_FormatDisable" value="{0}{1}{2}{3}" />
+  <item key="IDS_ErrorDisable" value="fault" />
+  <item key="IDS_VTM_SIGN" value="New UKey" />
+  <item key="IDS_FaceComparison" value="Identification system is a confirmation of your identity, please wait..." />
+  <item key="IDS_PrintingOCRReceipt" value="Printing OCR..." />
+  <item key="IDS_ICFBDZHQC" value="Non Bind Load" />
+  <item key="IDS_ICXJCZ" value="Cash Recharge" />
+  <item key="IDS_ICQT" value="Unload" />
+  <item key="IDS_InputICUnloadAmount" value="Please input unload amount. 　" />
+  <item key="IDS_MaxICUnloadAmount" value="The max unload limit is　" />
+  <item key="IDS_ICUnloadSuccess" value="Unload transaction succeeded" />
+  <item key="IDS_TransName_61" value="IC Unload" />
+  <item key="IDS_TransName_62" value="IC unbundling Load" />
+  <item key="IDS_TransName_63" value="Cash Recharge" />
+  <item key="IDS_TransName_00" value="Consume" />
+  <item key="IDS_TransName_03" value="Pre authorization" />
+  <item key="IDS_TransName_20" value="Returned purchase" />
+  <item key="IDS_ContactLessICC" value="ContactLessICC" />
+  <item key="IDS_ICPutCard" value="请将IC卡放到读卡区域. Please put the IC card into the reading area" />
+  <item key="IDS_ICReadingCard" value="正在读取卡信息,请勿移动IC卡片. Reading card data,do not move the IC card" />
+  <item key="IDS_SelectApplication" value="Please select the application" />
+  <item key="IDS_TryAgain" value="请重试. Try Again" />
+  <item key="IDS_ICNoLog" value="No detailed data" />
+  <item key="IDS_ICCanNotReadLog" value="Unable to read the detail data" />
+  <item key="IDS_ICReadLogError" value="Read the details data error" />
+  <item key="IDS_ICTransTerminated" value="Sorry, transaction has been terminated" />
+  <item key="IDS_ICTransDeclined" value="Sorry, transaction has been declined" />
+  <item key="IDS_ICTransNotAccepted" value="Sorry, transaction has not been accepted" />
+  <item key="IDS_PleaseTakeCardAndInsertSecondCard" value="Pease take your card and insert the IC card. you want to recharge" />
+  <item key="IDS_TheSecondCardISInvalidCard" value="You Inserted card does not support. Can't recharge" />
+  <item key="IDS_PleaseInserRechardCard" value="Please insert your card to recharge" />
+  <item key="IDS_SecondAndFirstCradIsSame" value="You insert the same card. The transaction will be cancelled" />
+  <item key="IDS_InputFirstCardPin" value="Please input your transfer card password" />
+  <item key="IDS_ResultWithoutCancel" value="Please Press 'Enter' to Continue" />
+  <item key="IDS_MORETHANINPUT" value="The total amount is more than your input amount" />
+  <item key="IDS_LESSTHANINPUT" value="The total amount is less than your input amount" />
+  <item key="IDS_projWaitVideo" value="Hệ thống đang kết nối tới Giao dịch viên, vui lòng chờ trong giây lát" />
+  <item key="IDS_projIDInfoCheck" value="Hệ thống đang kiểm tra thông tin CMND, vui lòng chờ trong giây lát" />
+  
+  <!--R1是动态的-->
+  <item key="IDS_SavingAcc_R1" value="1 Tháng" />
+  <item key="IDS_SavingAcc_R2" value="2 Tháng" />
+  <item key="IDS_SavingAcc_R3" value="3 Tháng" />
+  <item key="IDS_SavingAcc_R6" value="6 Tháng" />
+  <item key="IDS_SavingAcc_R9" value="9 Tháng" />
+  <item key="IDS_SavingAcc_R12" value="12 Tháng" />
+  <item key="IDS_SavingAcc_R18" value="18 Tháng" />
+  <item key="IDS_SavingAcc_R24" value="24 Tháng" />
+  <item key="IDS_SavingAcc_R36" value="36 Tháng" />
+  <item key="IDS_SavingAcc_R1W" value="1 Tuần" />
+  <item key="IDS_SavingAcc_R2W" value="2 Tuần" />
+  <item key="IDS_SavingAcc_R3W" value="3 Tuần" />
+  <item key="IDS_SavingAcc_R6_1" value="6 Tháng" />
+  <item key="IDS_SavingAcc_R6_2" value="12 Tháng" />
+  <item key="LeastDepositAmountPrompt" value="Số tiền tối thiểu cần nộp là:1,000,000 VND" />
+
+  <item key="IDS_SavAccPrintReceipt" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <!--新增-->
+  <item key="IDS_InvalidIssueDate" value="Định dạng ngày cấp không đúng" />
+  <item key="IDS_InvalidIssueDate1" value="Ngày cấp không thể muộn hơn ngày hôm nay" />
+  <item key="IDS_InvalidIssueDate2" value="CMND cấp cách đây hơn 15 năm không thể thực hiện được giao dịch" />
+  <item key="IDS_IssueDateEmpty" value="Ngày cấp không được để trống" />
+  <item key="IDS_InvalidDOB" value="Định dạng ngày sinh không đúng" />
+  <item key="IDS_InvalidDOB1" value="Ngày sinh không thể muộn hơn ngày cấp CMND" />
+  <item key="IDS_InvalidDOB2" value="Quý khách không thể mở tài khoản thanh toán do chưa đủ 15 tuổi" />
+  <item key="IDS_InvalidDateFormat" value="Định dạng ngày không đúng" />
+  <item key="IDS_InvalidDOBEmpty" value="Ngày sinh không được để trống" />
+  <item key="IDS_InvalidIDNumber" value="Sai định dạng số CMND/Hộ chiếu" />
+  <item key="IDS_InvalidIDNumberEmpty" value="Số CMND/Hộ chiếu không được để trống" />
+  <item key="IDS_InvalidName" value="Định dạng tên không đúng" />
+  <item key="IDS_InvalidNameEmpty" value="Tên không được để trống" />
+  <item key="IDS_InvalidGender" value="Định dạng giới tính không đúng" />
+  <item key="IDS_InvalidGenderEmpty" value="Giới tính không được để trống" />
+  <item key="IDS_InvalidAddress" value="Định dạnh địa chỉ không đúng" />
+  <item key="IDS_InvalidAddressEmpty" value="Địa chỉ không được để trống" />
+  <item key="IDS_InvalidEmail" value="Định dạng địa chỉ email không đúng" />
+  <item key="IDS_InvalidEmailEmpty" value="Email không được để trống" />
+  <item key="IDS_InvalidIssuePlace" value="Định dạng nơi cấp CMND không đúng" />
+  <item key="IDS_InvalidIssuePlaceEmpty" value="Nơi cấp CMND không được để trống" />
+  <item key="IDS_InvalidPhoneNo" value="Định dạng số điện thoại không đúng" />
+  <item key="IDS_InvalidPhoneNoEmpty" value="Số điện thoại không được để trống" />
+  <item key="IDS_InvalidSavCity" value="Thành phố không được để trống" />
+  <item key="IDS_InvalidSavCityBranch" value="Chi nhánh không được để trống" />
+  <!--设备状态检测-->
+  <item key="IDS_ErrorNDC" value="Lỗi NDC" />
+  <item key="IDS_ErrorCash" value="Không đủ tiền" />
+  <item key="IDS_ErrorCassetteCIM" value="Lỗi bộ phận nhận tiền" />
+  <item key="IDS_ErrorCassetteCDM" value="Lỗi bộ phận trả tiền" />
+  <item key="IDS_ErrorPIN" value="Lỗi bàn phím giao dịch" />
+  <item key="IDS_ErrorIDCard" value="Lỗi đầu đọc CMND" />
+  <item key="IDS_ErrorA4Printer" value="Lỗi máy in A4" />
+  <item key="IDS_ErrorFingerScaner" value="Lỗi scan vân tay" />
+  <item key="IDS_ErrorHighCamera" value="Lỗi máy Scan" />
+  <item key="IDS_ErrorFeedChannel" value="Lỗi khay nhận tài liệu" />
+  <item key="IDS_ErrorIDC" value="Lỗi đầu đọc thẻ" />
+  <item key="IDS_ErrorCAM" value="Lỗi camera" />
+<!-- Open current account -->
+  <item key="IDS_Menu_CashTransactions1" value="Giao dịch" />
+  <item key="IDS_Menu_CashTransactions2" value="tiền mặt" />
+  <item key="IDS_Menu_Deposit" value="Nộp tiền" />
+  <item key="IDS_Menu_Withdraw" value="Rút tiền" />
+  <item key="IDS_Menu_Withdrawal" value="Rút tiền" />
+  <item key="IDS_Menu_CardActivation" value="Đổi PIN" />
+  <item key="IDS_Menu_OpenAccounts1" value="Mở" />
+  <item key="IDS_Menu_OpenAccounts2" value="tài khoản" />
+  <item key="IDS_Menu_CurrentAccount" value="Mở/hoàn thiện thông tin Tài khoản thanh toán" />
+  <item key="IDS_Menu_SavingsAccount" value="Mở sổ tiết kiệm" />
+  <item key="IDS_Menu_SpeakContactCentre1" value="Gọi tới tổng đài" />
+  <item key="IDS_Menu_SpeakContactCentre2" value="để được Giao dịch viên hỗ trợ" />
+  <item key="IDS_Menu_InternetBanking1" value="Internet" />
+  <item key="IDS_Menu_InternetBanking2" value="Banking" />
+  <item key="IDS_Enquiries" value="Truy vấn thông tin" />
+  <item key="IDS_CurrentAccountEnquiries" value="Vấn tin tài khoản thanh toán." />
+  <item key="IDS_Menu_AccountInformation1" value="Tài khoản thanh toán" />
+  <item key="IDS_Menu_AccountInformation2" value="" />
+  <item key="IDS_Menu_CardInformation1" value="Thẻ tín dụng" />
+  <item key="IDS_Menu_CardInformation2" value="(Đang cập nhật)" />
+  <item key="IDS_Menu_SavingInformation1" value="Sổ tiết kiệm" />
+  <item key="IDS_Menu_SavingInformation2" value="(Đang cập nhật)" />
+  <item key="IDS_Menu_LoanInformation1" value="Khoản vay" />
+  <item key="IDS_Menu_LoanInformation2" value="(Đang cập nhật)" />
+  <item key="IDS_OtherServices" value="Dịch vụ khác" />
+  <item key="IDS_Menu_CompleteKYC1" value="Hoàn thiện thông tin" />
+  <item key="IDS_Menu_CompleteKYC2" value="(Đang cập nhật)" />
+  <item key="IDS_Menu_AccountMaintenance1" value="Cập nhật thông tin" />
+  <item key="IDS_Menu_AccountMaintenance2" value="(Đang cập nhật)" />
+  <item key="IDS_PassbookSettlement1" value="Tất toán" />
+  <item key="IDS_PassbookSettlement2" value="sổ tiết kiệm" />
+  <item key="IDS_Menu_CardActivation1" value="Kích hoạt" />
+  <item key="IDS_Menu_CardActivation2" value="thẻ ATM" />
+  <item key="IDS_Menu_ApplyLoan1" value="Đăng ký khoản vay" />
+  <item key="IDS_Menu_ApplyLoan2" value="(Đang cập nhật)" />
+  <item key="IDS_Menu_ApplyCreditCard1" value="Đăng ký thẻ tín dụng" />
+  <item key="IDS_Menu_ApplyCreditCard2" value="Số thẻ" />
+
+  <item key="IDS_OpenCurrentAccount" value="Mở tài khoản thanh toán" />
+  <item key="IDS_OpenCurrentAccount1" value="Mở" />
+  <item key="IDS_OpenCurrentAccount2" value="Tài khoản thanh toán" />
+  <item key="IDS_CurrentAccount" value="Tài khoản thanh toán" />
+  <item key="IDS_CurrentAccountMobile" value="(ending *3001)" />
+  <item key="IDS_Button_Exit" value="Thoát" />
+  <item key="IDS_Button_Back" value="Quay lại" />
+  <item key="IDS_Button_Next" value="Tiếp tục" />
+  <item key="IDS_Button_Edit" value="Sửa" />
+  <item key="IDS_Button_Confirm" value="Xác nhận" />
+  <item key="IDS_Button_Confirm_CashCount" value="Đếm tiền" />
+  <item key="IDS_Button_Cancel" value="Hủy" />
+  <item key="IDS_Button_AddCash" value="Nộp thêm" />
+  <item key="IDS_Button_Print" value="In" />
+  <item key="IDS_Button_Continue" value="Tiếp tục" />
+  <item key="IDS_Button_Rescan" value="Scan lại" />
+  <item key="IDS_Button_EditAmount" value="Quay lại" />
+  <item key="IDS_Button_Yes" value="Có" />
+  
+  <item key="IDS_Step_IDScan" value="Scan CMND/Hộ chiếu" />
+  <item key="IDS_Step_YourInfo" value="Thông tin cá nhân" />
+  <item key="IDS_Step_Photo" value="Chụp ảnh" />
+  <item key="IDS_Step_Fingerprint" value="Vân tay" />
+  <item key="IDS_Step_Signature" value="Ký nhận" />
+  <item key="IDS_Step_DropBox" value="Lưu hồ sơ" />
+    <item key="IDS_Step_Transfer" value="Chuyển khoản" />
+  <item key="IDS_Step_Completion" value="Hoàn thành" />
+  <item key="IDS_Step_SavingTerm" value="Kỳ hạn" />
+
+  <item key="IDS_ContactAgent" value="Đang kết nối tới Giao dịch viên, vui lòng chờ trong giây lát" />
+  <item key="IDS_ContactAgentRecord" value="Phòng máy LiveBank có trang bị camera lưu hình ảnh, ghi âm hội thoại, chụp ảnh/lấy vân tay trong quá trình giao dịch của quý khách để nâng cao bảo mật và chất lượng dịch vụ" />
+  <item key="IDS_WeNeedToscanYourIDCard" value="Chọn loại giấy tờ tùy thân để thực hiện Giao dịch" />
+  <item key="IDS_OldIDCard" value="CMND cũ" />
+  <item key="IDS_NewIDCard" value="CMND mới" />
+  <item key="IDS_CCCD" value="Căn cước công dân" />
+  <item key="IDS_Passport" value="Hộ chiếu" />
+
+  <item key="IDS_PleaseInsertIDScanner" value="Vui lòng đưa CMND/Hộ chiếu vào máy Scan bên cạnh" />
+  <item key="IDS_PleaseInsertOldIDCard" value="Vui lòng đưa CMND/Hộ chiếu vào máy Scan bên cạnh" />
+  <item key="IDS_PleaseInsertPassport" value="Vui lòng đưa CMND/Hộ chiếu vào máy Scan bên cạnh" />
+
+  <item key="IDS_PleaseInsertIDCard" value="Vui lòng đưa CMND vào đầu đọc chứng minh nhân dân đang nháy sáng" />
+
+  <item key="IDS_Processing" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+
+  <item key="IDS_PleaseCheckConfirmIDNumber" value="Vui lòng kiểm tra và xác nhận" />
+  <item key="IDS_ID_Passport" value="Số CMND/Hộ chiếu" />
+
+  <item key="IDS_ThankyouTakeDocument" value="Vui lòng nhận tại tài liệu để chuyển sang bước tiếp theo" />
+  <item key="IDS_ThankyouTakeCard" value="Vui lòng nhận thẻ và chuyển sang bước tiếp theo" />
+
+  <item key="IDS_PleaseCheckConfirmPersonal" value="Vui lòng kiểm tra và xác nhận thông tin" />
+  <item key="IDS_FullName" value="Họ tên" />
+  <item key="IDS_Male" value="Nam" />
+  <item key="IDS_Female" value="Nữ" />
+  <item key="IDS_DOB" value="Ngày sinh" />
+  <item key="IDS_DateOfIssue" value="Ngày cấp" />
+  <item key="IDS_Mobile" value="Số điện thoại" />
+  <item key="IDS_Email" value="Email" />
+  <item key="IDS_PlaceOfIssue" value="Nơi cấp" />
+  <item key="IDS_Address" value="Địa chỉ" />
+  <item key="IDS_ConfirmTerm" value="Tôi xác nhận đã đọc, hiểu rõ, chấp thuận và nhận được bản sao của tất cả những điều kiện và điều khoản có liên quan đến các tài khoản, gói tài khoản, dịch vụ mà tôi đã đăng ký trong Đăng ký mở tài khoản cá nhân và sử dụng dịch vụ này. Đồng thời, tôi chấp nhận mọi thay đổi trong điều kiện và điều khoản của các sản phẩm dịch vụ của TPBank  theo từng thời kỳ" />
+  <item key="IDS_TermsAndConditions" value="Điều khoản và điều kiện" />
+  <item key="IDS_ConfirmTermSaving" value="Tôi xác nhận đã đọc, hiểu rõ, chấp thuận và nhận được bản sao của tất cả những điều kiện và điều khoản có liên quan đến mở Sổ tiết kiệm tại LiveBank. Đồng thời, tôi chấp nhận mọi thay đổi trong điều kiện và điều khoản của các sản phẩm dịch vụ của TPBank  theo từng thời kỳ" />
+
+  <item key="IDS_ATM_DebitCard" value="Phát hành thẻ ATM/Visa Debit" />
+  <item key="IDS_PleaseSelectCard" value="Vui lòng chọn loại thẻ" />
+  <item key="IDS_EBankTransactionValidate" value="Đăng ký sử dụng eBank" />
+  <item key="IDS_SMSNoti" value="Thông báo giao dịch qua SMS" />
+  <item key="IDS_ECounterATM" value="Thẻ ATM/eCounter" />
+  <item key="IDS_WithoutPicture" value="" />
+  <item key="IDS_VisaDebitCard" value="Thẻ ghi nợ quốc tế TPBank Visa" />
+  <item key="IDS_Standard" value="Chuẩn" />
+  <item key="IDS_Gold" value="Vàng" />
+  <item key="IDS_Platinum" value="Bạch kim" />
+
+  <item key="IDS_ECounterATMFee" value="Phí thường niên: 55,000 VNĐ/năm (Đã bao gồm VAT)" />
+  <item key="IDS_IssueFee" value="Phí phát hành: " />
+  <item key="IDS_VisaDebitStandardFee" value="Phí thường niên: 99,000 VNĐ/năm (Đã bao gồm VAT)" />     
+  <item key="IDS_VisaDebitGoldFee" value="Phí thường niên: 199,000 VNĐ/năm (Đã bao gồm VAT)" /> 
+  <item key="IDS_VisaDebitPlatinumFee" value="Phí thường niên: 299,000 VNĐ/năm (Đã bao gồm VAT)" />
+  <item key="IDS_VisaDebitFeeSpecialOffer" value="Miễn phí thường niên năm đầu đối với Thẻ Visa Debit mở mới từ ngày 01/10 – 31/12/2019" /> 
+  <item key="IDS_InstantIssueFee" value="55,000 VNĐ (Đã bao gồm VAT) - Nhận ngay" />
+  <item key="IDS_BranchIssueFee" value="55,000 VNĐ (Đã bao gồm VAT) - Nhận sau 5 ngày làm việc" />
+  <item key="IDS_BranchIssue0Fee" value="Miễn phí - Nhận sau 5 ngày làm việc" />
+  
+  <item key="IDS_SpendLimitAbove100" value="(Hạn mức 60 triệu VND/ngày)" />
+  <item key="IDS_SpendLimit150" value="(Hạn mức 60 triệu VND/ngày)" />
+  <item key="IDS_SpendLimit250" value="(Hạn mức 100 triệu VND/ngày)" />
+  <item key="IDS_ConfirmSelection" value="Quý khách vui lòng xác nhận?" />
+  <item key="IDS_CashFreeCardStandard" value="CashFree hạng chuẩn" />
+  <item key="IDS_CashFreeCardStandardFee" value="Phí thường niên:Miễn phí năm đầu" />
+  <item key="IDS_VisaDebitCardStandard" value="CashFree Hạng chuẩn" />
+  <item key="IDS_VisaDebitCardStandardFee" value="Phí thường niên:Miễn phí năm đầu" />
+  <item key="IDS_ActivateCardViaInternet" value="Kích hoạt tính năng thanh toán qua Internet" />
+  <item key="IDS_VisaCashFreeCardGold" value="CashFree hạng vàng" />
+  <item key="IDS_VisaCashFreeCardGoldFee" value="Phí thường niên:Miễn phí năm đầu" />
+  <item key="IDS_VisaDebitCardGold" value="CashFree Hạng Vàng" />
+  <item key="IDS_VisaDebitCardGoldFee" value="Phí thường niên: Miễn phí năm đầu" />
+  <item key="IDS_VisaCashFreeCardPlatinum" value="CashFree hạng bạch kim" />
+  <item key="IDS_VisaCashFreeCardPlatinumFee" value="Phí thường niên:Miễn phí năm đầu" />
+  <item key="IDS_SpendLimitXXX" value="(Hạn mức 150 triệu VND/ngày)" />
+  <item key="IDS_BranchWillYouCollect1" value="Quý khách vui lòng chọn" />
+  <item key="IDS_BranchWillYouCollect2" value="chi nhánh TPBank để nhận thẻ" />
+  <item key="IDS_City" value="Thành phố" />
+  <item key="IDS_OptionSelect" value="- Chọn -" />
+  <item key="IDS_OptionBranch" value="Chi nhánh" />
+  <item key="IDS_ATMInsuranceUnavailable" value="Chức năng phát hành thẻ ATM tại máy tạm thời không hoạt động" />
+  <item key="IDS_WeWouldLikeToInformYouThat" value="We would like to inform you that..." />
+  <item key="IDS_YourSelectedInsurance" value="Vui lòng chọn phương thức nhận thẻ" />
+  <item key="IDS_CardWillBeAvailableAfter5WorkingDaysIfPickup" value="(Lấy thẻ tại chi nhánh sau 5 ngày làm việc)" />
+  <item key="IDS_EndOfTransaction" value="Phát hành Thẻ nhận ngay" />
+  <item key="IDS_SelectTPBankBranch" value="Chọn chi nhánh nhận thẻ (sau 5 ngày làm việc và thẻ có in tên)" />
+  <item key="IDS_IssueVTM" value="Issue at VTM" />
+  <item key="IDS_TpbankBranch" value="Nhận thẻ tại chi nhánh TPBank" />
+  <item key="IDS_YourSelectedAtmCardWillBe" value="Thẻ ATM sẽ được phát hành" />
+  <item key="IDS_IssueAtTheEndOfTransaction" value="ngay sau khi kết thúc giao dịch" />
+  <item key="IDS_PleaseSelectPreferredTPBankBranch" value="Vui lòng chọn chi nhánh để" />
+  <item key="IDS_ToPickUpYourDebitCard" value="Nhận thẻ CashFree" />
+  <item key="IDS_ToPickUpYourATMCard" value="Nhận thẻ ATM" />
+  <item key="IDS_CardWillBeAvailableAfter5WorkingDays" value="(Lấy thẻ tại chi nhánh sau 5 ngày làm việc)" />
+  <item key="IDS_SelectPickUpLocation" value="Vui lòng chọn nơi nhận thẻ" />
+  <item key="IDS_PickUpLocation" value="Chi nhánh TPBank" />
+
+  <item key="IDS_PleaseSelectOption" value="Vui lòng chọn phương thức xác thực" />
+  <item key="IDS_OTPValidation" value="Xác thực bằng OTP-SMS" />
+  <item key="IDS_FreeOTPSMS" value="11,000 VND (bao gồm VAT)" />
+  <item key="IDS_SoftTokenValidation" value="Xác thực bằng eToken (ứng dụng trên ĐTDĐ)" />
+  <item key="IDS_FreeSToken" value="Miễn phí" />
+
+  <item key="IDS_PleaseEnterConfirmYourMobile" value="Vui lòng nhập và xác nhận số điện thoại đăng ký" />
+  <item key="IDS_MobilePrimary" value="Số điện thoại 1" />
+  <item key="IDS_Mobile1" value="Số điện thoại 1" />
+  <item key="IDS_Mobile2" value="Số điện thoại 2" />
+  <item key="IDS_Mobile3" value="Số điện thoại 3" />
+  <item key="IDS_SMSTransactionNoti" value="Thông báo giao dịch qua SMS" />
+    <item key="IDS_1MoblieSubscribe" value="1 số điện thoại:" />
+  <item key="IDS_2MoblieSubscribe" value="2 số điện thoại:" />
+  <item key="IDS_3MoblieSubscribe" value="3 số điện thoại:" />
+  <item key="IDS_5000VND" value="5,000 VND" />
+
+  <item key="IDS_InformationNeedAuthen" value="Thông tin cần xác thực" />
+  <item key="IDS_Yes" value="Có" />
+  <item key="IDS_No" value="Không" />
+  <item key="IDS_FormRecordAndInformation" value="Mẫu biểu, hồ sơ, thông tin cần thu thập" />
+  <item key="IDS_DoYouResidentUS" value="Quý khách là công dân Hoa Kỳ hoặc là thường trú nhân hợp pháp tại Hoa Kỳ (có thẻ xanh)?" />
+  <item key="IDS_DoYouGreenCardUS" value="" />
+  <item key="IDS_DoYouBirthUS" value="Quý khách có sinh ra tại Hoa Kỳ không (Nơi sinh tại Hoa Kỳ)?" />
+  <item key="IDS_DoYouRegularyProvideUS" value="Khách hàng/chủ tài khoản có cung cấp hướng dẫn chuyển tiền thường xuyên nào tới tài khoản được duy trì tại Mỹ hoặc hướng dẫn nhận tiền thường xuyên từ địa chỉ tại Mỹ không?" />
+  <item key="IDS_WhereThereIsOneOrMoreAnswer" value="Trường hợp có 1 hoặc nhiều câu trả lời &quot;Có&quot; vui lòng điền mẫu đơn W9 hoặc W-8 BEN do ngân hàng cung cấp và bổ sung các tài liệu chứng minh theo quy định của FATCA" />
+  <item key="IDS_DoYouAddressUS" value="Khách hàng/ chủ tài khoản có một địa chỉ Mỹ (bao gồm cả địa chỉ hộp thư P.O.box) hay số điện thoại Mỹ không?" />
+  <item key="IDS_DoYouEffectivePowerUS" value="Khách hàng hoặc chủ tài khoản có ủy quyền không? Nếu có, người được ủy quyền có địa chỉ tại Mỹ không?" />
+  <item key="IDS_DoYouHaveUSInCareOf" value="Tài khoản này có địa chỉ &quot;gửi qua&quot; hoặc &quot;giữ thư&quot; là địa chỉ duy nhất của tài khoản hay không?" />
+    <item key="IDS_Notice" value="Lưu ý" />
+    <item key="IDS_WereOneMoreYesNotAllowedToNextStep" value="Quý khách không thể tiếp tục thực hiện giao dịch do có câu trả lời là Có. Quý khách vui lòng ra quầy giao dịch của TPBank để được hướng dẫn thực hiện giao dịch" />
+
+  <item key="IDS_PleaseLookCamera1" value="Vui lòng nhìn vào camera" />
+  <item key="IDS_PleaseLookCamera2" value="Giao dịch viên sẽ hỗ trợ chụp ảnh" />
+
+  <item key="IDS_ScanFingerPrint" value="Quét vân tay" />
+  <item key="IDS_ScanFingerPrintFailed" value="Lỗi khi quét dấu vân tay" />
+  <item key="IDS_ScanFingerPrintAgain" value="Vui lòng quét lại dấu vân tay" />
+  <item key="IDS_ToOpenAccountFingerPrint" value="Để mở thực hiện giao dịch, chúng tôi cần lấy mẫu dấu vân tay của Quý khách" />
+  <item key="IDS_RequiredFingerPrint" value="Để thực hiện giao dịch, chúng tôi cần lấy mẫu dấu vân tay của Quý khách" />
+  <item key="IDS_PleaseScan4Times" value="Quý khách vui lòng quét dấu vân tay 4 lần. Lưu ý: Sử dụng duy nhất 1 ngón tay" />
+
+  <item key="IDS_PleaseReviewConfirmApplication" value="Vui lòng kiểm tra và xác nhận" />
+
+  <item key="IDS_PleaseCheckPrintDocument" value="Vui lòng kiểm tra thông tin trên mẫu đăng ký vừa in ra, và ký xác nhận" />
+
+  <item key="IDS_PleaseScanSignDocument" value="Vui lòng scan đơn đăng ký đã được ký nhận" />
+
+  <item key="IDS_PleaseConfirmImageScannedCorrect" value="Vui lòng kiểm tra và xác nhận hình ảnh" />
+  <item key="IDS_LiveStreamFromScanner" value="SCAN" />
+  
+  <item key="IDS_PlsInsDocDropBoxforSavingAccount" value="Vui lòng đưa mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBox" value="Vui lòng đưa mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_AccMaintPlsInsDocDropBox" value="Vui lòng đưa mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBoxforSavingAccount" value="Vui lòng đưa mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBoxAgain" value="Vui lòng đưa lại mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_AccMaintPlsInsDocDropBoxAgain" value="Vui lòng đưa lại mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  
+  <item key="IDS_PlsDepByIDInsDocDropBoxAgain" value="Vui lòng đưa lại mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBoxAgainForSavingAccount" value="Vui lòng đưa lại mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBoxForDeposit" value="Vui lòng đưa mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  <item key="IDS_PleaseInsertDocumentDropBoxAgainForDeposit" value="Vui lòng đưa lại mẫu đơn đã ký vào khay nhận tài liệu bên cạnh" />
+  
+  
+  <item key="IDS_YourCurrentAccountOpen" value="Tài khoản thanh toán của Quý khách đã được mở thành công" />
+  <item key="IDS_TheseDetailEmailTo" value="Thông tin chi tiết đã được gửi tới địa chỉ email" />
+  <item key="IDS_CustomerNumber" value="Mã khách hàng" />
+    <item key="IDS_AccountHolder" value="Chủ tài khoản" />
+    <item key="IDS_AccountHolderName" value="Tên tài khoản" />
+  <item key="IDS_AccountNumber" value="Số tài khoản" />
+   <item key="IDS_Depositor" value="Người nộp tiền" />
+  <item key="IDS_AccountNO" value="Số tài khoản" />
+  <item key="IDS_Amount" value="Số tiền" />
+  <item key="IDS_Value" value="Ngày gửi" />
+  <item key="IDS_WouldYouPrintConfirmation" value="Quý khách có muốn in biên lai không?" />
+  <item key="IDS_WouldYouPrintConfirmation1" value="Quý khách có muốn in thông tin tài khoản thanh toán không?" />
+
+  <item key="IDS_PrintingReceipt" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_PrintingPleaseWait" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+
+  <item key="IDS_PleaseTakeReciept" value="Vui lòng nhận biên lai" />
+
+  <item key="IDS_DepositNewCurrentAccount" value="Quý khách có muốn nộp tiền vào tài khoản không?" />
+
+  <item key="IDS_MakeAnotherTransaction" value="Quý khách có muốn thực hiện giao dịch khác không?" />
+  <item key="IDS_MakeAnotherTransactionPart1" value="Quý khách có muốn thực hiện giao dịch khác không?" />
+  <item key="IDS_MakeAnotherTransactionPart2" value="Nếu không vui lòng lấy lại thẻ trong trường hợp giao dịch bằng thẻ" />
+  <item key="IDS_MakeAnotherTransactionInOtherTxn" value="Nếu không vui lòng lấy lại thẻ" />
+   
+  <item key="IDS_OpenSavingsAccount1" value="Mở" />
+  <item key="IDS_OpenSavingsAccount2" value="sổ tiết kiệm" />
+
+  <item key="IDS_ThankYouUsingTPBank" value="Cảm ơn Quý khách đã sử dụng dịch vụ LiveBank của TPBank" />
+  <item key="IDS_PleaseRateExperience" value="Quý khách vui lòng đánh giá mức độ hài lòng về dịch vụ của chúng tôi" />
+
+  <item key="IDS_CongratAccountActive" value="Tài khoản thanh toán của Quý khách đã được khởi tạo thành công" />
+  <item key="IDS_WouldLikeToMakeTransaction" value="Quý khách có muốn thực hiện giao dịch khác không?" />
+    <item key="IDS_CongratSuccessActivated" value="Thẻ của Quý khách đã được kích hoạt thành công" />
+  <item key="IDS_YouMayStartUsingCard" value="Quý khách có thể sử dụng thẻ ngay từ lúc này" />
+
+  <item key="IDS_ApplicationSaveEmailTo" value="Giao dịch của Quý khách đã được lưu lại. Thông tin chi tiết đã được gửi tới địa chỉ email:" />
+
+  <item key="IDS_PleaseContinueBranch" value="Vui lòng đến chi nhánh/PGD gần nhất để thực hiện giao dịch" />
+
+  <item key="IDS_OutOfService_new" value="LiveBank tạm thời ngừng phục vụ để nâng cấp" />
+  <item key="IDS_WeApologizeInconvenience" value="TPBank thành thật xin lỗi Quý khách" />
+
+  <item key="IDS_Attention" value="Attention" />
+  <item key="IDS_TransactionFailedTryAgain" value="Giao dịch không thành công, vui lòng thử lại" />
+
+  <item key="IDS_DropBoxFullHandSign" value="Bộ phận lưu hồ sơ bị đầy - vui lòng đưa đơn đăng ký đã được ký xác nhận cho tư vấn viên của TPBank" />
+  <item key="IDS_PleaseHandSignedDocument" value="Vui lòng đưa đơn đăng ký đã được ký xác nhận cho tư vấn viên của TPBank" />
+
+  <item key="IDS_WouldLikeSaveApplication" value="Vui lòng nhập và xác nhận địa chỉ email" />
+  <item key="IDS_ThisFunctionIsTemporary" value="Chức năng này tạm thời chưa sẵn sàng, vui lòng liên hệ TPBank để được hỗ trợ" />
+  
+  <item key="IDS_YouAlreadyHaveCurrentAccount1" value="Quý khách đã có tài khoản thanh toán tại TPBank!" />
+  <item key="IDS_YouAlreadyHaveCurrentAccount2" value="Nếu Quý khách mở thêm tài khoản thanh toán, vui lòng ra chi nhánh của TPBank gần nhất để được hỗ trợ" />
+  <item key="IDS_YouAlreadyHaveCurrentAccount3" value="Cảm ơn!" />
+    <item key="IDS_CanNotProcess" value="Xin lỗi Quý khách, giao dịch không thành công, vui lòng thử lại sau" />
+  <item key="IDS_OnCardInvalid" value="Xin lỗi Quý khách, thẻ giao dịch không hợp lệ" />
+
+  <!-- Deposit -->
+  <item key="IDS_ChooseDepositType" value="Vui lòng chọn tài khoản muốn nộp tiền" />
+  <item key="IDS_PleaseSelectYourDepositOption" value="Vui lòng chọn phương thức nộp tiền" />
+  <item key="IDS_PleaseSelectYourDepositOption2" value="Vui lòng chọn phương thức nộp tiền" />
+  <item key="IDS_DepositOtherAccount" value="Tài khoản khác" />
+  <item key="IDS_DepositOwnAccount" value="Tài khoản của tôi" />
+  <item key="IDS_DepositOwnAccount_PascalCase" value="Tài khoản của tôi" />
+  <item key="IDS_DepositOtherAccount_PascalCase" value="Tài khoản khác" />
+
+  <item key="IDS_PrintingPleaseWait" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_YouHaveReachedTheMaximumNumber" value="Số tờ tiền Quý khách nộp vượt quá giới hạn cho phép" />
+  <item key="IDS_PleaseRemoveExcessNotes" value="Vui lòng nhận lại các tờ tiền bị trả ra" />
+
+  <item key="IDS_AccountName" value="Chủ tài khoản" />
+
+  <item key="IDS_SenderPays" value="Phí ngoài" />
+  <item key="IDS_ReceiverPays" value="Phí trong" />
+  <item key="IDS_ConfirmDeposit" value="Vui lòng xác nhận thông tin nộp tiền" />
+  <item key="IDS_AddMoreMoney" value="Nộp thêm tiền" />
+  <item key="IDS_SenderPayFee" value="Người gửi trả phí" />
+  <item key="IDS_ReceiverPayFee" value="Phí chuyển tiền (đã có VAT)" />
+  <item key="IDS_ReceiverReceived" value="Số tiền chuyển (người hưởng nhận)" />
+
+  <item key="IDS_DepositTo" value="Nộp tiền tới" />
+  <item key="IDS_Recipient" value="Người thụ hưởng" />
+
+  <item key="IDS_DepositMoney" value="Tiền nộp" />
+  <item key="IDS_PleaseEnterDepositNote" value="Vui lòng nhập nội dung nộp tiền" />
+  <item key="IDS_PleaseEnterDepositAmount" value="Vui lòng nhập số tiền cần nộp" />
+  <item key="IDS_TheFundsWillBedeposited" value="" />
+
+  <item key="IDS_Button_No" value="Kết thúc" />
+  
+  <!-- Deposit Step -->
+  <item key="IDS_DepositStepCard" value="Thẻ" />
+  <item key="IDS_DepositStepPin" value="PIN" />
+  <item key="IDS_DepositStepSelectAccount" value="Chọn tài khoản" />
+  <item key="IDS_DepositStepDepostCash" value="Nộp tiền" />
+  <item key="IDS_DepositStepCompletion" value="Hoàn thành" />
+  <item key="IDS_DepositIDScan" value="Scan CMND/Hộ chiếu" />
+  <item key="IDS_DepositStepSignature" value="Ký nhận" />
+  <item key="IDS_DepositStepDropBox" value="Lưu hồ sơ" />
+
+  <item key="IDS_HaveAtmCard" value="Quý khách có mang theo thẻ của TPBank không?" />
+  <item key="IDS_HaveOtherAtmCard" value="Quý khách có Thẻ ngân hàng không?" />
+  
+
+  <item key="IDS_PleaseInsertYourCard" value="Vui lòng đưa thẻ vào để thực hiện giao dịch" />
+
+  <item key="IDS_PleaseEnterYourPin" value="Vui lòng nhập mã PIN và bấm Enter trên bàn phím" />
+  <item key="IDS_PleaseEnterNewPinAgain" value="Xin vui lòng nhập lại số PIN mới để xác nhận (6 số)" />
+  <item key="IDS_PleaseEnterNewPinActivateCard" value="Xin vui lòng nhập số PIN mới (6 số)." />
+  <item key="IDS_PinDoesNotMatch" value="Mã PIN không khớp giữa 2 lần nhập, vui lòng nhập lại" />
+  <item key="IDS_PinIsInvalid" value="Mã PIN không đúng - vui lòng thử lại!" />
+  <item key="IDS_PinIsInvalid1" value="Mã PIN không đúng - vui lòng thử lại!" />
+  <item key="IDS_PinIsInvalid2" value="Mã PIN không đúng - vui lòng thử lại!" />
+  <item key="IDS_PinIsInvalid3" value="Mã PIN không đúng - vui lòng thử lại!" />
+  <item key="IDS_YourPinIsPrivate" value="Mã PIN cần được bảo mật - Lưu ý không để cho người khác nhìn thấy khi nhập mã PIN" />
+  <item key="IDS_NewPinCantSameOldPin" value="Xin lỗi, Mã PIN mới không được giống mới mã PIN cũ" />
+
+  <item key="IDS_YourCardHasBeenDisabled" value="Thẻ đã bị khóa, vui lòng nhận lại thẻ" />
+
+  <item key="IDS_PleaseSelectDepositAccount" value="Vui lòng lựa chọn tài khoản cần nộp tiền" />
+  <item key="IDS_Balance" value="Số dư" />
+
+  <item key="IDS_PleaseEnterDepositAccountNumber" value="Vui lòng nhập số tài khoản cần nộp tiền" />
+  <item key="IDS_Details" value="Nội dung nộp tiền" />
+  <item key="IDS_PleaseConfirmDepositAccount" value="Vui lòng xác nhận tài khoản cần nộp tiền" />
+  
+  <item key="IDS_PleaseConfirmCardNumberAndCardHolderName" value="Vui lòng xác nhận thông tin" />
+
+  <item key="IDS_PleaseInsertCashSelectConfirm" value="Vui lòng đưa tiền (tối đa 200 tờ/lần) vào cửa RÚT/NẠP TIỀN bên cạnh và chọn nút Đếm tiền" />
+  <item key="IDS_AcceptedNotes" value="Mệnh giá được chấp nhận:" />
+  <item key="IDS_DepositInsertCashInstruction1" value="Vui lòng loại bỏ các dị vật ra khỏi bó tiền" />
+  <item key="IDS_DepositInsertCashInstruction2" value="ghim, kẹp giấy, dây chun,..." />
+  <item key="IDS_DepositInsertCashInstruction3" value="Số tiền nộp tối đa 200 tờ/lần" />
+  <item key="IDS_DepositInsertCashInstruction4" value="Mỗi lần nộp là 200 tờ" />
+
+  <item key="IDS_CountingNotesPleaseWait" value="Tiền đang được kiểm đếm, vui lòng chờ trong giây lát" />
+
+  <item key="IDS_PleaseTakeRejectedsNotes" value="Vui lòng nhận tiền bị trả ra" />
+
+  <item key="IDS_CountResult" value="Thông tin tiền nộp" />
+  <item key="IDS_CountResultDenomination" value="Mệnh giá" />
+  <item key="IDS_CountResultQuantity" value="Số tờ" />
+  <item key="IDS_CountResultAmount" value="Số tiền" />
+  
+  <item key="IDS_SenderRemaining" value="Số tiền thừa" />
+  <item key="IDS_DepositFee" value="Phí chuyển tiền (đã có VAT)" />
+  <item key="IDS_PayingFee1" value="Phí chuyển tiền (đã có VAT)" />
+  <item key="IDS_PayingFee2" value="Vui lòng chọn hình thức trả phí" />
+  <item key="IDS_YourAmountForTransferSufficient" value="Xin lỗi, số tiền quý khách vừa nộp không đủ để thực hiện giao dịch, vui lòng nộp thêm tiền" />
+
+  <item key="IDS_DepositSuccess" value="Nộp tiền thành công" />
+  <item key="IDS_WouldYouLikeToPrintReceipt" value="Quý khách có muốn in biên lai không?" />
+  <item key="IDS_DepositAmount" value="Số tiền nộp" />
+  <item key="IDS_NetDeposit" value="Số tiền người hưởng nhận" />
+  <item key="IDS_NetDepositAmount" value="Số tiền người hưởng nhận" />
+  <item key="IDS_NewBalance" value="Số dư hiện tại" />
+  <item key="IDS_DepositNote" value="Nội dung nộp tiền" />
+
+  <item key="IDS_ProcessingPleaseWait" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_PrintingReceiptPleaseWait" value="Biên lai đang được in, vui lòng chờ trong giây lát" />
+
+  <item key="IDS_PleaseTakeYourReceipt" value="Vui lòng nhận biên lai" />
+  <item key="IDS_PleaseRemoveCardToContinue" value="Vui lòng nhận lại thẻ" />
+  <item key="IDS_BeneficiaryName" value="Tên người thụ hưởng" />
+  <item key="IDS_BeneficiaryAccount" value="Tài khoản thụ hưởng" />
+
+  <!-- open saving account -->
+  <item key="IDS_OpenSavingsAccount" value="Mở sổ tiết kiệm" />
+
+  <item key="IDS_PleaseInsertATMContinue" value="Vui lòng đưa thẻ vào để giao dịch" />
+  <item key="IDS_OrContinueWith" value=" hoặc giao dịch với" />
+
+  <item key="IDS_PleaseSelectSavingTerm" value="Vui lòng lựa chọn loại hình tiết kiệm" />
+  <item key="IDS_Term" value="Kỳ hạn" />
+  <item key="IDS_Interest" value="Lãi suất/năm" />
+  <item key="IDS_ValueDate" value="Ngày gửi" />
+  <item key="IDS_MaturityDate" value="Ngày đến hạn" />
+  <item key="IDS_InterestPaymentMethod" value="Phương thức trả lãi" />
+  <item key="IDS_InterestPaymentToCurrentAccount" value="Số Tài khoản thanh toán để nhận tiền" />
+  <item key="IDS_TotalAmountInFigures" value="Số tiền" />
+  <item key="IDS_EstimateInterest" value="Lãi tạm tính" />
+  <item key="IDS_RenewalMode" value="Phương thức tái tục" />
+  <item key="IDS_RenewalOption1" value="Tái tục cả lãi và gốc" />
+  <item key="IDS_RenewalOption2" value="Tái tục gốc, chuyển lãi vào tài khoản thanh toán của tôi tại TPBank" />
+  <item key="IDS_RenewalOption31" value="Không tái tục." />
+  <item key="IDS_RenewalOption32" value="Chuyển gốc và lãi vào tài khoản thanh toán của tôi tại TPBank" />
+  <item key="IDS_AutoRenewalOriginalInterest" value="*Lãi nhập gốc tự động chuyển sang kỳ hạn mới tương đương với kỳ hạn liền trước" />
+
+  <item key="IDS_OPTION_1WEEK" value="1 Tuần" />
+  <item key="IDS_OPTION_2WEEK" value="2 Tuần" />
+  <item key="IDS_OPTION_3WEEK" value="3 Tuần" />
+  <item key="IDS_OPTION_1MONTH" value="1 Tháng" />
+  <item key="IDS_OPTION_2MONTH" value="2 Tháng" />
+  <item key="IDS_OPTION_3MONTH" value="3 Tháng" />
+  <item key="IDS_OPTION_6MONTH" value="6 Tháng" />
+  <item key="IDS_OPTION_9MONTH" value="9 Tháng" />
+  <item key="IDS_OPTION_12MONTH" value="12 Tháng" />
+  <item key="IDS_OPTION_18MONTH" value="18 Tháng" />
+  <item key="IDS_OPTION_24MONTH" value="24 Tháng" />
+  <item key="IDS_OPTION_32MONTH" value="36 Tháng" />
+
+  <item key="IDS_OPTION_Maturity" value="Cuối kỳ" />
+
+  <item key="IDS_OPTION_AutoRenewal" value="Tự động tái tục" />
+
+  <item key="IDS_MaxNoteExceeded" value="Số tờ vượt quá giới hạn cho phép" />
+
+  <item key="IDS_TotalAmoutDeposit" value="Tổng số tiền:" />
+  <item key="IDS_SystemAutoDeductOverdraft" value="* Hệ thống sẽ tự động khấu trừ vào số tiền nộp nếu Quý khách có khoản nợ quá hạn tại TPBank" />
+
+  <item key="IDS_YouHaveOverdueToProceed" value="Quý khách có 1 khoản nợ quá hạn tại TPBank, Quý khách có muốn tiếp tục thực hiện giao dịch?" />
+  <item key="IDS_WeDeductOverdueFromDeposit" value="Chúng tôi sẽ khấu trừ khoản nợ quá hạn từ số tiền Quý khách nộp vào máy" />
+  <item key="IDS_CashDeposit" value="Nộp tiền" />
+  <item key="IDS_OutstandingOverdraft" value="Khoản nợ quá hạn" />
+  <item key="IDS_TotalDeposit" value="Tổng số tiền nộp" />
+  <item key="IDS_WouldYouLikeToPreceed" value="Quý khách có muốn tiếp tục thực hiện giao dịch?" />
+
+  <item key="IDS_PleaseVerifySavingTerm" value="Vui lòng kiểm tra và xác nhận thông tin gửi tiết kiệm" />
+
+  <item key="IDS_AreYouSureToCancel" value="Quý khách có muốn hủy giao dịch?" />
+  <item key="IDS_AreYouSureToExit" value="Quý khách có muốn thoát khỏi giao dịch?" />
+
+  <item key="IDS_Transaction" value="Giao dịch" />
+  <item key="IDS_TransactionCancel" value="Giao dịch bị hủy." />
+
+  <item key="IDS_YourSavingAccountOpen" value="Sổ tiết kiệm của Quý khách đã được mở thành công" />
+  <item key="IDS_SavingAccountNumber" value="Số sổ tiết kiệm" />
+
+  <item key="IDS_ThankYouRemoveCard" value="Vui lòng nhận lại thẻ." />
+  <item key="IDS_YouNeedCurrentAccountToOpenSaving" value="Để thực hiện giao dịch, vui lòng mở tài khoản thanh toán VND tại TPBank" />
+  <item key="IDS_SelectAccountWithdraw" value="Vui lòng chọn tài khoản để rút tiền" />
+
+  <!-- Withdrawal -->
+
+  <!-- Withdrawal Step -->
+  <item key="IDS_WithdrawalStepCard" value="Thẻ" />
+  <item key="IDS_WithdrawalStepPin" value="PIN" />
+  <item key="IDS_WithdrawalStepSelectAccount" value="Chọn tài khoản" />
+  <item key="IDS_WithdrawalStepAmount" value="Số tiền" />
+  <item key="IDS_WithdrawalStepTakeCash" value="Nhận tiền" />
+  <item key="IDS_WithdrawalStepCompletion" value="Hoàn thành" />
+
+  <item key="IDS_PleaseSelectWithdrawAccount" value="Vui lòng lựa chọn tài khoản để rút tiền" />
+  <item key="IDS_WithdrawComplete" value="Giao dịch rút tiền thành công" />
+  <item key="IDS_WithdrawalComplete" value="Rút tiền thành công" />
+  <item key="IDS_SuccessDeposit" value="Nộp tiền thành công" />
+  <item key="IDS_NetWithdrawAmount" value="Số tiền thực rút" />
+  <item key="IDS_NetWithdrawalAmount" value="Số tiền thực rút" />
+  <item key="IDS_WithdrawAmount" value="Số tiền giao dịch" />
+  <item key="IDS_WithdrawalAmount" value="Số tiền rút" />
+  <item key="IDS_Fee" value="Phí" />
+
+  <item key="IDS_YourCardDisabled1" value="Thẻ của Quý khách đã bị khóa" />
+  <item key="IDS_YourCardDisabled2" value="Vui lòng lấy lại thẻ và liên hệ TPBank để kích hoạt lại" />
+
+  <item key="IDS_PleaseTakeYourCash" value="Vui lòng nhận tiền" />
+  <item key="IDS_PleaseSelectAmount" value="Vui lòng chọn số tiền hoặc nhập số tiền cần rút" />
+
+  <item key="IDS_OtherAmount" value="Số khác" />
+
+  <item key="IDS_TheFollowingNotes" value="Những mệnh giá còn lại trong máy" />
+  <item key="IDS_MaximumWithdrawal" value="Số tiền tối đa có thể rút là" />
+  <item key="IDS_YourAccountSufficient" value="Xin lỗi, tài khoản của Quý khách không đủ tiền để thực hiện giao dịch" />
+  <item key="IDS_InsufficientNotes" value="Không đủ tiền, vui lòng thử lại" />
+
+  <item key="IDS_NetworkError" value="Lỗi kết nối." />
+  <item key="IDS_NetworkError1" value="Hiện tại tất cả các Giao dịch viên đều đang bận" />
+  <item key="IDS_NetworkError2" value="Vui lòng gọi lại sau. Thành thật cáo lỗi Quý khách vì sự bất tiện này" />
+  <item key="IDS_PleaseWaitForYourCash" value="Giao dịch đang được xử lý, vui lòng chờ trong giây lát" />
+  <item key="IDS_CardIsInvalid" value="Xin lỗi, Thẻ của Quý khách không được chấp nhận" />
+
+  <item key="IDS_InputCashEmpty" value="Giao dịch bị hủy do không có tờ tiền nào được nộp vào máy VTM" />
+  <item key="IDS_CardHasExpired" value="Xin lỗi, Giao dịch không thể thực hiện được do thẻ của Quý khách đã hết hạn sử dụng" />
+  <item key="IDS_PleaseUseTPBankATMCard" value="Quý khách vui lòng sử dung thẻ ATM của TPBank" />
+  <item key="IDS_CurrentlyMachineUnable" value="Xin lỗi Quý khách, hiện tại máy VTM không thể in biên lai" />
+  <item key="IDS_DoYouWishToContinue" value="Quý khách có muốn tiếp tục giao dịch?" />
+  <item key="IDS_SorryYourDataFailed" value="Xin lỗi, quá trình xác thực dữ liệu không thành công" />
+
+  <item key="IDS_ScanQRFailed" value="Lỗi khay nhận tài liệu, vui lòng đưa hồ sơ đã ký cho tư vấn viên của TPbank" />
+
+  <item key="IDS_PleaseTakeYourID" value="Vui lòng nhận lại CMND/hộ chiếu" />
+
+  <item key="IDS_AgentsBusy" value="Hiện tại tất cả các Giao dịch viên đều bận, vui lòng kết nối lại sau" />
+
+  <item key="IDS_CancelTransaction" value=" Hủy giao dịch tại bước không cho phép" />
+
+  <item key="IDS_DepositMoreThan200" value="Quý khách có thể nộp tối đa 1000 tờ để gửi tiết kiệm, vui lòng không hủy giao dịch giữa chừng" />
+  <item key="IDS_OverdueOverdraft" value="Quý khách có 1 khoản nợ quá hạn 10,000,000 VND tại TPBank, khoản tiền này sẽ được khấu trừ vào số tiền Quý khách nộp vào máy VTM." />
+  <item key="IDS_OverdueOverdraft1" value="Quý khách có 1 khoản nợ quá hạn" />
+  <item key="IDS_OverdueOverdraft2" value="VND tại TPBank, Quý khách có muốn LiveBank thu luôn số tiền này?" />
+
+  <item key="IDS_DidNotTakeCard" value="Quý khách không lấy thẻ trong thời gian cho phép" />
+  <item key="IDS_RetainCardContactBank" value="Để đảm bảo an toàn, thẻ của Quý khách đã bị thu hồi, vui lòng liên hệ TPBank để được hỗ trợ" />
+
+  <item key="IDS_DeviceErrorCancelTran" value="Giao dịch không thành công do lỗi thiết bị" />
+  <item key="IDS_DeviceErrorTransactionFailed" value="Giao dịch không thành công do lỗi thiết bị" />
+
+  <item key="IDS_DeviceErrorReturnCash" value="Giao dịch không thành công do lỗi thiết bị, vui lòng nhận lại tiền" />
+
+  <item key="IDS_TranCancelReturnCash" value="Giao dịch bị hủy, vui lòng nhận lại tiền" />
+
+  <item key="IDS_TimeoutReturnCash" value="Thời gian giao dịch đã hết, vui lòng nhận lại tiền" />
+
+  <item key="IDS_WaitRejectingNotes" value="Tiền đang được trả ra, vui lòng chờ trong giây lát" />
+
+  <item key="IDS_PleaseTakeCash" value="Vui lòng nhận tiền" />
+
+  <item key="IDS_RetractSameSerial" value="Tiền của Quý khách tạm thời bị thu hồi do chúng tôi phát hiện những tờ tiền có số serial giống nhau" />
+
+  <item key="IDS_UnfoldDepositAgain" value="Vui lòng kiểm tra lại tiền và thực hiện nộp lại" />
+
+  <item key="IDS_TranCancelReturnCashContactBank" value="Giao dịch bị hủy, vui lòng lấy tiền và liên hệ TPBank" />
+
+  <item key="IDS_HardwareErrorRetract" value="Tiền đã bị thu hồi, vui lòng liên hệ TPBank để được hướng dẫn giải quyết" />
+
+  <item key="IDS_NeedOpenCurrentAccount" value="Để thực hiện giao dịch nộp tiền, Quý khách cần mở tài khoản thanh toán tại TPBank" />
+  <item key="IDS_MinimumOpeningDeposit1" value="Số tiền tối thiểu cần nộp là" />
+  <item key="IDS_MinimumOpeningDeposit2" value="Vui lòng nộp thêm tiền để mở tài khoản" />
+
+  <item key="IDS_CannotDepositCash" value="Quý khách không thể nộp tiền vào tài khoản này" />
+  <item key="IDS_AvailableNotes" value="Những mệnh giá còn lại trong máy" />
+
+  <item key="IDS_KeyAmount" value="Số khác" />
+
+  <item key="IDS_InsufficientNote1" value="Máy có thể rút đến 2,000,000 VND" />
+  <item key="IDS_InsufficientNote2" value="Sử dụng các ghi chú" />
+  
+  <!-- Enquiries Transaction Menu -->
+  <item key="IDS_MenuTransaction" value="Giao dịch" />
+  <item key="IDS_TransactionDescription" value="Nội dung" />
+  <item key="IDS_TransactionMoneyIn" value="Tiền vào" />
+  <item key="IDS_TransactionMoneyOut" value="Tiền ra" />
+  <item key="IDS_TransactionMoneyBalance" value="Số dư" />
+  <item key="IDS_TransactionID" value="Mã giao dịch:" />
+  <item key="IDS_NoTransactionResult" value="Không có thông tin về giao dịch" />
+
+  <item key="IDS_AccNumber" value="Số tài khoản:" />
+
+  <!-- KYC -->
+  <item key="IDS_ConfirmYourIdentity" value="Hoàn thiện thông tin tài khoản" />
+
+  <!-- Pin change -->
+  <item key="IDS_PinChange" value="Đổi PIN" />
+  <item key="IDS_Menu_PinChange1" value="Đổi " />
+  <item key="IDS_Menu_PinChange2" value="PIN" />
+
+  <item key="IDS_YourPinHasChangeSuccess" value="Mã PIN của Quý khách đã được đổi thành công" />
+  <item key="IDS_PleaseEnterNewPin" value="Vui lòng nhập mã PIN mới" />
+
+  <item key="IDS_YouDoNotHaveCurrentAccountPleaseOpen" value="Quý khách chưa có tài khoản thanh toán tại TPBank, vui lòng mở tài khoản thanh toán" />
+  <item key="IDS_PleaseCompleteKYCToProceedFunction" value="Vui lòng hoàn thiện thông tin trước khi tiến hành thay đổi thông tin cá nhân" />
+  <item key="IDS_CompleteKYC" value="Hoàn thiện thông tin cá nhân" />
+  <item key="IDS_YouHaveSuccessUpdateYourInformation" value="Quý khách đã cập nhật thông tin cá nhân thành công" />
+  <item key="IDS_SuccessUpdateYourInformation" value="Cập nhật thông tin cá nhân thành công" />
+  <item key="IDS_PleaseChangeYourPINBeforeOperateFunction" value="Vui lòng đổi mã PIN trước khi thực hiện giao dịch" />
+
+  <item key="IDS_TPBankNotBeResponseComplain" value="TPBank không chịu trách nhiệm khi khách hàng khiếu nại về rủi ro phát sinh liên quan đến biến động số dư trong trường hợp khách hàng không đăng ký dịch vụ này" />
+
+  <!-- Passbook -->
+  <item key="IDS_PassbookSettlement" value="Tất toán sổ tiết kiệm" />
+  <item key="IDS_TransactionPassbookName" value="Tất toán sổ tiết kiệm" />
+  <item key="IDS_YouNotHaveSavingsWouldLikeOpen" value="Quý khách chưa có sổ tiết kiệm tại TPBank, Quý khách có muốn mở sổ tiết kiệm ngay bây giờ không?" />
+  <item key="IDS_SelectAccountWishClose" value="Vui lòng lựa chọn sổ tiết kiệm cần tất toán" />
+
+  <item key="IDS_CloseESavingAccount" value="Tất toán sổ tiết kiệm" />
+  <item key="IDS_AccountSummary" value="Thông tin sổ" />
+  <item key="IDS_SavingType" value="Loại hình tiết kiệm" />
+  <item key="IDS_DespositIntoAmount" value="Số tiền gốc ban đầu:" />
+  <item key="IDS_InterestRatePerYear" value="Lãi suất (/Năm):" />
+  <item key="IDS_AccruedCreditInterest" value="Lãi suất tích lũy:" />
+  <item key="IDS_IfExpiredEstimate" value="nếu đến hạn(tạm tính)" />
+  <item key="IDS_BlockadedAmount" value="Số tiền bị phong tỏa:" />
+  <item key="IDS_BlockadedReason" value="Lý do phong tỏa:" />
+  <item key="IDS_ChooseCurrentAccountToTransfer" value="Vui lòng lựa chọn tài khoản thanh toán để nhận tiền" />
+  <item key="IDS_ToContinueSelectAccountToTransfer" value="Để thực hiện giao dịch, vui lòng lựa chọn 1 tài khoản thanh toán để chuyển tiền vào" />
+
+  <item key="IDS_PleaseConfirmTransferYourClosingBalance" value="Vui lòng xác nhận tất toán Sổ tiết kiệm sang Tài khoản thanh toán" />
+  <item key="IDS_CloseOnlineSavingAccount" value="Thanh toán sổ tiết kiệm điện tử" />
+  <item key="IDS_PrincipalAmount" value="Số tiền gốc" />
+  <item key="IDS_InterestAmount" value="Số tiền lãi" />
+  <item key="IDS_AsOfSettlementDate" value="(tính đến thời điểm tất toán)" />
+  <item key="IDS_WithdrawalAmount" value="Số tiền tất toán" />
+
+  <item key="IDS_SuccessCloseSavingAccount" value="Tất toán sổ tiết kiệm thành công" />
+  <item key="IDS_BeneficiaryAccount" value="Tài khoản thụ hưởng" />
+  <item key="IDS_TransactionCode" value="Mã giao dịch" />
+  <item key="IDS_TransactionDate" value="Ngày giao dịch" />
+
+  <!-- Enquiries -->
+  <item key="IDS_CreditEnquiries" value="Truy vấn thẻ tín dụng" />
+  <item key="IDS_Status" value="Trạng thái" />
+  <item key="IDS_AvailableCredit" value="Hạn mức còn lại" />
+  <item key="IDS_GrantLimit" value="Hạn mức được cấp" />
+  <item key="IDS_AccountInfo" value="Thông tin" />
+  <item key="IDS_Statement" value="Sao kê" />
+  <item key="IDS_PaymentDueDate" value="Thanh toán trước ngày" />
+  <item key="IDS_DAYS" value="Ngày" />
+  <item key="IDS_OnStatementBalance" value="Dư nợ hiện tại" />
+  <item key="IDS_MinimumPayment" value="Thanh toán tối thiểu" />
+  <item key="IDS_Used" value="Đã sử dụng" />
+  <item key="IDS_CreditLimitUsed" value="Hạn mức còn lại" />
+  <item key="IDS_CardInformationSummary" value="Thông tin thẻ tín dụng" />
+  <item key="IDS_CardHolder" value="Tên chủ thẻ" />
+  <item key="IDS_CardType" value="Loại thẻ" />
+  <item key="IDS_AccountToBeDeducted" value="Tài khoản thanh toán trích nợ" />
+  <item key="IDS_BillingAddress" value="Địa chỉ gửi hóa đơn" />
+  <item key="IDS_PaymentSummary" value="Thông tin thanh toán" />
+  <item key="IDS_SpentAmount" value="Số tiền đã chi tiêu" />
+  <item key="IDS_AwaitingSettlement" value="(đợi quyết toán)" />
+  <item key="IDS_MinimumRepaymentDue" value="Hạn thanh toán tối thiểu" />
+  <item key="IDS_LastPaymentDate" value="Ngày thanh toán kỳ trước" />
+  <item key="IDS_PreviousBalance" value="Dư nợ kỳ trước" />
+  <item key="IDS_CurrentAccountEnquiries2" value="Truy vấn tài khoản thanh toán" />
+  <item key="IDS_SavingAccountEnquiries" value="Truy vấn sổ tiết kiệm" />
+  <item key="IDS_CreditCardEnquiries" value="Truy vấn thẻ tín dụng" />
+  <item key="IDS_LoanAccountEnquiries" value="Truy vấn tài khoản vay" />
+
+  <item key="IDS_InterestRate" value="Lãi suất" />
+  <item key="IDS_AccruedCreditInterestEstimate" value="Lãi tạm tính" />
+  <item key="IDS_AccountInformationSummary" value="Thông tin chi tiết" />
+
+  <item key="IDS_TransactionHistoryAccess90Days" value="* Lịch sử giao dịch chỉ có thể truy cập trong vòng 90 ngày trên tài khoản của Quý khách" />
+  <item key="IDS_From" value="Từ ngày" />
+  <item key="IDS_To" value="Đến ngày" />
+  <item key="IDS_RefNo" value="Mã giao dịch" />
+
+  <item key="IDS_Month" value="Tháng" />
+  <item key="IDS_Year" value="Năm" />
+  <item key="IDS_January" value="Tháng 01" />
+  <item key="IDS_February" value="Tháng 02" />
+  <item key="IDS_March" value="Tháng 03" />
+  <item key="IDS_April" value="Tháng 04" />
+  <item key="IDS_May" value="Tháng 05" />
+  <item key="IDS_June" value="Tháng 06" />
+  <item key="IDS_July" value="Tháng 07" />
+  <item key="IDS_August" value="Tháng 08" />
+  <item key="IDS_September" value="Tháng 09" />
+  <item key="IDS_October" value="Tháng 10" />
+  <item key="IDS_November" value="Tháng 11" />
+  <item key="IDS_December" value="Tháng 12" />
+
+  <!-- Loan Application -->
+  <item key="IDS_ApplyLoan" value="Đăng ký khoản vay" />
+  <item key="IDS_HomeLoan" value="Vay mua nhà" />
+  <item key="IDS_AutoLoan" value="Vay mua xe ô tô" />
+  <item key="IDS_ConsumerLoan" value="Vay tiêu dùng thế chấp" />
+  <item key="IDS_NonSecuredOverdraft" value="Thấu chi tín chấp" />
+  <item key="IDS_PersonalLoan" value="Vay cá nhân" />
+  <item key="IDS_SecuredOverdraft" value="Thấu chi có thế chấp" />
+  <item key="IDS_NonSecuredConsumerLoan" value="Vay tiêu dùng tín chấp" />
+  <item key="IDS_LoanSecuredByValuablePapers" value="Vay cầm cố giấy tờ có giá" />
+  <item key="IDS_LoanSecuredBySavingBooks" value="Vay cầm cố sổ tiết kiệm" />
+  <item key="IDS_ApplyNow" value="Đăng ký dịch vụ" />
+  <item key="IDS_SelectLoanYouWishToApply" value="Lựa chọn khoản vay Quý khách muốn đăng ký" />
+  <item key="IDS_HomeLoanDetail" value="xxxx" />
+  <item key="IDS_AutoLoanDetail" value="xxxx" />
+  <item key="IDS_ConsumerLoanDetail" value="xxxx" />
+  <item key="IDS_NonSecuredOverdraftDetail" value="xxxx" />
+  <item key="IDS_SecuredOverdraftDetail" value="xxxx" />
+  <item key="IDS_NonSecuredConsumerLoanDetail" value="xxxx" />
+  <item key="IDS_LoanSecuredByValuablePapersDetail" value="xxxx" />
+  <item key="IDS_LoanSecuredBySavingBooksDetail" value="xxxx" />
+
+  <item key="IDS_ApplyForHomeLoan" value="Đăng ký vay mua nhà" />
+  <item key="IDS_PersonalInformation" value="Thông tin cá nhân" />
+  <item key="IDS_Gender" value="Giới tính" />
+  <item key="IDS_LastName" value="Tên" />
+  <item key="IDS_MiddleName" value="Tên đệm" />
+  <item key="IDS_FirstName" value="Họ" />
+  <item key="IDS_ID_Number" value="CMND" />
+  <item key="IDS_Nationality" value="Quốc tịch" />
+  <item key="IDS_ID_Type" value="Loại CMND" />
+  <item key="IDS_NationalID" value="National ID" />
+  <item key="IDS_DrivingLicense" value="Bằng lái xe" />
+
+  <item key="IDS_ContactInformation" value="Thông tin liên lạc" />
+  <item key="IDS_HomeCity" value="Quê quán" />
+
+  <item key="IDS_CreditInformation" value="Thông tin tín dụng" />
+  <item key="IDS_TotalIncomeAnnual" value="Tổng thu nhập (Hàng năm)" />
+  <item key="IDS_LoanAmount" value="Số tiền vay" />
+  <item key="IDS_TenorYears" value="Kỳ hạn (Năm)" />
+
+  <item key="IDS_IConfirmIHaveReadAndAgreeToThe" value="Tôi xác nhận đã đọc và đồng ý với" />
+
+  <item key="IDS_ApplyForAutoLoan" value="Đăng ký vay mua xe ôtô" />
+
+  <item key="IDS_ApplyForConsumerLoan" value="Đăng ký vay tiêu dùng" />
+  <item key="IDS_MonthlyIncome" value="Thu nhập hàng tháng (VND)" />
+  <item key="IDS_OptionBelow3Million" value="Dưới 3 Triệu" />
+  <item key="IDS_OptionFrom3MillionTo5Million" value="Từ 3 Triệu đến 5 Triệu" />
+  <item key="IDS_OptionFrom5MillionTo10Million" value="Từ 5 Triệu đến 10 Triệu" />
+  <item key="IDS_OptionOver10Million" value="Trên 10 Triệu" />
+  <item key="IDS_YourPayrollForms" value="Đơn trả lương của Quý khách" />
+  <item key="IDS_TPBank" value="Ngân hàng Tiên Phong" />
+  <item key="IDS_OthersBank" value="Ngân hàng khác" />
+  <item key="IDS_Cash" value="Tiền mặt" />
+  <item key="IDS_LoanAmountVND" value="Số tiền vay (VND)" />
+  <item key="IDS_ProposedCollateral" value="Tài sản thế chấp" />
+
+  <item key="IDS_ApplyForNonSecuredConsumerLoan" value="Đăng ký vay tiêu dùng tín chấp" />
+  <item key="IDS_WhereAreYouWorkingNow" value="Nơi làm việc" />
+  <item key="IDS_BusinessAndAdministrativeUnits" value="Quản trị kinh doanh" />
+  <item key="IDS_Enterprise" value="Doanh nghiệp" />
+  <item key="IDS_SelfEmployed" value="Kinh doanh riêng" />
+  <item key="IDS_Other" value="Khác" />
+
+  <item key="IDS_TownCityYouHavePermanentResidence" value="Thành phố Quý khách đang cư trú" />
+
+  <item key="IDS_ApplyForOverdraftLoan" value="Đăng ký vay thấu chi" />
+  <item key="IDS_YouAreBeingPaidThroughTPBank" value="Trả qua TPBank" />
+
+  <item key="IDS_ApplyForNonSecuredOverdraftLoan" value="Đăng ký vay thấu chi tín chấp" />
+
+  <item key="IDS_ApplyForLoanSecuredValuablePapers" value="Đăng ký vay có thế chấp giấy tờ có giá trị" />
+  <item key="IDS_EmploymentInformation" value="Thông tin việc làm" />
+  <item key="IDS_NameOfCompany" value="Tên Công ty" />
+  <item key="IDS_Profession" value="Vị trí" />
+  <item key="IDS_EmployerTelephoneNumber" value="Số điện thoại Công ty" />
+
+  <item key="IDS_ProposedOfLoan" value="Đề nghị cho vay" />
+  <item key="IDS_OtherSupportingInformation" value="Thông tin khác" />
+  <item key="IDS_OutstandingLoansToOtherBanks" value="Dư nợ cho vay ngân hàng khác (VND)" />
+  <item key="IDS_RequestedLoanAmount" value="Yêu cầu số tiền cho vay (VND)" />
+
+  <item key="IDS_ApplyForLoanSecuredBySavingBook" value="Đăng ký vay thế chấp bằng sổ tiết kiệm" />
+
+  <item key="IDS_DoYouHaveAnExistingTPBankCurrentAccount" value="Quý khách đã có tài khoản thanh toán ở Ngân hàng Tiên Phong chưa?" />
+  <item key="IDS_SorryYouAreNotEligibleToApplyForThisLoan" value="Xin lỗi, Quý khách không đủ tiêu chuẩn để đăng ký khoản vay này" />
+
+  <item key="IDS_ApplyCreditCard" value="Đăng ký thẻ tín dụng" />
+  <item key="IDS_ApplyForCreditCard" value="Đăng ký mở thẻ tín dụng" />
+  <item key="IDS_YouWantToChoosePromotionalCode" value="Quý khách có muốn chọn mã khuyến mãi không?" />
+  <item key="IDS_StylishTravelSuitcasesFromTPBank" value="Vali du lịch sành điệu từ Ngân hàng Tiên Phong" />
+
+  <item key="IDS_TPBankVisaPlatinum" value="TPBank Visa Bạch Kim" />
+  <item key="IDS_TPBankVisaGold" value="TPBank Visa Vàng" />
+  <item key="IDS_TPBankVisaClassic" value="TPBank Visa Chuẩn" />
+  <item key="IDS_MobiFoneTPBankVisaPlatinum" value="Thẻ Visa đồng thương hiệu MobiFone - TPBank" />
+
+  <item key="IDS_YourApplicationSubmittedWillContact48Hours" value="Đơn đăng ký của Quý khách đã gửi thành công, nhân viên của TPBank sẽ liên lạc lại với Quý khách trong vòng 48 tiếng" />
+  <item key="IDS_ApplicationType" value="Đơn đăng ký" />
+  <item key="IDS_ApplicationNumber" value="Số đăng ký" />
+  <item key="IDS_ApplicationStatus" value="Trạng thái đăng ký" />
+
+  <item key="IDS_YourIncome" value="Thu nhập của Quý khách (VND)" />
+  <item key="IDS_LessThan35Million" value="Nhỏ hơn 35 Triệu" />
+  <item key="IDS_Over35Million" value="Trên 35 Triệu" />
+
+  <!-- Enquiries -->
+  <item key="IDS_CurrentBalance2" value="Số dư hiện tại" />
+  <item key="IDS_AccountType" value="Loại tài khoản" />
+  <item key="IDS_AccountNumber2" value="Số tài khoản" />
+  <item key="IDS_OpenDate" value="Ngày mở tài khoản" />
+  <item key="IDS_OverdraftLimit" value="Hạn mức thấu chi" />
+  <item key="IDS_PerYear" value="Một năm" />
+  <item key="IDS_Debit" value="Ghi nợ (-)" />
+  <item key="IDS_Credit" value="Ghi có (+)" />
+
+  <item key="IDS_SavingsAccountEnquiries" value="Truy vấn sổ tiết kiệm" />
+  <item key="IDS_AccountEnquiries" value="Truy vấn tài khoản" />
+  <item key="IDS_BlockadedAmount2" value="Số tiền phong tỏa" />
+  <item key="IDS_BlockadedReason2" value="Lý do phong tỏa" />
+
+  <item key="IDS_OutstandingLoanBalance" value="Dư nợ hiện tại" />
+  <item key="IDS_PaidPrincipalAmount" value="Số tiền gốc phải trả" />
+  <item key="IDS_PaidInterestAmount" value="Số tiền lãi phải trả" />
+  <item key="IDS_LoanAccount" value="Khoản vay" />
+  <item key="IDS_ExpiryDate" value="Ngày đáo hạn" />
+  <item key="IDS_TotalPaymentAmount" value="Tổng số tiền thanh toán" />
+  <item key="IDS_MinPaymentAmount" value="Số tiền thanh toán tối thiểu" />
+  <item key="IDS_LastPaidAmount" value="Số tiền trả kỳ trước" />
+
+  <item key="IDS_RenewPrincipal" value="Tái tục gốc" />
+ <item key="IDS_RenewNothing" value="Không tái tục" />
+ <item key="IDS_RenewBoth" value="Tái tục cả gốc và lãi" />
+ <item key="IDS_Maturity" value="Cuối kỳ" />
+ <item key="IDS_InfoNotComplete" value="Thông tin của Quý khách chưa được hoàn thiện, Quý khách vui lòng liên hệ Chi nhánh/PGD gần nhất của TPBank để được hỗ trợ" />
+ <item key="IDS_NotIndividualAccount" value="Tài khoản của Quý khách không phải tài khoản cá nhân nên không thể thực hiện giao dịch tại LiveBank" />
+ <item key="IDS_IssueFeeAtmCard" value="55,000 VND (Đã bao gồm VAT)" />
+ <item key="IDS_IssueFeeVisaCard" value="Miễn phí" />
+ <item key="IDS_FreeForCashWithdraw" value="Miễn phí rút tiền tại tất cả các VTM trên lãnh thổ Việt Nam và chi tiêu trên toàn thế giới" />
+ <item key="IDS_InvalidAccount" value="Thông tin Quý khách vừa nhập vào chưa chính xác, Quý khách vui lòng kiểm tra lại" />
+  <!-- <item key="IDS_InitializeDeviceFormat" value="Initializing {0}" /> -->
+
+  <!-- Sign Up Form -->
+  <item key="IDS_Application" value="Đăng ký sản phẩm" />
+  <item key="IDS_ApplyOnline" value="Đăng ký trực tuyến" />
+  <item key="IDS_AutoLoanDesc" value="Bạn muốn sở hữu ngay chiếc ô tô riêng để thuận tiện đi lại cho mình và cả gia đình? TPBank hỗ trợ bạn sở hữu chiếc xe mong ước ngay hôm nay với gói vay ô tô nhiều ưu đãi, thủ tục nhanh gọn." />
+  <item key="IDS_HomeLoanDesc" value="Bạn muốn sở hữu căn nhà riêng ngay hôm nay? TPBank giúp bạn hiện thực hóa ước mơ thật nhanh chóng với gói sản phẩm vay mua nhà nhiều ưu đãi và có hình thức vay trả góp linh hoạt." />
+  <item key="IDS_ConsumerLoanDesc" value="Bạn đang ấp ủ dự định đi du lịch, cưới hỏi, hay mua sắm trang thiết bị nội thất, đồ gia dụng mới... Hãy để TPBank hỗ trợ bạn thực hiện mong muốn ngay hôm nay, chỉ với tài sản đảm bảo là ô tô hoặc nhà/đất thuộc sở hữu của bạn hoặc của người thân trong gia đình." />
+  <item key="IDS_BusinessLoan" value="Vay kinh doanh" />
+  <item key="IDS_BusinessLoanDesc" value="Bạn đang có nhu cầu vay vốn mở rộng cơ sở kinh doanh? TPBank đồng hành hỗ trợ phương án kinh doanh của bạn thật nhanh chóng, thủ tục đơn giản với nhiều ưu đãi linh hoạt giúp bạn đạt được mục tiêu kinh doanh của mình." />
+  <item key="IDS_StartUpLoan" value="Vay khởi nghiệp" />
+  <item key="IDS_StartUpLoanDesc" value='Bạn đang khao khát thực hiện kế hoạch kinh doanh của riêng mình nhưng lại vấp phải rào cản tài chính khiến bạn tưởng như không thể bắt đầu được? TPBank sẵn sàng “hậu thuẫn” tài chính để bạn kịp nắm bắt mọi cơ hội kinh doanh và thành công với chương trình Vay khởi nghiệp, lãi suất ưu đãi, thủ tục nhanh chóng và hạn mức vay lên đến 1 tỷ đồng.' />
+  <item key="IDS_NonSecuredConsumerLoanDesc" value="Sản phẩm thỏa mãn ngay các nhu cầu chi tiêu cá nhân đột xuất của bạn, dễ dàng trả khoản vay theo hình thức trả góp hàng tháng nhưng không cần thế chấp tài sản đảm bảo." />
+  <item key="IDS_NonSecuredOverdraftDesc" value="Bạn đang cần tiền để thực hiện dự định cưới hỏi, du lịch, vui chơi hay tiêu dùng, mua sắm trang thiết bị nội thất, đồ gia dụng cho gia đình... mà không muốn thế chấp tài sản đảm bảo? TPBank hỗ trợ bạn vay vốn thật đơn giản và linh hoạt theo nhu cầu sử dụng thực tế." />
+  <item key="IDS_FillFormOfficeContact" value="Vui lòng điền vào đơn, nhân viên của chúng tôi sẽ liên lạc lại với Quý khách" />
+  <item key="IDS_Phone" value="Số điện thoại" />
+  <item key="IDS_Occupation" value="Nghề nghiệp" />
+  <item key="IDS_OptionAdministrative" value="Hành chính sự nghiệp" />
+  <item key="IDS_OptionJointStockCompany" value="Công ty cổ phần" />
+  <item key="IDS_OptionPrivateEnterprise" value="Doanh nghiệp tư nhân" />
+  <item key="IDS_OptionSelfEmployed" value="Kinh doanh tự do" />
+  <item key="IDS_Income" value="Thu nhập" />
+  <item key="IDS_OptionBelow5Millions" value="&lt; 5 Triệu" />
+  <item key="IDS_OptionFrom5MillionsTo10Millions" value="5 - 10 Triệu" />
+  <item key="IDS_OptionFrom10MillionsTo15Millions" value="10 - 15 Triệu" />
+  <item key="IDS_OptionOver10Millions" value="> 10 Triệu" />
+  <item key="IDS_OptionOver15Millions" value="> 15 Triệu" />
+  <item key="IDS_Loan" value="Chọn loại vay" />
+  <item key="IDS_OptionAutoLoan" value="Vay mua xe ôtô" />
+  <item key="IDS_OptionHomeLoan" value="Vay mua nhà" />
+  <item key="IDS_OptionConsumerLoan" value="Vay tiêu dùng thế chấp" />
+  <item key="IDS_OptionBusinessLoan" value="Vay kinh doanh" />
+  <item key="IDS_OptionStartUpLoan" value="Vay khởi nghiệp" />
+  <item key="IDS_OptionNonSecuredConsumerLoan" value="Vay tiêu dùng tín chấp" />
+  <item key="IDS_OptionNonSecuredOverdraft" value="Thấu chi tín chấp" />
+  <item key="IDS_FormPayment" value="Đơn thanh toán" />
+  <item key="IDS_OptionBankTransfer" value="Chuyển khoản qua ngân hàng" />
+  <item key="IDS_Creditcard" value="Thẻ tín dụng" />
+  <item key="IDS_OptionVisa"  value="Visa" />
+  <item key="IDS_OptionMaster"  value="Master" />
+  <item key="IDS_OptionMobiFoneVisaPlatinum"  value="Thẻ ĐTH Mobifone-TPBank Visa hạng Bạch kim" />
+  <item key="IDS_Visa"  value="Visa" />
+  <item key="IDS_VisaCard"  value="Thẻ Visa" />
+  <item key="IDS_VisaDesc"  value="Không bỏ lỡ cơ hội mua sắm món đồ yêu thích hay trải nghiệm những điểm đến lý tưởng với hạn mức tín dụng hấp dẫn. Thoả sức chi tiêu, ưu đãi toàn cầu, nhận điểm thưởng cho mỗi lần chi tiêu bằng thẻ để quy đổi dặm bay Vietnam Airlines hay nhiều quà tặng hấp dẫn." />
+  <item key="IDS_Master"  value="Master" />
+  <item key="IDS_MasterCard"  value="Thẻ Master" />
+  <item key="IDS_MasterDesc"  value="TPBank hiểu rằng, là những doanh nhân và người lãnh đạo dẫn đầu, Quý khách xứng đáng được hưởng những đặc quyền xứng tầm và ưu đãi dành riêng cho mình. Chiếc thẻ tín dụng này không chỉ giúp Quý khách mở cửa thế giới của những ưu đãi đặc quyền mà còn đồng thời mang đến cho Quý khách những cơ hội kết nối sâu rộng hơn với những người lãnh đạo khác." />
+  <item key="IDS_MobiFoneVisaPlatinum"  value="Thẻ ĐTH Mobifone-TPBank Visa hạng Bạch kim" />
+  <item key="IDS_MobiFoneVisaPlatinumDesc"  value="Hưởng trọn vẹn các ưu đãi dành cho Hội viên Kết Nối Dài Lâu của MobiFone đồng thời trải nghiệm các tiện ích thanh toán tuyệt vời chỉ trên một tấm Thẻ. Tích điểm Kết Nối Dài Lâu với mỗi 15.000 VND chi tiêu bằng thẻ để quy đổi dặm bay Vietnam Airlines hay cước điện thoại miễn phí." />
+  <item key="IDS_Insurance"  value="Mua bảo hiểm" />
+  <item key="IDS_OptionAuto"  value="Bảo hiểm xe ôtô" />
+  <item key="IDS_OptionHome"  value="Bảo hiểm nhà ở" />
+  <item key="IDS_OptionCredit"  value="Bảo hiểm nhân thọ" />
+  <item key="IDS_OptionHealth"  value="Bảo hiểm sức khỏe" />
+  <item key="IDS_OptionOther"  value="Khác" />
+  <item key="IDS_OtherArea"  value="Vùng khác" />
+  <item key="IDS_OptionMale"  value="Nam" />
+  <item key="IDS_OptionFemale"  value="Nữ" />
+  <item key="IDS_Marriage"  value="Tình trạng hôn nhân" />
+  <item key="IDS_SumInsurance"  value="Số tiền được bảo hiểm" />
+  <item key="IDS_Cancercover"  value="Bảo hiểm ung thư" />
+  <item key="IDS_OptionHanoi"  value="Hanoi" />
+  <item key="IDS_OtherDesc"  value="Bạn cần tư vấn thêm sản phẩm khác?" />
+  <item key="IDS_LoanPurpose"  value="Mục đích vay" />
+  <item key="IDS_InsurancePurpose"  value="Mục đích bảo hiểm" />
+  <item key="IDS_HouseType"  value="Kiểu nhà" />
+  <item key="IDS_Required" value="*Trường này là bắt buộc."/>
+  <item key="IDS_EnterAmount" value="*Trường này không thể là 0"/>
+  <item key="IDS_TextOnly" value="Quý khách vui lòng chỉ nhập chữ"/>
+  <item key="IDS_VietMobile" value="Số di động"/>
+  <item key="IDS_VietMobileShort" value="Số điện thoại di động"/>
+  <item key="IDS_NotAFormatPhone" value="Vui lòng nhập số điện thoại bắt đầu với số 0"/>
+  <item key="IDS_NotAFormatPhone2" value="Khoảng trống trong định dạng 09y xxx xxxx (hoặc) 01yy xxx xxxx"/>
+  <item key="IDS_RefusedNoteToomuch" value="Xin lỗi Quý khách, số tờ tiền bị từ chối vì quá nhiều!" />
+  <item key="IDS_ApplicationFormDesc1" value="Chúng tôi chỉ cần những thông tin sau" />
+  <item key="IDS_ApplicationFormDesc2" value="Vui lòng điền các thông tin bên dưới để hoàn tất giao dịch" />
+  <item key="IDS_ApplicationFormDesc3" value="Chúng tôi sẽ kiểm tra lại các thông tin sau" />
+  <item key="IDS_ConfirmDetails" value="Vui lòng xác nhận thông tin" />
+  <item key="IDS_OptionLess10Millions" value="Ít hơn 10 triệu VND" />
+  <item key="IDS_Option10to50Millions" value="10 - 50 triệu VND" />
+  <item key="IDS_Option50to100Millions" value="50 - 100 triệu VND" />
+  <item key="IDS_OptionMore100Millions" value="> 100 triệu VND" />
+  <item key="IDS_PolicyTime" value="Chính sách" />
+  <item key="IDS_6years" value="6 Năm" />
+  <item key="IDS_6to12years" value="6 - 12 Năm" />
+  <item key="IDS_OverLifeTime" value="Over life time" />
+  <item key="IDS_HealthIncluded" value="Bao gồm bảo hiểm y tế" />
+  <item key="IDS_SelectYour" value="Quý khách vui lòng chọn" />
+  <item key="IDS_Payment2" value="Thanh toán" />
+  <item key="IDS_PreferredAnnualPremium" value="Preferred annual premium" />
+  
+  <!-- Enquiries Form -->
+  <item key="IDS_CurrentCredit"  value="Tín dụng hiện tại" />
+  <item key="IDS_PleaseSavingAccount"  value="Vui lòng chọn sổ tiết kiệm" />
+  <item key="IDS_PleaseCurrentAccount" value="Vui lòng chọn tài khoản thanh toán" />
+  <item key="IDS_PleaseYourAccount" value="Vui lòng chọn tài khoản" />
+  <item key="IDS_PleaseCreditCard" value="Vui lòng chọn thẻ tín dụng" />
+  <item key="IDS_TitleAvailableCredit" value="Tín dụng khả dụng" />
+  <item key="IDS_PleaseLoanAccount" value="Vui lòng chọn khoản vay" />
+  <item key="IDS_CardNumber" value="Số thẻ : " />
+
+  <!-- Common-->
+  <item key="IDS_YouNotHaveCreditCardWouldLikeOpen" value="Quý khách chưa có thẻ tín dụng, Quý khách có muốn đăng ký thẻ tín dụng không?" />
+  <item key="IDS_YouNotHaveLoanAccountWouldLikeOpen" value="Quý khách chưa có tài khoản vay, Quý khách có muốn tạo tài khoản vay không?" />
+  <item key="IDS_PleaseTakeYourDocument" value="Vui lòng lấy tài liệu." />
+  <item key="IDS_ContactAgentRecord" value="Quý khách lưu ý, cuộc gọi sẽ được lưu lại vì mục đích cải thiện chất lượng dịch vụ" />
+  <item key="IDS_TakeNewATM" value="Vui lòng lấy thẻ" />
+  <item key="IDS_CardPrinting" value="Vui lòng chờ giây lát, thẻ đang được khởi tạo" />
+  <item key="IDS_InsufficientFund" value="Xin lỗi, "/>
+  <item key="IDS_InsufficientFund2" value="Quý khách không có đủ tiền trong tài khoản" />
+
+  <!--home_menu-->
+  <item key="IDS_Account" value="Tài khoản"/>
+  <item key="IDS_UpdateDetails" value="Thay đổi thông tin tài khoản"/>
+  <item key="IDS_Menu_SavingAccount" value="Mở sổ tiết kiệm" />
+
+  <!--home_submenu-->
+  <item key="IDS_loans_products" value="Đăng ký khoản vay"/>
+  <item key="IDS_Insurance" value="Bảo hiểm" />
+
+  <!-- insurance -->
+  <item key="IDS_AutoCare" value="Bảo hiểm xe ô tô" />
+  <item key="IDS_AutoCareDesc" value="Nhiều điều rủi ro có thể xảy ra trên đường, bảo hiểm xe hơi sẽ cho bạn sự yên tâm cho dù ở nơi đâu" />
+  <item key="IDS_HomeCare" value="Bảo hiểm nhà ở" />
+  <item key="IDS_HomeCareDesc" value="Hãy bảo vệ ngôi nhà và tài sản của bạn khỏi mọi rủi ro với kế hoạch bảo hiểm nhà ở của chúng tôi. Bạn sẽ được trao tặng một cuộc sống hạnh phúc không phải lo nghĩ."/>
+  <item key="IDS_CreditLife" value="Bảo hiểm nhân thọ" />
+  <item key="IDS_CreditLifeDesc" value="Bảo hiểm nhân thọ" />
+  <item key="IDS_HealthCare" value="Bảo hiểm sức khỏe" />
+  <item key="IDS_HealthCareDesc" value="Cuộc sống đầy rẫy những rủi ro nhưng bảo hiểm sức khỏe sẽ bảo vệ bạn. Hãy tự bảo vệ bản thân trước những chi phí y tế không lường trước với kế hoạch y tế của chúng tôi." />
+  <item key="IDS_LoanCreditInsurance" value="Đăng ký khoản vay, thẻ tín dụng &amp; bảo hiểm" />
+  <item key="IDS_HomeMenuPayment" value="Thanh toán dịch vụ" />
+  <item key="IDS_Topup" value="Nạp tiền" />
+  <item key="IDS_Billing" value="Thanh toán hóa đơn" />
+  <item key="IDS_ActiveATMCard" value="Đổi mã PIN" />
+  <item key="IDS_HouseLand" value="Nhà đất" />
+  <item key="IDS_Apartment" value="Căn hộ" />
+  <item key="IDS_ProjectName" value="Tên dự án" />
+  <item key="IDS_Producer" value="Nhà sản xuất" />
+  <item key="IDS_CarLoan" value="Vay mua xe ôtô" />
+  <item key="IDS_OtherLoan" value="Other loan" />
+  <item key="IDS_CarPhysical" value="Tình trạng xe" />
+  <item key="IDS_New" value="Mới" />
+  <item key="IDS_Old" value="Cũ" />
+  <item key="IDS_LoanType" value="Loại khoản vay" />
+  <item key="IDS_Secured" value="An toàn" />
+  <item key="IDS_Unsecured" value="Không an toàn" />
+  <item key="IDS_ChildNo" value="Số con" />
+  <item key="IDS_LoanPeriodMonth" value="Thời hạn vay (Tháng)" />
+  <item key="IDS_SelectGender" value="Lựa chọn giới tính" />
+  <item key="IDS_AgeRange20_70" value="Tuổi phải nằm trong khoảng 20 - 70 tuổi" />
+  <item key="IDS_DeliveryTime" value="Thời điểm vay" />
+
+  <!-- confirm_select_card -->
+  <item key="IDS_ChangeInformationRegister" value="Thay đổi thông tin cá nhân" />
+
+  <!-- transaction-->
+  <item key="IDS_NoTransaction" value="Không có giao dịch" />
+  <item key="IDS_SelectViewTransaction" value="Vui lòng chọn ngày và nhấn Tìm kiếm để xem giao dịch" />
+  <item key="IDS_Ending2390" value="(Kết thúc *2390)" />
+  <item key="IDS_Dormant" value="Không hoạt động"/>
+  <item key="IDS_NoTransactionResultPeriod" value="Vui lòng chọn ngày và nhấn Tìm kiếm để xem giao dịch"/>
+
+  <!-- statement-->
+  <item key="IDS_StatementNotFound" value="Vui lòng chọn tháng năm và nhấn Tìm kiếm để xem sao kê" />
+
+  <!-- select_account_close -->
+  <item key="IDS_SavingAccountNote" value="Lưu ý : Vui lòng tới PGD để thực hiện tất toán." />
+
+  <!-- Enquiries  -->
+  <item key="IDS_PrintingFee" value="Phí in sao kê là 22,000 VND (Đã bao gồm VAT) được khấu trừ từ Tài khoản thanh toán" />
+  
+  <!-- your_info -->
+  <item key="IDS_MobileSecondary" value="Số điện thoại 2" />
+  <item key="IDS_MobileThirdary" value="Số điện thoại 3" />
+  <item key="IDS_CurrentAccountList" value="Danh sách tài khoản thanh toán" />
+  <item key="IDS_SavingAccountList" value="Danh sách sổ tiết kiệm" />
+  <item key="IDS_CreditCardList1" value="Danh sách" />
+  <item key="IDS_CreditCardList2" value="Thẻ tín dụng" />
+  <item key="IDS_LoanAccountList1" value="Danh sách" />
+  <item key="IDS_LoanAccountList2" value="khoản vay" />
+
+  <!-- insert_cash -->
+  <item key="IDS_AddMoreCashUpTp500Million" value="200 tờ một lần nộp, Quý khách có thể nộp lên tới 500 triệu VND" />
+
+  <!-- warning_max_note -->
+  <item key="IDS_ReachMaxNote1" value="Quý khách đã nộp quá giới hạn 1000 tờ tiền" />
+  <item key="IDS_ReachMaxNote2" value="Quý khách không thể nộp thêm tiền, vui lòng nhấn nút để tiếp tục" />
+  <item key="IDS_OK" value="OK" />
+  
+  <!-- passbook settlement -->
+  <item key="IDS_HavePassbookSettlement" value="Hiện tại Quý khách chưa có sổ tiết kiệm nào, Quý khách có muốn mở sổ tiết kiệm tại TPBank?" />
+  <item key="IDS_Menu_PassbookSettlementCurrentAccount" value="Tài khoản thanh toán nhận tiền" />
+  
+  <!-- ThangPC added the missing fields -->
+  <item key="IDS_OptionSingle" value="Độc thân" />
+  <item key="IDS_OptionMarried" value="Đã kết hôn" />
+  <item key="IDS_OptionDivorce" value="Đã ly dị" />
+  <item key="IDS_Option100Millions" value="100 Triệu" />
+  <item key="IDS_Option300Millions" value="300 Triệu" />
+  <item key="IDS_Option500Millions" value="500 Triệu" />
+  <item key="IDS_loans_products1" value="Khoản vay" />
+  <item key="IDS_AccountInfo1" value="Thông tin tài khoản" />
+  <item key="IDS_AccountInfo2" value="Thông tin khoản vay" />
+  <item key="IDS_TitleAvailableBalance1" value="Số tiền" />
+  <item key="IDS_TitleAvailableBalance2" value="Hạn mức" />
+  <item key="IDS_TitleAvailableCredit2" value="Hạn mức" />
+  <item key="IDS_TitleAvailableCredit3" value="Số dư" />
+  <item key="ID_PleaseSelectMonthStatement" value="Vui lòng chọn tháng năm và nhấn Tìm kiếm để xem sao kê" />
+  <item key="IDS_AccNumber1" value="Số hợp đồng vay" />
+  <item key="IDS_PrincipalAmount1" value="Số tiền vay" />
+  <item key="IDS_AccountType1" value="Sản phẩm vay" />
+  <item key="IDS_ValueDate1" value="Ngày giải ngân" />
+  <item key="IDS_PleasePrintingFeeCurrentAccount" value="Vui lòng chọn tài khoản thanh toán để trừ tiền phí in thông tin" />
+  <item key="IDS_NotEnoughPrintingFee" value="Tài khoản bạn chọn không đủ tiền trả phí in thông tin" />
+  <item key="IDS_DoYouWishToSelectOtherOne" value="Bạn có muốn chọn tài khoản khác không?" />
+  
+  <!-- jump to Update your infomation-->
+  <item key="IDS_YourMissingDataMsg" value="Qúy khách đang thiếu các thông tin: " />  
+  <item key="IDS_UpdateYourInfoOrNot" value="Quý khách có muốn cập nhật các thông này bây giờ không?" /> 
+  
+  <!-- Account Maintenance-->
+  <item key="IDS_SelectCurrentAccountToLinkedATMCard" value="Chọn tài khoản để liên kết với thẻ ATM" />  
+  <item key="IDS_SelectCurrentAccountToLinkedVisaCard" value="Chọn tài khoản để liên kết với thẻ Visa" />
+  
+  <!-- Common ** SuccessPINChange**-->
+  <item key="IDS_SuccessPINChange" value="Bạn đã đổi PIN thành công" />
+  <item key="IDS_DEPOSIT_DEVICEERROR_REJECTCASH" value="Giao dịch không thành công do lỗi thiết bị" />
+  <item key="IDS_SorryCreateEbankFailed" value="Quá trình khởi tạo eBank lỗi, vui lòng liên hệ TPBank để được hỗ trợ" />
+
+  <!-- transfer -->
+  <item key="IDS_EnterOTP" value="Mã OTP đang được gửi đến điện thoại của Quý khách. Vui lòng nhập mã OTP" />
+  <item key="IDS_ConfirmNameAndID" value="Vui lòng xác nhận thông tin cá nhân" />
+  <item key="IDS_ID_PassportNo" value="Số CMND/Hộ chiếu" />
+  <item key="IDS_SelectTransfer" value="Vui lòng chọn hình thức chuyển khoản" />
+  <item key="IDS_BankAccountNo" value="Số tài khoản" />
+  <item key="IDS_CardNo" value="Số thẻ" />
+  <item key="IDS_BankAccount" value="Tài khoản" />
+  <item key="IDS_CardNumber2" value="Số thẻ" />
+  <item key="IDS_PleaseEnterAccountHolderName" value="Vui lòng nhập tên chủ tài khoản" />
+  <item key="IDS_PleaseEnterAccountNumber" value="Vui lòng nhập số tài khoản" />
+  <item key="IDS_PleaseEnterTransferAmount" value="Vui lòng nhập số tiền cần chuyển" />
+  <item key="IDS_TheFundsWillBeTransferred" value="" />
+  <item key="IDS_SendingFrom" value="Chuyển từ" />
+  <item key="IDS_ChooseAnAccountToTransfer" value="Vui lòng chọn tài khoản muốn lấy tiền" />
+  <item key="IDS_TransferAmountTitle" value="Số tiền chuyển" />
+  <item key="IDS_TransactionNote" value="Nội dung chuyển tiền" />
+  <item key="IDS_TransactionFee" value="Phí giao dịch" />
+  <item key="IDS_FeeApplyPayment" value="Quý khách sẽ mất phí khi chuyển tiền tới ngân hàng khác TPBank" />
+  <item key="IDS_LearnMore" value="Chi tiết" />
+  <item key="IDS_PleaseEnterTransactionNote" value="Vui lòng nhập nội dung chuyển tiền" />
+  <item key="IDS_PleaseEnterCardNumber" value="Vui lòng nhập số thẻ" />
+  <item key="IDS_TPBankHead" value="TPBank" />
+  <item key="IDS_OtherBanks" value="Ngân hàng khác" />
+  <item key="IDS_TransferSuccess2" value="Chuyển khoản thành công" /> 
+  <item key="IDS_TransferTo" value="Chuyển tới" />
+  <item key="IDS_RecipientAccount" value="Tài khoản nhận" />
+  <item key="IDS_TransferAmount2" value="Số tiền chuyển" />
+  <item key="IDS_TotalAmount" value="tổng tiền" />
+  <item key="IDS_FromAccount" value="Từ tài khoản" />
+  <item key="IDS_TransferFunds" value="Để thực hiện chuyển tiền, vui lòng đăng ký/cập nhật số điện thoại di động với TPBank" />
+  <item key="IDS_NoAccount" value="No Account" />
+  <item key="IDS_UpdateMobileNum" value="Quý khách có muốn cập nhật số điện thoại di động không?" />
+  <item key="IDS_SelectCity" value="Vui lòng chọn thành phố" />
+  <item key="IDS_FilterRegion" value="Lọc thành phố theo vùng" />
+  <item key="IDS_SelectBranch1" value="Vui lòng chọn" />
+  <item key="IDS_SelectBranch2" value="chi nhánh " />
+  <item key="IDS_PleaseSelectYourTpbankBranch" value="Vui lòng chọn chi nhánh của TPBank" />
+  <item key="IDS_PleaseEnterAccountNumber" value="Vui lòng nhập số tài khoản" />
+  <item key="IDS_ErrorOTP" value="Mã OTP không đúng, vui lòng thử lại" />
+  <item key="IDS_PlsConfirmInfo" value="Vui lòng xác nhận thông tin để thực hiện chuyển tiền nhanh" />
+  <item key="IDS_InputHolderPlsConfirmInfo" value="Vui lòng nhập họ tên người thụ hưởng và nhấn nút Xác nhận để tiếp tục giao dịch chuyển tiền thông thường hoặc bấm nút Quay lại để thay đổi số tài khoản" />
+  <item key="IDS_PleaseEnterDeliverAddress" value="Nhập địa chỉ nhận thẻ" />
+  <item key="IDS_DeliverAddress" value="Địa chỉ nhận thẻ" />
+  <item key="IDS_SelectDeliverAddress" value="Chuyển phát nhanh theo yêu cầu" />
+  <item key="IDS_TransferFee" value="Phí chuyển tiền (đã có VAT)" />
+  <item key="IDS_RecipientTotalAmount" value="Số tiền lấy từ tài khoản" />
+  
+  <!-- billing -->
+  <item key="IDS_PleaseSelectElectricProvider" value="Vui lòng chọn nhà cung cấp" />
+  <item key="IDS_EvnHaNoi" value="Điện lực Ha Noi" />
+  <item key="IDS_EvnNorthern" value="Điện lực miền Bắc" />
+  <item key="IDS_EvnSouthern" value="Điện lực Miền Nam" />
+  <item key="IDS_EvnCentral" value="Điện lực Miền Trung" />
+  <item key="IDS_EvnHcmc" value="Điện lực TP HCM" />
+  <item key="IDS_PowerCorporation" value="Tập đoàn điện lực" />
+  <item key="IDS_PleaseEnterCustomerCode" value="Vui lòng nhập mã khách hàng" />
+  <item key="IDS_PleaseSelectPaymentOption" value="Vui lòng lựa chọn phương thức thanh toán" />
+  <item key="IDS_Step_Billing" value="Thanh toán hóa đơn" />
+  <item key="IDS_DebitAccount" value="Từ tài khoản" />
+  <item key="IDS_Payer" value="Tài khoản trích tiền" />
+  <item key="IDS_ForPaymentOf" value="Thanh toán cho" />
+  <item key="IDS_Provider" value="Nhà cung cấp" />
+  <item key="IDS_CustomerCode" value="Mã khách hàng" />
+  <item key="IDS_BillingType" value="Loại hóa đơn" />
+  <item key="IDS_OldestPendingBill" value="Hóa đơn chưa thanh toán gần nhất" />
+  <item key="IDS_PleaseDepositAtLeast" value="Vui lòng nộp ít nhất:" />
+  <item key="IDS_RemainingCurrentAcc" value="Tiền thừa sẽ được chuyển đến tài khoản thanh toán của Quý khách" />
+  <item key="IDS_YouHaveTotalDueOf" value="Tổng tiền cần thanh toán" />
+  <item key="IDS_PleaseDepositMore" value="Vui lòng nộp thêm tiền" />
+  <item key="IDS_ChooseAccountDeposit" value="Vui lòng chọn tài khoản nhận tiền thừa" />
+  <item key="IDS_PaidSuccess" value="Thanh toán thành công" />
+  <item key="IDS_TotalAmount" value="Tổng tiền" />
+  <item key="IDS_FromAccount" value="Từ tài khoản" />
+  <item key="IDS_RemainingDeposit" value="Tiền thừa" />
+  <item key="IDS_ToAccount" value="Chuyển tới toàn khoản" />
+  <item key="IDS_ElectricityVN" value="Điện lực Việt Nam" />
+  <item key="IDS_BillNotExisted" value="Mã hóa đơn không tồn tại, vui lòng kiểm tra lại" />
+  <item key="IDS_BillEmailError" value="Email này đã được sử dụng để đăng ký phát hành thẻ ảo, vui lòng chọn email khác" />
+  <item key="IDS_BillPhoneError" value="Số điện thoại này đã được sử dụng để đăng ký, vui lòng chọn số điện thoại khác" />
+  <item key="IDS_BillBallanceNotEnough" value="Số dư tài khoản không đủ để thực hiện giao dịch" />
+  <item key="IDS_BillExpired" value="Mã hóa đơn hết hạn, vui lòng kiểm tra lại" />
+  <item key="IDS_BillDepositedError" value="Số tiền nạp không hợp lệ. Vui lòng nhập lại hoặc liên hệ 1800585885 để được hỗ trợ" />
+  <item key="IDS_BillNotExisted2nd" value="Mã hóa đơn không tồn tại. Vui lòng kiểm tra lại" />
+  <item key="IDS_BillPaid" value="Mã hóa đơn đã được thanh toán. Vui lòng kiểm tra lại" />
+  <item key="IDS_BillInvalidAccount" value="Số tài khoản của Quý khách không hợp lệ. Vui lòng kiểm tra lại hoặc liên hệ 1800585885 để được hỗ trợ" />
+  <item key="IDS_BillBallanceNotEnough2nd" value="Số dư tài khoản của Quý khách không đủ để thực hiện giao dịch này" />
+  <item key="IDS_BillDepositedNotes" value="Số tiền nạp phải chẵn nghìn đồng, vui lòng kiểm tra và nạp lại" />
+  <item key="IDS_BillInvalidProviderService" value="Có lỗi xảy ra từ phía nhà cung cấp dịch vụ thanh toán hóa đơn/nạp tiền. Vui lòng thử lại sau" />
+  <item key="IDS_BillDuplicatedRefCode" value="Loi trung so xref" />
+  <item key="IDS_BillUpgradeProviderService" value="Nhà cung cấp dịch vụ đang tiến hành nâng cấp, vui lòng giao dịch lại sau" />
+  <item key="IDS_BillExecutedErrorCode" value="{0}" />
+  <item key="IDS_RecipientTotalAmount_Billing" value="Số tiền cần thanh toán" />
+  <item key="IDS_BankAccountNo_Billing" value="Chuyển khoản" />
+  <!-- Withdrawal Non Card-->
+  <item key="IDS_WithdrawalNotEnough" value="Tài khoản của bạn không đủ tiền để rút, Vui lòng chọn lại số khác" />
+  <!-- <item key="IDS_WDNonCardCIFNotExist1" value="Xin lỗi, thông tin Quý Khách hàng chưa có. Vui lòng thử lại." />
+  <item key="IDS_WDNonCardCIFNotExist2" value="Xin cảm ơn." /> -->
+  <item key="IDS_WDNonCardNotEnoughMoney" value="Xin lỗi, tài khoản không đủ tiền, vui lòng kiểm tra lại" />
+  <!-- Transfer-->
+  <item key="IDS_TransferAccountInvalid" value="Tài khoản không hợp lệ" />
+  <item key="IDS_TransferCardInvalid" value="Mã đơn vị chấp nhận thẻ không hợp lệ" />
+  <item key="IDS_TransferCardError" value="Your card is error" />
+  <item key="IDS_TransferTxnInvalid" value="Giao dịch không hợp lệ" />
+  <item key="IDS_TransferMoneyInvalid" value="Số tiền không hợp lệ" />
+  <item key="IDS_TransferCardAccountInvalid" value="Số thẻ/tài khoản không tồn tại" />
+  <item key="IDS_TransferBankInvalid" value="Ngân hàng nhận không hợp lệ" />
+  <item key="IDS_TransferDataInvalid" value="Lỗi định dạng dữ liệu" />
+  <item key="IDS_TransferRemainNotEnough" value="Số dư tài khoản không để thực hiện giao dịch" />
+  <item key="IDS_TransferCardLock" value="Số thẻ đang bị tạm khóa" />
+  <item key="IDS_TransferCardAccountExpired" value="Số thẻ, số tài khoản đã hết hạn" />
+  <item key="IDS_TransferCardExpired" value="Số thẻ vừa nhập đã hết hạn" />
+  <item key="IDS_TransferAccountLock" value="Số tài khoản bị tạm khóa" />
+  <item key="IDS_TransferTxnTimeOut" value="Giao dịch quá hạn xử lý" />
+  <item key="IDS_TransferPagegateRestrict" value="Pagate chặn dịch vụ" />
+  <item key="IDS_TransferXrefDuplicated" value="Lỗi trùng XREF" />
+  <item key="IDS_TransferDataFormatError" value="Lỗi định dạng dữ liệu" />
+  <item key="IDS_TransferProviderOrFormatError" value="Lỗi hệ thống nhà cung cấp hoặc lỗi định dạng bản tin" />
+  <item key="IDS_TransferYourAmountOverLimit1" value="Xin lỗi, số tiền giao dịch vượt quá hạn mức" />
+  <item key="IDS_TransferYourAmountOverLimit2" value="Số tiền chuyển khoản phải dưới 30 triệu VND/giao dịch" />
+  <item key="IDS_transactionNote" value="Nội dung chuyển tiền" />
+  
+  <!-- Deposit-->
+  <item key="IDS_DepositCardAccountNotExist" value="Số thẻ/tài khoản không tồn tại" />
+  <item key="IDS_DepositCardOrAccountInvalid" value="Số thẻ/tài khoản không hợp lệ" />
+  <item key="IDS_DepositCardAccountEnquiryError" value="Không tìm thấy thông tin liên kết với số thẻ/số tài khoản này" />
+  <item key="IDS_WDNonCardNeedOpenCurrentAccount" value="Để thực hiện giao dịch rút tiền, Quý khách cần mở tài khoản thanh toán tại TPBank" />
+  <item key="IDS_BillingYouNeedCurrentAccount" value="Để thực hiện giao dịch thanh toán tiền điện, Quý khách cần mở tài khoản thanh toán tại TPBank" />
+   <item key="IDS_DepositInvalidAccount" value="Vui lòng ra quầy giao dịch để được hỗ trợ" />
+   <item key="IDS_NoOrInCorrectPositonCard" value="Xin lỗi, hiện tại không hỗ trợ phát hành thẻ nhận ngay. Vui lòng chọn phát hành thẻ qua chi nhánh" />
+   <item key="IDS_IssueNoNameCardCapture" value="Hết thời gian giao dịch, thẻ đã được thu hồi. Vui lòng kết nối đến tổng đài để được Giao dịch viên hỗ trợ" />
+  
+  <item key="IDS_DeviceErrorIssueNoNameAtmCard" value="Lỗi thiết bị, chức năng phát hành thẻ tạm thời không hoạt động" />
+  <item key="IDS_ErrorSendAtmCardAddressFailed" value="Xin lỗi, Cập nhật địa chỉ nhận thẻ ATM lỗi" />
+  <item key="IDS_ErrorSendDebitCardAddressFailed" value="Xin lỗi, Cập nhật địa chỉ nhận thẻ Debit lỗi" />
+  <item key="IDS_DepositUndefineError" value="Xin lỗi, số thẻ không được xác định" />
+  <item key="IDS_DepositCardAccountInvalid" value="Số thẻ/tài khoản không tồn tại" />
+  
+  <item key="IDS_SpendLimitAboveGold" value="(Hạn mức 100 triệu VND/ngày)" />
+
+  <item key="IDS_Button_Detail" value="Chi tiết" />
+  <item key="IDS_Button_No_Pro" value="Bỏ qua" />
+  <item key="IDS_Button_Yes_Pro" value="Đồng ý" />
+  <item key="IDS_Button_Spin_Reward" value="Quay thưởng" />
+  <item key="IDS_Button_Rules" value="Thể lệ chương trình" />
+  <item key="IDS_PleaseSelectPromotion" value="“TẾT LÀ PHÚC LỘC NGẬP TRÀN”" />
+  <item key="IDS_PleaseSelectPromotion1" value="Cảm ơn Quý khách đã tham gia chương trình “TẾT LÀ PHÚC LỘC NGẬP TRÀN”." />
+  <item key="IDS_PleaseSelectPromotion2" value="VỚI 100.000 MÓN QUÀ TỪ TPBANK”" />
+  <item key="IDS_PromotionConent" value="Từ 09/12/2019 đến 29/02/2020"/>
+  <item key="IDS_PromotionConent_1" value="Cơ hội nhận ngay Phiếu mua hàng điện tử VinID trị giá 100,000 VNĐ khi lần đầu tiên gửi tiết kiệm tại TPBank LiveBank." />
+  <item key="IDS_PromotionConent_2" value="Cơ hội tham gia quay thưởng để nhận Phiếu mua hàng điện tử VinID trị giá đến 10 triệu đồng từ ngày 09/12/2019 đến 29/01/2020 hoặc Lì xì may mắn từ ngày 30/01/2020 đến 29/02/2020 khi gửi tiết kiệm tại TPBank LiveBank." />
+  <item key="IDS_PromotionConent_3" value="Cơ hội trúng thưởng Nội thất sang trọng, Chuyến du lịch Singapore, Iphone 11 Promax sành điệu  khi giao dịch tại TPBank LiveBank." /> 
+  <item key="IDS_PromotionConent_4" value="Chúc mừng Quý khách đã nhận được 01 Phiếu mua hàng điện tử VinID trị giá 100,000 VNĐ khi lần đầu tiên tham gia gửi tiết kiệm tại TPBank LiveBank." /> 
+  <item key="IDS_PromotionConent_5" value="Phiếu mua hàng điện tử VinID sẽ được gửi qua SMS tới số điện thoại của Quý khách đăng ký với TPBank trong vòng 48h làm việc. Quý khách vui lòng xem Hướng dẫn sử dụng Phiếu mua hàng điện tử VINID tại Thể lệ chương trình." />
+  <item key="IDS_PromotionConent_6" value="Lưu ý: Sổ tiết kiệm của Quý khách sẽ phong tỏa trong vòng 1 tháng." />
+  <item key="IDS_PromotionConent_7" value="Chúc mừng Quý khách đã nhận được ngay 01 lượt quay thưởng may mắn để có cơ hội trúng thưởng Phiếu mua hàng điện tử VINID trị giá 50.000 VNĐ – 100.000 VNĐ – 300.000 VNĐ – 500.000 VNĐ – 10 triệu đồng." />
+  <item key="IDS_PromotionConent_8" value="Chúc mừng Quý khách đã nhận được ngay 01 lượt quay thưởng may mắn để có cơ hội trúng thưởng Lì xì may mắn trị giá 69,000 VNĐ – 99,000 VNĐ – 199,000 VNĐ." />
+  <item key="IDS_PromotionConent_9" value="Mời Quý khách nhấn nút “Quay thưởng” dưới đây để thực hiện quay thưởng." />
+  <item key="IDS_PromotionConent_10" value="Nếu trúng thưởng, Phiếu mua hàng điện tử VinID sẽ được gửi qua SMS tới số điện thoại của Quý khách đăng ký với TPBank trong vòng 48h làm việc. Quý khách vui lòng xem Hướng dẫn sử dụng Phiếu mua hàng điện tử VINID tại Thể lệ chương trình." />
+  <item key="IDS_PromotionConent_11" value="Lưu ý: Sổ tiết kiệm của Quý khách sẽ phong tỏa trong vòng 2 tháng khi quay trúng thưởng." />
+  <item key="IDS_PromotionConent_12" value="Thật đáng tiếc, sổ tiết kiệm của Quý khách chưa đủ điều kiện nhận thưởng từ chương trình hoặc Quà tặng đã hết." />
+  <item key="IDS_WDNonCardCIFNotExist1" value="Quý khách chưa có tài khoản thanh toán tại TPBank, Quý khách vui lòng kiểm tra lại" />
+  <item key="IDS_WDNonCardCIFNotExist2" value="Cảm ơn!" />
+  <item key="IDS_ReScan" value="Scan lại" />
+  <item key="IDS_OpenAccount" value="Mở Tài khoản" />
+  <item key="IDS_RemainAmount" value="Tiền thừa" />
+  <item key="IDS_InsufficientAmount1" value="Xin lỗi, " />
+  <item key="IDS_InsufficientAmount2" value="Số tiền của Quý khách không đủ để nộp(đã bao gồm phí), vui lòng nhập lại số tiền nộp" />
+  <item key="IDS_TransferingFailed1" value="Giao dịch chuyển tiền không thành công. Tiền đã được ghi có vào tài khoản của Quý khách" />
+  <item key="IDS_TransferingFailed2" value="Vui lòng chọn giao dịch chuyển khoản hoặc kết nối tới tổng đài để được Giao dịch viên hỗ trợ" />
+  <item key="IDS_EndTransaction" value="Quý khách có muốn kết thúc giao dịch không?" />
+  <item key="IDS_RequestOTPAgain" value="Quý khách có muốn tạo lại OTP?" />  
+  
+  <!-- Open saving account by transfer money from current account -->
+  <item key="IDS_PleaseSelectSavingOption" value="Vui lòng chọn phương thức mở sổ tiết kiệm" />
+  <item key="IDS_AcountNo_Saving" value="Tài khoản" />
+  <item key="IDS_PleaseEnterSavingAmount" value="Vui lòng nhập số tiền cần gửi tiết kiệm" />
+  <item key="IDS_InvalidSavingAmount" value="Số tiền gửi tiết kiệm tối thiểu là 1,000,000 VND" />
+  <item key="IDS_InvalidISavingAmountEmpty" value="Số tiền gửi tiết kiệm không được để trống" />
+  <item key="IDS_SavingBalanceNotEnough" value="Tài khoản không đủ số dư, vui lòng nộp tiền để mở Sổ tiết kiệm" />
+  <item key="IDS_SavingInvalidAccount" value="Quý khách đang có tài khoản đồng sở hữu, vui lòng mở tài khoản thanh toán không phải đồng sở hữu" />
+  <!-- FingerPrintEnrollment -->
+  <item key="IDS_FingerprintMaintenance" value="Đăng ký/Bổ sung vân tay" />
+  <item key="IDS_PleaseEnterIDNumber" value="Vui lòng nhập số CMND" />
+  <item key="IDS_PleaseEnterPassport" value="Vui lòng nhập số hộ chiếu" />
+  <item key="IDS_PleaseEnterMobile" value="Vui lòng nhập số điện thoại" />
+  <item key="IDS_AddAnother" value="Add another" />
+  <item key="IDS_FingerprintID" value="Lần quét vân tay thứ " />
+  <item key="IDS_CompleteFingerPrint1" value="Quý khách đã hoàn thành" />
+  <item key="IDS_CompleteFingerPrint2" value="trong 5 lần được quét vân tay" />
+  <item key="IDS_EnrollUpToFive" value="Quý khách có thể đăng ký tối đa 5 lần quét vân tay" />
+  <item key="IDS_CompleteAll5FingerScan" value="Quý khách đã hoàn tất cả 5 lần quét vân tay" />
+  <item key="IDS_ScanToReplace" value="Please scan your finger that you would like to replace." />
+  <item key="IDS_SuccessfullyEnrolled" value="Đăng ký vân tay thành công" />
+  <item key="IDS_MatchSuccessfully" value="Thành công" />
+  <item key="IDS_EditFingerprint" value="Would you like to edit your fingerprint scans?" />
+  <item key="IDS_EditMyFingerprint" value="Edit my fingerprint scans." />
+  <item key="IDS_FingerprintNotMatch" value="Xin lỗi, vân tay của Quý khách không thành công, vui lòng thử lại!" />
+  <item key="IDS_ReplaceSuccessfully" value="Vân tay của Quý khách đã được thay thế thành công!" />
+  <item key="IDS_PleaseScan4TimesToReplace" value="Vui lòng quét dấu vân tay 4 lần. Lưu ý: Sử dụng duy nhất 1 ngón tay" />
+  <item key="IDS_PleaseScanFingerprintScanner" value="Vui lòng quét dấu vân tay" />
+  <item key="IDS_TryAnotherFinger" value="Vui lòng chọn ngón tay khác chưa được đăng ký." />
+  <item key="IDS_HaveAttempt1" value="Bạn còn" />
+  <item key="IDS_HaveAttempt2" value="lần thử" />
+  <item key="IDS_NotAllowedFingerprintNotMatch1" value="Giao dịch không thành công." />
+  <item key="IDS_NotAllowedFingerprintNotMatch2" value="Vui lòng sử dụng vân tay đã đăng ký với TPBank" />
+  <item key="IDS_ChooseWithdrawalMethod" value="Vui lòng chọn phương thức rút tiền từ danh sách bên dưới" />
+  <item key="IDS_ATMCard" value="Thẻ ngân hàng" />
+  <item key="IDS_IDDocument" value="CMND/Hộ chiếu" />
+  <item key="IDS_PassportNumber" value="Hộ chiếu" />
+  <item key="IDS_ID" value="ID" />
+  <item key="IDS_OTP" value="OTP" />
+  <item key="IDS_CustomerName" value="Tên khách hàng " />
+  <item key="IDS_AskEnrollFingerScan" value="Quý khách chưa đăng ký vân tay tại TPBank" />
+  <item key="IDS_AskEnrollFingerprint" value="Quý khách muốn đăng ký vân tay không?" />
+  <item key="IDS_IsExistedAccount" value="Số tài khoản của Quý khách không hợp lệ để thực hiện rút tiền. Vui lòng kiểm tra lại hoặc liên hệ 1800585885 để được hỗ trợ" />
+  <item key="IDS_PleaseCheckConfirmFinger" value="Vui lòng nhập số CMND/Hộ chiếu hoặc số Điện thoại đã đăng ký với TPBank" />
+  <item key="IDS_CifJoined" value="Tài khoản của Quý khách là tài khoản đồng sở hữu, vui lòng ra CN hoặc PGD của TPBank để thực hiện giao dịch" />
+  <item key="IDS_NotSuitableAccount" value="Xin lỗi, tài khoản của Quý khách không đủ điều kiện để thực hiện giao dịch, Vui lòng liên hệ TBBank để được hỗ trợ" />
+  <item key="IDS_WithdrawalStepScanQR" value="Quét QR" /> 
+  <item key="IDS_StartedQRAgentFailed" value="Xin lỗi, Hệ thống không thể tạo mã QR, Vui lòng thử lại" />
+  <item key="IDS_Step_QR" value="Mã QR" />
+  <item key="IDS_Promotion_Content" value="(*) Sổ tiết kiệm này đang phong tỏa do tham gia chương trình khuyến mại nhận quà của TPBank" />
+  <item key="IDS_GetFingerTemplateError" value="Xin lỗi, Chúng tôi không thể lấy mẫu vân tay ngay lúc này, xin vui lòng cập nhật mẫu vân tay sau" />
+  <item key="IDS_LimitAmountPerDay1" value="Quý khách đã rút quá hạn mức ngày cho phép." />
+  <item key="IDS_LimitAmountPerDay2" value="Vui lòng ra Chi nhánh TPBank để thực hiện hoặc liên hệ GDV từ xa để được hỗ trợ." />
+  <item key="IDS_AccountLocked" value="Tài khoản bị khóa, Xin vui lòng liên hệ TPBank để được hỗ trợ" />
+  <item key="IDS_ATMCardInvalid" value="Thẻ ngân hàng - Tính năng đang bảo trì" />
+  <item key="IDS_DepositATMorIDPassport" value="Vui lòng chọn phương thức để thực hiện nộp tiền" />
+  <item key="IDS_TransferATMorIDPassport" value="Vui lòng chọn phương thức để thực hiện chuyển khoản" />
+  <item key="IDS_BillingATMorIDPassport" value="Quý Khách hàng thanh toán hóa đơn bằng thẻ ATM TPBank hoặc CMND/Hộ chiếu?" />
+  <item key="IDS_PassbookSettlementATMorIDPassport" value="Vui lòng chọn phương thức để thực hiện tất toán sổ tiết kiệm" />
+  <item key="IDS_SavingAcountATMorIDPassport" value="Vui lòng chọn phương thức mở sổ tiết kiệm" />
+  <item key="IDS_MaintanceAcountATMorIDPassport" value="Quý Khách hàng thay đổi thông tin bằng thẻ ATM TPBank hoặc CMND/Hộ chiếu?" />
+  <item key="IDS_NotReachApplication" value="Xin lỗi, Hệ thống vân tay đang nâng cấp, vui lòng thử lại" />
+  <item key="IDS_NotReachApplicationAllowNextProcess" value="Xin lỗi, Hệ thống vân tay đang nâng cấp, vui lòng cập nhật vân tay sau" />
+  <item key="IDS_InMoreParamIC" value="Xin lỗi, vui lòng nhập thêm số CMND/Hộ chiếu" />
+  <item key="IDS_InMoreParamPhone" value="Xin lỗi, vui lòng nhập thêm số điện thoại" />
+  <item key="IDS_ShowRequireTermRate" value="Xin lỗi, vui lòng xác nhận lại thông tin để chúng tôi cung cấp lại Kỳ hạn và Lãi suất, Cảm ơn!" />
+  <item key="IDS_InvalidTransferNote" value="Xin lỗi, Vui lòng loại bỏ ký tự đặc biệt" />
+  <item key="IDS_ReceivePromotion" value="Nhận thưởng" />
+  <item key="IDS_PleaseSelectDepositAccountForPromoLucky" value="Vui lòng lựa chọn tài khoản cần nhận tiền thưởng" />
+  <item key="IDS_SavingConfirmReceiveLuckyMoney" value="Tiền thưởng đã được chuyển vào tài khoản, vui lòng kiểm tra, cảm ơn!" />
+  <item key="IDS_ShowErrorTransferLuckyMoney" value="Xin lỗi, Hệ thống chưa thể chuyển tiền ngay lúc này, vui lòng liên hệ TVV để được hỗ trợ, Cảm ơn!" />
+  <item key="IDS_InvalidTransferNote" value="Xin lỗi, Vui lòng loại bỏ ký tự đặc biệt" />
+  <item key="IDS_ForBankingOnly" value="Dành cho ngân hàng" />
+  <item key="IDS_SupperAccClassCont" value="TPBank có quyền đơn phương chấm dứt cung cấp dịch vụ bất cứ khi nào và thông báo cho Tôi bằng một trong các hình thức TPBank cho là phù hợp. (TPBank has the right to unilaterally terminate service provision at any time and notify me in one of TPBank's forms as appropriate)" />
+  <item key="IDS_OpenSupperAccountClass" value="Quý khách muốn mở tài khoản thanh toán Super Zero không?" />
+  <item key="IDS_SupperConent" value="Miễn phí chuyển tiền liên ngân hàng và nhiều loại phí khác" />
+  <item key="IDS_SupperConent_1" value="Hoàn tiền 1% cho các giao dịch chi tiêu qua Thẻ Visa Debit" />
+  <item key="IDS_SupperConent_2" value="Thông tin chi tiết" />
+  <item key="IDS_Miscode" value="Mã CBNV TPBank/ Mã giới thiệu" />
+  <item key="IDS_SavingTypeOption" value="Vui lòng lựa chọn loại tiết kiệm" />
+  <item key="IDS_Livebank" value="Tiết kiệm Livebank" />
+  <item key="IDS_6M12M" value="TK 6 tháng LS 12 tháng" />
+  <item key="IDS_Interest6Mfirst" value="Lãi suất 6 tháng đầu tiên" />
+  <item key="IDS_Interest6Mnext" value="Lãi suất 6 tháng tiếp theo" />
+  <item key="IDS_RenewPrincipal6M12M" value="Tái tục gốc thêm 6 tháng" />
+  <item key="IDS_ReceiptNote1" value="Hãy chọn " />
+  <item key="IDS_ReceiptNote2" value="“Không in biên lai” " />
+  <item key="IDS_ReceiptNote3" value="để cùng TPBank giữ lại nhiều cây xanh, bảo vệ môi trường sống của chúng ta!" />
+  <item key="IDS_ReceiptNote4" value="Bạn có biết: " />
+  <item key="IDS_ReceiptNote5" value="Mỗi tờ biên lai hôm nay bạn dùng có thể là từ "/>
+  <item key="IDS_ReceiptNote6" value="một cây xanh " />
+  <item key="IDS_ReceiptNote7" value="hôm qua còn giúp bầu không khí trong lành." />
+  <item key="IDS_ReceiptPrint" value="In biên lai" />
+  <item key="IDS_DonotPrintReceipt" value="Không in biên lai" />
+  <item key="IDS_ErrorIncompatibleCard" value="Thẻ không hợp lệ, vui lòng thử lại sau" />
+  <item key="IDS_CheckKYCNote" value="Quý khách hiện đang có tài khoản chưa hoàn thiện thông tin." />
+  <item key="IDS_CheckKYCNote1" value="Quý khách muốn thực hiện hoàn thiện thông tin hay mở tài khoản Super Zero?" />
+  <item key="IDS_SuperZeroAcc" value="Mở tài khoản Super zero" />
+  <item key="IDS_KycError" value="Lỗi KYC (Đã mở thành công tài khoản Super Zero)" />
+  <item key="IDS_DepositWarning" value="QUÝ KHÁCH CHÚ Ý" />
+  <item key="IDS_DepositRight" value="CÁCH NỘP TIỀN ĐÚNG" />
+  <item key="IDS_DepositLineUp" value="Xếp ngay ngắn thành thếp nằm ngang" />
+  <item key="IDS_DepositPutIn" value="Đặt đúng vào khe đựng tiền" />
+  <item key="IDS_DepositDeno" value="Mệnh giá tiền chấp nhận(VNĐ):" />
+  <item key="IDS_DepositDeno1" value="50.000  - 100.000" />
+  <item key="IDS_DepositDeno2" value="200.000 - 500.000" />
+  <item key="IDS_DepositWrong" value="VUI LÒNG KHÔNG SỬ DỤNG" />
+  <item key="IDS_DepositCurved" value="Tờ tiền bị gập, cong mép" />
+  <item key="IDS_DepositTorn" value="Tờ tiền bị rách, mất mép" />
+  <item key="IDS_DepositWrapping" value="Tiền bó trong giấy gói, buộc chun/ nịt, hoặc kẹp bằng ghim, dị vật khác..." />
+  <item key="IDS_DepositConent" value="Quý khách lưu ý thực hiện theo hướng dẫn để tránh xảy ra lỗi kẹt tiền." />
+  <item key="IDS_DepositConent_1" value="Trường hợp xảy ra lỗi, thời gian tra soát sẽ từ" />
+  <item key="IDS_DepositConent_2" value="3- 5 ngày làm việc." />
+  <item key="IDS_Button_Understand" value="Tôi đã hiểu" />
+ <item key="IDS_FaceCaptureImage" value="Quý khách vui lòng nhìn vào Camera Giao dịch viên sẽ hỗ trợ chụp ảnh" />
+  <item key="IDS_Face_Identify" value="Giao dịch đang được xử lý. Quý khách vui lòng chờ trong giây lát" />
+  <item key="IDS_Face_ConfirmFaceInfo" value="Matching face is successful. Please confirm." />
+  <item key="IDS_Face_MatchSuccessful" value="Phù hợp với khuôn mặt là thành công" />
+  <item key="IDS_Face_FullName" value="Họ tên :" />
+  <item key="IDS_Face_ID_Passport" value="Số CMND/Hộ chiếu :" />
+  
+</config>

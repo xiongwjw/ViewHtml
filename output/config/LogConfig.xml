@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4net showHex="1" Encrypt="1" backupDay="90" reservedSize="1000" >
+	<appender name="main" type="log4net.Appender.RollingFileAppender">
+		<file value="log\eCAT"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="10"/>
+		<staticLogFileName value="false"/>
+		<maximumFileSize value="200MB"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss.fff} [%t] {%-5level} [%logger] - %message%newline"/>
+		</layout>
+	</appender>
+	<appender name="ElectricJournal" type="log4net.Appender.RollingFileAppender">
+		<file value="log\JOU"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="10"/>
+		<staticLogFileName value="false"/>
+		<maximumFileSize value="50MB"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%message%newline"/>
+		</layout>
+	</appender>
+	<appender name="COMJournal" type="log4net.Appender.RollingFileAppender">
+		<file value="log\COM"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="10"/>
+		<staticLogFileName value="false"/>
+		<maximumFileSize value="100MB"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%message%newline"/>
+		</layout>
+	</appender>
+	<appender name="NDCElectricJournal" type="log4net.Appender.RollingFileAppender">
+		<file value="log\JOU"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="10"/>
+		<maximumFileSize value="100MB"/>
+		<staticLogFileName value="false"/>
+		<param name="DatePattern" value="yyyyMMdd'.txt'"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss} %message%newline"/>
+		</layout>
+		<GrgFilter>
+			<Keyword value="TransBuffer" enable="1" description="Transaction Buffer"/>
+			<Keyword value="FuncCmd" enable="1" description="Function Cmd"/>
+			<Keyword value="DeviceWarning" enable="1" description="Device Warning"/>
+			<Keyword value="StateFlow" enable="1" description="State Flow"/>
+			<Keyword value="DeviceError" enable="1" description="Device Error"/>
+			<Keyword value="Maintenance" enable="1" description="Maintenance"/>
+			<Keyword value="ATMMode" enable="1" description="ATM Mode"/>
+			<Keyword value="HostJournal" enable="1" description="Host Journal"/>
+			<Keyword value="DispenserDetail" enable="1" description="Dispenser Detail"/>
+			<Keyword value="CardInsert" enable="1" description="Card Insert"/>
+			<Keyword value="CardCapture" enable="1" description="Card Capture"/>
+			<Keyword value="DispenseResult" enable="1" description="Dispense Result"/>
+			<Keyword value="ATMBootup" enable="1" description="ATM Bootup"/>
+			<Keyword value="HostDispenseData" enable="1" description="Host DispenseData"/>
+			<Keyword value="Others" enable="1" description="Others"/>
+		</GrgFilter>
+	</appender>
+	<appender name="NDCTrace" type="log4net.Appender.RollingFileAppender">
+		<file value="log\Trace\Trace"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="100"/>
+		<maximumFileSize value="100MB"/>
+		<staticLogFileName value="false"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss fff}:%message%newline"/>
+		</layout>
+		<GrgFilter>
+			<Keyword value="TransBuffer" enable="1" description="Transaction Buffer"/>
+			<Keyword value="FuncCmd" enable="1" description="Function Cmd"/>
+			<Keyword value="DeviceWarning" enable="1" description="Device Warning"/>
+			<Keyword value="StateFlow" enable="1" description="State Flow"/>
+			<Keyword value="DeviceError" enable="1" description="Device Error"/>
+			<Keyword value="Maintenance" enable="1" description="Maintenance"/>
+			<Keyword value="ATMMode" enable="1" description="ATM Mode"/>
+			<Keyword value="HostJournal" enable="1" description="Host Journal"/>
+			<Keyword value="DispenserDetail" enable="1" description="Dispenser Detail"/>
+			<Keyword value="CardInsert" enable="1" description="Card Insert"/>
+			<Keyword value="CardCapture" enable="1" description="Card Capture"/>
+			<Keyword value="DispenseResult" enable="1" description="Dispense Result"/>
+			<Keyword value="ATMBootup" enable="1" description="ATM Bootup"/>
+			<Keyword value="HostDispenseData" enable="1" description="Host DispenseData"/>
+			<Keyword value="Others" enable="1" description="Others"/>
+			<Keyword value="Screen" enable="1" description="Screen Module"/>
+			<Keyword value="Exception" enable="1" description="Exception Message"/>
+			<Keyword value="MessageParser" enable="1" description="Message parser module"/>
+			<Keyword value="XDCBaseElement" enable="1" description="XDC base element"/>
+			<Keyword value="FuncCmdModule" enable="1" description="Function Command Module"/>
+			<Keyword value="EmvModule" enable="1" description="EMV module"/>
+			<Keyword value="AdaModule" enable="1" description="ADA module"/>
+			<Keyword value="RklModule" enable="1" description="RKL module"/>
+			<Keyword value="CashAcceptorCashIn" enable="1" description="Cash-In Of Cash Acceptor"/>
+		</GrgFilter>		
+	</appender>
+	<appender name="DeviceStatus" type="log4net.Appender.RollingFileAppender">
+		<file value="log\Trace\DeviceStatus"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="100"/>
+		<maximumFileSize value="100MB"/>
+		<staticLogFileName value="false"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss fff} %message%newline"/>
+		</layout>
+	</appender>
+	<appender name="ConfigTool" type="log4net.Appender.RollingFileAppender">
+		<file value="log\Trace\ConfigTool"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="10"/>
+		<staticLogFileName value="false"/>
+		<maximumFileSize value="200MB"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss fff} %message%newline"/>
+		</layout>
+	</appender>
+	<appender name="DeviceStatus" type="log4net.Appender.RollingFileAppender">
+		<file value="log\DeviceStatus"/>
+		<appendToFile value="true"/>
+		<rollingStyle value="Composite"/>
+		<encoding value="utf-8"/>
+		<maxSizeRollBackups value="100"/>
+		<maximumFileSize value="100MB"/>
+		<staticLogFileName value="false"/>
+		<param name="DatePattern" value="yyyyMMdd&quot;.txt&quot;"/>
+		<layout type="log4net.Layout.PatternLayout">
+			<conversionPattern value="%date{HH:mm:ss fff} %message%newline"/>
+		</layout>
+	</appender>
+	<root>
+		<level value="DEBUG"/>
+		<appender-ref ref="main"/>
+	</root>
+	<logger name="ElectricJournal">
+		<level value="DEBUG"/>
+		<appender-ref ref="ElectricJournal"/>
+	</logger>
+	<logger name="XdcTrace.XdcEJ">
+		<level value="DEBUG"/>
+		<appender-ref ref="NDCElectricJournal"/>
+	</logger>
+	<logger name="XdcTrace">
+		<level value="DEBUG"/>
+		<appender-ref ref="NDCTrace"/>
+	</logger>
+	<logger name="XdcDeviceStatus" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="DeviceStatus"/>
+	</logger>
+	<logger name="COMLog">
+		<level value="DEBUG"/>
+		<appender-ref ref="COMJournal"/>
+	</logger>
+	<logger name="CfgTool" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="ConfigTool"/>
+	</logger>
+	<logger name="XdcDeviceStatus" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="DeviceStatus"/>
+	</logger>
+	<CompressStrategy>
+		<Item folder="log\" filePattern="eCAT*.txt|Device*.txt" />
+		<Item folder="log\XFSControl\" filePattern="*.txt" />
+	</CompressStrategy>
+</log4net>

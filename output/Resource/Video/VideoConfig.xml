@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<item key="stop" value="stop.gif"/>
+	<item key="FormBack" value="FormBack.swf"/>
+	<item key="FormPrint" value="FormPrint.swf"/>
+	<item key="InsertCard" value="InsertCard.swf"/>
+	<item key="TakeCard" value="TakeCard.swf"/>
+	<item key="InsertIDCard" value="InsertIDCard.swf"/>
+	<item key="TakeIDCard" value="TakeIDCard.swf"/>
+	<item key="PutMoney" value="PutMoney.swf"/>
+	<item key="TakeMoney" value="TakeMoney.swf"/>
+	<item key="Signature" value="Signature.swf"/>
+</config>

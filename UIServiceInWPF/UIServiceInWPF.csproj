@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29155A58-2609-4369-8804-10043BD737D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UIServiceInWPF</RootNamespace>
+    <AssemblyName>UIServiceInWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>eCATService.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="ResourceManagerProtocol">
+      <HintPath>..\..\..\..\Execute\Protocol\ResourceManagerProtocol.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="action\ActionBase.cs" />
+    <Compile Include="action\BeginStoryboardAction.cs" />
+    <Compile Include="action\PlaySoundAction.cs" />
+    <Compile Include="action\RemoveStoryboardAction.cs" />
+    <Compile Include="action\SetterAction.cs" />
+    <Compile Include="BindingExpress.cs" />
+    <Compile Include="CountdownControl.xaml.cs">
+      <DependentUpon>CountdownControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GIFImageControl.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenImageElement.cs" />
+    <Compile Include="ImagePcx.cs" />
+    <Compile Include="JavaScriptObject.cs" />
+    <Compile Include="Factory\WPFElementFactory.cs" />
+    <Compile Include="HtmlRender.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenButtonElement.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenCountdownElement.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenElementBase.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenInputElement.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenListElement.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenMediaElement.cs" />
+    <Compile Include="HtmlScreenElement\HtmlScreenSelectElement.cs" />
+    <Compile Include="Interop\ImmApi.cs" />
+    <Compile Include="Interop\NativeWndApi.cs" />
+    <Compile Include="Resource\ResourceDataTemplate.cs" />
+    <Compile Include="Resource\ResourceItem.cs" />
+    <Compile Include="screen\htmlScreen.cs" />
+    <Compile Include="screen\Screen.cs" />
+    <Compile Include="SoundPlayer.cs" />
+    <Compile Include="Storyboard\GrgStoryboard.cs" />
+    <Compile Include="Storyboard\GrgStoryboardManager.cs" />
+    <Compile Include="Storyboard\Timeline\MediaTimeline.cs" />
+    <Compile Include="Storyboard\Timeline\SlideshowTimeline.cs" />
+    <Compile Include="Storyboard\Timeline\SlideshowTimelineFrame.cs" />
+    <Compile Include="Storyboard\Timeline\TimelineBase.cs" />
+    <Compile Include="trigger\EventTrigger.cs" />
+    <Compile Include="trigger\PropertyTrigger.cs" />
+    <Compile Include="trigger\TriggerBase.cs" />
+    <Compile Include="UIServiceCfg.cs" />
+    <Compile Include="UIServiceCfgDefines.cs" />
+    <Compile Include="UIServiceImp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebbrowserForm\ExtendWebbrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebbrowserForm\MultiWebbrowserImp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebbrowserForm\MultiWebbrowserImp.Designer.cs">
+      <DependentUpon>MultiWebbrowserImp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebbrowserForm\WebBrowserHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebbrowserForm\WebBrowserHost.Designer.cs">
+      <DependentUpon>WebBrowserHost.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="eCATService.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CountdownControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIServiceResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebbrowserForm\MultiWebbrowserImp.resx">
+      <DependentUpon>MultiWebbrowserImp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebbrowserForm\WebBrowserHost.resx">
+      <DependentUpon>WebBrowserHost.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Attribute4eCAT\Attribute4eCAT.csproj">
+      <Project>{91e2b16c-6947-4224-86a5-c8d862a6322e}</Project>
+      <Name>Attribute4eCAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogProcessorService\LogProcessorService.csproj">
+      <Project>{0dc00975-75d9-4f1c-9d5e-d3862122bc9f}</Project>
+      <Name>LogProcessorService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringFormatter\StringFormatter.csproj">
+      <Project>{8ee3873b-e1fb-4d8b-9183-e2cdc3322e2f}</Project>
+      <Name>StringFormatter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIServiceProtocol\UIServiceProtocol.csproj">
+      <Project>{33402ffb-296e-4fe8-a405-b0ce664a1b30}</Project>
+      <Name>UIServiceProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

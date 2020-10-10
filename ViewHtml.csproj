@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A31088F-54B1-485B-868D-5FA00F6BF777}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViewHtml</RootNamespace>
+    <AssemblyName>ViewHtml</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>7.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScintillaNET, Version=3.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\jacobslusser.ScintillaNET.3.6.3\lib\net40\ScintillaNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityFactory.cs" />
+    <Compile Include="FormEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditor.Designer.cs">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrintTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrintTest.Designer.cs">
+      <DependentUpon>FormPrintTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearch.Designer.cs">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectFolder.Designer.cs">
+      <DependentUpon>FormSelectFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetResolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetResolution.Designer.cs">
+      <DependentUpon>FormSetResolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormViewHtml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormViewHtml.Designer.cs">
+      <DependentUpon>FormViewHtml.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wjwWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="FormEditor.resx">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintTest.resx">
+      <DependentUpon>FormPrintTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearch.resx">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectFolder.resx">
+      <DependentUpon>FormSelectFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetResolution.resx">
+      <DependentUpon>FormSetResolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewHtml.resx">
+      <DependentUpon>FormViewHtml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="7.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\wjw.lib\wjw.editor\wjw.editor\wjw.editor.csproj">
+      <Project>{f0c68a44-b707-4917-be35-6a7773f34734}</Project>
+      <Name>wjw.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Attribute4eCAT\Attribute4eCAT.csproj">
+      <Project>{91E2B16C-6947-4224-86A5-C8D862A6322E}</Project>
+      <Name>Attribute4eCAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="eCATActivityTest\eCATActivityTest.csproj">
+      <Project>{b645f2b7-1750-41f7-b8c5-f2c57b95ab37}</Project>
+      <Name>eCATActivityTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="LogProcessorService\LogProcessorService.csproj">
+      <Project>{0dc00975-75d9-4f1c-9d5e-d3862122bc9f}</Project>
+      <Name>LogProcessorService</Name>
+    </ProjectReference>
+    <ProjectReference Include="ResourceManagerProtocol\ResourceManagerProtocol.csproj">
+      <Project>{065c59db-a16c-4076-8a93-524505966d0d}</Project>
+      <Name>ResourceManagerProtocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="ResourceManager\ResourceManager.csproj">
+      <Project>{28e8c78c-a8fe-4594-9974-a9f3612fc825}</Project>
+      <Name>ResourceManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIServiceInWPF\UIServiceInWPF.csproj">
+      <Project>{29155a58-2609-4369-8804-10043bd737d1}</Project>
+      <Name>UIServiceInWPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIServiceProtocol\UIServiceProtocol.csproj">
+      <Project>{33402ffb-296e-4fe8-a405-b0ce664a1b30}</Project>
+      <Name>UIServiceProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

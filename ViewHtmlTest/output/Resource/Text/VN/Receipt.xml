@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="IDS_TransResultSuccess" value="OK" />
+  <item key="IDS_TransResultFail" value="NG" />
+  <item key="IDS_CaptureCard" value="Capture Card" />
+  <item key="IDS_TransMedia_MagneticCard" value="[M]" />
+  <item key="IDS_TransMedia_FallbackCard" value="[M]" />
+  <item key="IDS_TransMedia_SimplexCard" value="[I]" />
+  <item key="IDS_TransMedia_ComplexCard" value="[I]" />
+  <item key="IDS_TransMedia_ContactLess" value="[C]" />
+  <item key="IDS_TransMedia_InvalidCard" value="[N]" />
+</config>

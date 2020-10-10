@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="configToolTitle" value="eCAT 配置工具" />
+  <item key="cfgRoot" value="eCAT 配置" />
+  <item key="UICategory" value="显示配置" />
+  <item key="FrontUI" value="前屏配置" />
+  <item key="MaintenanceUI" value="维护端配置" />
+  <item key="DeviceCategory" value="设备配置" />
+  <item key="NetworkCategory" value="网络配置" />
+  <item key="DataFormatCategory" value="打包解包配置" />
+  <item key="LogCategory" value="日志配置" />
+  <item key="TransactionCategory" value="业务类型配置" />
+  <item key="Generial" value="通用配置" />
+  <item key="Terminal" value="终端配置" />
+  <item key="CardTable" value="卡表配置" />
+  <item key="Transaction" value="交易配置" />
+  <item key="SaveFailed" value="保存配置失败" />
+  <item key="SavePrompt" value="还有未保存的配置，你想现在保存它吗？" />
+  <item key="ClosePrompt" value="还有未保存的配置，你想现在就离开吗？" />
+  <item key="ModeFormat" value="协议模式 : {0}  开发模式 : {1}" />
+  <item key="NetworkOnlineAndRealDevice" value="联机 真实设备" />
+  <item key="NetworkOnlineAndVirtualDevice" value="联机 虚拟设备" />
+  <item key="NetworkOfflineAndRealDevice" value="脱机 真实设备" />
+  <item key="NetworkOfflineAndVirtualDevice" value="脱机 虚拟设备" />
+  <item key="SaveSuccess" value="保存配置成功" />
+  <item key="RestoreSuccess" value="回滚配置成功" />
+  <item key="FileMenuitem" value="&amp;文件" />
+  <item key="SaveMenuitem" value="&amp;保存..." />
+  <item key="SaveAllMenuitem" value="&amp;保存所有..." />
+  <item key="ExitMenuitem" value="&amp;离开" />
+  <item key="EditMenuitem" value="&amp;编辑" />
+  <item key="ProtocolMenuitem" value="协议" />
+  <item key="DevModeMenuitem" value="开发模式" />
+  <item key="NetOnlineRealDevMenuitem" value="联网并真实设备" />
+  <item key="NetOfflineVirDevMenuitem" value="脱机并虚拟设备" />
+  <item key="NetOnlineVirDevMenuitem" value="联网并虚拟设备" />
+  <item key="NetOfflineRealDevMenuitem" value="脱机并真实设备" />
+  <item key="LangMenuitem" value="语言" />
+  <item key="ChsMenuitem" value="中文" />
+  <item key="EngMenuitem" value="English" />
+  <item key="ToolMenuitem" value="&amp;工具" />
+  <item key="HelpMenuitem" value="&amp;帮助" />
+  <item key="AboutMenuitem" value="&amp;关于..." />
+  <item key="OptionsMenuitem" value="&amp;选项..." />
+  <item key="SaveToolitem" value="保存" />
+  <item key="SaveToolitemTip" value="保存当前修改的配置" />
+  <item key="SaveAllToolitem" value="保存所有" />
+  <item key="SaveAllToolitemTip" value="保存所有修改的配置" />
+  <item key="ExitToolitem" value="离开" />
+  <item key="LangComboTip" value="选择一个语言" />
+  <item key="ProtoComboTip" value="选择一个协议" />
+  <item key="AboutToolitem" value="关于" />
+  <item key="ATMTypeCategory" value="设置ATM类型" />
+  <item key="ScreenSetting" value="屏幕配置" />
+  <item key="ScreenMapSetting" value="资源配置" />
+  <item key="LoadNDCSetting" value="确定要加载所有NDCConfig配置吗？" />
+  <item key="LoadDDCSetting" value="确定要加载所有DDCConfig配置吗？" />
+  <item key="HostsDenomination" value="主机面额" />
+  <item key="LocalCassette" value="钱箱配置" />
+  <item key="LeaveCategory" value="要保存变更吗？" />
+  <item key="CassetteSetting" value="钱箱配置" />
+</config>

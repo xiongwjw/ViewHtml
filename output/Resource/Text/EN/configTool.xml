@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item key="configToolTitle" value="eCAT Config Tool" />
+  <item key="cfgRoot" value="eCAT Setting" />
+  <item key="ATMTypeCategory" value="Set ATM Type" />
+  <item key="UICategory" value="Display Setting" />
+  <item key="ScreenSetting" value="Screen Setting" />
+  <item key="ScreenMapSetting" value="Resource Setting" />
+  <item key="DeviceCategory" value="Device Setting" />
+  <item key="NetworkCategory" value="Network Setting" />
+  <item key="DataFormatCategory" value="Message Setting" />
+  <item key="LogCategory" value="Log Setting" />
+  <item key="TransactionCategory" value="Transaction" />
+  <item key="Generial" value="Main Setting" />
+  <item key="Terminal" value="Terminal Setting" />
+  <item key="CardTable" value="Card Table Setting" />
+  <item key="Transaction" value="Transaction Setting" />
+  <item key="SaveFailed" value="Failed to save settings" />
+  <item key="SavePrompt" value="There are some unsaved settings, so are you want to save it?" />
+  <item key="ClosePrompt" value="There are some changes unsaved, are you sure to close the application?" />
+  <item key="ModeFormat" value="Protocol : {0}  Develop Mode : {1}" />
+  <item key="NetworkOnlineAndRealDevice" value="Network Online And Real Device" />
+  <item key="NetworkOnlineAndVirtualDevice" value="Network Online And Virtual Device" />
+  <item key="NetworkOfflineAndRealDevice" value="Network Offline And Real Device" />
+  <item key="NetworkOfflineAndVirtualDevice" value="Network Offline And Virtual Device" />
+  <item key="SaveSuccess" value="Success to save settings" />
+  <item key="RestoreSuccess" value="Success to restore settings" />
+  <item key="FileMenuitem" value="&amp;File" />
+  <item key="SaveMenuitem" value="&amp;Save..." />
+  <item key="SaveAllMenuitem" value="&amp;Save All..." />
+  <item key="ExitMenuitem" value="&amp;Exit" />
+  <item key="EditMenuitem" value="&amp;Edit" />
+  <item key="ProtocolMenuitem" value="Protocol" />
+  <item key="DevModeMenuitem" value="DevelopMode" />
+  <item key="NetOnlineRealDevMenuitem" value="Network online and real device" />
+  <item key="NetOfflineVirDevMenuitem" value="Network offline and virtual device" />
+  <item key="NetOnlineVirDevMenuitem" value="Network online and virtual device" />
+  <item key="NetOfflineRealDevMenuitem" value="Network offline and real device" />
+  <item key="LangMenuitem" value="Language" />
+  <item key="ChsMenuitem" value="Chinese" />
+  <item key="EngMenuitem" value="English" />
+  <item key="ToolMenuitem" value="&amp;Tool" />
+  <item key="HelpMenuitem" value="&amp;Help" />
+  <item key="AboutMenuitem" value="&amp;About..." />
+  <item key="OptionsMenuitem" value="&amp;Options..." />
+  <item key="CassetteSetting" value="Cassette Setting" />
+  <item key="SaveToolitem" value="Save" />
+  <item key="SaveToolitemTip" value="Save current setting" />
+  <item key="SaveAllToolitem" value="Save All" />
+  <item key="SaveAllToolitemTip" value="Save all modified settings" />
+  <item key="ExitToolitem" value="Exit" />
+  <item key="LangComboTip" value="Select a language" />
+  <item key="ProtoComboTip" value="Select a protocol" />
+  <item key="AboutToolitem" value="About" />
+  <item key="LoadNDCSetting" value="Are you sure to load all NDCConfig settings?" />
+  <item key="LoadDDCSetting" value="Are you sure to load all DDCConfig settings?" />
+  <item key="HostsDenomination" value="Host Denomination" />
+  <item key="LocalCassette" value="Cassette Setting" />
+  <item key="LeaveCategory" value="Do you want to save the changes?" />
+  <item key="FrontUI" value="Front Screen Setting" />
+  <item key="MaintenanceUI" value="Maintenance Setting" />
+</config>

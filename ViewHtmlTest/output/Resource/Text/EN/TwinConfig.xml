@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <item key="IDS_Role_BankOperator" value="BANK OPERATOR" />
+  <item key="IDS_Role_Adminstrator" value="SYSTEM ADMINISTRATOR" />
+  <item key="IDS_Comment_BankOperator" value="This function is used for the operations of VTM by the bank operator" />
+  <item key="IDS_Comment_Administrtor" value="This function is used for the management of VTM by the system administrator" />
+  <item key="IDS_Flow_AddCash" value="TOTAL ADDCASH" />
+  <item key="IDS_Flow_InitSetting" value="FIRST SETTING" />
+  <item key="IDS_Flow_LoadNotes" value="LOAD NOTES" />
+  <item key="IDS_TOTALMANAGE" value="TOTAL MANAGEMENT" />
+  <item key="IDS_SYSTEMDIAGNOSE" value="SYSTEM DIAGNOSE" />
+  <item key="IDS_SYSTEMCONFIG" value="SYSTEM CONFIG" />
+  <item key="IDS_DAILYMAINTENANCE" value="DAILY MAINTENANCE" />
+  <item key="IDS_LOGHANDLE" value="LOG HANDLE" />
+  <item key="IDS_HELPGUID" value="HELP GUIDE" />
+  <item key="IDS_PRINTTOTALS" value="PRINT TOTALS" />
+  <item key="IDS_SETCASSETTEAMOUNT" value="SET CASSETTE AMOUNT" />
+  <item key="IDS_QUERYEXCEPTION" value="QUERY EXCEPTION" />
+  <item key="IDS_QUERYCAPTURECARD" value="QUERY CAPTURE CARD" />
+  <item key="IDS_CASSETTEINQUIRY" value="CASSETTE INQUIRY" />
+  <item key="IDS_BANKNOTESINFOINQUIRY" value="BANKNOTES INFO INQUIRY" />
+  <item key="IDS_TRANSACTIONINQUIRY" value="TRANSACTION INQUIRY" />
+  <item key="IDS_SYSTEMAUTODIAGNOSE" value="SYSTEM AUTO DIAGNOSE" />
+  <item key="IDS_SYSTEMENVIRONMENTDIAGNOSE" value="SYSTEM ENVIRONMENT DIAGNOSE" />
+  <item key="IDS_NETWORKTEST" value="NETWORK TEST" />
+  <item key="IDS_SINGLEDEVTEST" value="SINGLE DEV TEST" />
+  <item key="IDS_RESETALLDEVICE" value="RESET ALL DEVICE" />
+  <item key="IDS_OTHERDEVTEST" value="OTHER DEV TEST" />
+  <item key="IDS_SETATMPARAM" value="SET VTM PARAM" />
+  <item key="IDS_VENDORDEPENDENTMODE" value="VENDOR DEPENDENT MODE" />
+  <item key="IDS_UPGRADE" value="UPGRADE" />
+  <item key="IDS_REBOOTATM" value="REBOOT VTM" />
+  <item key="IDS_SHUTDOWNATM" value="SHUTDOWN VTM" />
+  <item key="IDS_QUERYPARAMETER" value="QUERY PARAMETER" />
+  <item key="IDS_ERRORINQUIRY" value="ERROR INQUIRY" />
+  <item key="IDS_MODIFYPASSWORD" value="MODIFY PASSWORD" />
+  <item key="IDS_REPRINTJOURNAL" value="REPRINT JOURNAL" />
+  <item key="IDS_COPYJOURNAL" value="COPY JOURNAL" />
+  <item key="IDS_TOTALPRINT" value="TOTAL PRINT" />
+  <item key="IDS_JOURNALFORMATPRINT" value="JOURNAL FORMAT PRINT" />
+  <item key="IDS_RESCODEPRINT" value="RES CODE PRINT" />
+  <item key="IDS_INSTALLORUNINSTALL" value="INSTALL/UNINSTALL" />
+  <item key="IDS_QUESTION" value="QUESTION" />
+  <item key="IDS_CURRENTPERIODEXP" value="CURRENT PERIOD EXP" />
+  <item key="IDS_LASTPERIODEXP" value="LAST PERIOD EXP" />
+  <item key="IDS_SPECIFIEDDATEEXP" value="SPECIFIED DATE EXP" />
+  <item key="IDS_CLEARMACHINEPERIODEXP" value="CLEAR MACHINE PERIOD EXP" />
+  <item key="IDS_QUERYCOUNTER" value="QUERY COUNTER" />
+  <item key="IDS_INQUIRYBYSERIALNO" value="INQUIRY BY SERIAL NO." />
+  <item key="IDS_INQUIRYBYJOURNALNO" value="INQUIRY BY JOURNAL NO." />
+  <item key="IDS_INQUIRYBYCARDNO" value="INQUIRY BY CARD NO." />
+  <item key="IDS_INQUIREABNORMALTRANSACTION" value="INQUIRE ABNORMAL TRANSACTION" />
+  <item key="IDS_OPENCASSETTE" value="OPEN CASSETTE" />
+  <item key="IDS_CARDREADER" value="CARDREADER" />
+  <item key="IDS_RECEIPTPRINTER" value="REC-PRINTER" />
+  <item key="IDS_JOURNALPRINTER" value="JNL-PRINTER" />
+  <item key="IDS_DOORTEST" value="DOOR TEST" />
+  <item key="IDS_CASHDEVTEST" value="CASHDEV TEST" />
+  <item key="IDS_KEYTEST" value="KEY TEST" />
+  <item key="IDS_INDICATORTEST" value="INDICATOR TEST" />
+  <item key="IDS_LIGHTCONTROL" value="LIGHT CONTROL" />
+  <item key="IDS_OTHERTEST" value="OTHER TEST" />
+  <item key="IDS_STATUSINDICATOR" value="STATUS INDICATOR" />
+  <item key="IDS_SETATMNO" value="SET VTM NO." />
+  <item key="IDS_SETSECONDATMNO" value="SET SECOND VTM NO." />
+  <item key="IDS_SETATMPIP" value="SET VTMP IP" />
+  <item key="IDS_SETMASTERKEY" value="SET MASTERKEY" />
+  <item key="IDS_CHANGESYSTEMTIME" value="CHANGE SYSTEM TIME" />
+  <item key="IDS_SETJOUNO" value="SET JOU. NO." />
+  <item key="IDS_SETCOMKEY" value="SET COM KEY" />
+  <item key="IDS_SETBKEY" value="SET B KEY" />
+  <item key="IDS_SETMAXAMOUNT" value="SET MAX AMOUNT" />
+  <item key="IDS_ShowMasterKeyKVV" value="SHOW MASTERKEY KVV" />
+  <item key="IDS_9250FIRMWAREUPGRATE" value="9250 FIRMWARE UPGRADE" />
+  <item key="IDS_REPRINTBYDATE" value="REPRINT BY TIME" />
+  <item key="IDS_REPRINTBYCARDNUMBER" value="REPRINT BY CARD NUMBER" />
+  <item key="IDS_REPRINTBYJOURNALNUMBER" value="REPRINT BY JOURNAL NUMBER" />
+  <item key="IDS_ADDNMDCASH" value="ADD NMD CASH" />
+  <item key="IDS_ADDHCMCASH" value="ADD HCM CASH" />
+  <item key="IDS_ADDCDMCASH" value="ADD CDM CASH" />
+  <item key="IDS_REPLENISHJPPAPER" value="REPLENISH JP PAPER" />
+  <item key="IDS_REPLENISHCPPAPER" value="REPLENISH CP PAPER" />
+  <item key="IDS_GETCARDFROMCARDREADER" value="GET CARD FROM CARDREADER" />
+  <item key="IDS_CASHINTRANSPORT" value="CASH IN TRANSPORT" />
+  <item key="IDS_CASHINENTRANCE" value="CASH IN ENTRANCE" />
+  <item key="IDS_JPPAPERJAM" value="JP PAPER JAM" />
+  <item key="IDS_CPPAPERJAM" value="CP PAPER JAM" />
+  <item key="IDS_JPTIMEOUT" value="JP TIMEOUT" />
+  <item key="IDS_CPTIMEOUT" value="CP TIMEOUT" />
+  <item key="IDS_CARDREADERTIMEOUT" value="CARDREADER TIMEOUT" />
+  <item key="IDS_EXPBYJOUNO" value="EXP BY JOU.NO." />
+  <item key="IDS_EXPBYACCOUNTNO" value="EXP BY ACCOUNT NO." />
+  <item key="IDS_EXPBYTRANSACTION" value="EXP BY TRANSACTION" />
+  <item key="IDS_EXPBYDATE" value="EXP BY DATE" />
+  <item key="IDS_EXPBYDATATIME" value="EXP BY DATATIME" />
+  <item key="IDS_TROUBLESHOOTING" value="BACKUP TROUBLESHOOTING FILES" />
+  <item key="IDS_TROUBLESHOOTING" value="Backup Troubleshooting Log" />
+  <item key="IDS_SETCASSETTECURRENCY" value="Set Currerncy and Deno" />
+  <item key="IDS_DISPENSETEST" value="TEST CASH UNITS" />
+  <item key="IDS_CardandUkeyBoxMaintain" value="Maintenance of card box Ukey box" />
+  <item key="IDS_CardBoxMaintain" value="Maintenance of card box" />
+  <item key="IDS_UkeyBoxMaintain" value="Maintenance of Ukey box" />
+  <item key="IDS_AfterCleanUkeySuccess" value="Clear UKey success，Please click[Add UKey] button，adding UKey" />
+  <item key="IDS_AddUkey" value="Add UKey" />
+  <item key="IDS_AddUkeyFailed" value="Failed of add UKey" />
+  <item key="IDS_AddUkeySuccess" value="Success of addUkey" />
+  <item key="IDS_AddUKeyLimited" value="UKey box:{0},largest of add card quantity cannot exceed:{1}" />
+  <item key="IDS_CleanUkey" value="Clear Ukey" />
+  <item key="IDS_CleanUkeyFailed" value="Failed of clear Ukey" />
+  <item key="IDS_CleanUkeySuccess" value="Success of add Ukey" />
+  <item key="IDS_UkeyBoxName" value="Ukey box" />
+  <item key="IDS_AfterCleanCardSuccess" value="Clear UKey success，Please click[Add Card] button，adding UKey" />
+  <item key="IDS_CleanCard" value="Clear card" />
+  <item key="IDS_CleanCardFailed" value="Failed of clear card" />
+  <item key="IDS_CleanCardSuccess" value="Success of clear card" />
+  <item key="IDS_AddCard" value="Add card" />
+  <item key="IDS_AddCardLimited" value="" />
+  <item key="IDS_AddCardFailed" value="Failed of add card" />
+  <item key="IDS_AddCardSuccess" value="Success of add card" />
+  <item key="IDS_DispenserUnitName" value="Swallowd:1,Magnetic:2" />
+  <item key="IDS_SupplyBin1" value="Magnetic1" />
+  <item key="IDS_SupplyBin2" value="Magnetic2" />
+  <item key="IDS_SupplyBin3" value="Magnetic3" />
+  <item key="IDS_RetainBin" value="Swallowd4" />
+  <item key="IDS_EXPBYCustomerID" value="According to ID card checked exception" />
+  <item key="IDS_DeviceError" value="Device failure" />
+  <item key="IDS_COPYJOURNALTOCD" value="COPY JOURNAL TO CD" />
+  <item key="IDS_LIGHTTEST" value="FASCIALIGHT TEST" />
+  <item key="IDS_SETIP" value="SET IP" />
+  <item key="IDS_SETATMVIP" value="SET ATMV IP" />
+  <item key="IDS_SETATMIP" value="SET IP" />
+  <item key="IDS_9250FIRMWAREUPGRADE" value="9250 FIRMWARE UPGRADE" />
+  <item key="IDS_SETCIMCURRENCY" value="Set CIM Denomination" />
+  <item key="IDS_SETEJECTCARDMODULEENABLE" value="Open/Close Get captured card" />
+  <item key="IDS_EJECTCARDMANAGE" value="CLEAN CARD MANAGE" />
+  <item key="IDS_EJECTCARDINFORMATION" value="CAPTURECARD INFORMATION DETAIL" />
+  <item key="IDS_EJECTALLCARD" value="CLEAN ALL EJECT CARD" />
+  <item key="IDS_EJECTSELECTCARD" value="CLEAN SELECTED EJECT CARD" />
+  <item key="IDS_EMPTYCARDPARAMETERSSET" value="EMPT CARD PARAMS SET" />
+  <item key="IDS_STATUSIDCard" value="ID card scanning test" />
+  <item key="IDS_STATUSFingerScaner" value="Fingerprint scan test" />
+  <item key="IDS_STATUSCAM" value="High Camera test" />
+  <item key="IDS_FeedChannel" value="feed channel test" />
+  <item key="IDS_Ukey" value="Ukey test" />
+  <item key="IDS_UkeyRight" value="Right Ukey test" />
+  <item key="IDS_PrinterStamp" value="A4 printer test" />
+  <item key="IDS_DispenseTest" value="Cash out test" />
+  <item key="IDS_ConfirmCleanAndAddUkey" value="Confirm whether or not to save the current settings information, and clear the Ukey box number originally?" />
+  <item key="IDS_ConfirmCleanAndAddCardSegmentInfo" value="Confirm whether or not to save the current settings information, and remove the original card information?" />
+  <item key="IDS_AddUkeyTip" value="Please unplug the ukey box, ukey box and press the back 'determined'" />
+  <item key="IDS_ConfirmCleanAndAddCard" value="Confirm whether or not to save the current settings information, and clear the original card box number?" />
+  <item key="IDS_AddCardTip" value="Please pull out the card box, put back the card box according to 'determine'" />
+  <item key="IDS_DispenserUkeyUnitName" value="ukey box:1,Swallow ukey:2" />
+  <item key="IDS_OtherUnitName" value="Other card" />
+  <item key="IDS_CardSegmentNumSet" value="Segment number set" />
+  <item key="IDS_SegmentNumSeq" value="Serial No." />
+  <item key="IDS_CardSegNumBegin" value="Start No." />
+  <item key="IDS_CardSegNumEnd" value="End No." />
+  <item key="IDS_CardSegCount" value="No." />
+  <item key="ID_AddSegment" value="Add to" />
+  <item key="ID_DelSegment" value="Delete" />
+  <item key="IDS_InputError" value="The input is not correct!" />
+  <item key="IDS_COPYJOURNALTOHD" value="COPY JOURNAL TO HD" />
+  <item key="IDS_QUERYVERSION" value="QUERY VERSION" />
+  <item key="IDS_INQJOUBYDATATIME" value="INQUIRY JOURNAL" />
+  <item key="IDS_UkeyBoxMaintainRight" value="Right Ukey tank maintenance" />
+  <item key="IDS_VERSIONTRACING" value="Version tracking" />
+  <item key="IDS_VERSIONTRACE" value="Version tracking" />
+  <item key="IDS_SetCardBoxNumber" value="Add card" />
+
+</Config>

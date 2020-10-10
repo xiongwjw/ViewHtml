@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<item key="btnbg1leftdw" value="btn_blue.png" />
+	<item key="btnbg1leftup" value="btn_blue.png" />
+	<item key="btnbg1rightdw" value="btn_blue.png" />
+	<item key="btnbg1rightup" value="btn_blue.png" />
+	<item key="btnbg2leftdw" value="btn_gray.png" />
+	<item key="btnbg2leftup" value="btn_gray.png" />
+	<item key="btnbg2rightdw" value="btn_gray.png" />
+	<item key="btnbg2rightup" value="btn_gray.png" />
+	<item key="btnbg3leftdw" value="btn_blue.png" />
+	<item key="btnbg3leftup" value="btn_blue.png" />
+	<item key="btnbg3rightdw" value="btn_blue.png" />
+	<item key="btnbg3rightup" value="btn_blue.png" />
+	<item key="btnbg1NoArrowdw" value="btn_blue.png" />
+	<item key="btnbg1NoArrowup" value="btn_blue.png" />
+	<item key="btnbg2NoArrowdw" value="btn_blue.png" />
+	<item key="btnbg2NoArrowup" value="btn_blue.png" />
+	<item key="btnbg3NoArrowdw" value="btn_blue.png" />
+	<item key="btnbg3NoArrowup" value="btn_blue.png" />
+	<item key="bkimg800" value="Bkimg_800.png" />
+	<item key="bkimg1024" value="Bkimg_1024.png" />
+	<item key="kioskbtnbg1dw" value="btn_blue.png" />
+	<item key="kioskbtnbg1up" value="btn_blue.png" />
+	<item key="kioskbtnbg2dw" value="btn_blue.png" />
+	<item key="kioskbtnbg2up" value="btn_blue.png" />
+	<item key="kioskbtnbg3dw" value="btn_blue.png" />
+	<item key="kioskbtnbg3up" value="btn_blue.png" />
+	<item key="EPPInputGuide" value="EPP.png" />
+  
+	<item key="favoriteTransfer" value="favoriteTransfer.png"/>
+	<item key="favoriteFinancing" value="favoriteFinancing.png"/>
+	<item key="favoriteQueryCredit" value="favoriteQueryCredit.png"/>
+  
+	<item key="loanup" value="SimpleVersion\Loan_up.png"/>
+	<item key="loandw" value="SimpleVersion\Loan_down.png"/>
+	<item key="loandis" value="SimpleVersion\Loan_disable.png"/>  
+	<item key="creditCardPayup" value="SimpleVersion\pay_up.png"/>
+	<item key="creditCardPaydw" value="SimpleVersion\pay_down.png"/>
+	<item key="creditCardPaydis" value="SimpleVersion\pay_disable.png"/>
+	<item key="adup" value="SimpleVersion\ad_up.png"/>
+	<item key="addw" value="SimpleVersion\ad_down.png"/>
+	<item key="addis" value="SimpleVersion\ad_disable.png"/>
+	<item key="editcustomerup" value="SimpleVersion\edit_up.png"/>
+	<item key="editcustomerdw" value="SimpleVersion\edit_down.png"/>
+	<item key="editcustomerdis" value="SimpleVersion\edit_disable.png"/>
+	<item key="transferup" value="transferup.png"/>
+	<item key="transferdw" value="transferdw.png"/>
+	<item key="transferdis" value="transferdis.png"/>
+	<item key="financingup" value="SimpleVersion\invest_up.png"/>
+	<item key="financingdw" value="SimpleVersion\invest_down.png"/>
+	<item key="financingdis" value="SimpleVersion\invest_disable.png"/>
+	<item key="callup" value="SimpleVersion\call_up.png"/>
+	<item key="calldw" value="SimpleVersion\call_down.png"/>
+	<item key="calldis" value="SimpleVersion\call_disable.png"/>
+	<item key="queryup" value="queryup.png"/>
+	<item key="querydw" value="querydw.png"/>
+	<item key="querydis" value="querydis.png"/>
+	<item key="applyup" value="SimpleVersion\apply_up.png"/>
+	<item key="applydw" value="SimpleVersion\apply_down.png"/>
+	<item key="applydis" value="SimpleVersion\apply_disable.png"/>
+	<item key="applycardup" value="SimpleVersion\debit_up.png"/>
+	<item key="applycarddw" value="SimpleVersion\debit_down.png"/>
+	<item key="applycarddis" value="SimpleVersion\debit_disable.png"/>
+	<item key="activeCreditCardup" value="SimpleVersion\active_up.png"/>
+	<item key="activeCreditCarddw" value="SimpleVersion\active_down.png"/>
+	<item key="activeCreditCarddis" value="SimpleVersion\active_disable.png"/>
+  <item key="creditCard1" value="CreditCard1.png"/>
+  <item key="creditCard2" value="CreditCard2.png"/>
+  <item key="creditCard3" value="CreditCard3.png"/>
+  <item key="creditCard4" value="CreditCard4.png"/>
+</config>
